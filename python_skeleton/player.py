@@ -8,6 +8,9 @@ from skeleton.bot import Bot
 from skeleton.runner import parse_args, run_bot
 import random
 
+#testing merge
+
+
 class Player(Bot):
     '''
     A pokerbot.

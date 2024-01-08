@@ -8,8 +8,6 @@ from skeleton.bot import Bot
 from skeleton.runner import parse_args, run_bot
 import random
 
-#CHASE RUBIN WAS HERE
-
 class Player(Bot):
     '''
     A pokerbot.

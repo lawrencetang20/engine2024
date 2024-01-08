@@ -8,7 +8,7 @@ from skeleton.bot import Bot
 from skeleton.runner import parse_args, run_bot
 import random
 
-#lawrence was here
+# merged
 
 class Player(Bot):
     '''

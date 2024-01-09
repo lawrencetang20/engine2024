@@ -7,6 +7,7 @@ from skeleton.states import NUM_ROUNDS, STARTING_STACK, BIG_BLIND, SMALL_BLIND
 from skeleton.bot import Bot
 from skeleton.runner import parse_args, run_bot
 import random
+import eval7, pprint
 
 class Player(Bot):
     '''
@@ -63,6 +64,20 @@ class Player(Bot):
         opp_cards = previous_state.hands[1-active]  # opponent's cards or [] if not revealed
         pass
 
+    def decide_action_preflop(self, game_state, round_state, active):
+        pass
+
+    def decide_action_auction(self, game_state, round_state, active):
+        pass
+
+    def decide_action_postflop(self, game_state, round_state, active):
+        pass
+
+    def hand_strength(self, round_state, active):
+        pass
+
+
+
     def get_action(self, game_state, round_state, active):
         '''
         Where the magic happens - your code should implement this function.
@@ -97,21 +112,17 @@ class Player(Bot):
            print(min_raise, max_raise, my_stack, opp_stack, my_pip, opp_pip)
         
 
-        action = random.choice(list(legal_actions))
-        if action == RaiseAction:
-            return RaiseAction(int((random.random()*(max_raise-min_raise)) + min_raise))
-        elif action == BidAction:
-            return action(int(random.random()*my_stack))
-        return action()
+        # if BidAction in legal_actions:
+        #     return self.decide_action_auction(game_state, round_state, active)
 
 
-        # if RaiseAction in legal_actions:
-        #     return RaiseAction(max_raise)
-        # if CheckAction in legal_actions:
-        #     return CheckAction()
-        # elif BidAction in legal_actions:
-        #     return BidAction(int(random.random()*my_stack)) # random bid between 0 and our stack
-        # return CallAction()
+        if RaiseAction in legal_actions:
+            return RaiseAction(max_raise)
+        if CheckAction in legal_actions:
+            return CheckAction()
+        elif BidAction in legal_actions:
+            return BidAction(int(random.random()*my_stack)) # random bid between 0 and our stack
+        return CallAction()
 
 
 if __name__ == '__main__':

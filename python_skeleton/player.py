@@ -13,7 +13,7 @@ class Player(Bot):
     A pokerbot.
     '''
 
-    def __init__(self):
+    def __init__(self,pfrange_size):
         '''
         Called when a new game starts. Called exactly once.
 
@@ -23,7 +23,7 @@ class Player(Bot):
         Returns:
         Nothing.
         '''
-        pass
+        self.pfrange_size = 'medium'
 
 
     def handle_new_round(self, game_state, round_state, active):
@@ -63,7 +63,7 @@ class Player(Bot):
         #opp_cards = previous_state.hands[1-active]  # opponent's cards or [] if not revealed
         pass
 
-    def get_preflop_range(self,size,round_state,active):
+    def get_preflop_range(self,pfrange_size,round_state,active):
         my_cards = round_state.hands[active]  # your cards
         big_blind = bool(active)  # True if you are the big blind
         rank1 = my_cards[0][0]
@@ -71,76 +71,83 @@ class Player(Bot):
         suit1 = my_cards[0][1]
         suit2 = my_cards[1][1]
         # Writing out preflop ranges
-        sb_small_preflop_range = {}
-        if rank1 in '9876543' and rank2 == '2' and suit1 != suit2:
-            sb_small_preflop_range[my_cards] = 0
-        elif rank2 in '9876543' and rank1 == '2' and suit1 != suit2:
-            sb_small_preflop_range[my_cards] = 0
-        elif rank2 in '87' and rank1 == '3' and suit1 != suit2:
-            sb_small_preflop_range[my_cards] = 0
-        elif rank1 in '87' and rank2 == '3' and suit1 != suit2:
-            sb_small_preflop_range[my_cards] = 0
-        elif rank1 == '4' and rank2 == '3' and suit1 != suit2:
-            sb_small_preflop_range[my_cards] = 0
-        elif rank2 == '4' and rank1 == '3'and suit1 != suit2:
-            sb_small_preflop_range[my_cards] = 0
-        else:
-            sb_small_preflop_range[my_cards] = (random.random()*.5)+1.5
-        
-        sb_mid_preflop_range = {}
-        if rank1 in 'T987654' and rank2 in '32' and suit1 != suit2:
-            sb_mid_preflop_range[my_cards] = 0
-        elif rank2 in 'T987654' and rank1 in '32' and suit1 != suit2:
-            sb_mid_preflop_range[my_cards] = 0
-        elif rank2 in '9876' and rank1 == '4' and suit1 != suit2:
-            sb_mid_preflop_range[my_cards] = 0
-        elif rank1 in '9876' and rank2 == '4' and suit1 != suit2:
-            sb_mid_preflop_range[my_cards] = 0
-        elif rank2 in '32' and rank1 in '32' and rank1 != rank2:
-            sb_mid_preflop_range[my_cards] = 0
-        else:
-            sb_mid_preflop_range[my_cards] = (random.random()*.25)+2.25
-
-        sb_large_preflop_range = {}
-        if rank1 in '9876543' and rank2 =='2':
-            sb_large_preflop_range[my_cards] = 0
-        elif rank2 in '9876543' and rank1 =='2':
-            sb_large_preflop_range[my_cards] = 0
-        elif rank2 in '87' and rank1 == '3':
-            sb_large_preflop_range[my_cards] = 0
-        elif rank1 in '87' and rank2 == '3':
-            sb_large_preflop_range[my_cards] = 0
-        elif rank1 in 'QJT' and rank2 == '2' and suit1 != suit2:
-            sb_large_preflop_range[my_cards] = 0
-        elif rank2 in 'QJT' and rank1 == '2' and suit1 != suit2:
-            sb_large_preflop_range[my_cards] = 0
-        elif rank2 in 'JT98765' and rank1 in '34' and suit1 != suit2:
-            sb_large_preflop_range[my_cards] = 0
-        elif rank1 in 'JT98765' and rank2 in '34' and suit1 != suit2:
-            sb_large_preflop_range[my_cards] = 0
-        elif rank2 in 'T9876' and rank1 == '5' and suit1 != suit2:
-            sb_large_preflop_range[my_cards] = 0
-        elif rank1 in 'T9876' and rank2 == '5' and suit1 != suit2:
-            sb_large_preflop_range[my_cards] = 0
-        elif rank1 == '4' and rank2 =='3' and suit1 != suit2:
-            sb_large_preflop_range[my_cards] = 0
-        elif rank2 == '4' and rank1 =='3' and suit1 != suit2:
-            sb_large_preflop_range[my_cards] = 0
-        else:
-            sb_large_preflop_range[my_cards] = (random.random()*.5)+3
         
         if size == 'small' and big_blind == False:
-            return sb_small_preflop_range[my_cards]
+            if rank1 in '9876543' and rank2 == '2' and suit1 != suit2:
+                return 0
+            elif rank2 in '9876543' and rank1 == '2' and suit1 != suit2:
+                return 0
+            elif rank2 in '87' and rank1 == '3' and suit1 != suit2:
+                return 0
+            elif rank1 in '87' and rank2 == '3' and suit1 != suit2:
+                return 0
+            elif rank1 == '4' and rank2 == '3' and suit1 != suit2:
+                return 0
+            elif rank2 == '4' and rank1 == '3'and suit1 != suit2:
+                return 0
+            else:
+                return (random.random()*.5)+1.5
         
         if size == 'medium' and big_blind == False:
-            return sb_mid_preflop_range[my_cards]
+            if rank1 in 'T987654' and rank2 in '32' and suit1 != suit2:
+                return 0
+            elif rank2 in 'T987654' and rank1 in '32' and suit1 != suit2:
+                return 0
+            elif rank2 in '9876' and rank1 == '4' and suit1 != suit2:
+                return 0
+            elif rank1 in '9876' and rank2 == '4' and suit1 != suit2:
+                return 0
+            elif rank2 in '32' and rank1 in '32' and rank1 != rank2:
+                return 0
+            else:
+                return ((random.random()*.25)+2.25)
         
         if size == 'large' and big_blind == False:
-            return sb_large_preflop_range[my_cards]
+            if rank1 in '9876543' and rank2 =='2':
+                return 0
+            elif rank2 in '9876543' and rank1 =='2':
+                return 0
+            elif rank2 in '87' and rank1 == '3':
+                return 0
+            elif rank1 in '87' and rank2 == '3':
+                return 0
+            elif rank1 in 'QJT' and rank2 == '2' and suit1 != suit2:
+                return 0
+            elif rank2 in 'QJT' and rank1 == '2' and suit1 != suit2:
+                return 0
+            elif rank2 in 'JT98765' and rank1 in '34' and suit1 != suit2:
+                return 0
+            elif rank1 in 'JT98765' and rank2 in '34' and suit1 != suit2:
+                return 0
+            elif rank2 in 'T9876' and rank1 == '5' and suit1 != suit2:
+                return 0
+            elif rank1 in 'T9876' and rank2 == '5' and suit1 != suit2:
+                return 0
+            elif rank1 == '4' and rank2 =='3' and suit1 != suit2:
+                return 0
+            elif rank2 == '4' and rank1 =='3' and suit1 != suit2:
+                return 0
+            else:
+                return (random.random()*.5)+3
         
         if size in 'small,medium,large' and big_blind == True:
             return 1
         
+    def get_preflop_action(self, game_state, round_state, active):
+        big_blind = bool(active)  # True if you are the big blind
+        legal_actions = round_state.legal_actions()  # the actions you are allowed to take
+        opp_stack = round_state.stacks[1-active]  # the number of chips your opponent has remaining
+        opp_contribution = STARTING_STACK - opp_stack  # the number of chips your opponent has contributed to the pot
+        if not(big_blind):
+            if RaiseAction in legal_actions and opp_contribution == 2:
+                return RaiseAction(self.get_preflop_range(pfrange_size))
+
+
+ 
+
+
+
+
     def get_action(self, game_state, round_state, active):
         '''
         Where the magic happens - your code should implement this function.
@@ -169,7 +176,7 @@ class Player(Bot):
         my_contribution = STARTING_STACK - my_stack  # the number of chips you have contributed to the pot
         opp_contribution = STARTING_STACK - opp_stack  # the number of chips your opponent has contributed to the pot
         min_raise, max_raise = round_state.raise_bounds()  # the smallest and largest numbers of chips for a legal bet/raise        
-        print(self.get_preflop_range(self,'medium',round_state,active))
+        print(self.get_preflop_range('medium',round_state,active))
         if CheckAction in legal_actions:
             return CheckAction()
         elif BidAction in legal_actions:

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 '''
 Simple example pokerbot, written in Python.
 '''
@@ -128,7 +127,6 @@ class Player(Bot):
 
 if __name__ == '__main__':
     run_bot(Player(), parse_args())
-=======
 '''
 Simple example pokerbot, written in Python.
 '''
@@ -240,4 +238,4 @@ class Player(Bot):
 
 if __name__ == '__main__':
     run_bot(Player(), parse_args())
->>>>>>> fa008e0003a7dacb61ddc4a86e35231ae6f405f6
+

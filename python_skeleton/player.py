@@ -23,7 +23,8 @@ class Player(Bot):
         Returns:
         Nothing.
         '''
-        pass
+        self.bbranges = {}
+        
 
     def handle_new_round(self, game_state, round_state, active):
         '''

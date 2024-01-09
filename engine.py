@@ -181,7 +181,7 @@ class RoundState(namedtuple('_RoundState', ['button', 'street', 'auction', 'bids
                     new_stacks = list(self.stacks)
                     new_stacks[winner] -= self.bids[1 - winner]
                     state = RoundState(1, self.street, False, self.bids, self.pips, new_stacks, self.hands, self.deck, self)
-                return state.proceed_street()
+                return state
             else:
                 return RoundState(self.button + 1, self.street, True, self.bids, self.pips, self.stacks, self.hands, self.deck, self)
         if isinstance(action, RaiseAction):
@@ -412,7 +412,7 @@ class Game():
             self.player_messages[0].append(compressed_board)
             self.player_messages[1].append(compressed_board)
         # engine communicates cards after the auction
-        if round_state.street == 4 and round_state.auction is False and round_state.button == 1: 
+        if round_state.street == 3 and round_state.auction is False and round_state.button == 1: 
             self.player_messages[0].append('P0')
             self.player_messages[0].append('N' + ','.join([str(x) for x in round_state.stacks]) + '_' + ','.join([str(x) for x in round_state.bids]) + '_' + CCARDS(round_state.hands[0]))
             self.player_messages[1].append('P1')

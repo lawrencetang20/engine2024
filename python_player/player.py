@@ -13,7 +13,7 @@ class Player(Bot):
     A pokerbot.
     '''
 
-    def __init__(self,pfrange_size):
+    def __init__(self):
         '''
         Called when a new game starts. Called exactly once.
 
@@ -23,7 +23,7 @@ class Player(Bot):
         Returns:
         Nothing.
         '''
-        self.pfrange_size = 'medium'
+        pass
 
 
     def handle_new_round(self, game_state, round_state, active):
@@ -63,7 +63,7 @@ class Player(Bot):
         #opp_cards = previous_state.hands[1-active]  # opponent's cards or [] if not revealed
         pass
 
-    def get_preflop_range(self,pfrange_size,round_state,active):
+    def get_preflop_range(self,size,round_state,active):
         my_cards = round_state.hands[active]  # your cards
         big_blind = bool(active)  # True if you are the big blind
         rank1 = my_cards[0][0]
@@ -86,7 +86,7 @@ class Player(Bot):
             elif rank2 == '4' and rank1 == '3'and suit1 != suit2:
                 return 0
             else:
-                return (random.random()*.5)+1.5
+                return 5
         
         if size == 'medium' and big_blind == False:
             if rank1 in 'T987654' and rank2 in '32' and suit1 != suit2:
@@ -100,7 +100,7 @@ class Player(Bot):
             elif rank2 in '32' and rank1 in '32' and rank1 != rank2:
                 return 0
             else:
-                return ((random.random()*.25)+2.25)
+                return 7
         
         if size == 'large' and big_blind == False:
             if rank1 in '9876543' and rank2 =='2':
@@ -128,7 +128,7 @@ class Player(Bot):
             elif rank2 == '4' and rank1 =='3' and suit1 != suit2:
                 return 0
             else:
-                return (random.random()*.5)+3
+                return 9
         
         if size in 'small,medium,large' and big_blind == True:
             return 1
@@ -140,10 +140,14 @@ class Player(Bot):
         opp_contribution = STARTING_STACK - opp_stack  # the number of chips your opponent has contributed to the pot
         if not(big_blind):
             if RaiseAction in legal_actions and opp_contribution == 2:
-                return RaiseAction(self.get_preflop_range(pfrange_size))
-
-
- 
+                if self.get_preflop_range('medium',round_state,active) ==0:
+                    return FoldAction()
+                else:
+                    return RaiseAction(self.get_preflop_range('medium',round_state,active))
+            else:
+                return CallAction()
+        else: 
+            return CheckAction()
 
 
 
@@ -176,13 +180,16 @@ class Player(Bot):
         my_contribution = STARTING_STACK - my_stack  # the number of chips you have contributed to the pot
         opp_contribution = STARTING_STACK - opp_stack  # the number of chips your opponent has contributed to the pot
         min_raise, max_raise = round_state.raise_bounds()  # the smallest and largest numbers of chips for a legal bet/raise        
-        print(self.get_preflop_range('medium',round_state,active))
+        if street == 0:
+            return(self.get_preflop_action(game_state,round_state,active))
+        if BidAction in legal_actions:
+            print(my_stack)
+            return(BidAction(round(my_stack*(2/5))))
         if CheckAction in legal_actions:
             return CheckAction()
         elif BidAction in legal_actions:
             return BidAction(int(random.random()*my_stack)) # random bid between 0 and our stack
         return CallAction()
-
-
+    
 if __name__ == '__main__':
     run_bot(Player(), parse_args())

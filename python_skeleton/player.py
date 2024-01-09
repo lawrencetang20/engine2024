@@ -96,13 +96,22 @@ class Player(Bot):
            max_cost = max_raise - my_pip  # the cost of a maximum bet/raise
            print(min_raise, max_raise, my_stack, opp_stack, my_pip, opp_pip)
         
-        if RaiseAction in legal_actions:
-            return RaiseAction(max_raise)
-        if CheckAction in legal_actions:
-            return CheckAction()
-        elif BidAction in legal_actions:
-            return BidAction(int(random.random()*my_stack)) # random bid between 0 and our stack
-        return CallAction()
+
+        action = random.choice(list(legal_actions))
+        if action == RaiseAction:
+            return RaiseAction(int((random.random()*(max_raise-min_raise)) + min_raise))
+        elif action == BidAction:
+            return action(int(random.random()*my_stack))
+        return action()
+
+
+        # if RaiseAction in legal_actions:
+        #     return RaiseAction(max_raise)
+        # if CheckAction in legal_actions:
+        #     return CheckAction()
+        # elif BidAction in legal_actions:
+        #     return BidAction(int(random.random()*my_stack)) # random bid between 0 and our stack
+        # return CallAction()
 
 
 if __name__ == '__main__':

@@ -23,20 +23,6 @@ class Player(Bot):
         Returns:
         Nothing.
         '''
-        counter = 1
-        self.possible_opp_hands = {}
-        card1_list = []
-        card2_list = []
-        for suit in 'hdsc':
-            for rank in 'AKQJT98765432':
-                card1_list.append(rank+suit)
-                card2_list.append(rank+suit)
-        for card1 in card1_list:
-            for card2 in card2_list:
-                if card1 != card2:
-                    self.possible_opp_hands[card1,card2] = counter
-                    counter+=1
-        print(self.possible_opp_hands)
             
 
     def handle_new_round(self, game_state, round_state, active):
@@ -161,18 +147,6 @@ class Player(Bot):
                 return CallAction()
         else: 
             return CheckAction()
-
-    def refine_opp_hands(self, cards, board):
-        #remove impossible hands for your opponent to have
-        total_cards = cards+board
-
-
-    def get_hand_analysis(self,cards,board):
-        total_cards = cards+board
-        for hand in self.possible_opp_hands.values():
-            print(4)
-
-
 
 
     def get_action(self, game_state, round_state, active):

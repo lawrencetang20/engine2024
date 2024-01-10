@@ -156,25 +156,22 @@ class Player(Bot):
             return CallAction()
 
 
-    def decide_action_postflop(self, opp_pip, my_pip, hand_strength, my_contribution, opp_contribution, legal_actions):
-        print(legal_actions)
+    def decide_action_postflop(self, opp_pip, my_pip, hand_strength, pot, legal_actions):
         rand = random.random()
         if CheckAction in legal_actions: #Check, raise
-            print(hand_strength, rand)
-            if rand < hand_strength and hand_strength > .9:
+            if rand < hand_strength and hand_strength > .7:
                 return RaiseAction, (1+random.random()) #value bet, random conf number, planned for bet sizing
-            if rand < hand_strength / 5 and hand_strength <= .9:
+            if rand < hand_strength / 5 and hand_strength <= .7:
                 return RaiseAction, 0 #bluff
             return CheckAction, None
         else: #Fold, Call, Raise
-            pot_equity = (opp_pip-my_pip) / (my_contribution + opp_contribution)
-            print('pip', pot_equity, hand_strength)
-            if pot_equity > .9 and pot_equity < 1.5:
-                pot_equity = .9
+            pot_equity = (opp_pip-my_pip) / (pot)
+            if pot_equity > .75 and pot_equity < 1.5:
+                pot_equity = .75
             elif pot_equity >= 1.5 and pot_equity < 2.5:
-                pot_equity = .95
+                pot_equity = .8
             elif pot_equity >= 2.5:
-                pot_equity = .975
+                pot_equity = .9
             if hand_strength < pot_equity: #bad pot equity
                 return FoldAction, None
             else: #good pot equity
@@ -191,7 +188,7 @@ class Player(Bot):
         board = [eval7.Card(x) for x in round_state.deck[:street]]
         my_hole = [eval7.Card(a) for a in round_state.hands[active]]
         comb = board + my_hole
-        my_val = eval7.evaluate(comb)
+        num_more_board = 5 - len(board)
 
         if len(my_hole) == 2 and street > 0 and BidAction not in round_state.legal_actions():
             opp_num = 3
@@ -205,10 +202,13 @@ class Player(Bot):
         num_better = 0
         trials = 0
 
-        while trials < 250:
+        while trials < 500:
             deck.shuffle()
-            opp_hole = deck.peek(opp_num)
-            opp_value = eval7.evaluate(opp_hole+board)
+            cards = deck.peek(opp_num + num_more_board)
+            opp_hole = cards[:opp_num]
+            board_rest = cards[opp_num:]
+            my_val = eval7.evaluate(my_hole+board+board_rest)
+            opp_value = eval7.evaluate(opp_hole+board+board_rest)
             if opp_value > my_val:
                 num_better += 1
             trials += 1
@@ -231,8 +231,7 @@ class Player(Bot):
         Your action.
         '''
         # May be useful, but you may choose to not use.
-        legal_actions = round_state.legal_actions()
-          # the actions you are allowed to take
+        legal_actions = round_state.legal_actions() # the actions you are allowed to take
         street = round_state.street  # 0, 3, 4, or 5 representing pre-flop, flop, turn, or river respectively
         my_cards = round_state.hands[active]  # your cards
         board_cards = round_state.deck[:street]  # the board cards
@@ -251,6 +250,7 @@ class Player(Bot):
            max_cost = max_raise - my_pip  # the cost of a maximum bet/raise
            print(min_raise, max_raise, my_stack, opp_stack, my_pip, opp_pip)
 
+        pot = my_contribution + opp_contribution
         min_raise, max_raise = round_state.raise_bounds()
         hand_strength = self.hand_strength(round_state, street, active)
 
@@ -259,7 +259,7 @@ class Player(Bot):
         elif street == 0:       
             return self.decide_action_preflop(game_state, round_state, active)
         else:
-            decision, conf = self.decide_action_postflop(opp_pip, my_pip, hand_strength, my_contribution, opp_contribution, legal_actions)
+            decision, conf = self.decide_action_postflop(opp_pip, my_pip, hand_strength, pot, legal_actions)
 
         print(decision)
         if decision == RaiseAction and RaiseAction in legal_actions:

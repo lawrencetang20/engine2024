@@ -7,7 +7,7 @@ from skeleton.states import NUM_ROUNDS, STARTING_STACK, BIG_BLIND, SMALL_BLIND
 from skeleton.bot import Bot
 from skeleton.runner import parse_args, run_bot
 import random
-
+import eval7
 class Player(Bot):
     '''
     A pokerbot.
@@ -23,8 +23,21 @@ class Player(Bot):
         Returns:
         Nothing.
         '''
-        pass
-
+        counter = 1
+        self.possible_opp_hands = {}
+        card1_list = []
+        card2_list = []
+        for suit in 'hdsc':
+            for rank in 'AKQJT98765432':
+                card1_list.append(rank+suit)
+                card2_list.append(rank+suit)
+        for card1 in card1_list:
+            for card2 in card2_list:
+                if card1 != card2:
+                    self.possible_opp_hands[card1,card2] = counter
+                    counter+=1
+        print(self.possible_opp_hands)
+            
 
     def handle_new_round(self, game_state, round_state, active):
         '''
@@ -149,6 +162,16 @@ class Player(Bot):
         else: 
             return CheckAction()
 
+    def refine_opp_hands(self, cards, board):
+        #remove impossible hands for your opponent to have
+        total_cards = cards+board
+
+
+    def get_hand_analysis(self,cards,board):
+        total_cards = cards+board
+        for hand in self.possible_opp_hands.values():
+            print(4)
+
 
 
 
@@ -180,11 +203,17 @@ class Player(Bot):
         my_contribution = STARTING_STACK - my_stack  # the number of chips you have contributed to the pot
         opp_contribution = STARTING_STACK - opp_stack  # the number of chips your opponent has contributed to the pot
         min_raise, max_raise = round_state.raise_bounds()  # the smallest and largest numbers of chips for a legal bet/raise        
+        
+        #PREFLOP
         if street == 0:
             return(self.get_preflop_action(game_state,round_state,active))
+        
+        #AUCTION
         if BidAction in legal_actions:
             print(my_stack)
             return(BidAction(round(my_stack*(2/5))))
+        
+
         if CheckAction in legal_actions:
             return CheckAction()
         elif BidAction in legal_actions:

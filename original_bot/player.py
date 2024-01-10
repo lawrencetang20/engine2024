@@ -103,7 +103,7 @@ class Player(Bot):
         if CheckAction in legal_actions:
             return CheckAction()
         elif BidAction in legal_actions:
-            return BidAction(my_stack) # random bid between 0 and our stack
+            return BidAction(int(random.randint(1, my_stack))) # random bid between 0 and our stack
         return CallAction()
 
 

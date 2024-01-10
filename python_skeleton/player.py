@@ -68,9 +68,9 @@ class Player(Bot):
     def decide_action_postflop(self, opp_pip, my_pip, hand_strength, my_contribution, opp_contribution):
         rand = random.random()
         if opp_pip == 0: #Check, raise
-            if rand < hand_strength and hand_strength > .6:
+            if rand < hand_strength and hand_strength > .9:
                 return RaiseAction, (1+random.random()) #value bet, random conf number, planned for bet sizing
-            if rand < hand_strength / 3 and hand_strength <= .6:
+            if rand < hand_strength / 5 and hand_strength <= .9:
                 return RaiseAction, 0 #bluff
             return CheckAction, None
         elif opp_pip > 0: #Fold, Call, Raise
@@ -95,9 +95,9 @@ class Player(Bot):
         #will become solver based right now just randomized so code will run
         rand = random.random()
         if CheckAction in legal_actions: #Check, raise
-            if rand < hand_strength and hand_strength > .7:
+            if rand < hand_strength and hand_strength > .9:
                 return RaiseAction, (1+random.random()) #value bet
-            if rand < hand_strength / 3 and hand_strength <= .7:
+            if rand < hand_strength / 3 and hand_strength <= .9:
                 return RaiseAction, 1 #bluff
             return CheckAction, None
         else: #Fold, Call, Raise
@@ -119,9 +119,9 @@ class Player(Bot):
                 return CallAction, None
 
 
-    def decide_action_auction(self, hand_strength, my_contribution, opp_contribution):
+    def decide_action_auction(self, hand_strength, my_contribution, opp_contribution, max_raise):
         if hand_strength > .5:
-            return BidAction(int(1.5*(my_contribution+opp_contribution)))
+            return BidAction(max_raise)
         return BidAction(1)
 
     def hand_strength(self, round_state, street, active):
@@ -193,7 +193,7 @@ class Player(Bot):
         print(hand_strength)
 
         if BidAction in legal_actions:
-            return self.decide_action_auction(hand_strength, my_contribution, opp_contribution)
+            return self.decide_action_auction(hand_strength, my_contribution, opp_contribution, max_raise)
         elif street == 0:       
             decision, conf = self.decide_action_preflop(legal_actions, opp_pip, my_pip, hand_strength, my_contribution, opp_contribution)
         else:
@@ -206,5 +206,7 @@ class Player(Bot):
             return CallAction()
         return decision()
 
+
 if __name__ == '__main__':
     run_bot(Player(), parse_args())
+

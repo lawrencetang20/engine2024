@@ -130,7 +130,6 @@ class Player(Bot):
         comb = board + my_hole
         my_val = eval7.evaluate(comb)
 
-
         if len(my_hole) == 2 and street > 0:
             opp_num = 3
         else:
@@ -197,15 +196,14 @@ class Player(Bot):
             return self.decide_action_auction(hand_strength, my_contribution, opp_contribution)
         elif street == 0:       
             decision, conf = self.decide_action_preflop(legal_actions, opp_pip, my_pip, hand_strength, my_contribution, opp_contribution)
-            if decision == RaiseAction:
-                amount = random.randint(min_raise, max_raise)
-                return RaiseAction(amount)
         else:
             decision, conf = self.decide_action_postflop(opp_pip, my_pip, hand_strength, my_contribution, opp_contribution)
 
-        if decision == RaiseAction and street != 0:
+        if decision == RaiseAction and RaiseAction in legal_actions:
             amount = random.randint(min_raise, max_raise)
             return RaiseAction(amount)
+        if decision == RaiseAction and RaiseAction not in legal_actions:
+            return CallAction()
         return decision()
 
 

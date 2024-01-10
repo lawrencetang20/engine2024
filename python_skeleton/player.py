@@ -24,20 +24,7 @@ class Player(Bot):
         Returns:
         Nothing.
         '''
-        faces = ['2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K', 'A']
-        suit11 = ['h', 's', 'd', 'c']
-        all_cards = []
-        for face in faces:
-            for suit in suit11:
-                all_cards.append(face+suit)
-
-        self.all_2hands = []
-        self.all_3hands = []
-        for ix, card1 in enumerate(all_cards):
-            for ix2, card2 in enumerate(all_cards[ix+1:]):
-                self.all_2hands.append([eval7.Card(card1), eval7.Card(card2)])
-                for card3 in all_cards[ix2+1:]:
-                    self.all_3hands.append([eval7.Card(card1), eval7.Card(card2), eval7.Card(card3)])
+        pass
 
 
     def handle_new_round(self, game_state, round_state, active):
@@ -141,21 +128,29 @@ class Player(Bot):
         board = [eval7.Card(x) for x in round_state.deck[:street]]
         my_hole = [eval7.Card(a) for a in round_state.hands[active]]
         comb = board + my_hole
-        my_val = eval7.evaluate(board+my_hole)
-        num_better = 0
+        my_val = eval7.evaluate(comb)
+
+
         if len(my_hole) == 2 and street > 0:
-            possible = self.all_3hands
+            opp_num = 3
         else:
-            possible = self.all_2hands
+            opp_num = 2
+
+        deck = eval7.Deck()
+        for card in comb:
+            deck.cards.remove(card)
+
+        num_better = 0
         trials = 0
-        while trials < 500:
-            opp_hole = random.choice(possible)
-            if opp_hole[0] in comb or opp_hole[1] in comb:
-                continue
+
+        while trials < 250:
+            deck.shuffle()
+            opp_hole = deck.peek(opp_num)
             opp_value = eval7.evaluate(opp_hole+board)
             if opp_value > my_val:
                 num_better += 1
             trials += 1
+
         percent_better_than = 1 - (num_better/trials)
         return percent_better_than
 
@@ -195,7 +190,7 @@ class Player(Bot):
 
         min_raise, max_raise = round_state.raise_bounds()
         hand_strength = self.hand_strength(round_state, street, active)
-        
+
         print(hand_strength)
 
         if BidAction in legal_actions:
@@ -203,7 +198,7 @@ class Player(Bot):
         elif street == 0:       
             decision, conf = self.decide_action_preflop(legal_actions, opp_pip, my_pip, hand_strength, my_contribution, opp_contribution)
             if decision == RaiseAction:
-                amount = random.randint(min_raise, min_raise + 4)
+                amount = random.randint(min_raise, max_raise)
                 return RaiseAction(amount)
         else:
             decision, conf = self.decide_action_postflop(opp_pip, my_pip, hand_strength, my_contribution, opp_contribution)

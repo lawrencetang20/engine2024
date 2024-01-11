@@ -1,1004 +1,485 @@
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-[0, 0]
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-[0, 0]
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-[167, 167]
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-[287, 287]
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
-new round
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+[397, 397]
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+[397, 397]
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+[392, 392]
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+26.243

@@ -1,5298 +1,744 @@
+30.0
 4 400 399 398 1 2
-2 223 393 223 0 0
-<class 'skeleton.actions.CheckAction'>
-2 223 393 223 0 0
-<class 'skeleton.actions.CheckAction'>
-223 223 393 12 0 211
-<class 'skeleton.actions.FoldAction'>
-400 400 398 117 2 283
-2 87 117 87 0 0
-<class 'skeleton.actions.CheckAction'>
-87 87 117 25 0 62
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
 4 400 399 398 1 2
-69 400 393 362 7 38
-2 287 287 362 0 0
-<class 'skeleton.actions.CheckAction'>
-2 287 287 362 0 0
-<class 'skeleton.actions.CheckAction'>
-2 287 287 362 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 263 398 263 0 0
-<class 'skeleton.actions.CheckAction'>
-156 263 398 185 0 78
-<class 'skeleton.actions.FoldAction'>
 4 400 399 398 1 2
-127 400 393 333 7 67
-205 205 333 33 0 172
-<class 'skeleton.actions.FoldAction'>
-400 400 398 66 2 334
-2 65 66 65 0 0
-<class 'skeleton.actions.CheckAction'>
-2 65 66 65 0 0
-<class 'skeleton.actions.CheckAction'>
-2 65 66 65 0 0
-<class 'skeleton.actions.CheckAction'>
-65 65 66 9 0 56
-<class 'skeleton.actions.FoldAction'>
 4 400 399 398 1 2
 4 400 398 398 2 2
 2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 16 0 381
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-400 400 398 174 2 226
-2 137 174 137 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 132 169 132 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 10 47 10 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-6 400 398 396 2 4
-2 390 390 396 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 208 208 214 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 136 136 142 0 0
-<class 'skeleton.actions.CheckAction'>
-136 136 136 32 0 110
-<class 'skeleton.actions.CallAction'>
-4 400 399 398 1 2
-2 364 364 393 0 0
-<class 'skeleton.actions.CheckAction'>
-2 364 364 393 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 288 288 317 0 0
-<class 'skeleton.actions.RaiseAction'>
-222 400 398 288 2 112
-2 228 228 288 0 0
-<class 'skeleton.actions.CheckAction'>
-2 228 228 288 0 0
-<class 'skeleton.actions.CheckAction'>
-2 228 228 288 0 0
-<class 'skeleton.actions.RaiseAction'>
-228 228 137 92 91 196
-<class 'skeleton.actions.CallAction'>
-4 400 399 398 1 2
-2 266 393 266 0 0
-<class 'skeleton.actions.CheckAction'>
-2 266 393 266 0 0
-<class 'skeleton.actions.CheckAction'>
-2 266 393 266 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 375 375 398 0 0
-<class 'skeleton.actions.CheckAction'>
-375 375 375 95 0 303
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-99 400 393 347 7 53
-2 296 296 347 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 125 125 176 0 0
-<class 'skeleton.actions.RaiseAction'>
-16 125 121 166 4 10
-<class 'skeleton.actions.RaiseAction'>
-2 108 108 159 0 0
-<class 'skeleton.actions.CheckAction'>
-400 400 398 31 2 369
-2 25 25 31 0 0
-<class 'skeleton.actions.CheckAction'>
-2 25 25 31 0 0
-<class 'skeleton.actions.CheckAction'>
-24 25 25 19 0 12
-<class 'skeleton.actions.RaiseAction'>
-1 1 1 7 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 362 362 393 0 0
-<class 'skeleton.actions.CheckAction'>
-362 362 362 53 0 340
-<class 'skeleton.actions.CallAction'>
-10 22 22 48 0 5
-<class 'skeleton.actions.RaiseAction'>
-32 400 398 383 2 17
-2 382 383 382 0 0
-<class 'skeleton.actions.CheckAction'>
-2 382 383 382 0 0
-<class 'skeleton.actions.CheckAction'>
-126 382 383 319 0 63
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-134 392 393 325 0 67
-<class 'skeleton.actions.FoldAction'>
-374 400 398 212 2 188
-2 125 212 125 0 0
-<class 'skeleton.actions.CheckAction'>
-2 125 212 125 0 0
-<class 'skeleton.actions.CheckAction'>
-2 125 212 125 0 0
-<class 'skeleton.actions.CheckAction'>
-62 125 212 94 0 31
-<class 'skeleton.actions.CallAction'>
-4 400 399 398 1 2
-118 400 398 340 2 60
-2 196 340 196 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 34 178 34 0 0
-<class 'skeleton.actions.CheckAction'>
-2 34 178 34 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-400 400 393 112 7 288
-2 112 112 112 0 0
-<class 'skeleton.actions.RaiseAction'>
-112 112 69 10 43 102
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-400 400 398 65 2 335
-2 42 65 42 0 0
-<class 'skeleton.actions.CheckAction'>
-2 42 65 42 0 0
-<class 'skeleton.actions.RaiseAction'>
-42 42 57 2 8 40
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-103 400 393 345 7 55
-2 263 345 263 0 0
-<class 'skeleton.actions.CheckAction'>
-2 263 345 263 0 0
-<class 'skeleton.actions.CheckAction'>
-256 263 345 135 0 128
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 349 349 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-349 349 282 86 67 312
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 371 371 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 62 62 89 0 0
-<class 'skeleton.actions.CheckAction'>
-2 62 62 89 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-400 400 393 16 7 384
-2 15 16 15 0 0
-<class 'skeleton.actions.CheckAction'>
-2 15 16 15 0 0
-<class 'skeleton.actions.CheckAction'>
-2 15 16 15 0 0
-<class 'skeleton.actions.CheckAction'>
-246 400 398 276 2 124
-2 275 276 275 0 0
-<class 'skeleton.actions.CheckAction'>
-2 275 276 275 0 0
-<class 'skeleton.actions.CheckAction'>
-36 275 276 257 0 18
-<class 'skeleton.actions.CallAction'>
-2 257 258 257 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 283 393 283 0 0
-<class 'skeleton.actions.CheckAction'>
-2 283 393 283 0 0
-<class 'skeleton.actions.CheckAction'>
-2 283 393 283 0 0
-<class 'skeleton.actions.CheckAction'>
-400 400 398 93 2 307
-2 80 93 80 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-163 400 393 315 7 85
-2 180 315 180 0 0
-<class 'skeleton.actions.CheckAction'>
-2 180 315 180 0 0
-<class 'skeleton.actions.CheckAction'>
-2 180 315 180 0 0
-<class 'skeleton.actions.RaiseAction'>
-180 180 272 12 43 168
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 317 398 317 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 29 110 29 0 0
-<class 'skeleton.actions.CheckAction'>
-2 29 110 29 0 0
-<class 'skeleton.actions.CheckAction'>
-29 29 110 9 0 20
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-400 400 398 61 2 339
-2 60 61 60 0 0
-<class 'skeleton.actions.CheckAction'>
-2 60 61 60 0 0
-<class 'skeleton.actions.CheckAction'>
-60 60 61 14 0 46
-<class 'skeleton.actions.CallAction'>
-2 14 15 14 0 0
-<class 'skeleton.actions.CheckAction'>
-14 14 15 6 0 8
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 393 61 7 339
-2 60 61 60 0 0
-<class 'skeleton.actions.CheckAction'>
-2 60 61 60 0 0
-<class 'skeleton.actions.CheckAction'>
-60 60 61 5 0 55
-<class 'skeleton.actions.FoldAction'>
-400 400 398 177 2 223
-2 176 177 176 0 0
-<class 'skeleton.actions.CheckAction'>
-2 176 177 176 0 0
-<class 'skeleton.actions.CheckAction'>
-2 176 177 176 0 0
-<class 'skeleton.actions.CheckAction'>
-176 176 177 84 0 92
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-400 400 393 96 7 304
-2 95 96 95 0 0
-<class 'skeleton.actions.CheckAction'>
-78 95 96 56 0 39
-<class 'skeleton.actions.CallAction'>
-56 56 57 26 0 30
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 352 352 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-270 270 393 20 0 250
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 273 398 273 0 0
-<class 'skeleton.actions.CheckAction'>
-2 273 398 273 0 0
-<class 'skeleton.actions.CheckAction'>
-2 273 398 273 0 0
-<class 'skeleton.actions.CheckAction'>
-273 273 398 102 0 171
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-301 400 393 246 7 154
-24 177 177 234 0 12
-<class 'skeleton.actions.RaiseAction'>
-2 10 10 79 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 280 280 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 280 280 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 229 229 347 0 0
-<class 'skeleton.actions.CheckAction'>
-229 229 229 161 0 186
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-400 400 398 71 2 329
-2 62 62 71 0 0
-<class 'skeleton.actions.CheckAction'>
-62 62 62 23 0 48
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-194 392 393 295 0 97
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 253 398 253 0 0
-<class 'skeleton.actions.CheckAction'>
-253 253 398 89 0 164
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 393 143 7 257
-2 104 143 104 0 0
-<class 'skeleton.actions.CheckAction'>
-36 104 143 86 0 18
-<class 'skeleton.actions.RaiseAction'>
-2 2 41 2 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-142 392 393 321 0 71
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-274 397 398 260 0 137
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 323 323 393 0 0
-<class 'skeleton.actions.RaiseAction'>
-108 193 193 209 0 54
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 263 398 263 0 0
-<class 'skeleton.actions.CheckAction'>
-2 263 398 263 0 0
-<class 'skeleton.actions.CheckAction'>
-2 263 398 263 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 248 393 248 0 0
-<class 'skeleton.actions.CheckAction'>
-2 248 393 248 0 0
-<class 'skeleton.actions.CheckAction'>
-96 248 393 200 0 48
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-150 397 398 322 0 75
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 398 4 2 396
-2 3 4 3 0 0
-<class 'skeleton.actions.CheckAction'>
-2 3 4 3 0 0
-<class 'skeleton.actions.CheckAction'>
-3 3 4 1 0 2
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 281 398 281 0 0
-<class 'skeleton.actions.CheckAction'>
-2 281 398 281 0 0
-<class 'skeleton.actions.CheckAction'>
-2 281 398 281 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-400 400 398 82 2 318
-2 81 82 81 0 0
-<class 'skeleton.actions.CheckAction'>
-2 81 82 81 0 0
-<class 'skeleton.actions.CheckAction'>
-81 81 82 7 0 74
-<class 'skeleton.actions.CallAction'>
-2 7 8 7 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 274 393 274 0 0
-<class 'skeleton.actions.CheckAction'>
-2 274 393 274 0 0
-<class 'skeleton.actions.CheckAction'>
-20 274 393 264 0 10
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 390 390 393 0 0
-<class 'skeleton.actions.CheckAction'>
-2 390 390 393 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 278 278 281 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 263 398 263 0 0
-<class 'skeleton.actions.CheckAction'>
-2 263 398 263 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 224 359 224 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 256 393 256 0 0
-<class 'skeleton.actions.CheckAction'>
-2 256 393 256 0 0
-<class 'skeleton.actions.RaiseAction'>
-225 225 362 12 0 213
-<class 'skeleton.actions.RaiseAction'>
-400 400 398 88 2 312
-2 87 88 87 0 0
-<class 'skeleton.actions.CheckAction'>
-2 87 88 87 0 0
-<class 'skeleton.actions.CheckAction'>
-87 87 88 12 0 75
-<class 'skeleton.actions.CallAction'>
-2 12 13 12 0 0
-<class 'skeleton.actions.CheckAction'>
-12 12 13 4 0 8
-<class 'skeleton.actions.CallAction'>
-4 400 399 398 1 2
-2 258 393 258 0 0
-<class 'skeleton.actions.CheckAction'>
-2 258 393 258 0 0
-<class 'skeleton.actions.CheckAction'>
-258 258 393 89 0 169
-<class 'skeleton.actions.CallAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-400 400 398 74 2 326
-2 47 74 47 0 0
-<class 'skeleton.actions.CheckAction'>
-2 47 74 47 0 0
-<class 'skeleton.actions.CheckAction'>
-47 47 74 6 0 41
-<class 'skeleton.actions.CallAction'>
-2 6 33 6 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-18 392 393 383 0 9
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 325 398 325 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-400 400 398 92 2 308
-2 91 92 91 0 0
-<class 'skeleton.actions.CheckAction'>
-2 91 92 91 0 0
-<class 'skeleton.actions.CheckAction'>
-2 91 92 91 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 285 393 285 0 0
-<class 'skeleton.actions.CheckAction'>
-285 285 393 112 0 173
-<class 'skeleton.actions.CallAction'>
-2 112 220 112 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 193 0 204
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-353 400 393 220 7 180
-2 153 220 153 0 0
-<class 'skeleton.actions.CheckAction'>
-2 153 220 153 0 0
-<class 'skeleton.actions.CheckAction'>
-2 153 220 153 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 304 304 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 304 304 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 304 304 398 0 0
-<class 'skeleton.actions.CheckAction'>
-26 304 304 385 0 13
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-48 400 398 375 2 25
-2 374 375 374 0 0
-<class 'skeleton.actions.CheckAction'>
-2 374 375 374 0 0
-<class 'skeleton.actions.CheckAction'>
-2 374 375 374 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 293 393 293 0 0
-<class 'skeleton.actions.CheckAction'>
-2 293 393 293 0 0
-<class 'skeleton.actions.CheckAction'>
-2 293 393 293 0 0
-<class 'skeleton.actions.RaiseAction'>
-278 400 398 260 2 140
-2 210 260 210 0 0
-<class 'skeleton.actions.CheckAction'>
-210 210 260 7 0 203
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 269 269 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 269 269 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 44 44 173 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-379 400 393 207 7 193
-2 145 145 207 0 0
-<class 'skeleton.actions.CheckAction'>
-145 145 145 113 0 94
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 368 368 393 0 0
-<class 'skeleton.actions.CheckAction'>
-2 368 368 393 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 245 245 270 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-246 397 398 274 0 123
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.RaiseAction'>
-264 284 285 152 0 132
-<class 'skeleton.actions.FoldAction'>
-154 400 398 322 2 78
-2 253 322 253 0 0
-<class 'skeleton.actions.CheckAction'>
-2 253 322 253 0 0
-<class 'skeleton.actions.CheckAction'>
-2 253 322 253 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-172 300 300 307 0 86
-<class 'skeleton.actions.CallAction'>
-2 214 214 307 0 0
-<class 'skeleton.actions.CheckAction'>
-2 214 214 307 0 0
-<class 'skeleton.actions.CheckAction'>
-374 400 398 212 2 188
-2 211 212 211 0 0
-<class 'skeleton.actions.CheckAction'>
-211 211 212 58 0 153
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 304 304 393 0 0
-<class 'skeleton.actions.CheckAction'>
-2 304 304 393 0 0
-<class 'skeleton.actions.CheckAction'>
-298 304 304 244 0 149
-<class 'skeleton.actions.FoldAction'>
-400 400 398 169 2 231
-2 168 169 168 0 0
-<class 'skeleton.actions.CheckAction'>
-2 168 169 168 0 0
-<class 'skeleton.actions.CheckAction'>
-2 168 169 168 0 0
-<class 'skeleton.actions.CheckAction'>
-62 168 169 137 0 31
-<class 'skeleton.actions.CallAction'>
-4 400 399 398 1 2
-400 400 393 142 7 258
-40 141 142 121 0 20
-<class 'skeleton.actions.CallAction'>
-2 121 122 121 0 0
-<class 'skeleton.actions.CheckAction'>
-121 121 122 11 0 110
-<class 'skeleton.actions.FoldAction'>
-150 400 398 324 2 76
-2 323 324 323 0 0
-<class 'skeleton.actions.CheckAction'>
-2 323 324 323 0 0
-<class 'skeleton.actions.CheckAction'>
-2 323 324 323 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-353 400 393 220 7 180
-150 168 220 93 0 75
-<class 'skeleton.actions.RaiseAction'>
-2 6 58 6 0 0
-<class 'skeleton.actions.CheckAction'>
-4 6 58 4 0 2
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-92 392 393 346 0 46
-<class 'skeleton.actions.FoldAction'>
-400 400 398 93 2 307
-2 70 70 93 0 0
-<class 'skeleton.actions.CheckAction'>
-8 70 70 89 0 4
-<class 'skeleton.actions.RaiseAction'>
-2 15 15 38 0 0
-<class 'skeleton.actions.CheckAction'>
-2 15 15 38 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 262 393 262 0 0
-<class 'skeleton.actions.CheckAction'>
-2 262 393 262 0 0
-<class 'skeleton.actions.CheckAction'>
-184 262 393 170 0 92
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 186 0 211
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-220 262 393 152 0 110
-<class 'skeleton.actions.CallAction'>
-2 152 283 152 0 0
-<class 'skeleton.actions.CheckAction'>
-2 152 283 152 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 343 398 343 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 294 349 294 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 12 67 12 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 287 393 287 0 0
-<class 'skeleton.actions.CheckAction'>
-287 287 393 74 0 213
-<class 'skeleton.actions.FoldAction'>
-182 400 398 308 2 92
-2 225 308 225 0 0
-<class 'skeleton.actions.CheckAction'>
-198 225 308 126 0 99
-<class 'skeleton.actions.CallAction'>
-2 126 209 126 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 116 199 116 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 251 398 251 0 0
-<class 'skeleton.actions.CheckAction'>
-2 251 398 251 0 0
-<class 'skeleton.actions.CheckAction'>
-2 251 398 251 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-400 400 393 130 7 270
-2 91 130 91 0 0
-<class 'skeleton.actions.CheckAction'>
-91 91 130 39 0 52
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 63 0 334
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 393 193 7 207
-2 142 193 142 0 0
-<class 'skeleton.actions.CheckAction'>
-2 142 193 142 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 126 177 126 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 253 398 253 0 0
-<class 'skeleton.actions.CheckAction'>
-253 253 398 83 0 170
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-105 400 393 344 7 56
-2 316 316 344 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 8 8 36 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 6 6 34 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 297 398 297 0 0
-<class 'skeleton.actions.CheckAction'>
-2 297 398 297 0 0
-<class 'skeleton.actions.CheckAction'>
-144 297 398 225 0 72
-<class 'skeleton.actions.CallAction'>
-2 225 326 225 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-184 392 393 300 0 92
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 259 398 259 0 0
-<class 'skeleton.actions.CheckAction'>
-2 259 398 259 0 0
-<class 'skeleton.actions.CheckAction'>
-259 259 398 112 0 147
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-136 400 398 331 2 69
-2 221 331 221 0 0
-<class 'skeleton.actions.CheckAction'>
-2 221 331 221 0 0
-<class 'skeleton.actions.CheckAction'>
-172 221 331 135 0 86
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 398 195 2 205
-2 176 195 176 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-163 400 393 315 7 85
-2 249 315 249 0 0
-<class 'skeleton.actions.CheckAction'>
-228 249 315 135 0 114
-<class 'skeleton.actions.RaiseAction'>
-2 3 69 3 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 257 398 257 0 0
-<class 'skeleton.actions.CheckAction'>
-257 257 398 73 0 184
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-176 321 321 305 0 88
-<class 'skeleton.actions.CallAction'>
-2 233 233 305 0 0
-<class 'skeleton.actions.CheckAction'>
-2 233 233 305 0 0
-<class 'skeleton.actions.CheckAction'>
-396 400 398 201 2 199
-2 122 201 122 0 0
-<class 'skeleton.actions.CheckAction'>
-2 122 201 122 0 0
-<class 'skeleton.actions.CheckAction'>
-2 122 201 122 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-38 236 393 217 0 19
-<class 'skeleton.actions.CallAction'>
-2 217 374 217 0 0
-<class 'skeleton.actions.RaiseAction'>
-197 197 354 18 0 179
-<class 'skeleton.actions.FoldAction'>
-38 400 398 380 2 20
-2 251 380 251 0 0
-<class 'skeleton.actions.CheckAction'>
-251 251 380 16 0 235
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 276 393 276 0 0
-<class 'skeleton.actions.CheckAction'>
-2 276 393 276 0 0
-<class 'skeleton.actions.RaiseAction'>
-191 191 308 64 0 127
-<class 'skeleton.actions.CallAction'>
-400 400 398 56 2 344
-2 55 56 55 0 0
-<class 'skeleton.actions.CheckAction'>
-40 55 56 35 0 20
-<class 'skeleton.actions.CallAction'>
-2 35 36 35 0 0
-<class 'skeleton.actions.CheckAction'>
-2 35 36 35 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-280 280 393 16 0 264
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 347 347 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-347 347 227 75 120 323
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-400 400 393 126 7 274
-2 86 126 86 0 0
-<class 'skeleton.actions.CheckAction'>
-2 86 126 86 0 0
-<class 'skeleton.actions.CheckAction'>
-86 86 126 27 0 59
-<class 'skeleton.actions.CallAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 220 221 220 0 0
-<class 'skeleton.actions.CheckAction'>
-2 220 221 220 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 104 0 293
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-257 400 393 268 7 132
-2 171 268 171 0 0
-<class 'skeleton.actions.CheckAction'>
-2 171 268 171 0 0
-<class 'skeleton.actions.CheckAction'>
-2 171 268 171 0 0
-<class 'skeleton.actions.RaiseAction'>
-400 400 398 85 2 315
-2 64 64 85 0 0
-<class 'skeleton.actions.CheckAction'>
-2 64 64 85 0 0
-<class 'skeleton.actions.RaiseAction'>
-64 64 58 22 6 63
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 299 299 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 299 299 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 299 299 398 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 291 393 291 0 0
-<class 'skeleton.actions.CheckAction'>
-2 291 393 291 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 239 341 239 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 301 398 301 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-281 281 393 49 0 232
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 357 398 357 0 0
-<class 'skeleton.actions.CheckAction'>
-2 357 398 357 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 38 79 38 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-123 400 393 335 7 65
-240 245 335 125 0 120
-<class 'skeleton.actions.FoldAction'>
-252 400 398 273 2 127
-2 264 264 273 0 0
-<class 'skeleton.actions.CheckAction'>
-2 264 264 273 0 0
-<class 'skeleton.actions.RaiseAction'>
-232 264 214 132 50 141
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-392 392 393 43 0 349
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 263 398 263 0 0
-<class 'skeleton.actions.CheckAction'>
-28 263 398 249 0 14
-<class 'skeleton.actions.RaiseAction'>
-2 101 236 101 0 0
-<class 'skeleton.actions.CheckAction'>
-2 101 236 101 0 0
-<class 'skeleton.actions.CheckAction'>
-101 101 236 2 0 99
-<class 'skeleton.actions.CallAction'>
-4 400 399 398 1 2
-2 287 393 287 0 0
-<class 'skeleton.actions.CheckAction'>
-146 287 393 214 0 73
-<class 'skeleton.actions.RaiseAction'>
-64 87 193 55 0 32
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 333 398 333 0 0
-<class 'skeleton.actions.CheckAction'>
-2 333 398 333 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-400 400 393 117 7 283
-116 116 117 30 0 86
-<class 'skeleton.actions.CallAction'>
-24 30 31 18 0 12
-<class 'skeleton.actions.CallAction'>
-2 18 19 18 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 249 398 249 0 0
-<class 'skeleton.actions.CheckAction'>
-130 249 398 184 0 65
-<class 'skeleton.actions.CallAction'>
-2 184 333 184 0 0
-<class 'skeleton.actions.CheckAction'>
-176 184 333 96 0 88
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 336 336 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 106 106 168 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-376 397 398 209 0 188
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-104 280 393 228 0 52
-<class 'skeleton.actions.CallAction'>
-2 228 341 228 0 0
-<class 'skeleton.actions.CheckAction'>
-2 228 341 228 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-138 397 398 328 0 69
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 260 393 260 0 0
-<class 'skeleton.actions.CheckAction'>
-2 260 393 260 0 0
-<class 'skeleton.actions.CheckAction'>
-2 260 393 260 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 261 398 261 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 12 149 12 0 0
-<class 'skeleton.actions.CheckAction'>
-2 12 149 12 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-392 392 393 51 0 341
-<class 'skeleton.actions.FoldAction'>
-342 400 398 228 2 172
-2 143 228 143 0 0
-<class 'skeleton.actions.CheckAction'>
-2 143 228 143 0 0
-<class 'skeleton.actions.CheckAction'>
-143 143 228 71 0 72
-<class 'skeleton.actions.CallAction'>
-2 71 156 71 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-73 400 393 360 7 40
-2 313 313 360 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 14 14 61 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-86 400 398 356 2 44
-2 355 356 355 0 0
-<class 'skeleton.actions.CheckAction'>
-2 355 356 355 0 0
-<class 'skeleton.actions.CheckAction'>
-355 355 356 23 0 332
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 393 135 7 265
-2 104 135 104 0 0
-<class 'skeleton.actions.CheckAction'>
-76 104 135 66 0 38
-<class 'skeleton.actions.RaiseAction'>
-12 12 43 2 0 10
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 269 398 269 0 0
-<class 'skeleton.actions.CheckAction'>
-2 269 398 269 0 0
-<class 'skeleton.actions.CheckAction'>
-2 269 398 269 0 0
-<class 'skeleton.actions.CheckAction'>
-236 269 398 151 0 118
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-392 392 393 139 0 253
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 387 387 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 387 387 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 99 99 110 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 386 386 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 132 132 144 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-303 303 393 47 0 256
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 311 398 311 0 0
-<class 'skeleton.actions.CheckAction'>
-2 311 398 311 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 191 278 191 0 0
-<class 'skeleton.actions.RaiseAction'>
-191 191 219 19 59 172
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 381 398 381 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 325 342 325 0 0
-<class 'skeleton.actions.RaiseAction'>
-325 325 298 103 44 222
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-230 392 393 277 0 115
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 198 0 199
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 393 9 7 391
-6 7 7 6 0 3
-<class 'skeleton.actions.RaiseAction'>
-1 1 1 3 0 0
-<class 'skeleton.actions.CheckAction'>
-1 1 1 3 0 0
-<class 'skeleton.actions.RaiseAction'>
-10 400 398 394 2 6
-2 335 394 335 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 156 215 156 0 0
-<class 'skeleton.actions.CheckAction'>
-2 156 215 156 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 299 393 299 0 0
-<class 'skeleton.actions.CheckAction'>
-299 299 393 67 0 232
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 66 0 331
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 305 393 305 0 0
-<class 'skeleton.actions.CheckAction'>
-2 305 393 305 0 0
-<class 'skeleton.actions.CheckAction'>
-2 305 393 305 0 0
-<class 'skeleton.actions.RaiseAction'>
-96 400 398 351 2 49
-2 244 351 244 0 0
-<class 'skeleton.actions.CheckAction'>
-2 244 351 244 0 0
-<class 'skeleton.actions.CheckAction'>
-2 244 351 244 0 0
-<class 'skeleton.actions.CheckAction'>
-244 244 351 49 0 195
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 270 393 270 0 0
-<class 'skeleton.actions.CheckAction'>
-2 270 393 270 0 0
-<class 'skeleton.actions.CheckAction'>
-2 270 393 270 0 0
-<class 'skeleton.actions.RaiseAction'>
-270 270 357 17 36 253
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 309 398 309 0 0
-<class 'skeleton.actions.CheckAction'>
-309 309 398 124 0 185
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-397 400 393 198 7 202
-2 147 198 147 0 0
-<class 'skeleton.actions.CheckAction'>
-2 147 198 147 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 87 138 87 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 89 0 308
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 393 160 7 240
-2 115 160 115 0 0
-<class 'skeleton.actions.CheckAction'>
-2 115 160 115 0 0
-<class 'skeleton.actions.CheckAction'>
-2 115 160 115 0 0
-<class 'skeleton.actions.CheckAction'>
-400 400 398 35 2 365
-2 28 35 28 0 0
-<class 'skeleton.actions.CheckAction'>
-2 28 35 28 0 0
-<class 'skeleton.actions.CheckAction'>
-2 28 35 28 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 262 393 262 0 0
-<class 'skeleton.actions.CheckAction'>
-98 262 393 213 0 49
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 257 398 257 0 0
-<class 'skeleton.actions.CheckAction'>
-120 257 398 197 0 60
-<class 'skeleton.actions.CallAction'>
-2 197 338 197 0 0
-<class 'skeleton.actions.CheckAction'>
-2 197 338 197 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-392 392 393 22 0 370
-<class 'skeleton.actions.FoldAction'>
-14 400 398 392 2 8
+4 397 398 395 0 2
+2 395 396 395 0 0
+8 395 396 391 0 4
 2 391 392 391 0 0
-<class 'skeleton.actions.CheckAction'>
-2 391 392 391 0 0
-<class 'skeleton.actions.CheckAction'>
-2 391 392 391 0 0
-<class 'skeleton.actions.CheckAction'>
+16 391 392 383 0 8
 4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-184 392 393 300 0 92
-<class 'skeleton.actions.FoldAction'>
-292 400 398 253 2 147
-2 174 253 174 0 0
-<class 'skeleton.actions.CheckAction'>
-174 174 253 19 0 155
-<class 'skeleton.actions.CallAction'>
-2 19 98 19 0 0
-<class 'skeleton.actions.CheckAction'>
-2 19 98 19 0 0
-<class 'skeleton.actions.CheckAction'>
-19 19 98 3 0 16
-<class 'skeleton.actions.CallAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-268 397 398 263 0 134
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 392 392 398 0 0
-<class 'skeleton.actions.CheckAction'>
-132 392 392 332 0 66
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 367 367 393 0 0
-<class 'skeleton.actions.RaiseAction'>
-367 367 196 43 171 350
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 293 398 293 0 0
-<class 'skeleton.actions.CheckAction'>
-256 293 398 165 0 128
-<class 'skeleton.actions.CallAction'>
-2 165 270 165 0 0
-<class 'skeleton.actions.CheckAction'>
-2 165 270 165 0 0
-<class 'skeleton.actions.RaiseAction'>
-165 165 196 10 74 155
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-160 248 393 168 0 80
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 271 398 271 0 0
-<class 'skeleton.actions.CheckAction'>
-60 271 398 241 0 30
-<class 'skeleton.actions.CallAction'>
-2 241 368 241 0 0
-<class 'skeleton.actions.CheckAction'>
-2 241 368 241 0 0
-<class 'skeleton.actions.CheckAction'>
-146 241 368 168 0 73
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-50 392 393 367 0 25
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 312 312 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 17 17 103 0 0
-<class 'skeleton.actions.CheckAction'>
-2 17 17 103 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 272 393 272 0 0
-<class 'skeleton.actions.CheckAction'>
-260 272 393 142 0 130
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 149 0 248
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 256 393 256 0 0
-<class 'skeleton.actions.CheckAction'>
-2 256 393 256 0 0
-<class 'skeleton.actions.CheckAction'>
-2 256 393 256 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 343 343 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 324 324 379 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 99 99 154 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 331 331 398 0 0
-<class 'skeleton.actions.CheckAction'>
-331 331 331 153 0 245
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-391 400 393 201 7 199
-2 179 179 201 0 0
-<class 'skeleton.actions.CheckAction'>
-2 179 179 201 0 0
-<class 'skeleton.actions.CheckAction'>
-2 179 179 201 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 348 348 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 348 348 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 211 211 261 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-271 400 393 261 7 139
-2 181 261 181 0 0
-<class 'skeleton.actions.CheckAction'>
-2 181 261 181 0 0
-<class 'skeleton.actions.CheckAction'>
-181 181 261 46 0 135
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 165 0 232
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-240 356 393 236 0 120
-<class 'skeleton.actions.CallAction'>
-236 236 273 113 0 123
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 281 398 281 0 0
-<class 'skeleton.actions.CheckAction'>
-2 281 398 281 0 0
-<class 'skeleton.actions.CheckAction'>
-281 281 398 32 0 249
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-72 400 398 363 2 37
-2 204 363 204 0 0
-<class 'skeleton.actions.CheckAction'>
-2 204 363 204 0 0
-<class 'skeleton.actions.CheckAction'>
-2 204 363 204 0 0
-<class 'skeleton.actions.CheckAction'>
-142 204 363 133 0 71
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-214 400 398 292 2 108
-2 199 292 199 0 0
-<class 'skeleton.actions.CheckAction'>
-2 199 292 199 0 0
-<class 'skeleton.actions.CheckAction'>
-2 199 292 199 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-180 392 393 302 0 90
-<class 'skeleton.actions.FoldAction'>
-306 400 398 246 2 154
-2 158 246 158 0 0
-<class 'skeleton.actions.CheckAction'>
-2 158 246 158 0 0
-<class 'skeleton.actions.CheckAction'>
-2 158 246 158 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-246 400 398 276 2 124
-2 199 276 199 0 0
-<class 'skeleton.actions.CheckAction'>
-2 199 276 199 0 0
-<class 'skeleton.actions.CheckAction'>
-2 199 276 199 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 296 296 393 0 0
-<class 'skeleton.actions.CheckAction'>
-2 296 296 393 0 0
-<class 'skeleton.actions.CheckAction'>
-2 296 296 393 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 306 306 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 306 306 398 0 0
-<class 'skeleton.actions.CheckAction'>
-306 306 306 151 0 247
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-254 254 254 180 0 213
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-172 390 390 307 0 86
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 354 354 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 74 74 118 0 0
-<class 'skeleton.actions.RaiseAction'>
-74 74 40 47 34 71
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-64 397 398 365 0 32
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-385 400 393 204 7 196
-2 129 204 129 0 0
-<class 'skeleton.actions.CheckAction'>
-2 129 204 129 0 0
-<class 'skeleton.actions.CheckAction'>
-129 129 204 40 0 89
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 344 344 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 344 344 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 344 344 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-202 392 393 291 0 101
-<class 'skeleton.actions.FoldAction'>
-308 400 398 245 2 155
-2 174 245 174 0 0
-<class 'skeleton.actions.CheckAction'>
-174 174 245 61 0 113
-<class 'skeleton.actions.CallAction'>
-2 61 132 61 0 0
-<class 'skeleton.actions.CheckAction'>
-2 61 132 61 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-136 392 393 324 0 68
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 265 398 265 0 0
-<class 'skeleton.actions.CheckAction'>
-16 265 398 257 0 8
-<class 'skeleton.actions.CallAction'>
-2 257 390 257 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 69 202 69 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 260 393 260 0 0
-<class 'skeleton.actions.CheckAction'>
-2 260 393 260 0 0
-<class 'skeleton.actions.CheckAction'>
-152 260 393 184 0 76
-<class 'skeleton.actions.FoldAction'>
-400 400 398 70 2 330
-2 65 65 70 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 15 15 20 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 13 13 18 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 293 393 293 0 0
-<class 'skeleton.actions.CheckAction'>
-244 293 393 171 0 122
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 161 0 236
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 356 356 393 0 0
-<class 'skeleton.actions.CheckAction'>
-356 356 356 191 0 202
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-54 240 393 213 0 27
-<class 'skeleton.actions.CallAction'>
-200 213 366 113 0 100
-<class 'skeleton.actions.FoldAction'>
-334 400 398 232 2 168
-2 147 232 147 0 0
-<class 'skeleton.actions.CheckAction'>
-2 147 232 147 0 0
-<class 'skeleton.actions.CheckAction'>
-50 147 232 122 0 25
-<class 'skeleton.actions.CallAction'>
-2 122 207 122 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 367 367 393 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-140 400 398 329 2 71
-2 234 329 234 0 0
-<class 'skeleton.actions.CheckAction'>
-2 234 329 234 0 0
-<class 'skeleton.actions.CheckAction'>
-2 234 329 234 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 296 296 398 0 0
-<class 'skeleton.actions.CheckAction'>
-296 296 296 158 0 240
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 260 393 260 0 0
-<class 'skeleton.actions.CheckAction'>
-2 260 393 260 0 0
-<class 'skeleton.actions.CheckAction'>
-260 260 393 90 0 170
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 283 398 283 0 0
-<class 'skeleton.actions.CheckAction'>
-250 283 398 158 0 125
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 323 393 323 0 0
-<class 'skeleton.actions.CheckAction'>
-323 323 393 30 0 293
-<class 'skeleton.actions.FoldAction'>
-400 400 398 103 2 297
-2 89 103 89 0 0
-<class 'skeleton.actions.CheckAction'>
-70 89 103 54 0 35
-<class 'skeleton.actions.RaiseAction'>
-2 16 30 16 0 0
-<class 'skeleton.actions.CheckAction'>
-2 16 30 16 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 307 393 307 0 0
-<class 'skeleton.actions.CheckAction'>
-2 307 393 307 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-400 400 398 183 2 217
-2 110 183 110 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 19 92 19 0 0
-<class 'skeleton.actions.CheckAction'>
-2 19 92 19 0 0
-<class 'skeleton.actions.CheckAction'>
-14 19 92 12 0 7
-<class 'skeleton.actions.CallAction'>
-4 400 399 398 1 2
-150 274 393 199 0 75
-<class 'skeleton.actions.CallAction'>
-180 199 318 109 0 90
-<class 'skeleton.actions.CallAction'>
-2 109 228 109 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 357 357 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 357 357 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-357 357 205 74 152 324
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 303 303 393 0 0
-<class 'skeleton.actions.CheckAction'>
-2 303 303 393 0 0
-<class 'skeleton.actions.CheckAction'>
-2 303 303 393 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 287 398 287 0 0
-<class 'skeleton.actions.CheckAction'>
-2 287 398 287 0 0
-<class 'skeleton.actions.CheckAction'>
-2 287 398 287 0 0
-<class 'skeleton.actions.CheckAction'>
-134 287 398 220 0 67
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 393 180 7 220
-66 116 180 83 0 33
-<class 'skeleton.actions.CallAction'>
-2 83 147 83 0 0
-<class 'skeleton.actions.CheckAction'>
-2 83 147 83 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-178 397 398 308 0 89
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-317 317 393 23 0 294
-<class 'skeleton.actions.FoldAction'>
-400 400 398 173 2 227
-2 144 144 173 0 0
-<class 'skeleton.actions.CheckAction'>
-2 144 144 173 0 0
-<class 'skeleton.actions.CheckAction'>
-2 144 144 173 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 281 393 281 0 0
-<class 'skeleton.actions.CheckAction'>
-281 281 393 91 0 190
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 267 398 267 0 0
-<class 'skeleton.actions.CheckAction'>
-2 267 398 267 0 0
-<class 'skeleton.actions.CheckAction'>
-2 267 398 267 0 0
-<class 'skeleton.actions.CheckAction'>
-267 267 398 58 0 209
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-392 392 393 95 0 297
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 257 398 257 0 0
-<class 'skeleton.actions.CheckAction'>
-257 257 398 93 0 164
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 280 393 280 0 0
-<class 'skeleton.actions.CheckAction'>
-2 280 393 280 0 0
-<class 'skeleton.actions.CheckAction'>
-2 280 393 280 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 265 398 265 0 0
-<class 'skeleton.actions.CheckAction'>
-2 265 398 265 0 0
-<class 'skeleton.actions.CheckAction'>
-168 265 398 181 0 84
-<class 'skeleton.actions.CallAction'>
-2 181 314 181 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 274 393 274 0 0
-<class 'skeleton.actions.CheckAction'>
-164 274 393 192 0 82
-<class 'skeleton.actions.RaiseAction'>
-62 62 181 29 0 33
-<class 'skeleton.actions.RaiseAction'>
-400 400 398 198 2 202
-2 137 137 198 0 0
-<class 'skeleton.actions.CheckAction'>
-2 137 137 198 0 0
-<class 'skeleton.actions.CheckAction'>
-56 137 137 170 0 28
-<class 'skeleton.actions.RaiseAction'>
-2 74 74 135 0 0
-<class 'skeleton.actions.CheckAction'>
-74 74 74 86 0 49
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 276 393 276 0 0
-<class 'skeleton.actions.CheckAction'>
-2 276 393 276 0 0
-<class 'skeleton.actions.CheckAction'>
-2 276 393 276 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 265 398 265 0 0
-<class 'skeleton.actions.CheckAction'>
-2 265 398 265 0 0
-<class 'skeleton.actions.CheckAction'>
-94 265 398 218 0 47
-<class 'skeleton.actions.CallAction'>
-2 218 351 218 0 0
-<class 'skeleton.actions.CheckAction'>
-218 218 351 11 0 207
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-76 397 398 359 0 38
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 309 393 309 0 0
-<class 'skeleton.actions.RaiseAction'>
-76 76 160 1 0 75
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 309 398 309 0 0
-<class 'skeleton.actions.CheckAction'>
-2 309 398 309 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 167 256 167 0 0
-<class 'skeleton.actions.RaiseAction'>
-167 167 223 38 33 129
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-54 262 393 235 0 27
-<class 'skeleton.actions.RaiseAction'>
-2 112 243 112 0 0
-<class 'skeleton.actions.CheckAction'>
-2 112 243 112 0 0
-<class 'skeleton.actions.RaiseAction'>
-400 400 398 68 2 332
-2 62 68 62 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 13 19 13 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 3 9 3 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 326 326 393 0 0
-<class 'skeleton.actions.CheckAction'>
-2 326 326 393 0 0
-<class 'skeleton.actions.CheckAction'>
-326 326 326 159 0 234
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-341 400 393 226 7 174
-2 225 226 225 0 0
-<class 'skeleton.actions.CheckAction'>
-2 225 226 225 0 0
-<class 'skeleton.actions.CheckAction'>
-2 225 226 225 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 391 391 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 344 344 351 0 0
-<class 'skeleton.actions.CheckAction'>
-2 344 344 351 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-328 392 393 228 0 164
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 314 314 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 314 314 398 0 0
-<class 'skeleton.actions.CheckAction'>
-314 314 314 179 0 219
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-307 400 393 243 7 157
-2 171 243 171 0 0
-<class 'skeleton.actions.CheckAction'>
-2 171 243 171 0 0
-<class 'skeleton.actions.CheckAction'>
-2 171 243 171 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 392 392 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 289 393 289 0 0
-<class 'skeleton.actions.CheckAction'>
-2 289 393 289 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 130 234 130 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 298 298 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 152 152 252 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 145 145 245 0 0
-<class 'skeleton.actions.RaiseAction'>
-145 145 76 106 69 139
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 393 393 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-393 393 214 39 179 359
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-392 392 393 143 0 249
-<class 'skeleton.actions.FoldAction'>
-400 400 398 151 2 249
-2 150 151 150 0 0
-<class 'skeleton.actions.CheckAction'>
-2 150 151 150 0 0
-<class 'skeleton.actions.CheckAction'>
-2 150 151 150 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.RaiseAction'>
-392 392 219 8 174 384
-<class 'skeleton.actions.RaiseAction'>
-28 400 398 385 2 15
-2 237 385 237 0 0
-<class 'skeleton.actions.CheckAction'>
-237 237 385 44 0 193
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 238 393 238 0 0
-<class 'skeleton.actions.CheckAction'>
-200 238 393 138 0 100
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 303 398 303 0 0
-<class 'skeleton.actions.CheckAction'>
-2 303 398 303 0 0
-<class 'skeleton.actions.CheckAction'>
-2 303 398 303 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-353 400 393 220 7 180
-2 153 220 153 0 0
-<class 'skeleton.actions.CheckAction'>
-2 153 220 153 0 0
-<class 'skeleton.actions.CheckAction'>
-2 153 220 153 0 0
-<class 'skeleton.actions.CheckAction'>
-400 400 398 41 2 359
-2 40 41 40 0 0
-<class 'skeleton.actions.CheckAction'>
-2 40 41 40 0 0
-<class 'skeleton.actions.CheckAction'>
-2 40 41 40 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 293 393 293 0 0
-<class 'skeleton.actions.CheckAction'>
-293 293 393 60 0 233
-<class 'skeleton.actions.CallAction'>
-54 60 160 33 0 27
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-400 400 398 102 2 298
-2 76 102 76 0 0
-<class 'skeleton.actions.CheckAction'>
-2 76 102 76 0 0
-<class 'skeleton.actions.CheckAction'>
-2 76 102 76 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 307 398 307 0 0
-<class 'skeleton.actions.CheckAction'>
-2 307 398 307 0 0
-<class 'skeleton.actions.RaiseAction'>
-307 307 386 131 12 176
-<class 'skeleton.actions.CallAction'>
-2 131 222 131 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-392 392 393 49 0 343
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 378 378 393 0 0
-<class 'skeleton.actions.RaiseAction'>
-378 378 266 101 112 292
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-400 400 398 55 2 345
-2 54 55 54 0 0
-<class 'skeleton.actions.CheckAction'>
-2 54 55 54 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 14 15 14 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-400 400 393 196 7 204
-2 182 182 196 0 0
-<class 'skeleton.actions.CheckAction'>
-2 182 182 196 0 0
-<class 'skeleton.actions.CheckAction'>
-182 182 182 30 0 166
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 366 366 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 366 366 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 366 366 398 0 0
-<class 'skeleton.actions.CheckAction'>
-106 366 366 345 0 53
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 382 382 393 0 0
-<class 'skeleton.actions.CheckAction'>
-124 382 382 331 0 62
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 255 398 255 0 0
-<class 'skeleton.actions.CheckAction'>
-2 255 398 255 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 186 329 186 0 0
-<class 'skeleton.actions.CheckAction'>
-36 186 329 168 0 18
-<class 'skeleton.actions.CallAction'>
-4 400 399 398 1 2
-364 364 393 66 0 298
-<class 'skeleton.actions.CallAction'>
-2 66 95 66 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 51 80 51 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 295 398 295 0 0
-<class 'skeleton.actions.CheckAction'>
-2 295 398 295 0 0
-<class 'skeleton.actions.CheckAction'>
-2 295 398 295 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-108 380 380 339 0 54
-<class 'skeleton.actions.RaiseAction'>
-2 59 59 72 0 0
-<class 'skeleton.actions.RaiseAction'>
-1 1 1 14 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 289 398 289 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 154 263 154 0 0
-<class 'skeleton.actions.CheckAction'>
-2 154 263 154 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-39 400 393 377 7 23
-2 244 377 244 0 0
-<class 'skeleton.actions.CheckAction'>
-6 244 377 241 0 3
-<class 'skeleton.actions.CallAction'>
-2 241 374 241 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 316 316 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 316 316 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 316 316 398 0 0
-<class 'skeleton.actions.CheckAction'>
-316 316 316 186 0 212
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-163 400 393 315 7 85
-110 245 315 190 0 55
-<class 'skeleton.actions.RaiseAction'>
-2 71 141 71 0 0
-<class 'skeleton.actions.CheckAction'>
-2 71 141 71 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 269 269 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 168 168 297 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 112 112 241 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-400 400 398 184 2 216
-2 183 184 183 0 0
-<class 'skeleton.actions.CheckAction'>
-44 183 184 161 0 22
-<class 'skeleton.actions.CallAction'>
-2 161 162 161 0 0
-<class 'skeleton.actions.CheckAction'>
-161 161 162 24 0 137
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 86 0 311
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-280 280 393 113 0 167
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 352 352 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 348 348 394 0 0
-<class 'skeleton.actions.CheckAction'>
-254 348 348 267 0 127
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-392 392 393 44 0 348
-<class 'skeleton.actions.FoldAction'>
-246 400 398 276 2 124
-2 275 276 275 0 0
-<class 'skeleton.actions.CheckAction'>
-2 275 276 275 0 0
-<class 'skeleton.actions.CheckAction'>
-275 275 276 119 0 156
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-162 400 398 318 2 82
-2 317 318 317 0 0
-<class 'skeleton.actions.CheckAction'>
-317 317 318 35 0 282
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 393 133 7 267
-100 100 133 47 0 53
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 261 398 261 0 0
-<class 'skeleton.actions.CheckAction'>
-2 261 398 261 0 0
-<class 'skeleton.actions.CheckAction'>
-2 261 398 261 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-392 392 393 113 0 279
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 337 398 337 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 308 369 308 0 0
-<class 'skeleton.actions.CheckAction'>
-2 308 369 308 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-228 299 299 279 0 114
-<class 'skeleton.actions.CallAction'>
-2 185 185 279 0 0
-<class 'skeleton.actions.CheckAction'>
-2 185 185 279 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 364 364 398 0 0
-<class 'skeleton.actions.CheckAction'>
-280 364 364 258 0 140
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 285 285 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 285 285 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 285 285 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-137 400 393 328 7 72
-2 327 328 327 0 0
-<class 'skeleton.actions.CheckAction'>
-2 327 328 327 0 0
-<class 'skeleton.actions.CheckAction'>
-2 327 328 327 0 0
-<class 'skeleton.actions.CheckAction'>
-386 400 398 206 2 194
-2 142 206 142 0 0
-<class 'skeleton.actions.CheckAction'>
-2 142 206 142 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 28 92 28 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 359 398 359 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 153 192 153 0 0
-<class 'skeleton.actions.CheckAction'>
-2 153 192 153 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-392 392 393 117 0 275
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 387 387 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 387 387 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 387 387 398 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-400 400 393 93 7 307
-2 69 93 69 0 0
-<class 'skeleton.actions.CheckAction'>
-2 69 93 69 0 0
-<class 'skeleton.actions.CheckAction'>
-2 69 93 69 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 287 398 287 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 206 317 206 0 0
-<class 'skeleton.actions.CheckAction'>
-2 206 317 206 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-400 400 393 182 7 218
-40 146 182 126 0 20
-<class 'skeleton.actions.RaiseAction'>
-2 17 53 17 0 0
-<class 'skeleton.actions.RaiseAction'>
-8 14 50 10 0 4
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-354 397 398 220 0 177
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-181 400 393 306 7 94
-2 195 306 195 0 0
-<class 'skeleton.actions.CheckAction'>
-2 195 306 195 0 0
-<class 'skeleton.actions.CheckAction'>
-2 195 306 195 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 247 398 247 0 0
-<class 'skeleton.actions.CheckAction'>
-247 247 398 62 0 185
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 297 398 297 0 0
-<class 'skeleton.actions.CheckAction'>
-2 297 398 297 0 0
-<class 'skeleton.actions.CheckAction'>
-2 297 398 297 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-400 400 393 80 7 320
-2 60 60 80 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 12 12 30 0 2
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 265 398 265 0 0
-<class 'skeleton.actions.CheckAction'>
-98 265 398 216 0 49
-<class 'skeleton.actions.CallAction'>
-2 216 349 216 0 0
-<class 'skeleton.actions.CheckAction'>
-2 216 349 216 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-88 276 393 232 0 44
-<class 'skeleton.actions.CallAction'>
-2 232 349 232 0 0
-<class 'skeleton.actions.CheckAction'>
-2 232 349 232 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 333 333 398 0 0
-<class 'skeleton.actions.CheckAction'>
-333 333 333 111 0 287
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 234 393 234 0 0
-<class 'skeleton.actions.CheckAction'>
-158 234 393 155 0 79
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 253 398 253 0 0
-<class 'skeleton.actions.CheckAction'>
-253 253 398 86 0 167
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 278 393 278 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.RaiseAction'>
-48 400 398 375 2 25
-2 280 375 280 0 0
-<class 'skeleton.actions.CheckAction'>
-2 280 375 280 0 0
-<class 'skeleton.actions.CheckAction'>
-2 280 375 280 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-111 400 393 341 7 59
-2 340 341 340 0 0
-<class 'skeleton.actions.CheckAction'>
-340 340 341 69 0 271
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 293 398 293 0 0
-<class 'skeleton.actions.CheckAction'>
-2 293 398 293 0 0
-<class 'skeleton.actions.CheckAction'>
-293 293 398 89 0 204
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 393 157 7 243
-2 114 157 114 0 0
-<class 'skeleton.actions.CheckAction'>
-2 114 157 114 0 0
-<class 'skeleton.actions.CheckAction'>
-2 114 157 114 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 241 398 241 0 0
-<class 'skeleton.actions.CheckAction'>
-2 241 398 241 0 0
-<class 'skeleton.actions.CheckAction'>
-76 241 398 203 0 38
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-108 392 393 338 0 54
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 309 398 309 0 0
-<class 'skeleton.actions.CheckAction'>
-2 309 398 309 0 0
-<class 'skeleton.actions.CheckAction'>
-2 309 398 309 0 0
-<class 'skeleton.actions.CheckAction'>
-94 309 398 262 0 47
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-400 400 393 65 7 335
-2 43 65 43 0 0
-<class 'skeleton.actions.CheckAction'>
-34 43 65 26 0 17
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-150 400 398 324 2 76
-2 195 324 195 0 0
-<class 'skeleton.actions.CheckAction'>
-2 195 324 195 0 0
-<class 'skeleton.actions.CheckAction'>
-2 195 324 195 0 0
-<class 'skeleton.actions.CheckAction'>
-62 195 324 164 0 31
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 393 137 7 263
-2 94 137 94 0 0
-<class 'skeleton.actions.CheckAction'>
-94 94 137 24 0 70
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 255 398 255 0 0
-<class 'skeleton.actions.CheckAction'>
-255 255 398 44 0 211
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-18 276 393 267 0 9
-<class 'skeleton.actions.RaiseAction'>
-276 276 349 62 44 214
-<class 'skeleton.actions.CallAction'>
-2 62 179 62 0 0
-<class 'skeleton.actions.CheckAction'>
-2 62 179 62 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 305 398 305 0 0
-<class 'skeleton.actions.CheckAction'>
-2 305 398 305 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 32 125 32 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-112 392 393 336 0 56
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 275 398 275 0 0
-<class 'skeleton.actions.CheckAction'>
-10 275 398 270 0 5
-<class 'skeleton.actions.RaiseAction'>
-2 63 186 63 0 0
-<class 'skeleton.actions.CheckAction'>
-2 63 186 63 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-400 400 393 30 7 370
-22 23 30 12 0 11
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 375 375 398 0 0
-<class 'skeleton.actions.CheckAction'>
-72 375 375 362 0 36
-<class 'skeleton.actions.CallAction'>
-2 339 339 362 0 0
-<class 'skeleton.actions.CheckAction'>
-88 339 339 318 0 44
-<class 'skeleton.actions.CallAction'>
-2 295 295 318 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-392 392 393 29 0 363
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 341 341 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-344 344 393 68 0 276
-<class 'skeleton.actions.CallAction'>
-2 68 117 68 0 0
-<class 'skeleton.actions.RaiseAction'>
-45 45 94 8 0 37
-<class 'skeleton.actions.RaiseAction'>
-400 400 398 40 2 360
-2 24 40 24 0 0
-<class 'skeleton.actions.CheckAction'>
-16 24 40 16 0 8
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-400 400 398 90 2 310
-2 90 90 90 0 0
-<class 'skeleton.actions.CheckAction'>
-2 90 90 90 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 2 2 2 0 0
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 395 395 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 346 346 349 0 0
-<class 'skeleton.actions.RaiseAction'>
-346 346 333 132 13 217
-<class 'skeleton.actions.CallAction'>
-2 129 129 132 0 0
-<class 'skeleton.actions.CheckAction'>
-129 129 129 29 0 103
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 345 345 393 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 87 87 135 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 5 5 53 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-400 400 393 29 7 371
-14 25 25 22 0 7
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 361 398 361 0 0
-<class 'skeleton.actions.RaiseAction'>
-361 361 355 139 43 222
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 295 393 295 0 0
-<class 'skeleton.actions.CheckAction'>
-2 295 393 295 0 0
-<class 'skeleton.actions.CheckAction'>
-2 295 393 295 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-112 397 398 341 0 56
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 262 393 262 0 0
-<class 'skeleton.actions.CheckAction'>
-2 262 393 262 0 0
-<class 'skeleton.actions.CheckAction'>
-2 262 393 262 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-59 400 393 367 7 33
-124 314 367 252 0 62
-<class 'skeleton.actions.RaiseAction'>
-2 132 185 132 0 0
-<class 'skeleton.actions.CheckAction'>
-2 132 185 132 0 0
-<class 'skeleton.actions.CheckAction'>
-400 400 398 130 2 270
-2 116 116 130 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 24 24 38 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-272 397 398 261 0 136
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 393 108 7 292
-72 72 108 11 0 61
-<class 'skeleton.actions.CallAction'>
-2 11 47 11 0 0
-<class 'skeleton.actions.CheckAction'>
-11 11 47 1 0 10
-<class 'skeleton.actions.CallAction'>
-240 400 398 279 2 121
-2 196 279 196 0 0
-<class 'skeleton.actions.CheckAction'>
-196 196 279 88 0 108
-<class 'skeleton.actions.CallAction'>
-2 88 171 88 0 0
-<class 'skeleton.actions.CheckAction'>
-2 88 171 88 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 258 393 258 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CallAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-400 400 398 145 2 255
-2 144 145 144 0 0
-<class 'skeleton.actions.CheckAction'>
-2 144 145 144 0 0
-<class 'skeleton.actions.CheckAction'>
-2 144 145 144 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 49 0 348
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 319 393 319 0 0
-<class 'skeleton.actions.CheckAction'>
-2 319 393 319 0 0
-<class 'skeleton.actions.CheckAction'>
-2 319 393 319 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 257 398 257 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 175 316 175 0 0
-<class 'skeleton.actions.CheckAction'>
-2 175 316 175 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 358 393 358 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-400 400 398 68 2 332
-2 67 68 67 0 0
-<class 'skeleton.actions.CheckAction'>
-46 67 68 44 0 23
-<class 'skeleton.actions.CallAction'>
-2 44 45 44 0 0
-<class 'skeleton.actions.CheckAction'>
-2 44 45 44 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-46 392 393 369 0 23
-<class 'skeleton.actions.FoldAction'>
-190 400 398 304 2 96
-2 236 304 236 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-287 287 393 60 0 227
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 365 398 365 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 308 341 308 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-246 397 398 274 0 123
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-392 392 393 122 0 270
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 100 0 297
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 362 362 393 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 301 301 398 0 0
-<class 'skeleton.actions.CheckAction'>
-8 301 301 394 0 4
-<class 'skeleton.actions.RaiseAction'>
-2 274 274 371 0 0
-<class 'skeleton.actions.CheckAction'>
-2 274 274 371 0 0
-<class 'skeleton.actions.CheckAction'>
-194 274 274 274 0 97
-<class 'skeleton.actions.CallAction'>
-4 400 399 398 1 2
-400 400 393 29 7 371
-18 18 29 9 0 9
-<class 'skeleton.actions.CallAction'>
-2 9 20 9 0 0
-<class 'skeleton.actions.CheckAction'>
-2 9 20 9 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 259 398 259 0 0
-<class 'skeleton.actions.CheckAction'>
-2 259 398 259 0 0
-<class 'skeleton.actions.CheckAction'>
-2 259 398 259 0 0
-<class 'skeleton.actions.CheckAction'>
-134 259 398 192 0 67
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 393 161 7 239
-2 116 161 116 0 0
-<class 'skeleton.actions.CheckAction'>
-2 116 161 116 0 0
-<class 'skeleton.actions.CheckAction'>
-2 116 161 116 0 0
-<class 'skeleton.actions.CheckAction'>
-400 400 398 103 2 297
-2 70 70 103 0 0
-<class 'skeleton.actions.CheckAction'>
-2 70 70 103 0 0
-<class 'skeleton.actions.CheckAction'>
-12 70 70 97 0 6
-<class 'skeleton.actions.RaiseAction'>
-2 32 32 65 0 0
-<class 'skeleton.actions.CheckAction'>
-32 32 32 40 0 25
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-92 270 270 347 0 46
-<class 'skeleton.actions.RaiseAction'>
-2 33 33 156 0 0
-<class 'skeleton.actions.CheckAction'>
-33 33 33 124 0 32
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 325 398 325 0 0
-<class 'skeleton.actions.CheckAction'>
-2 325 398 325 0 0
-<class 'skeleton.actions.CheckAction'>
-2 325 398 325 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-319 400 393 237 7 163
-2 236 237 236 0 0
-<class 'skeleton.actions.CheckAction'>
-2 236 237 236 0 0
-<class 'skeleton.actions.CheckAction'>
-124 236 237 174 0 62
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 297 398 297 0 0
-<class 'skeleton.actions.CheckAction'>
-2 297 398 297 0 0
-<class 'skeleton.actions.CheckAction'>
-2 297 398 297 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-111 400 393 341 7 59
-2 261 341 261 0 0
-<class 'skeleton.actions.CheckAction'>
-2 261 341 261 0 0
-<class 'skeleton.actions.CheckAction'>
-260 261 341 131 0 130
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 345 398 345 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 167 220 167 0 0
-<class 'skeleton.actions.CheckAction'>
-167 167 220 67 0 100
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-146 392 393 319 0 73
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 293 398 293 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 223 328 223 0 0
-<class 'skeleton.actions.CheckAction'>
-2 223 328 223 0 0
-<class 'skeleton.actions.CheckAction'>
-36 223 328 205 0 18
-<class 'skeleton.actions.CallAction'>
-4 400 399 398 1 2
-69 400 393 362 7 38
-2 286 362 286 0 0
-<class 'skeleton.actions.RaiseAction'>
-165 165 241 46 0 119
-<class 'skeleton.actions.CallAction'>
-2 46 122 46 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 337 398 337 0 0
-<class 'skeleton.actions.CheckAction'>
-2 337 398 337 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 165 226 165 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-99 400 393 347 7 53
-346 346 347 57 0 289
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 317 317 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 274 274 355 0 0
-<class 'skeleton.actions.CheckAction'>
-2 274 274 355 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 251 398 251 0 0
-<class 'skeleton.actions.CheckAction'>
-2 251 398 251 0 0
-<class 'skeleton.actions.CheckAction'>
-251 251 398 84 0 167
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 278 393 278 0 0
-<class 'skeleton.actions.CheckAction'>
-2 278 393 278 0 0
-<class 'skeleton.actions.CheckAction'>
-104 278 393 226 0 52
-<class 'skeleton.actions.CallAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-102 397 398 346 0 51
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 324 324 393 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 259 259 328 0 0
-<class 'skeleton.actions.CheckAction'>
-2 259 259 328 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-400 400 398 40 2 360
-2 26 40 26 0 0
-<class 'skeleton.actions.CheckAction'>
-2 26 40 26 0 0
-<class 'skeleton.actions.CheckAction'>
-26 26 40 9 0 17
-<class 'skeleton.actions.CallAction'>
-2 9 23 9 0 0
-<class 'skeleton.actions.CheckAction'>
-9 9 23 1 0 8
-<class 'skeleton.actions.CallAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.RaiseAction'>
-309 392 380 231 13 161
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 307 398 307 0 0
-<class 'skeleton.actions.CheckAction'>
-2 307 398 307 0 0
-<class 'skeleton.actions.CheckAction'>
-307 307 398 125 0 182
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-311 311 311 153 0 240
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 227 398 227 0 0
-<class 'skeleton.actions.CheckAction'>
-2 227 398 227 0 0
-<class 'skeleton.actions.CheckAction'>
-30 227 398 212 0 15
-<class 'skeleton.actions.CallAction'>
-2 212 383 212 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-345 400 393 224 7 176
-146 146 224 45 0 101
-<class 'skeleton.actions.CallAction'>
-45 45 123 13 0 32
-<class 'skeleton.actions.CallAction'>
-2 13 91 13 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 22 0 375
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 393 124 7 276
-2 87 124 87 0 0
-<class 'skeleton.actions.CheckAction'>
-2 87 124 87 0 0
-<class 'skeleton.actions.CheckAction'>
-2 87 124 87 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 333 398 333 0 0
-<class 'skeleton.actions.CheckAction'>
-2 333 398 333 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 37 102 37 0 0
-<class 'skeleton.actions.CheckAction'>
-20 37 102 27 0 10
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-135 400 393 329 7 71
-136 252 329 184 0 68
-<class 'skeleton.actions.RaiseAction'>
-2 96 173 96 0 0
-<class 'skeleton.actions.CheckAction'>
-96 96 173 28 0 68
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 283 398 283 0 0
-<class 'skeleton.actions.CheckAction'>
-2 283 398 283 0 0
-<class 'skeleton.actions.CheckAction'>
-2 283 398 283 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 336 336 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 44 44 106 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 14 14 76 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 277 277 393 0 0
-<class 'skeleton.actions.CheckAction'>
-2 277 277 393 0 0
-<class 'skeleton.actions.CheckAction'>
-228 277 277 279 0 114
-<class 'skeleton.actions.FoldAction'>
-380 400 398 209 2 191
-2 174 174 209 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 64 64 99 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 272 393 272 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CallAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 281 398 281 0 0
-<class 'skeleton.actions.CheckAction'>
-218 281 398 172 0 109
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 280 393 280 0 0
-<class 'skeleton.actions.CheckAction'>
-280 280 393 116 0 164
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 43 0 354
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-337 400 393 228 7 172
-2 165 228 165 0 0
-<class 'skeleton.actions.CheckAction'>
-2 165 228 165 0 0
-<class 'skeleton.actions.CheckAction'>
-2 165 228 165 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 319 398 319 0 0
-<class 'skeleton.actions.CheckAction'>
-2 319 398 319 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 279 358 279 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 291 393 291 0 0
-<class 'skeleton.actions.CheckAction'>
-291 291 393 34 0 257
-<class 'skeleton.actions.FoldAction'>
-400 400 398 150 2 250
-2 149 150 149 0 0
-<class 'skeleton.actions.CheckAction'>
-149 149 150 44 0 105
-<class 'skeleton.actions.CallAction'>
-2 44 45 44 0 0
-<class 'skeleton.actions.CheckAction'>
-44 44 45 8 0 36
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 287 393 287 0 0
-<class 'skeleton.actions.CheckAction'>
-52 287 393 261 0 26
-<class 'skeleton.actions.CallAction'>
-2 261 367 261 0 0
-<class 'skeleton.actions.CheckAction'>
-400 400 398 18 2 382
-2 13 18 13 0 0
-<class 'skeleton.actions.CheckAction'>
-12 13 18 7 0 6
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-400 400 393 78 7 322
-52 52 78 5 0 47
-<class 'skeleton.actions.CallAction'>
-4 5 31 3 0 2
-<class 'skeleton.actions.CallAction'>
-2 3 29 3 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 269 398 269 0 0
-<class 'skeleton.actions.CheckAction'>
-78 269 398 230 0 39
-<class 'skeleton.actions.CallAction'>
-2 230 359 230 0 0
-<class 'skeleton.actions.CheckAction'>
-230 230 359 111 0 119
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 398 33 2 367
-2 32 33 32 0 0
-<class 'skeleton.actions.CheckAction'>
-32 32 33 7 0 25
-<class 'skeleton.actions.CallAction'>
-2 7 8 7 0 0
-<class 'skeleton.actions.CheckAction'>
-2 7 8 7 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-400 400 393 10 7 390
-6 9 10 6 0 3
-<class 'skeleton.actions.CallAction'>
-2 6 7 6 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 259 398 259 0 0
-<class 'skeleton.actions.CheckAction'>
-2 259 398 259 0 0
-<class 'skeleton.actions.CheckAction'>
-2 259 398 259 0 0
-<class 'skeleton.actions.CheckAction'>
-188 259 398 165 0 94
-<class 'skeleton.actions.CallAction'>
-4 400 399 398 1 2
-392 392 393 11 0 381
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 371 398 371 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-90 274 393 229 0 45
-<class 'skeleton.actions.CallAction'>
-140 229 348 159 0 70
-<class 'skeleton.actions.FoldAction'>
-400 400 398 43 2 357
-2 30 43 30 0 0
-<class 'skeleton.actions.CheckAction'>
-30 30 43 13 0 17
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 297 393 297 0 0
-<class 'skeleton.actions.CheckAction'>
-297 297 393 64 0 233
-<class 'skeleton.actions.CallAction'>
-36 64 160 46 0 18
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-400 400 398 71 2 329
-2 70 71 70 0 0
-<class 'skeleton.actions.CheckAction'>
-44 70 71 48 0 22
-<class 'skeleton.actions.CallAction'>
-2 48 49 48 0 0
-<class 'skeleton.actions.RaiseAction'>
-48 48 36 17 13 31
-<class 'skeleton.actions.CallAction'>
-2 17 18 17 0 0
-<class 'skeleton.actions.CheckAction'>
-8 17 18 13 0 4
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-79 400 393 357 7 43
-2 229 357 229 0 0
-<class 'skeleton.actions.CheckAction'>
-229 229 357 82 0 147
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 290 290 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 290 290 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 228 228 336 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-400 400 393 84 7 316
-2 83 84 83 0 0
-<class 'skeleton.actions.CheckAction'>
-28 83 84 69 0 14
-<class 'skeleton.actions.CallAction'>
-2 69 70 69 0 0
-<class 'skeleton.actions.CheckAction'>
-376 400 398 211 2 189
-2 191 191 211 0 0
-<class 'skeleton.actions.CheckAction'>
-191 191 191 101 0 110
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 354 393 354 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.RaiseAction'>
-286 400 398 256 2 144
-2 192 192 256 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 165 165 229 0 0
-<class 'skeleton.actions.RaiseAction'>
-165 165 151 93 14 136
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 285 398 285 0 0
-<class 'skeleton.actions.RaiseAction'>
-285 285 278 23 120 262
-<class 'skeleton.actions.CallAction'>
-2 23 136 23 0 0
-<class 'skeleton.actions.CheckAction'>
-2 23 136 23 0 0
-<class 'skeleton.actions.CheckAction'>
-23 23 136 5 0 18
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 287 393 287 0 0
-<class 'skeleton.actions.CheckAction'>
-2 287 393 287 0 0
-<class 'skeleton.actions.CheckAction'>
-2 287 393 287 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 281 398 281 0 0
-<class 'skeleton.actions.CheckAction'>
-2 281 398 281 0 0
-<class 'skeleton.actions.CheckAction'>
-2 281 398 281 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 291 393 291 0 0
-<class 'skeleton.actions.RaiseAction'>
-249 249 351 77 0 172
-<class 'skeleton.actions.FoldAction'>
-400 400 398 162 2 238
-2 161 162 161 0 0
-<class 'skeleton.actions.CheckAction'>
-2 161 162 161 0 0
-<class 'skeleton.actions.CheckAction'>
-161 161 162 14 0 147
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 272 393 272 0 0
-<class 'skeleton.actions.CheckAction'>
-2 272 393 272 0 0
-<class 'skeleton.actions.CheckAction'>
-2 272 393 272 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 251 398 251 0 0
-<class 'skeleton.actions.CheckAction'>
-2 251 398 251 0 0
-<class 'skeleton.actions.CheckAction'>
-94 251 398 204 0 47
-<class 'skeleton.actions.CallAction'>
-2 204 351 204 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-400 400 393 191 7 209
-2 136 191 136 0 0
-<class 'skeleton.actions.CheckAction'>
-2 136 191 136 0 0
-<class 'skeleton.actions.CheckAction'>
-2 136 191 136 0 0
-<class 'skeleton.actions.CheckAction'>
-304 400 398 247 2 153
-2 246 247 246 0 0
-<class 'skeleton.actions.CheckAction'>
-2 246 247 246 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 68 69 68 0 0
-<class 'skeleton.actions.CheckAction'>
-16 68 69 60 0 8
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-19 400 393 387 7 13
-2 386 387 386 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 253 254 253 0 0
-<class 'skeleton.actions.CheckAction'>
-253 253 254 46 0 207
-<class 'skeleton.actions.FoldAction'>
-400 400 398 101 2 299
-2 78 101 78 0 0
-<class 'skeleton.actions.CheckAction'>
-2 78 101 78 0 0
-<class 'skeleton.actions.CheckAction'>
-2 78 101 78 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-283 283 393 35 0 248
-<class 'skeleton.actions.FoldAction'>
-400 400 398 80 2 320
-2 79 80 79 0 0
-<class 'skeleton.actions.CheckAction'>
-2 79 80 79 0 0
-<class 'skeleton.actions.CheckAction'>
-2 79 80 79 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 341 341 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 201 201 258 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 107 107 164 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-400 400 398 143 2 257
-2 103 143 103 0 0
-<class 'skeleton.actions.CheckAction'>
-103 103 143 23 0 80
-<class 'skeleton.actions.CallAction'>
-2 23 63 23 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 379 379 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 6 6 25 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 3 3 22 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 389 389 393 0 0
-<class 'skeleton.actions.CheckAction'>
-389 389 389 90 0 303
-<class 'skeleton.actions.CallAction'>
-2 86 86 90 0 0
-<class 'skeleton.actions.RaiseAction'>
-332 400 398 233 2 167
-2 190 233 190 0 0
-<class 'skeleton.actions.CheckAction'>
-106 190 233 137 0 53
-<class 'skeleton.actions.RaiseAction'>
-2 69 112 69 0 0
-<class 'skeleton.actions.CheckAction'>
-2 69 112 69 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-75 400 393 359 7 41
-2 281 359 281 0 0
-<class 'skeleton.actions.CheckAction'>
-2 281 359 281 0 0
-<class 'skeleton.actions.CheckAction'>
-62 281 359 250 0 31
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 311 398 311 0 0
-<class 'skeleton.actions.CheckAction'>
-2 311 398 311 0 0
-<class 'skeleton.actions.CheckAction'>
-2 311 398 311 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 319 393 319 0 0
-<class 'skeleton.actions.CheckAction'>
-2 319 393 319 0 0
-<class 'skeleton.actions.CheckAction'>
-2 319 393 319 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-82 397 398 356 0 41
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 264 393 264 0 0
-<class 'skeleton.actions.CheckAction'>
-2 264 393 264 0 0
-<class 'skeleton.actions.CheckAction'>
-140 264 393 194 0 70
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 387 387 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-400 400 398 105 2 295
-2 80 105 80 0 0
-<class 'skeleton.actions.CheckAction'>
-2 80 105 80 0 0
-<class 'skeleton.actions.CheckAction'>
-2 80 105 80 0 0
-<class 'skeleton.actions.CheckAction'>
-80 80 105 18 0 62
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-310 397 398 242 0 155
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-392 392 393 17 0 375
-<class 'skeleton.actions.FoldAction'>
-400 400 398 73 2 327
-2 72 73 72 0 0
-<class 'skeleton.actions.CheckAction'>
-2 72 73 72 0 0
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 393 26 7 374
-2 19 26 19 0 0
-<class 'skeleton.actions.CheckAction'>
-12 19 26 13 0 6
-<class 'skeleton.actions.CallAction'>
-<class 'skeleton.actions.CallAction'>
-4 400 398 398 2 2
-2 263 398 263 0 0
-<class 'skeleton.actions.CheckAction'>
-2 263 398 263 0 0
-<class 'skeleton.actions.CheckAction'>
-2 263 398 263 0 0
-<class 'skeleton.actions.CheckAction'>
-6 263 398 260 0 3
-<class 'skeleton.actions.CallAction'>
-4 400 399 398 1 2
-400 400 393 99 7 301
-8 98 99 94 0 4
-<class 'skeleton.actions.RaiseAction'>
-2 15 16 15 0 0
-<class 'skeleton.actions.CheckAction'>
-2 15 16 15 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 100 0 297
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 393 44 7 356
-2 35 35 44 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 259 398 259 0 0
-<class 'skeleton.actions.CheckAction'>
-259 259 398 48 0 211
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-392 392 393 113 0 279
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 247 398 247 0 0
-<class 'skeleton.actions.CheckAction'>
-2 247 398 247 0 0
-<class 'skeleton.actions.CheckAction'>
-2 247 398 247 0 0
-<class 'skeleton.actions.CheckAction'>
-50 247 398 222 0 25
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-268 268 393 52 0 216
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 255 398 255 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 222 365 222 0 0
-<class 'skeleton.actions.CheckAction'>
-222 222 365 7 0 215
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 388 388 393 0 0
-<class 'skeleton.actions.RaiseAction'>
-215 215 215 50 0 170
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-400 400 393 124 7 276
-32 95 124 79 0 16
-<class 'skeleton.actions.RaiseAction'>
-8 11 40 7 0 4
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-400 400 393 155 7 245
-2 104 155 104 0 0
-<class 'skeleton.actions.CheckAction'>
-2 104 155 104 0 0
-<class 'skeleton.actions.CheckAction'>
-2 104 155 104 0 0
-<class 'skeleton.actions.CheckAction'>
-178 400 398 310 2 90
-2 309 310 309 0 0
-<class 'skeleton.actions.CheckAction'>
-2 309 310 309 0 0
-<class 'skeleton.actions.CheckAction'>
-2 309 310 309 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 380 380 393 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 197 197 210 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 12 12 25 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 364 364 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 212 212 246 0 0
-<class 'skeleton.actions.RaiseAction'>
-212 212 120 58 92 188
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-392 392 393 157 0 235
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 27 0 370
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 393 54 7 346
-2 39 54 39 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 10 25 10 0 0
-<class 'skeleton.actions.CheckAction'>
-2 10 25 10 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 312 312 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 55 55 141 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 346 346 393 0 0
-<class 'skeleton.actions.RaiseAction'>
-262 262 262 112 0 197
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-232 397 398 281 0 116
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 277 398 277 0 0
-<class 'skeleton.actions.CheckAction'>
-2 277 398 277 0 0
-<class 'skeleton.actions.CheckAction'>
-124 277 398 215 0 62
-<class 'skeleton.actions.CallAction'>
-2 215 336 215 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 277 398 277 0 0
-<class 'skeleton.actions.CheckAction'>
-148 277 398 203 0 74
-<class 'skeleton.actions.CallAction'>
-2 203 324 203 0 0
-<class 'skeleton.actions.CheckAction'>
-2 203 324 203 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 254 393 254 0 0
-<class 'skeleton.actions.CheckAction'>
-2 254 393 254 0 0
-<class 'skeleton.actions.CheckAction'>
-172 254 393 168 0 86
-<class 'skeleton.actions.FoldAction'>
-98 400 398 350 2 50
-2 221 350 221 0 0
-<class 'skeleton.actions.CheckAction'>
-2 221 350 221 0 0
-<class 'skeleton.actions.CheckAction'>
-2 221 350 221 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-400 400 393 125 7 275
-2 84 125 84 0 0
-<class 'skeleton.actions.CheckAction'>
-2 84 125 84 0 0
-<class 'skeleton.actions.CheckAction'>
-80 84 125 44 0 40
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-290 400 398 254 2 146
-2 191 254 191 0 0
-<class 'skeleton.actions.CheckAction'>
-2 191 254 191 0 0
-<class 'skeleton.actions.CheckAction'>
-2 191 254 191 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-392 392 393 59 0 333
-<class 'skeleton.actions.FoldAction'>
-400 400 398 136 2 264
-2 135 136 135 0 0
-<class 'skeleton.actions.CheckAction'>
-92 135 136 89 0 46
-<class 'skeleton.actions.CallAction'>
-2 89 90 89 0 0
-<class 'skeleton.actions.CheckAction'>
-89 89 90 31 0 58
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-324 392 393 230 0 162
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 283 398 283 0 0
-<class 'skeleton.actions.CheckAction'>
-2 283 398 283 0 0
-<class 'skeleton.actions.CheckAction'>
-2 283 398 283 0 0
-<class 'skeleton.actions.CheckAction'>
-283 283 398 42 0 241
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-59 400 393 367 7 33
-358 358 358 91 0 276
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-40 397 398 377 0 20
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-194 338 393 241 0 97
-<class 'skeleton.actions.CallAction'>
-2 241 296 241 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-400 400 398 106 2 294
-2 76 106 76 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-331 331 393 16 0 315
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 327 398 327 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 157 228 157 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 264 393 264 0 0
-<class 'skeleton.actions.CheckAction'>
-2 264 393 264 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 208 337 208 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 297 398 297 0 0
-<class 'skeleton.actions.CheckAction'>
-2 297 398 297 0 0
-<class 'skeleton.actions.CheckAction'>
-2 297 398 297 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-298 400 398 250 2 150
-2 154 250 154 0 0
-<class 'skeleton.actions.CheckAction'>
-136 154 250 86 0 68
-<class 'skeleton.actions.CallAction'>
-2 86 182 86 0 0
-<class 'skeleton.actions.CheckAction'>
-86 86 182 19 0 67
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 377 377 393 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-284 400 398 257 2 143
-2 157 257 157 0 0
-<class 'skeleton.actions.CheckAction'>
-2 157 257 157 0 0
-<class 'skeleton.actions.CheckAction'>
-2 157 257 157 0 0
-<class 'skeleton.actions.CheckAction'>
-157 157 257 74 0 83
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 384 393 384 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 353 362 353 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 388 388 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 373 373 383 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 325 325 335 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 318 318 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 78 78 158 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 46 46 126 0 0
-<class 'skeleton.actions.RaiseAction'>
-46 46 38 84 8 42
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-256 400 398 271 2 129
-2 270 271 270 0 0
-<class 'skeleton.actions.CheckAction'>
-2 270 271 270 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 69 70 69 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 259 398 259 0 0
-<class 'skeleton.actions.CheckAction'>
-259 259 398 18 0 241
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-265 400 393 264 7 136
-2 263 264 263 0 0
-<class 'skeleton.actions.CheckAction'>
-2 263 264 263 0 0
-<class 'skeleton.actions.CheckAction'>
-2 263 264 263 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-218 397 398 288 0 109
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-123 400 393 335 7 65
-2 283 283 335 0 0
-<class 'skeleton.actions.CheckAction'>
-2 283 283 335 0 0
-<class 'skeleton.actions.CheckAction'>
-2 283 283 335 0 0
-<class 'skeleton.actions.RaiseAction'>
-283 283 198 149 85 186
-<class 'skeleton.actions.RaiseAction'>
-400 400 398 33 2 367
-2 26 26 33 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 17 17 24 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 9 9 16 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-297 297 393 50 0 247
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-116 397 398 339 0 58
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-361 400 393 216 7 184
-2 215 216 215 0 0
-<class 'skeleton.actions.CheckAction'>
-38 215 216 196 0 19
-<class 'skeleton.actions.CallAction'>
-196 196 197 25 0 171
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-186 397 398 304 0 93
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 393 140 7 260
-2 137 137 140 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 59 59 62 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 46 46 49 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 289 398 289 0 0
-<class 'skeleton.actions.CheckAction'>
-2 289 398 289 0 0
-<class 'skeleton.actions.CheckAction'>
-2 289 398 289 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-69 400 393 362 7 38
-2 265 362 265 0 0
-<class 'skeleton.actions.CheckAction'>
-265 265 362 109 0 156
-<class 'skeleton.actions.FoldAction'>
-22 400 398 388 2 12
-2 286 388 286 0 0
-<class 'skeleton.actions.CheckAction'>
-2 286 388 286 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 250 352 250 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 232 393 232 0 0
-<class 'skeleton.actions.CheckAction'>
-2 232 393 232 0 0
-<class 'skeleton.actions.CheckAction'>
-2 232 393 232 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 291 291 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 291 291 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-291 291 239 219 52 179
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-144 278 393 206 0 72
-<class 'skeleton.actions.CallAction'>
-2 206 321 206 0 0
-<class 'skeleton.actions.CheckAction'>
-2 206 321 206 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-226 397 398 284 0 113
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 306 306 393 0 0
-<class 'skeleton.actions.CheckAction'>
-2 306 306 393 0 0
-<class 'skeleton.actions.CheckAction'>
-2 306 306 393 0 0
-<class 'skeleton.actions.CheckAction'>
 4 400 398 398 2 2
 2 398 398 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 331 331 331 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 14 14 14 0 0
-<class 'skeleton.actions.RaiseAction'>
 4 400 399 398 1 2
-65 400 393 364 7 36
-244 244 364 85 0 159
-<class 'skeleton.actions.FoldAction'>
-374 400 398 212 2 188
-2 160 160 212 0 0
-<class 'skeleton.actions.CheckAction'>
-2 160 160 212 0 0
-<class 'skeleton.actions.CheckAction'>
-104 160 160 160 0 52
-<class 'skeleton.actions.RaiseAction'>
-2 3 3 55 0 0
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.RaiseAction'>
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
 4 400 399 398 1 2
-69 400 393 362 7 38
-176 218 362 130 0 88
-<class 'skeleton.actions.CallAction'>
-2 130 274 130 0 0
-<class 'skeleton.actions.CheckAction'>
-18 130 274 121 0 9
-<class 'skeleton.actions.FoldAction'>
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
 4 400 398 398 2 2
 2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 9 10 9 0 0
-<class 'skeleton.actions.CheckAction'>
+4 397 398 395 0 2
+2 395 396 395 0 0
+15 395 393 386 3 9
+2 386 387 386 0 0
+26 386 387 373 0 13
 4 400 399 398 1 2
-95 400 393 349 7 51
-2 330 349 330 0 0
-<class 'skeleton.actions.RaiseAction'>
-144 254 273 182 0 72
-<class 'skeleton.actions.RaiseAction'>
-38 64 83 45 0 19
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-20 400 398 389 2 11
-2 216 389 216 0 0
-<class 'skeleton.actions.CheckAction'>
-2 216 389 216 0 0
-<class 'skeleton.actions.CheckAction'>
-2 216 389 216 0 0
-<class 'skeleton.actions.CheckAction'>
 4 400 399 398 1 2
-323 323 323 230 0 163
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 231 398 231 0 0
-<class 'skeleton.actions.CheckAction'>
-2 231 398 231 0 0
-<class 'skeleton.actions.CheckAction'>
-192 231 398 135 0 96
-<class 'skeleton.actions.FoldAction'>
 4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-298 392 393 243 0 149
-<class 'skeleton.actions.FoldAction'>
-400 400 398 180 2 220
-2 179 180 179 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CallAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-53 400 393 370 7 30
-2 234 370 234 0 0
-<class 'skeleton.actions.CheckAction'>
-2 234 370 234 0 0
-<class 'skeleton.actions.CheckAction'>
-2 234 370 234 0 0
-<class 'skeleton.actions.RaiseAction'>
-234 234 335 90 35 144
-<class 'skeleton.actions.RaiseAction'>
-210 400 398 294 2 106
-2 189 294 189 0 0
-<class 'skeleton.actions.CheckAction'>
-2 189 294 189 0 0
-<class 'skeleton.actions.CheckAction'>
-2 189 294 189 0 0
-<class 'skeleton.actions.CheckAction'>
 4 400 399 398 1 2
 4 400 398 398 2 2
-2 285 285 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 119 119 232 0 0
-<class 'skeleton.actions.RaiseAction'>
-119 119 76 134 43 98
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
+2 396 398 396 0 0
+2 396 398 396 0 0
+6 396 398 393 0 3
 4 400 399 398 1 2
-4 400 398 398 2 2
-2 255 398 255 0 0
-<class 'skeleton.actions.CheckAction'>
-2 255 398 255 0 0
-<class 'skeleton.actions.CheckAction'>
-2 255 398 255 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 260 393 260 0 0
-<class 'skeleton.actions.CheckAction'>
-2 260 393 260 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 236 369 236 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 367 398 367 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-400 400 393 148 7 252
-2 147 148 147 0 0
-<class 'skeleton.actions.CheckAction'>
-2 147 148 147 0 0
-<class 'skeleton.actions.CheckAction'>
-124 147 148 85 0 62
-<class 'skeleton.actions.CallAction'>
-4 400 398 398 2 2
-2 241 241 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 241 241 398 0 0
-<class 'skeleton.actions.CheckAction'>
-241 241 241 161 0 237
-<class 'skeleton.actions.CallAction'>
-2 4 4 161 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-400 400 393 116 7 284
-2 72 116 72 0 0
-<class 'skeleton.actions.CheckAction'>
-2 72 116 72 0 0
-<class 'skeleton.actions.CheckAction'>
-2 72 116 72 0 0
-<class 'skeleton.actions.CheckAction'>
-400 400 398 16 2 384
-2 15 16 15 0 0
-<class 'skeleton.actions.CheckAction'>
-15 15 16 4 0 11
-<class 'skeleton.actions.CallAction'>
-2 4 5 4 0 0
-<class 'skeleton.actions.CheckAction'>
-2 4 5 4 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-121 400 393 336 7 64
-2 318 318 336 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 5 5 23 0 0
-<class 'skeleton.actions.CheckAction'>
-2 5 5 23 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 395 395 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-400 400 393 29 7 371
-2 22 29 22 0 0
-<class 'skeleton.actions.CheckAction'>
-22 22 29 10 0 12
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-400 400 398 175 2 225
-2 140 175 140 0 0
-<class 'skeleton.actions.CheckAction'>
-2 140 175 140 0 0
-<class 'skeleton.actions.CheckAction'>
-2 140 175 140 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 260 393 260 0 0
-<class 'skeleton.actions.CheckAction'>
-2 260 393 260 0 0
-<class 'skeleton.actions.CheckAction'>
-2 260 393 260 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 310 310 398 0 0
-<class 'skeleton.actions.CheckAction'>
-310 310 310 203 0 195
-<class 'skeleton.actions.CallAction'>
-2 115 115 203 0 0
-<class 'skeleton.actions.CheckAction'>
-2 115 115 203 0 0
-<class 'skeleton.actions.RaiseAction'>
-44 115 103 175 12 28
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 278 393 278 0 0
-<class 'skeleton.actions.CheckAction'>
-2 278 393 278 0 0
-<class 'skeleton.actions.CheckAction'>
-2 278 393 278 0 0
-<class 'skeleton.actions.CheckAction'>
-400 400 398 39 2 361
-2 38 39 38 0 0
-<class 'skeleton.actions.CheckAction'>
-2 38 39 38 0 0
-<class 'skeleton.actions.CheckAction'>
-2 38 39 38 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-293 293 393 104 0 189
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 233 398 233 0 0
-<class 'skeleton.actions.CheckAction'>
-2 233 398 233 0 0
-<class 'skeleton.actions.CheckAction'>
-168 233 398 149 0 84
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 370 370 398 0 0
-<class 'skeleton.actions.CheckAction'>
-106 370 370 345 0 53
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 387 387 393 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 212 212 218 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 72 72 78 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 329 398 329 0 0
-<class 'skeleton.actions.CheckAction'>
-2 329 398 329 0 0
-<class 'skeleton.actions.CheckAction'>
-2 329 398 329 0 0
-<class 'skeleton.actions.CheckAction'>
-329 329 398 106 0 223
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 289 393 289 0 0
-<class 'skeleton.actions.CheckAction'>
-2 289 393 289 0 0
-<class 'skeleton.actions.CheckAction'>
-2 289 393 289 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-400 400 398 31 2 369
-2 30 31 30 0 0
-<class 'skeleton.actions.CheckAction'>
-2 30 31 30 0 0
-<class 'skeleton.actions.CheckAction'>
-2 30 31 30 0 0
-<class 'skeleton.actions.CheckAction'>
-30 30 31 5 0 25
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-84 228 393 186 0 42
-<class 'skeleton.actions.CallAction'>
-2 186 351 186 0 0
-<class 'skeleton.actions.CheckAction'>
-2 186 351 186 0 0
-<class 'skeleton.actions.CheckAction'>
-400 400 398 154 2 246
-2 106 154 106 0 0
-<class 'skeleton.actions.CheckAction'>
-2 106 154 106 0 0
-<class 'skeleton.actions.CheckAction'>
-2 106 154 106 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 267 398 267 0 0
-<class 'skeleton.actions.CheckAction'>
-267 267 398 96 0 171
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 232 393 232 0 0
-<class 'skeleton.actions.RaiseAction'>
-232 232 324 76 69 156
-<class 'skeleton.actions.FoldAction'>
-32 400 398 383 2 17
-2 280 280 383 0 0
-<class 'skeleton.actions.CheckAction'>
-2 280 280 383 0 0
-<class 'skeleton.actions.CheckAction'>
-2 280 280 383 0 0
-<class 'skeleton.actions.RaiseAction'>
-280 280 202 131 78 252
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 285 393 285 0 0
-<class 'skeleton.actions.CheckAction'>
-2 285 393 285 0 0
-<class 'skeleton.actions.CheckAction'>
-2 285 393 285 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 269 398 269 0 0
-<class 'skeleton.actions.CheckAction'>
-100 269 398 219 0 50
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-338 338 393 24 0 314
-<class 'skeleton.actions.CallAction'>
-2 24 79 24 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 22 77 22 0 0
-<class 'skeleton.actions.RaiseAction'>
-22 22 67 2 10 20
-<class 'skeleton.actions.RaiseAction'>
 4 400 398 398 2 2
 2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 151 0 246
-<class 'skeleton.actions.FoldAction'>
+4 397 398 395 0 2
 4 400 399 398 1 2
-4 400 398 398 2 2
-2 263 398 263 0 0
-<class 'skeleton.actions.RaiseAction'>
-263 263 344 94 54 169
-<class 'skeleton.actions.FoldAction'>
 4 400 399 398 1 2
-285 285 393 94 0 191
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 267 398 267 0 0
-<class 'skeleton.actions.CheckAction'>
-182 267 398 176 0 91
-<class 'skeleton.actions.FoldAction'>
 4 400 399 398 1 2
-2 234 393 234 0 0
-<class 'skeleton.actions.CheckAction'>
-2 234 393 234 0 0
-<class 'skeleton.actions.CheckAction'>
-2 234 393 234 0 0
-<class 'skeleton.actions.CheckAction'>
+4 400 399 398 1 2
+4 400 399 398 1 2
 4 400 398 398 2 2
 2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 103 0 294
-<class 'skeleton.actions.FoldAction'>
+4 397 398 395 0 2
+2 395 396 395 0 0
+2 395 396 395 0 0
+8 395 396 391 0 4
 4 400 399 398 1 2
-2 252 393 252 0 0
-<class 'skeleton.actions.RaiseAction'>
-156 164 305 86 0 78
-<class 'skeleton.actions.CallAction'>
-2 86 227 86 0 0
-<class 'skeleton.actions.CheckAction'>
-400 400 398 172 2 228
-2 171 172 171 0 0
-<class 'skeleton.actions.CheckAction'>
-2 171 172 171 0 0
-<class 'skeleton.actions.CheckAction'>
-171 171 172 22 0 149
-<class 'skeleton.actions.CallAction'>
-2 22 23 22 0 0
-<class 'skeleton.actions.CheckAction'>
 4 400 399 398 1 2
-2 291 393 291 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 206 308 206 0 0
-<class 'skeleton.actions.CheckAction'>
-2 206 308 206 0 0
-<class 'skeleton.actions.CheckAction'>
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
 4 400 398 398 2 2
-2 255 398 255 0 0
-<class 'skeleton.actions.CheckAction'>
-255 255 398 40 0 215
-<class 'skeleton.actions.FoldAction'>
+2 396 398 396 0 0
+6 396 398 393 0 3
+2 393 395 393 0 0
+2 393 395 393 0 0
+12 393 395 387 0 6
 4 400 399 398 1 2
-2 272 393 272 0 0
-<class 'skeleton.actions.CheckAction'>
-76 272 393 234 0 38
-<class 'skeleton.actions.CallAction'>
-2 234 355 234 0 0
-<class 'skeleton.actions.CheckAction'>
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
 4 400 398 398 2 2
-2 356 356 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 99 99 141 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 46 46 88 0 0
-<class 'skeleton.actions.CheckAction'>
-46 46 46 57 0 31
-<class 'skeleton.actions.RaiseAction'>
+2 398 398 398 0 0
+2 398 398 398 0 0
 4 400 399 398 1 2
-230 400 398 284 2 116
-2 219 284 219 0 0
-<class 'skeleton.actions.CheckAction'>
-2 219 284 219 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-21 400 393 386 7 14
-2 305 386 305 0 0
-<class 'skeleton.actions.CheckAction'>
-2 305 386 305 0 0
-<class 'skeleton.actions.CheckAction'>
-50 305 386 280 0 25
-<class 'skeleton.actions.RaiseAction'>
 4 400 398 398 2 2
-2 287 398 287 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 167 278 167 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 139 250 139 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
+2 398 398 398 0 0
 4 400 399 398 1 2
-2 378 378 393 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 213 213 228 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
 4 400 398 398 2 2
-2 259 398 259 0 0
-<class 'skeleton.actions.CheckAction'>
-2 259 398 259 0 0
-<class 'skeleton.actions.CheckAction'>
-2 259 398 259 0 0
-<class 'skeleton.actions.CheckAction'>
-188 259 398 165 0 94
-<class 'skeleton.actions.FoldAction'>
+2 396 398 396 0 0
+2 396 398 396 0 0
+6 396 398 393 0 3
 4 400 399 398 1 2
-400 400 393 80 7 320
-79 79 80 35 0 44
-<class 'skeleton.actions.CallAction'>
-35 35 36 3 0 32
-<class 'skeleton.actions.CallAction'>
-2 3 4 3 0 0
-<class 'skeleton.actions.CheckAction'>
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
 4 400 398 398 2 2
 2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 58 0 339
-<class 'skeleton.actions.FoldAction'>
+4 397 398 395 0 2
 4 400 399 398 1 2
-83 400 393 355 7 45
-273 273 273 129 0 226
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
+4 400 399 398 1 2
+4 400 399 398 1 2
 4 400 399 398 1 2
 4 400 398 398 2 2
-2 287 398 287 0 0
-<class 'skeleton.actions.CheckAction'>
-250 287 398 162 0 125
-<class 'skeleton.actions.CallAction'>
-2 162 273 162 0 0
-<class 'skeleton.actions.CheckAction'>
-2 162 273 162 0 0
-<class 'skeleton.actions.CheckAction'>
-162 162 273 4 0 158
-<class 'skeleton.actions.CallAction'>
+[397, 397]
+2 397 397 397 0 0
+6 397 397 394 0 3
+2 394 394 394 0 0
+12 394 394 388 0 6
+2 388 388 388 0 0
 4 400 399 398 1 2
-2 377 377 393 0 0
-<class 'skeleton.actions.CheckAction'>
-2 377 377 393 0 0
-<class 'skeleton.actions.CheckAction'>
-2 377 377 393 0 0
-<class 'skeleton.actions.CheckAction'>
-94 400 398 352 2 48
-2 351 352 351 0 0
-<class 'skeleton.actions.CheckAction'>
-268 351 352 217 0 134
-<class 'skeleton.actions.FoldAction'>
 4 400 399 398 1 2
-313 400 393 240 7 160
-172 172 240 53 0 119
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 263 398 263 0 0
-<class 'skeleton.actions.CheckAction'>
-172 263 398 177 0 86
-<class 'skeleton.actions.FoldAction'>
 4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-392 392 393 171 0 221
-<class 'skeleton.actions.FoldAction'>
-320 400 398 239 2 161
-2 167 167 167 0 0
-<class 'skeleton.actions.CheckAction'>
-2 167 167 167 0 0
-<class 'skeleton.actions.CheckAction'>
-76 167 167 129 0 38
-<class 'skeleton.actions.RaiseAction'>
-2 24 24 24 0 0
-<class 'skeleton.actions.CheckAction'>
-22 24 24 13 0 11
-<class 'skeleton.actions.RaiseAction'>
 4 400 399 398 1 2
-400 400 393 78 7 322
-55 55 55 29 0 49
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 377 377 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 377 377 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 377 377 398 0 0
-<class 'skeleton.actions.CheckAction'>
 4 400 399 398 1 2
-170 384 384 308 0 85
-<class 'skeleton.actions.CallAction'>
-2 299 299 308 0 0
-<class 'skeleton.actions.CheckAction'>
-2 299 299 308 0 0
-<class 'skeleton.actions.RaiseAction'>
-400 400 398 56 2 344
-2 56 56 56 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 11 11 11 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 3 3 3 0 0
-<class 'skeleton.actions.RaiseAction'>
 4 400 399 398 1 2
-392 392 393 7 0 385
-<class 'skeleton.actions.FoldAction'>
 4 400 398 398 2 2
 2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
+4 397 398 395 0 2
+2 395 396 395 0 0
+8 395 396 391 0 4
 4 400 399 398 1 2
-88 274 393 230 0 44
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 78 0 319
-<class 'skeleton.actions.FoldAction'>
 4 400 399 398 1 2
-32 295 393 279 0 16
-<class 'skeleton.actions.CallAction'>
-2 279 377 279 0 0
-<class 'skeleton.actions.CheckAction'>
-2 279 377 279 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 308 308 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 308 308 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 308 308 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-392 392 393 134 0 258
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 71 72 71 0 0
-<class 'skeleton.actions.CheckAction'>
-2 71 72 71 0 0
-<class 'skeleton.actions.CheckAction'>
-54 71 72 44 0 27
-<class 'skeleton.actions.CallAction'>
-4 400 399 398 1 2
-214 392 393 285 0 107
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 277 398 277 0 0
-<class 'skeleton.actions.CheckAction'>
-2 277 398 277 0 0
-<class 'skeleton.actions.CheckAction'>
-2 277 398 277 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 264 393 264 0 0
-<class 'skeleton.actions.CheckAction'>
-264 264 393 30 0 234
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 23 0 374
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 293 393 293 0 0
-<class 'skeleton.actions.CheckAction'>
-2 293 393 293 0 0
-<class 'skeleton.actions.CheckAction'>
-2 293 393 293 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-128 397 398 333 0 64
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-392 392 393 48 0 344
-<class 'skeleton.actions.FoldAction'>
-400 400 398 51 2 349
-2 46 51 46 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 18 23 18 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 8 13 8 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-258 258 393 29 0 229
-<class 'skeleton.actions.FoldAction'>
-400 400 398 153 2 247
-2 152 153 152 0 0
-<class 'skeleton.actions.CheckAction'>
-152 152 153 14 0 138
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-305 400 393 244 7 156
-2 197 197 244 0 0
-<class 'skeleton.actions.CheckAction'>
-2 197 197 244 0 0
-<class 'skeleton.actions.CheckAction'>
-2 197 197 244 0 0
-<class 'skeleton.actions.CheckAction'>
-268 400 398 265 2 135
-2 163 265 163 0 0
-<class 'skeleton.actions.CheckAction'>
-2 163 265 163 0 0
-<class 'skeleton.actions.CheckAction'>
-2 163 265 163 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-400 400 393 50 7 350
-2 39 50 39 0 0
-<class 'skeleton.actions.CheckAction'>
-2 39 50 39 0 0
-<class 'skeleton.actions.CheckAction'>
-2 39 50 39 0 0
-<class 'skeleton.actions.CheckAction'>
-400 400 398 108 2 292
-2 79 108 79 0 0
-<class 'skeleton.actions.CheckAction'>
-38 79 108 60 0 19
-<class 'skeleton.actions.RaiseAction'>
-2 24 53 24 0 0
-<class 'skeleton.actions.CheckAction'>
-8 24 53 20 0 4
-<class 'skeleton.actions.RaiseAction'>
-2 6 35 6 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 254 393 254 0 0
-<class 'skeleton.actions.CheckAction'>
-180 254 393 164 0 90
-<class 'skeleton.actions.FoldAction'>
-92 400 398 353 2 47
-2 278 353 278 0 0
-<class 'skeleton.actions.CheckAction'>
-2 278 353 278 0 0
-<class 'skeleton.actions.CheckAction'>
-278 278 353 54 0 224
-<class 'skeleton.actions.CallAction'>
-2 54 129 54 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-120 392 393 332 0 60
-<class 'skeleton.actions.FoldAction'>
-218 400 398 290 2 110
-2 193 290 193 0 0
-<class 'skeleton.actions.CheckAction'>
-2 193 290 193 0 0
-<class 'skeleton.actions.CheckAction'>
-2 193 290 193 0 0
-<class 'skeleton.actions.RaiseAction'>
 4 400 399 398 1 2
 4 400 398 398 2 2
-2 263 398 263 0 0
-<class 'skeleton.actions.CheckAction'>
-2 263 398 263 0 0
-<class 'skeleton.actions.CheckAction'>
-2 263 398 263 0 0
-<class 'skeleton.actions.CheckAction'>
-144 263 398 191 0 72
-<class 'skeleton.actions.FoldAction'>
+2 398 398 398 0 0
 4 400 399 398 1 2
-351 351 351 132 0 261
-<class 'skeleton.actions.FoldAction'>
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
 4 400 398 398 2 2
 2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 186 0 211
-<class 'skeleton.actions.FoldAction'>
+4 397 398 395 0 2
+2 395 396 395 0 0
+8 395 396 391 0 4
+2 391 392 391 0 0
 4 400 399 398 1 2
-2 266 393 266 0 0
-<class 'skeleton.actions.CheckAction'>
-2 266 393 266 0 0
-<class 'skeleton.actions.CheckAction'>
-266 266 393 9 0 257
-<class 'skeleton.actions.FoldAction'>
+4 400 399 398 1 2
 4 400 398 398 2 2
-2 287 287 287 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 216 216 216 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 8 8 8 0 0
-<class 'skeleton.actions.RaiseAction'>
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
 4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-194 392 393 295 0 97
-<class 'skeleton.actions.CallAction'>
-400 400 398 45 2 355
-2 29 45 29 0 0
-<class 'skeleton.actions.CheckAction'>
-2 29 45 29 0 0
-<class 'skeleton.actions.CheckAction'>
-4 29 45 27 0 2
-<class 'skeleton.actions.CallAction'>
-2 27 43 27 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
 4 400 398 398 2 2
 2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-246 397 398 274 0 123
-<class 'skeleton.actions.FoldAction'>
+4 397 398 395 0 2
 4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.RaiseAction'>
-117 117 118 33 0 84
-<class 'skeleton.actions.CallAction'>
-20 33 34 23 0 10
-<class 'skeleton.actions.CallAction'>
-4 400 398 398 2 2
-2 295 398 295 0 0
-<class 'skeleton.actions.CheckAction'>
-2 295 398 295 0 0
-<class 'skeleton.actions.CheckAction'>
-2 295 398 295 0 0
-<class 'skeleton.actions.RaiseAction'>
 4 400 399 398 1 2
-268 268 393 34 0 234
-<class 'skeleton.actions.FoldAction'>
-220 400 398 289 2 111
-2 214 289 214 0 0
-<class 'skeleton.actions.CheckAction'>
-2 214 289 214 0 0
-<class 'skeleton.actions.CheckAction'>
-2 214 289 214 0 0
-<class 'skeleton.actions.CheckAction'>
 4 400 399 398 1 2
-74 392 393 355 0 37
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-342 397 398 226 0 171
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 393 28 7 372
-18 27 28 18 0 9
-<class 'skeleton.actions.CallAction'>
-18 18 19 4 0 14
-<class 'skeleton.actions.CallAction'>
-2 4 5 4 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 281 398 281 0 0
-<class 'skeleton.actions.CheckAction'>
-281 281 398 119 0 162
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 234 393 234 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 2 161 2 0 0
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 345 398 345 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 307 360 307 0 0
-<class 'skeleton.actions.CheckAction'>
-2 307 360 307 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 313 393 313 0 0
-<class 'skeleton.actions.CheckAction'>
-2 313 393 313 0 0
-<class 'skeleton.actions.CheckAction'>
-2 313 393 313 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 102 0 295
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-102 338 338 342 0 51
-<class 'skeleton.actions.RaiseAction'>
-338 338 182 78 156 315
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-176 397 398 309 0 88
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-262 262 393 50 0 212
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 361 361 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 361 361 398 0 0
-<class 'skeleton.actions.CheckAction'>
-230 361 361 283 0 115
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-22 392 393 381 0 11
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 257 398 257 0 0
-<class 'skeleton.actions.CheckAction'>
-2 257 398 257 0 0
-<class 'skeleton.actions.CheckAction'>
-244 257 398 135 0 122
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-262 392 393 261 0 131
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-122 397 398 336 0 61
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 276 393 276 0 0
-<class 'skeleton.actions.CheckAction'>
-66 276 393 243 0 33
-<class 'skeleton.actions.CallAction'>
-116 243 360 185 0 58
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 350 350 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 235 235 283 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 260 393 260 0 0
-<class 'skeleton.actions.CheckAction'>
-2 260 393 260 0 0
-<class 'skeleton.actions.CheckAction'>
-2 260 393 260 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 36 0 361
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-282 392 393 251 0 141
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 60 0 337
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-136 278 393 210 0 68
-<class 'skeleton.actions.CallAction'>
-2 210 325 210 0 0
-<class 'skeleton.actions.CheckAction'>
-210 210 325 45 0 165
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-180 397 398 307 0 90
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-279 400 393 257 7 143
-2 256 257 256 0 0
-<class 'skeleton.actions.CheckAction'>
-184 256 257 164 0 92
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 275 398 275 0 0
-<class 'skeleton.actions.CheckAction'>
-2 275 398 275 0 0
-<class 'skeleton.actions.CheckAction'>
-170 275 398 190 0 85
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 274 393 274 0 0
-<class 'skeleton.actions.CheckAction'>
-2 274 393 274 0 0
-<class 'skeleton.actions.CheckAction'>
-2 274 393 274 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
 4 400 399 398 1 2
 4 400 398 398 2 2
-2 367 367 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 31 31 62 0 0
-<class 'skeleton.actions.CheckAction'>
-2 31 31 62 0 0
-<class 'skeleton.actions.RaiseAction'>
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
 4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-392 392 393 161 0 231
-<class 'skeleton.actions.FoldAction'>
-302 400 398 248 2 152
-2 169 248 169 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 147 226 147 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 7 86 7 0 0
-<class 'skeleton.actions.RaiseAction'>
 4 400 399 398 1 2
-2 315 393 315 0 0
-<class 'skeleton.actions.CheckAction'>
-2 315 393 315 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 186 264 186 0 0
-<class 'skeleton.actions.RaiseAction'>
-400 400 398 20 2 380
-2 14 20 14 0 0
-<class 'skeleton.actions.CheckAction'>
-2 14 20 14 0 0
-<class 'skeleton.actions.CheckAction'>
-2 14 20 14 0 0
-<class 'skeleton.actions.CheckAction'>
-14 14 20 2 0 12
-<class 'skeleton.actions.RaiseAction'>
 4 400 399 398 1 2
-400 400 393 116 7 284
-2 84 116 84 0 0
-<class 'skeleton.actions.CheckAction'>
-70 84 116 49 0 35
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-202 400 398 298 2 102
-2 217 298 217 0 0
-<class 'skeleton.actions.CheckAction'>
-2 217 298 217 0 0
-<class 'skeleton.actions.CheckAction'>
-2 217 298 217 0 0
-<class 'skeleton.actions.CheckAction'>
 4 400 399 398 1 2
-400 400 393 78 7 322
-28 50 78 36 0 14
-<class 'skeleton.actions.RaiseAction'>
-8 18 46 14 0 4
-<class 'skeleton.actions.CallAction'>
-2 14 42 14 0 0
-<class 'skeleton.actions.CheckAction'>
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
 4 400 398 398 2 2
 2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
+4 397 398 395 0 2
 4 400 399 398 1 2
-327 327 327 219 0 174
-<class 'skeleton.actions.CallAction'>
-48 153 153 195 0 24
-<class 'skeleton.actions.RaiseAction'>
-2 71 71 137 0 0
-<class 'skeleton.actions.RaiseAction'>
-380 400 398 209 2 191
-2 155 209 155 0 0
-<class 'skeleton.actions.CheckAction'>
-2 155 209 155 0 0
-<class 'skeleton.actions.CheckAction'>
-124 155 209 93 0 62
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
 4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-400 400 398 159 2 241
-2 147 147 159 0 0
-<class 'skeleton.actions.CheckAction'>
-2 147 147 159 0 0
-<class 'skeleton.actions.CheckAction'>
-2 147 147 159 0 0
-<class 'skeleton.actions.CheckAction'>
 4 400 399 398 1 2
-2 283 283 393 0 0
-<class 'skeleton.actions.RaiseAction'>
-283 283 185 186 98 207
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 299 398 299 0 0
-<class 'skeleton.actions.CheckAction'>
-276 299 398 161 0 138
-<class 'skeleton.actions.FoldAction'>
 4 400 399 398 1 2
-2 264 393 264 0 0
-<class 'skeleton.actions.CheckAction'>
-74 264 393 227 0 37
-<class 'skeleton.actions.FoldAction'>
-324 400 398 237 2 163
-2 236 237 236 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 207 208 207 0 0
-<class 'skeleton.actions.CheckAction'>
-182 207 208 116 0 91
-<class 'skeleton.actions.FoldAction'>
 4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.RaiseAction'>
-183 392 390 299 3 93
-<class 'skeleton.actions.FoldAction'>
-368 400 398 215 2 185
-2 214 215 214 0 0
-<class 'skeleton.actions.CheckAction'>
-214 214 215 36 0 178
-<class 'skeleton.actions.FoldAction'>
 4 400 399 398 1 2
-2 274 393 274 0 0
-<class 'skeleton.actions.CheckAction'>
-2 274 393 274 0 0
-<class 'skeleton.actions.CheckAction'>
-138 274 393 205 0 69
-<class 'skeleton.actions.FoldAction'>
-400 400 398 46 2 354
-2 34 46 34 0 0
-<class 'skeleton.actions.CheckAction'>
-2 34 46 34 0 0
-<class 'skeleton.actions.CheckAction'>
-32 34 46 18 0 16
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
 4 400 399 398 1 2
-400 400 393 153 7 247
-2 89 153 89 0 0
-<class 'skeleton.actions.CheckAction'>
-89 89 153 17 0 72
-<class 'skeleton.actions.CallAction'>
-12 17 81 11 0 6
-<class 'skeleton.actions.CallAction'>
-4 400 398 398 2 2
-2 245 398 245 0 0
-<class 'skeleton.actions.CheckAction'>
-2 245 398 245 0 0
-<class 'skeleton.actions.CheckAction'>
-2 245 398 245 0 0
-<class 'skeleton.actions.CheckAction'>
-204 245 398 143 0 102
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-184 360 393 268 0 92
-<class 'skeleton.actions.CallAction'>
-2 268 301 268 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 146 179 146 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 291 398 291 0 0
-<class 'skeleton.actions.CheckAction'>
-2 291 398 291 0 0
-<class 'skeleton.actions.CheckAction'>
-66 291 398 258 0 33
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 307 393 307 0 0
-<class 'skeleton.actions.CheckAction'>
-2 307 393 307 0 0
-<class 'skeleton.actions.CheckAction'>
-2 307 393 307 0 0
-<class 'skeleton.actions.CheckAction'>
-146 400 398 326 2 74
-2 208 326 208 0 0
-<class 'skeleton.actions.CheckAction'>
-2 208 326 208 0 0
-<class 'skeleton.actions.CheckAction'>
-2 208 326 208 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-223 400 393 285 7 115
-247 247 285 85 0 162
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
 4 400 398 398 2 2
 2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 161 0 236
-<class 'skeleton.actions.FoldAction'>
+4 397 398 395 0 2
 4 400 399 398 1 2
-289 289 289 137 0 256
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 299 398 299 0 0
-<class 'skeleton.actions.CheckAction'>
-248 299 398 175 0 124
-<class 'skeleton.actions.CallAction'>
-2 175 274 175 0 0
-<class 'skeleton.actions.CheckAction'>
-122 175 274 114 0 61
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
 4 400 399 398 1 2
 4 400 398 398 2 2
-2 289 289 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 289 289 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 289 289 398 0 0
-<class 'skeleton.actions.CheckAction'>
-289 289 289 216 0 182
-<class 'skeleton.actions.FoldAction'>
+2 398 398 398 0 0
+2 396 396 396 0 0
+2 393 393 393 0 0
 4 400 399 398 1 2
-2 325 393 325 0 0
-<class 'skeleton.actions.CheckAction'>
-2 325 393 325 0 0
-<class 'skeleton.actions.RaiseAction'>
-6 106 174 103 0 3
-<class 'skeleton.actions.RaiseAction'>
-168 400 398 315 2 85
-2 264 264 315 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 242 242 293 0 0
-<class 'skeleton.actions.CheckAction'>
-242 242 242 86 0 207
-<class 'skeleton.actions.CallAction'>
-2 35 35 86 0 0
-<class 'skeleton.actions.CheckAction'>
 4 400 399 398 1 2
-76 256 393 218 0 38
-<class 'skeleton.actions.CallAction'>
-2 218 355 218 0 0
-<class 'skeleton.actions.CheckAction'>
-2 218 355 218 0 0
-<class 'skeleton.actions.CheckAction'>
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
 4 400 398 398 2 2
-2 253 398 253 0 0
-<class 'skeleton.actions.CheckAction'>
-2 253 398 253 0 0
-<class 'skeleton.actions.CheckAction'>
-2 253 398 253 0 0
-<class 'skeleton.actions.CheckAction'>
+2 396 398 396 0 0
+6 396 398 393 0 3
 4 400 399 398 1 2
-400 400 393 131 7 269
-2 125 131 125 0 0
-<class 'skeleton.actions.CheckAction'>
-2 125 131 125 0 0
-<class 'skeleton.actions.RaiseAction'>
-125 125 106 32 25 93
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
+4 400 399 398 1 2
 4 400 398 398 2 2
-2 371 398 371 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 87 114 87 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 30 57 30 0 0
-<class 'skeleton.actions.RaiseAction'>
-21 30 50 16 7 14
-<class 'skeleton.actions.RaiseAction'>
+2 398 398 398 0 0
 4 400 399 398 1 2
-2 290 290 393 0 0
-<class 'skeleton.actions.RaiseAction'>
-36 61 61 146 0 18
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 393 398 393 0 0
-<class 'skeleton.actions.RaiseAction'>
-393 393 359 107 39 286
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
 4 400 399 398 1 2
-57 400 393 368 7 32
-146 288 368 215 0 73
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-64 400 398 367 2 33
-2 366 367 366 0 0
-<class 'skeleton.actions.CheckAction'>
-2 366 367 366 0 0
-<class 'skeleton.actions.CheckAction'>
-2 366 367 366 0 0
-<class 'skeleton.actions.CheckAction'>
-54 366 367 339 0 27
-<class 'skeleton.actions.FoldAction'>
 4 400 399 398 1 2
-236 392 393 274 0 118
-<class 'skeleton.actions.FoldAction'>
+4 400 399 398 1 2
 4 400 398 398 2 2
 2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 75 0 322
-<class 'skeleton.actions.FoldAction'>
+2 394 395 394 0 0
+2 391 392 391 0 0
 4 400 399 398 1 2
-2 358 393 358 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 137 172 137 0 0
-<class 'skeleton.actions.CheckAction'>
-2 137 172 137 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
 4 400 399 398 1 2
 4 400 398 398 2 2
-2 271 398 271 0 0
-<class 'skeleton.actions.CheckAction'>
-62 271 398 240 0 31
-<class 'skeleton.actions.CallAction'>
-2 240 367 240 0 0
-<class 'skeleton.actions.CheckAction'>
-2 240 367 240 0 0
-<class 'skeleton.actions.RaiseAction'>
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 398 398 396 0 2
+2 396 396 396 0 0
+8 396 396 392 0 4
 4 400 399 398 1 2
-299 299 299 138 0 255
-<class 'skeleton.actions.CallAction'>
-2 44 44 138 0 0
-<class 'skeleton.actions.CheckAction'>
-2 44 44 138 0 0
-<class 'skeleton.actions.CheckAction'>
 4 400 398 398 2 2
-2 309 398 309 0 0
-<class 'skeleton.actions.CheckAction'>
-2 309 398 309 0 0
-<class 'skeleton.actions.CheckAction'>
-2 309 398 309 0 0
-<class 'skeleton.actions.CheckAction'>
-94 309 398 262 0 47
-<class 'skeleton.actions.CallAction'>
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
 4 400 399 398 1 2
-341 400 393 226 7 174
-2 152 226 152 0 0
-<class 'skeleton.actions.CheckAction'>
-2 152 226 152 0 0
-<class 'skeleton.actions.CheckAction'>
-2 152 226 152 0 0
-<class 'skeleton.actions.CheckAction'>
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 396 398 396 0 0
+2 396 398 396 0 0
+6 396 398 393 0 3
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+14 393 393 386 0 7
+2 379 379 379 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+[397, 397]
+2 397 397 397 0 0
+6 397 397 394 0 3
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 396 398 396 0 0
+6 396 398 393 0 3
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 396 398 396 0 0
+2 396 398 396 0 0
+6 396 398 393 0 3
+2 393 395 393 0 0
+17 393 392 383 3 10
+62 393 375 352 20 41
+176 393 333 274 62 119
+393 393 219 64 176 329
+4 400 399 398 1 2
+4 400 399 398 1 2
+16 391 393 383 0 8
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
 4 400 398 398 2 2
 2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-182 397 398 306 0 91
-<class 'skeleton.actions.FoldAction'>
+4 397 398 395 0 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 396 396 396 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+2 393 393 393 0 0
+26 387 387 374 0 13
+78 361 361 322 0 39
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 396 398 396 0 0
+6 396 398 393 0 3
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 396 398 396 0 0
+6 396 398 393 0 3
+2 393 395 393 0 0
+12 393 395 387 0 6
+2 387 389 387 0 0
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 396 398 396 0 0
+2 396 398 396 0 0
+6 396 398 393 0 3
+2 393 395 393 0 0
+12 393 395 387 0 6
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 397 398 397 0 0
+4 397 398 395 0 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 396 398 396 0 0
+6 396 398 393 0 3
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 397 398 397 0 0
+4 397 398 395 0 2
+2 395 396 395 0 0
+8 395 396 391 0 4
+2 391 392 391 0 0
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 396 398 396 0 0
+6 396 398 393 0 3
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 397 398 397 0 0
+2 397 398 397 0 0
+4 397 398 395 0 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+14 392 393 385 0 7
+4 400 399 398 1 2
+14 392 393 385 0 7
+4 400 398 398 2 2
+2 397 398 397 0 0
+4 397 398 395 0 2
+2 395 396 395 0 0
+2 393 394 393 0 0
+12 393 394 387 0 6
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
+2 393 393 393 0 0
+14 393 393 386 0 7
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 397 398 397 0 0
+4 397 398 395 0 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+[392, 392]
+16 392 392 384 0 8
+32 384 384 368 0 16
+2 368 368 368 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 396 398 396 0 0
+2 396 398 396 0 0
+6 396 398 393 0 3
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 396 398 396 0 0
+6 396 398 393 0 3
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 397 397 398 0 0
+2 397 397 398 0 0
+2 397 397 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+16 391 393 383 0 8
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+14 392 393 385 0 7
+28 385 386 371 0 14
+56 371 372 343 0 28
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+2 391 393 391 0 0
+16 391 393 383 0 8
+32 383 385 367 0 16
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 397 398 397 0 0
+4 397 398 395 0 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 397 398 397 0 0
+4 397 398 395 0 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
 4 400 399 398 1 2
 234 258 393 141 0 117
 <class 'skeleton.actions.FoldAction'>
@@ -5325,1162 +771,144 @@
 <class 'skeleton.actions.CheckAction'>
 4 400 398 398 2 2
 2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
 2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
 2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-126 312 312 330 0 63
-<class 'skeleton.actions.RaiseAction'>
-46 46 46 84 0 43
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-400 400 398 11 2 389
-2 8 11 8 0 0
-<class 'skeleton.actions.CheckAction'>
-8 8 11 2 0 6
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-135 400 393 329 7 71
-2 328 329 328 0 0
-<class 'skeleton.actions.CheckAction'>
-2 328 329 328 0 0
-<class 'skeleton.actions.CheckAction'>
-2 328 329 328 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 345 398 345 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 42 95 42 0 0
-<class 'skeleton.actions.CheckAction'>
-2 42 95 42 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 285 393 285 0 0
-<class 'skeleton.actions.CheckAction'>
-2 285 393 285 0 0
-<class 'skeleton.actions.RaiseAction'>
-136 234 342 166 0 68
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 340 340 398 0 0
-<class 'skeleton.actions.CheckAction'>
-160 340 340 318 0 80
-<class 'skeleton.actions.RaiseAction'>
-2 76 76 134 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 56 56 114 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-400 400 393 25 7 375
-2 24 25 24 0 0
-<class 'skeleton.actions.CheckAction'>
-2 24 25 24 0 0
-<class 'skeleton.actions.CheckAction'>
-2 24 25 24 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 338 338 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-400 400 393 40 7 360
-2 25 40 25 0 0
-<class 'skeleton.actions.CheckAction'>
-2 25 40 25 0 0
-<class 'skeleton.actions.CheckAction'>
-2 25 40 25 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 249 398 249 0 0
-<class 'skeleton.actions.CheckAction'>
-146 249 398 176 0 73
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 393 164 7 236
-163 163 164 27 0 136
-<class 'skeleton.actions.CallAction'>
-2 27 28 27 0 0
-<class 'skeleton.actions.CheckAction'>
-2 27 28 27 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 299 398 299 0 0
-<class 'skeleton.actions.CheckAction'>
-2 299 398 299 0 0
-<class 'skeleton.actions.CheckAction'>
-2 299 398 299 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-198 287 393 188 0 99
-<class 'skeleton.actions.CallAction'>
-188 188 294 73 0 115
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 242 243 242 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 270 393 270 0 0
-<class 'skeleton.actions.CheckAction'>
-2 270 393 270 0 0
-<class 'skeleton.actions.CheckAction'>
-2 270 393 270 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 355 398 355 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 201 244 201 0 0
-<class 'skeleton.actions.CheckAction'>
-2 201 244 201 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-244 400 398 277 2 123
-2 183 277 183 0 0
-<class 'skeleton.actions.CheckAction'>
-2 183 277 183 0 0
-<class 'skeleton.actions.CheckAction'>
-82 183 277 142 0 41
-<class 'skeleton.actions.CallAction'>
-2 142 236 142 0 0
-<class 'skeleton.actions.CheckAction'>
-108 142 236 88 0 54
-<class 'skeleton.actions.CallAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-18 392 393 383 0 9
-<class 'skeleton.actions.FoldAction'>
-228 400 398 285 2 115
-2 284 285 284 0 0
-<class 'skeleton.actions.CheckAction'>
-2 284 285 284 0 0
-<class 'skeleton.actions.CheckAction'>
-2 284 285 284 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-286 392 393 249 0 143
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 271 398 271 0 0
-<class 'skeleton.actions.CheckAction'>
-2 271 398 271 0 0
-<class 'skeleton.actions.RaiseAction'>
-271 271 294 44 104 227
-<class 'skeleton.actions.CallAction'>
-2 44 171 44 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 359 398 359 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 313 313 393 0 0
-<class 'skeleton.actions.CheckAction'>
-2 313 313 393 0 0
-<class 'skeleton.actions.CheckAction'>
-2 313 313 393 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 357 398 357 0 0
-<class 'skeleton.actions.RaiseAction'>
-357 357 280 12 118 345
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-274 281 281 256 0 137
-<class 'skeleton.actions.CallAction'>
-144 144 144 127 0 129
-<class 'skeleton.actions.CallAction'>
-2 15 15 127 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 122 0 275
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-392 392 393 127 0 265
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-144 397 398 325 0 72
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 265 398 265 0 0
-<class 'skeleton.actions.CheckAction'>
-2 265 398 265 0 0
-<class 'skeleton.actions.CheckAction'>
-2 265 398 265 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 336 336 398 0 0
-<class 'skeleton.actions.CheckAction'>
-164 336 336 316 0 82
-<class 'skeleton.actions.CallAction'>
-2 254 254 316 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 127 127 189 0 0
-<class 'skeleton.actions.CheckAction'>
-127 127 127 82 0 107
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-400 400 398 196 2 204
-2 174 196 174 0 0
-<class 'skeleton.actions.RaiseAction'>
-129 174 187 105 9 69
-<class 'skeleton.actions.RaiseAction'>
-2 30 52 30 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 28 50 28 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-392 392 393 96 0 296
-<class 'skeleton.actions.FoldAction'>
-192 400 398 303 2 97
-2 213 303 213 0 0
-<class 'skeleton.actions.CheckAction'>
-2 213 303 213 0 0
-<class 'skeleton.actions.CheckAction'>
-213 213 303 9 0 204
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 393 10 7 390
-2 8 10 8 0 0
-<class 'skeleton.actions.CheckAction'>
-2 8 10 8 0 0
-<class 'skeleton.actions.CheckAction'>
-2 8 10 8 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 327 398 327 0 0
-<class 'skeleton.actions.CheckAction'>
-327 327 398 31 0 296
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 243 398 243 0 0
-<class 'skeleton.actions.CheckAction'>
-2 243 398 243 0 0
-<class 'skeleton.actions.CheckAction'>
-2 243 398 243 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-392 392 393 120 0 272
-<class 'skeleton.actions.FoldAction'>
-340 400 398 229 2 171
-2 218 218 229 0 0
-<class 'skeleton.actions.CheckAction'>
-2 218 218 229 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 17 17 28 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-400 400 398 168 2 232
-2 167 168 167 0 0
-<class 'skeleton.actions.CheckAction'>
-68 167 168 133 0 34
-<class 'skeleton.actions.CallAction'>
-2 133 134 133 0 0
-<class 'skeleton.actions.CheckAction'>
-2 133 134 133 0 0
-<class 'skeleton.actions.CheckAction'>
-133 133 134 63 0 70
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 254 393 254 0 0
-<class 'skeleton.actions.CheckAction'>
-2 254 393 254 0 0
-<class 'skeleton.actions.CheckAction'>
-2 254 393 254 0 0
-<class 'skeleton.actions.CheckAction'>
-400 400 398 122 2 278
-2 121 122 121 0 0
-<class 'skeleton.actions.CheckAction'>
-2 121 122 121 0 0
-<class 'skeleton.actions.CheckAction'>
-2 121 122 121 0 0
-<class 'skeleton.actions.CheckAction'>
-4 121 122 119 0 2
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-400 400 393 132 7 268
-88 88 132 3 0 85
-<class 'skeleton.actions.CallAction'>
-2 3 47 3 0 0
-<class 'skeleton.actions.CheckAction'>
-2 3 47 3 0 0
-<class 'skeleton.actions.CheckAction'>
-86 400 398 356 2 44
-2 255 356 255 0 0
-<class 'skeleton.actions.CheckAction'>
-2 255 356 255 0 0
-<class 'skeleton.actions.CheckAction'>
-255 255 356 74 0 181
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 291 393 291 0 0
-<class 'skeleton.actions.CheckAction'>
-2 291 393 291 0 0
-<class 'skeleton.actions.CheckAction'>
-2 291 393 291 0 0
-<class 'skeleton.actions.RaiseAction'>
-64 400 398 367 2 33
-2 248 367 248 0 0
-<class 'skeleton.actions.CheckAction'>
-2 248 367 248 0 0
-<class 'skeleton.actions.CheckAction'>
-2 248 367 248 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-327 327 327 193 0 200
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 261 398 261 0 0
-<class 'skeleton.actions.CheckAction'>
-2 261 398 261 0 0
-<class 'skeleton.actions.CheckAction'>
-2 261 398 261 0 0
-<class 'skeleton.actions.CheckAction'>
-16 261 398 253 0 8
-<class 'skeleton.actions.CallAction'>
-4 400 399 398 1 2
-2 254 393 254 0 0
-<class 'skeleton.actions.CheckAction'>
-2 254 393 254 0 0
-<class 'skeleton.actions.CheckAction'>
-2 254 393 254 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 253 398 253 0 0
-<class 'skeleton.actions.CheckAction'>
-2 253 398 253 0 0
-<class 'skeleton.actions.CheckAction'>
-253 253 398 46 0 207
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 393 110 7 290
-102 102 110 5 0 97
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 285 398 285 0 0
-<class 'skeleton.actions.CheckAction'>
-2 285 398 285 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 279 392 279 0 0
-<class 'skeleton.actions.CheckAction'>
-28 279 392 265 0 14
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 272 393 272 0 0
-<class 'skeleton.actions.CheckAction'>
-2 272 393 272 0 0
-<class 'skeleton.actions.CheckAction'>
-2 272 393 272 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 253 398 253 0 0
-<class 'skeleton.actions.CheckAction'>
-2 253 398 253 0 0
-<class 'skeleton.actions.CheckAction'>
-2 253 398 253 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-189 400 393 302 7 98
-116 204 302 146 0 58
-<class 'skeleton.actions.CallAction'>
-2 146 244 146 0 0
-<class 'skeleton.actions.CheckAction'>
-146 146 244 62 0 84
-<class 'skeleton.actions.FoldAction'>
-102 400 398 348 2 52
-2 209 348 209 0 0
-<class 'skeleton.actions.CheckAction'>
-56 209 348 181 0 28
-<class 'skeleton.actions.CallAction'>
-2 181 320 181 0 0
-<class 'skeleton.actions.CheckAction'>
-2 181 320 181 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-171 400 393 311 7 89
-2 192 311 192 0 0
-<class 'skeleton.actions.CheckAction'>
-2 192 311 192 0 0
-<class 'skeleton.actions.CheckAction'>
-2 192 311 192 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 269 398 269 0 0
-<class 'skeleton.actions.CheckAction'>
-2 269 398 269 0 0
-<class 'skeleton.actions.CheckAction'>
-60 269 398 239 0 30
-<class 'skeleton.actions.CallAction'>
-2 239 368 239 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-400 400 393 182 7 218
-2 162 162 182 0 0
-<class 'skeleton.actions.CheckAction'>
-2 162 162 182 0 0
-<class 'skeleton.actions.CheckAction'>
-162 162 162 100 0 82
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 270 270 398 0 0
-<class 'skeleton.actions.CheckAction'>
-270 270 270 242 0 156
-<class 'skeleton.actions.CallAction'>
-2 114 114 242 0 0
-<class 'skeleton.actions.CheckAction'>
-2 114 114 242 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-392 392 393 62 0 330
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 375 375 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 375 375 398 0 0
-<class 'skeleton.actions.CheckAction'>
-228 375 375 284 0 114
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-287 287 393 50 0 237
-<class 'skeleton.actions.FoldAction'>
-400 400 398 35 2 365
-2 26 35 26 0 0
-<class 'skeleton.actions.CheckAction'>
-2 26 35 26 0 0
-<class 'skeleton.actions.CheckAction'>
-22 26 35 15 0 11
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-392 392 393 69 0 323
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 366 366 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 366 366 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 366 366 398 0 0
-<class 'skeleton.actions.CheckAction'>
-82 366 366 357 0 41
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 373 373 393 0 0
-<class 'skeleton.actions.CheckAction'>
-2 373 373 393 0 0
-<class 'skeleton.actions.CheckAction'>
-373 373 373 29 0 364
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 16 0 381
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-305 400 393 244 7 156
-2 164 244 164 0 0
-<class 'skeleton.actions.CheckAction'>
-2 164 244 164 0 0
-<class 'skeleton.actions.CheckAction'>
-116 164 244 106 0 58
-<class 'skeleton.actions.CallAction'>
-4 400 398 398 2 2
-2 379 379 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-400 400 393 186 7 214
-20 185 186 175 0 10
-<class 'skeleton.actions.CallAction'>
-175 175 176 62 0 113
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 353 353 398 0 0
-<class 'skeleton.actions.CheckAction'>
-353 353 353 132 0 266
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 291 398 291 0 0
-<class 'skeleton.actions.CheckAction'>
-2 291 398 291 0 0
-<class 'skeleton.actions.CheckAction'>
-2 291 398 291 0 0
-<class 'skeleton.actions.CheckAction'>
-184 291 398 199 0 92
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 250 393 250 0 0
-<class 'skeleton.actions.CheckAction'>
-2 250 393 250 0 0
-<class 'skeleton.actions.CheckAction'>
-2 250 393 250 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 336 336 398 0 0
-<class 'skeleton.actions.CheckAction'>
-336 336 336 216 0 182
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-400 400 393 150 7 250
-2 118 118 150 0 0
-<class 'skeleton.actions.CheckAction'>
-2 118 118 150 0 0
-<class 'skeleton.actions.CheckAction'>
-2 118 118 150 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-72 397 398 361 0 36
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 287 287 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 287 287 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 287 287 398 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-117 400 393 338 7 62
-2 337 338 337 0 0
-<class 'skeleton.actions.CheckAction'>
-2 337 338 337 0 0
-<class 'skeleton.actions.CheckAction'>
-2 337 338 337 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 347 398 347 0 0
-<class 'skeleton.actions.CheckAction'>
-2 347 398 347 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 112 163 112 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-202 254 393 153 0 101
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 259 259 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 259 259 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 259 259 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-259 259 216 247 43 151
-<class 'skeleton.actions.CallAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-156 392 393 314 0 78
-<class 'skeleton.actions.FoldAction'>
-400 400 398 66 2 334
-2 65 66 65 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 45 46 45 0 0
-<class 'skeleton.actions.CheckAction'>
-2 45 46 45 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 363 363 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 363 363 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 363 363 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-327 400 393 233 7 167
-2 232 233 232 0 0
-<class 'skeleton.actions.RaiseAction'>
-45 45 46 3 0 42
-<class 'skeleton.actions.CallAction'>
-3 3 4 1 0 2
-<class 'skeleton.actions.CallAction'>
-104 400 398 347 2 53
-2 325 325 347 0 0
-<class 'skeleton.actions.RaiseAction'>
-325 325 258 148 67 199
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-392 392 393 29 0 363
-<class 'skeleton.actions.FoldAction'>
-238 400 398 280 2 120
-2 279 280 279 0 0
-<class 'skeleton.actions.CheckAction'>
-2 279 280 279 0 0
-<class 'skeleton.actions.CheckAction'>
-240 279 280 159 0 120
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 308 308 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 308 308 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 308 308 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-308 308 160 94 148 304
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-400 400 398 164 2 236
-2 106 164 106 0 0
-<class 'skeleton.actions.CheckAction'>
-2 106 164 106 0 0
-<class 'skeleton.actions.CheckAction'>
-106 106 164 45 0 61
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-281 281 393 22 0 259
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
+4 397 398 395 0 2
 4 400 399 398 1 2
 4 400 398 398 2 2
 2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-270 397 398 262 0 135
-<class 'skeleton.actions.FoldAction'>
+2 397 398 397 0 0
+4 397 398 395 0 2
 4 400 399 398 1 2
-376 400 398 211 2 189
-2 166 166 211 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 121 121 166 0 0
-<class 'skeleton.actions.RaiseAction'>
-114 121 91 94 30 72
-<class 'skeleton.actions.RaiseAction'>
-2 6 6 51 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 396 398 396 0 0
+6 396 398 393 0 3
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 396 396 396 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 398 398 2 2
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 400 399 398 1 2
+4 400 399 398 1 2
 4 400 399 398 1 2
 4 400 398 398 2 2
 2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
 2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
+4 397 398 395 0 2
 4 400 399 398 1 2
-255 400 393 269 7 131
-38 189 269 170 0 19
-<class 'skeleton.actions.RaiseAction'>
-2 61 141 61 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 3 83 3 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
 4 400 399 398 1 2
-254 254 393 90 0 164
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 241 398 241 0 0
-<class 'skeleton.actions.CheckAction'>
-124 241 398 179 0 62
-<class 'skeleton.actions.CallAction'>
-2 179 336 179 0 0
-<class 'skeleton.actions.CheckAction'>
-2 179 336 179 0 0
-<class 'skeleton.actions.CheckAction'>
 4 400 399 398 1 2
-2 356 356 393 0 0
-<class 'skeleton.actions.CheckAction'>
-2 356 356 393 0 0
-<class 'skeleton.actions.RaiseAction'>
-270 270 270 137 0 170
-<class 'skeleton.actions.FoldAction'>
-190 400 398 304 2 96
-2 216 216 304 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 59 59 147 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 20 20 108 0 0
-<class 'skeleton.actions.RaiseAction'>
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
 4 400 399 398 1 2
 4 400 398 398 2 2
-2 294 294 398 0 0
-<class 'skeleton.actions.CheckAction'>
-294 294 294 165 0 233
-<class 'skeleton.actions.CallAction'>
-2 61 61 165 0 0
-<class 'skeleton.actions.RaiseAction'>
-61 61 56 114 5 51
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
 4 400 399 398 1 2
-400 400 393 15 7 385
-2 10 15 10 0 0
-<class 'skeleton.actions.CheckAction'>
-2 10 15 10 0 0
-<class 'skeleton.actions.CheckAction'>
-2 10 15 10 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 279 398 279 0 0
-<class 'skeleton.actions.CheckAction'>
-279 279 398 37 0 242
-<class 'skeleton.actions.FoldAction'>
 4 400 399 398 1 2
-400 400 393 192 7 208
-2 191 192 191 0 0
-<class 'skeleton.actions.CheckAction'>
-168 191 192 107 0 84
-<class 'skeleton.actions.CallAction'>
-98 107 108 58 0 49
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 267 398 267 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 159 290 159 0 0
-<class 'skeleton.actions.CheckAction'>
-159 159 290 71 0 88
-<class 'skeleton.actions.FoldAction'>
 4 400 399 398 1 2
-400 400 393 55 7 345
-2 54 55 54 0 0
-<class 'skeleton.actions.CheckAction'>
-2 54 55 54 0 0
-<class 'skeleton.actions.CheckAction'>
-6 54 55 51 0 3
-<class 'skeleton.actions.CallAction'>
-400 400 398 104 2 296
-2 92 92 104 0 0
-<class 'skeleton.actions.CheckAction'>
-92 92 92 15 0 89
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
 4 400 399 398 1 2
-109 400 393 342 7 58
-2 245 342 245 0 0
-<class 'skeleton.actions.CheckAction'>
-245 245 342 37 0 208
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 188 0 209
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 373 373 393 0 0
-<class 'skeleton.actions.CheckAction'>
-256 373 373 265 0 128
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 265 398 265 0 0
-<class 'skeleton.actions.CheckAction'>
-2 265 398 265 0 0
-<class 'skeleton.actions.CheckAction'>
-2 265 398 265 0 0
-<class 'skeleton.actions.CheckAction'>
-138 265 398 196 0 69
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-392 392 393 83 0 309
-<class 'skeleton.actions.FoldAction'>
-312 400 398 243 2 157
-2 242 243 242 0 0
-<class 'skeleton.actions.CheckAction'>
-242 242 243 5 0 237
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-18 400 398 390 2 10
-2 262 262 390 0 0
-<class 'skeleton.actions.CheckAction'>
-2 262 262 390 0 0
-<class 'skeleton.actions.CheckAction'>
-2 262 262 390 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 303 303 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 86 86 181 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 247 398 247 0 0
-<class 'skeleton.actions.CheckAction'>
-2 247 398 247 0 0
-<class 'skeleton.actions.CheckAction'>
-236 247 398 129 0 118
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-266 346 393 213 0 133
-<class 'skeleton.actions.CallAction'>
-84 213 260 171 0 42
-<class 'skeleton.actions.RaiseAction'>
-2 105 152 105 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 235 398 235 0 0
-<class 'skeleton.actions.CheckAction'>
-235 235 398 82 0 153
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-360 400 398 219 2 181
-2 218 219 218 0 0
-<class 'skeleton.actions.CheckAction'>
-2 218 219 218 0 0
-<class 'skeleton.actions.CheckAction'>
-58 218 219 189 0 29
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-4 400 398 398 2 2
-2 261 398 261 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 109 246 109 0 0
-<class 'skeleton.actions.CheckAction'>
-2 109 246 109 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-214 400 398 292 2 108
-2 291 292 291 0 0
-<class 'skeleton.actions.CheckAction'>
-2 291 292 291 0 0
-<class 'skeleton.actions.CheckAction'>
-2 291 292 291 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-2 289 393 289 0 0
-<class 'skeleton.actions.CheckAction'>
-2 289 393 289 0 0
-<class 'skeleton.actions.CheckAction'>
-289 289 393 69 0 220
-<class 'skeleton.actions.FoldAction'>
-400 400 398 134 2 266
-2 113 113 134 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 28 28 49 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 7 7 28 0 0
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-242 392 393 271 0 121
-<class 'skeleton.actions.FoldAction'>
-4 400 398 398 2 2
-2 277 398 277 0 0
-<class 'skeleton.actions.CheckAction'>
-277 277 398 47 0 230
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-217 400 393 288 7 112
-2 195 288 195 0 0
-<class 'skeleton.actions.CheckAction'>
-2 195 288 195 0 0
-<class 'skeleton.actions.CheckAction'>
-2 195 288 195 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
-2 261 398 261 0 0
-<class 'skeleton.actions.CheckAction'>
-2 261 398 261 0 0
-<class 'skeleton.actions.CheckAction'>
-261 261 398 30 0 231
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-313 400 393 240 7 160
-140 239 240 169 0 70
-<class 'skeleton.actions.CallAction'>
-2 169 170 169 0 0
-<class 'skeleton.actions.CheckAction'>
-2 169 170 169 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 313 398 313 0 0
-<class 'skeleton.actions.CheckAction'>
-2 313 398 313 0 0
-<class 'skeleton.actions.CheckAction'>
-2 313 398 313 0 0
-<class 'skeleton.actions.CheckAction'>
-313 313 398 73 0 240
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-2 281 393 281 0 0
-<class 'skeleton.actions.CheckAction'>
-2 281 393 281 0 0
-<class 'skeleton.actions.CheckAction'>
-2 281 393 281 0 0
-<class 'skeleton.actions.CheckAction'>
-400 400 398 115 2 285
-2 114 115 114 0 0
-<class 'skeleton.actions.CheckAction'>
-44 114 115 92 0 22
-<class 'skeleton.actions.CallAction'>
-2 92 93 92 0 0
-<class 'skeleton.actions.CheckAction'>
-2 92 93 92 0 0
-<class 'skeleton.actions.CheckAction'>
 4 400 399 398 1 2
 4 400 398 398 2 2
 2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 94 0 303
-<class 'skeleton.actions.FoldAction'>
+4 397 398 395 0 2
+2 395 396 395 0 0
+8 395 396 391 0 4
+2 391 392 391 0 0
 4 400 399 398 1 2
-2 285 393 285 0 0
-<class 'skeleton.actions.CheckAction'>
-285 285 393 103 0 182
-<class 'skeleton.actions.FoldAction'>
+4 400 399 398 1 2
+14 392 393 385 0 7
+28 385 386 371 0 14
+108 345 346 291 0 54
+345 345 238 102 108 243
+4 400 399 398 1 2
+14 392 393 385 0 7
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
 4 400 398 398 2 2
-2 341 341 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 9 9 66 0 0
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
+2 398 398 398 0 0
+2 398 398 398 0 0
+2 398 398 398 0 0
 4 400 399 398 1 2
-400 400 393 130 7 270
-2 90 130 90 0 0
-<class 'skeleton.actions.CheckAction'>
-90 90 130 22 0 68
-<class 'skeleton.actions.CallAction'>
-2 22 62 22 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 111 0 286
-<class 'skeleton.actions.FoldAction'>
 4 400 399 398 1 2
-183 400 393 305 7 95
-2 200 305 200 0 0
-<class 'skeleton.actions.CheckAction'>
-2 200 305 200 0 0
-<class 'skeleton.actions.CheckAction'>
-64 200 305 168 0 32
-<class 'skeleton.actions.CallAction'>
-4 400 398 398 2 2
-2 296 296 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 296 296 398 0 0
-<class 'skeleton.actions.CheckAction'>
-2 296 296 398 0 0
-<class 'skeleton.actions.RaiseAction'>
-4 400 399 398 1 2
-153 400 393 320 7 80
-2 245 320 245 0 0
-<class 'skeleton.actions.CheckAction'>
-245 245 320 104 0 141
-<class 'skeleton.actions.CallAction'>
-104 104 179 5 0 99
-<class 'skeleton.actions.RaiseAction'>
-400 400 398 193 2 207
-2 139 193 139 0 0
-<class 'skeleton.actions.CheckAction'>
-2 139 193 139 0 0
-<class 'skeleton.actions.CheckAction'>
-22 139 193 128 0 11
-<class 'skeleton.actions.RaiseAction'>
-2 112 166 112 0 0
-<class 'skeleton.actions.CheckAction'>
-112 112 166 16 0 96
-<class 'skeleton.actions.RaiseAction'>
 4 400 399 398 1 2
 4 400 398 398 2 2
 2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-397 397 398 176 0 221
-<class 'skeleton.actions.FoldAction'>
+4 397 398 395 0 2
 4 400 399 398 1 2
-337 400 393 228 7 172
-199 199 199 122 0 106
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 273 398 273 0 0
-<class 'skeleton.actions.CheckAction'>
-2 273 398 273 0 0
-<class 'skeleton.actions.CheckAction'>
-220 273 398 163 0 110
-<class 'skeleton.actions.FoldAction'>
 4 400 399 398 1 2
-2 392 393 392 0 0
-<class 'skeleton.actions.CheckAction'>
-150 392 393 317 0 75
-<class 'skeleton.actions.FoldAction'>
-64 400 398 367 2 33
-2 366 367 366 0 0
-<class 'skeleton.actions.CheckAction'>
-2 366 367 366 0 0
-<class 'skeleton.actions.CheckAction'>
-2 366 367 366 0 0
-<class 'skeleton.actions.CheckAction'>
+4 400 399 398 1 2
 4 400 399 398 1 2
 4 400 398 398 2 2
-2 283 398 283 0 0
-<class 'skeleton.actions.CheckAction'>
-84 283 398 241 0 42
-<class 'skeleton.actions.CallAction'>
-2 241 356 241 0 0
-<class 'skeleton.actions.CheckAction'>
-2 241 356 241 0 0
-<class 'skeleton.actions.CheckAction'>
-4 400 399 398 1 2
-159 400 393 317 7 83
-2 230 317 230 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 130 217 130 0 0
-<class 'skeleton.actions.RaiseAction'>
-130 130 174 27 43 103
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.CheckAction'>
-4 400 398 398 2 2
-2 229 398 229 0 0
-<class 'skeleton.actions.CheckAction'>
-229 229 398 42 0 187
-<class 'skeleton.actions.FoldAction'>
-4 400 399 398 1 2
-61 400 393 366 7 34
-322 322 322 122 0 244
-<class 'skeleton.actions.CallAction'>
-78 78 78 47 0 75
-<class 'skeleton.actions.RaiseAction'>
-<class 'skeleton.actions.RaiseAction'>
-4 400 398 398 2 2
 2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
-2 397 398 397 0 0
-<class 'skeleton.actions.CheckAction'>
+4 397 398 395 0 2
 4 400 399 398 1 2
-400 400 398 172 2 228
-2 127 172 127 0 0
-<class 'skeleton.actions.CheckAction'>
-2 127 172 127 0 0
-<class 'skeleton.actions.CheckAction'>
-127 127 172 41 0 86
-<class 'skeleton.actions.CallAction'>
-2 41 86 41 0 0
-<class 'skeleton.actions.CheckAction'>
-41 41 86 11 0 30
-<class 'skeleton.actions.CallAction'>
 4 400 399 398 1 2
-2 352 352 393 0 0
-<class 'skeleton.actions.CheckAction'>
-2 352 352 393 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 240 240 281 0 0
-<class 'skeleton.actions.CheckAction'>
 4 400 398 398 2 2
-2 303 398 303 0 0
-<class 'skeleton.actions.CheckAction'>
-2 303 398 303 0 0
-<class 'skeleton.actions.CheckAction'>
-2 303 398 303 0 0
-<class 'skeleton.actions.RaiseAction'>
+2 398 398 398 0 0
+2 398 398 398 0 0
+4 398 398 396 0 2
+2 394 394 394 0 0
 4 400 399 398 1 2
-2 370 393 370 0 0
-<class 'skeleton.actions.RaiseAction'>
-2 49 72 49 0 0
-<class 'skeleton.actions.RaiseAction'>
-1 1 24 1 0 0
-<class 'skeleton.actions.RaiseAction'>
-76 400 398 361 2 39
-2 360 361 360 0 0
-<class 'skeleton.actions.CheckAction'>
-2 360 361 360 0 0
-<class 'skeleton.actions.CheckAction'>
-2 360 361 360 0 0
-<class 'skeleton.actions.CheckAction'>
-1.143
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+4 400 399 398 1 2
+25.686

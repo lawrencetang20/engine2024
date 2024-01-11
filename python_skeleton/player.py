@@ -202,7 +202,7 @@ class Player(Bot):
         num_win_with_auction = 0
         trials = 0
 
-        while trials < 250:
+        while trials < 200:
             deck.shuffle()
             # either you get the auction card, or the opponent gets the auction card
 
@@ -274,7 +274,7 @@ class Player(Bot):
         num_better = 0
         trials = 0
 
-        while trials < 250:
+        while trials < 200:
             deck.shuffle()
             cards = deck.peek(opp_num + num_more_board)
             opp_hole = cards[:opp_num]

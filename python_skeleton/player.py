@@ -202,7 +202,7 @@ class Player(Bot):
         num_better = 0
         trials = 0
 
-        while trials < 500:
+        while trials < 250:
             deck.shuffle()
             cards = deck.peek(opp_num + num_more_board)
             opp_hole = cards[:opp_num]

@@ -179,7 +179,6 @@ new round
 new round
 new round
 new round
-[0, 0]
 new round
 new round
 new round
@@ -344,7 +343,6 @@ new round
 new round
 new round
 new round
-[0, 0]
 new round
 new round
 new round
@@ -420,7 +418,6 @@ new round
 new round
 new round
 new round
-[397, 397]
 new round
 new round
 new round
@@ -501,7 +498,6 @@ new round
 new round
 new round
 new round
-[0, 0]
 new round
 new round
 new round
@@ -625,14 +621,12 @@ new round
 new round
 new round
 new round
-[12, 12]
 new round
 new round
 new round
 new round
 new round
 new round
-[0, 0]
 new round
 new round
 new round
@@ -647,7 +641,6 @@ new round
 new round
 new round
 new round
-[47, 47]
 new round
 new round
 new round
@@ -669,7 +662,6 @@ new round
 new round
 new round
 new round
-[397, 397]
 new round
 new round
 new round
@@ -712,7 +704,6 @@ new round
 new round
 new round
 new round
-[0, 0]
 new round
 new round
 new round

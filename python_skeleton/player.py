@@ -44,6 +44,8 @@ class Player(Bot):
         round_num = game_state.round_num  # the round number from 1 to NUM_ROUNDS
         my_cards = round_state.hands[active]  # your cards
         big_blind = bool(active)  # True if you are the big blind
+        if round_num == 1:
+            print(game_clock)
         pass
 
     def handle_round_over(self, game_state, terminal_state, active):
@@ -63,6 +65,8 @@ class Player(Bot):
         street = previous_state.street  # 0, 3, 4, or 5 representing when this round ended
         my_cards = previous_state.hands[active]  # your cards
         opp_cards = previous_state.hands[1-active]  # opponent's cards or [] if not revealed
+        if game_state.round_num == NUM_ROUNDS:
+            print(game_state.game_clock)
         pass
 
     def get_preflop_range(self,size,round_state,active):
@@ -156,32 +160,34 @@ class Player(Bot):
             return CallAction()
 
 
-    def decide_action_postflop(self, opp_pip, my_pip, hand_strength, pot, legal_actions):
+    def decide_action_postflop(self, opp_pip, my_pip, hand_strength, pot, legal_actions, street):
         rand = random.random()
         if CheckAction in legal_actions: #Check, raise
             if rand < hand_strength and hand_strength > .7:
-                return RaiseAction, (1+random.random()) #value bet, random conf number, planned for bet sizing
-            if rand < hand_strength / 5 and hand_strength <= .7:
+                return RaiseAction, 1 #value bet
+            elif street == 5 and hand_strength > .85:
+                return RaiseAction, 1  #no checks on river with super strong hands
+            elif rand < hand_strength / 7 and hand_strength <= .4:
                 return RaiseAction, 0 #bluff
             return CheckAction, None
         else: #Fold, Call, Raise
             pot_equity = (opp_pip-my_pip) / (pot)
-            if pot_equity > .75 and pot_equity < 1.5:
-                pot_equity = .75
-            elif pot_equity >= 1.5 and pot_equity < 2.5:
+            if pot_equity > .70 and pot_equity < 1:
+                pot_equity = .7
+            elif pot_equity >= 1 and pot_equity < 2:
                 pot_equity = .8
-            elif pot_equity >= 2.5:
-                pot_equity = .9
+            elif pot_equity >= 2:
+                pot_equity = .875
             if hand_strength < pot_equity: #bad pot equity
                 return FoldAction, None
+            elif hand_strength < .25:
+                return FoldAction, None
             else: #good pot equity
-                if hand_strength > .9 or hand_strength - pot_equity > .25:
-                    return RaiseAction, (1+(2*random.random())) #random confidence number, planned for bet sizing
+                if hand_strength > .85 or (hand_strength - pot_equity > .25 and hand_strength > .7):
+                    return RaiseAction, 1 #value raise
                 return CallAction, None
 
-    def decide_action_auction(self, hand_strength, my_contribution, opp_contribution, max_raise):
-        if hand_strength > .6:
-            return BidAction(max_raise)
+    def decide_action_auction(self, hand_strength, active, my_stack):
         return BidAction(1)
 
     def hand_strength(self, round_state, street, active):
@@ -192,6 +198,8 @@ class Player(Bot):
 
         if len(my_hole) == 2 and street > 0 and BidAction not in round_state.legal_actions():
             opp_num = 3
+        elif len(my_hole) == 3 and street > 0 and (round_state.bids[active] == round_state.bids[1-active]):
+            opp_num = 3
         else:
             opp_num = 2
 
@@ -200,9 +208,8 @@ class Player(Bot):
             deck.cards.remove(card)
 
         num_better = 0
-        trials = 0
 
-        while trials < 500:
+        for _ in range(250):
             deck.shuffle()
             cards = deck.peek(opp_num + num_more_board)
             opp_hole = cards[:opp_num]
@@ -211,9 +218,8 @@ class Player(Bot):
             opp_value = eval7.evaluate(opp_hole+board+board_rest)
             if opp_value > my_val:
                 num_better += 1
-            trials += 1
 
-        percent_better_than = 1 - (num_better/trials)
+        percent_better_than = 1 - (num_better/250)
         return percent_better_than
 
 
@@ -255,15 +261,23 @@ class Player(Bot):
         hand_strength = self.hand_strength(round_state, street, active)
 
         if BidAction in legal_actions:
-            return self.decide_action_auction(hand_strength, my_contribution, opp_contribution, max_raise)
+            return self.decide_action_auction(hand_strength, my_contribution, max_raise)
         elif street == 0:       
             return self.decide_action_preflop(game_state, round_state, active)
         else:
-            decision, conf = self.decide_action_postflop(opp_pip, my_pip, hand_strength, pot, legal_actions)
+            decision, conf = self.decide_action_postflop(opp_pip, my_pip, hand_strength, pot, legal_actions, street)
 
-        print(decision)
         if decision == RaiseAction and RaiseAction in legal_actions:
-            amount = random.randint(min_raise, max_raise)
+            minimum = max(min_raise, pot / 4)
+            if conf != 0:
+                bet_max = int((1+(2*(hand_strength**2)*random.random())) * pot/2 )
+                maximum = min(max_raise, bet_max)
+            else:
+                maximum = min(max_raise, pot)
+            if maximum <= minimum:
+                amount = int(min_raise)
+            else:
+                amount = int(random.random() * (maximum - minimum) + minimum)
             return RaiseAction(amount)
         if decision == RaiseAction and RaiseAction not in legal_actions:
             if CallAction in legal_actions:

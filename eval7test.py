@@ -19,13 +19,13 @@ hr = eval7.HandRange("89+")
 
 # print(np.random.normal(1,.5))
 
-board = [eval7.Card(x) for x in ['9h', '6h', '5h', '2h', '4d']]
-my_hole = [eval7.Card(a) for a in ['8s', '7s']]
+board = [eval7.Card(x) for x in ['7s', '7d', '9h', '4s', '4d']]
+my_hole = [eval7.Card(a) for a in ['2c', '6c']]
 comb = board + my_hole
 num_more_board = 5 - len(board)
 
 
-ya = False
+ya = True
 
 if len(my_hole) == 2 and ya:
     opp_num = 3

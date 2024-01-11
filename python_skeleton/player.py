@@ -63,6 +63,10 @@ class Player(Bot):
         street = previous_state.street  # 0, 3, 4, or 5 representing when this round ended
         my_cards = previous_state.hands[active]  # your cards
         opp_cards = previous_state.hands[1-active]  # opponent's cards or [] if not revealed
+
+        if game_state.round_num == NUM_ROUNDS:
+            print(game_state.game_clock)
+
         pass
 
     def get_preflop_range(self,size,round_state,active):
@@ -179,11 +183,79 @@ class Player(Bot):
                     return RaiseAction, (1+(2*random.random())) #random confidence number, planned for bet sizing
                 return CallAction, None
 
-    def decide_action_auction(self, hand_strength, my_contribution, opp_contribution, max_raise):
-        if hand_strength > .6:
-            return BidAction(max_raise)
-        return BidAction(1)
+    def auction_strength(self, round_state, street, active):
+        board = [eval7.Card(board_card) for board_card in round_state.deck[:street]]
+        my_hole = [eval7.Card(my_card) for my_card in round_state.hands[active]]
+        comb = board + my_hole
+        num_more_board = 5 - len(board)
+        opp_num = 2
+        auction_num = 1
 
+        deck = eval7.Deck()
+        for card in comb:
+            deck.cards.remove(card)
+
+        # see amount of hands that you are better than opponent with auction vs. without auction; determine what type of bet you should make then
+
+        num_need_auction = 0
+        num_win_without_auction = 0
+        num_win_with_auction = 0
+        trials = 0
+
+        while trials < 250:
+            deck.shuffle()
+            # either you get the auction card, or the opponent gets the auction card
+
+            cards = deck.peek(num_more_board+opp_num+auction_num)
+            opp_hole = cards[:opp_num]
+            board_rest = cards[opp_num:len(cards)-1]
+            auction_card = [cards[-1]]
+
+            # me with auction
+            my_auc_val = eval7.evaluate(my_hole+board+board_rest+auction_card)
+            opp_no_auc_val = eval7.evaluate(opp_hole+board+board_rest)
+
+            # oppo with auction
+            my_no_auc_val = eval7.evaluate(my_hole+board+board_rest)
+            opp_auc_val = eval7.evaluate(opp_hole+board+board_rest+auction_card)
+
+            if my_auc_val > opp_no_auc_val and my_no_auc_val < opp_auc_val:
+                num_need_auction += 1
+            
+            if my_no_auc_val > opp_auc_val:
+                num_win_without_auction += 1
+            
+            if my_auc_val > opp_no_auc_val:
+                num_win_with_auction += 1
+
+
+            trials += 1
+
+        need_auction = num_need_auction/trials
+        win_without = num_win_without_auction/trials
+        win_with = num_win_with_auction/trials
+
+        return need_auction, win_without, win_with
+
+    def decide_action_auction(self, auction_strength, my_stack):
+
+        # figure our auction size based on auction_strength
+        # if win without auc < 0.2 --> then Bid 1 (dont need auction, going to fold)
+        # if win without auc > 0.5 --> then Bid need_auction * stack (somewhat want auction, going to win anyways)
+        # if win without auc > 0.2 and < 0.5 AND need/win without > 0.5 --> Bid need_auction * stack (want auction card, increases win chance by a lot)
+        # else Bid need_auction * stack/2
+        
+        need_auction, win_without, win_with = auction_strength
+
+        if win_without < 0.2:
+            return BidAction(1)
+        elif win_without > 0.5:
+            return BidAction(int(need_auction*my_stack))
+        elif win_without <= 0.5 and win_without >= 0.2:
+            return BidAction(int(need_auction*my_stack))
+        else:
+            return BidAction(int(need_auction*my_stack/2))
+        
     def hand_strength(self, round_state, street, active):
         board = [eval7.Card(x) for x in round_state.deck[:street]]
         my_hole = [eval7.Card(a) for a in round_state.hands[active]]
@@ -253,9 +325,10 @@ class Player(Bot):
         pot = my_contribution + opp_contribution
         min_raise, max_raise = round_state.raise_bounds()
         hand_strength = self.hand_strength(round_state, street, active)
+        auction_strength = self.auction_strength(round_state, street, active)
 
         if BidAction in legal_actions:
-            return self.decide_action_auction(hand_strength, my_contribution, opp_contribution, max_raise)
+            return self.decide_action_auction(auction_strength, my_stack)
         elif street == 0:       
             return self.decide_action_preflop(game_state, round_state, active)
         else:

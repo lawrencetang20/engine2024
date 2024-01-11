@@ -29,8 +29,7 @@ total_cards1 = hand1 + board1
 print(total_cards1)
 evalhand = [eval7.Card(s) for s in total_cards1]
 a = eval7.evaluate(evalhand)
-print(a)
-print(eval7.handtype(a))
 
-print(flush_in_play(board1))
+a = [x for x in range(1,20)]
+print(a)
 

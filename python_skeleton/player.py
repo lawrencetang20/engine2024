@@ -171,7 +171,7 @@ class Player(Bot):
                 return RaiseAction, 0 #bluff
             return CheckAction, None
         else: #Fold, Call, Raise
-            pot_equity = (opp_pip-my_pip) / (pot)
+            pot_equity = (opp_pip-my_pip) / (pot - (opp_pip - my_pip))
             if pot_equity > .70 and pot_equity < 1:
                 pot_equity = .7
             elif pot_equity >= 1 and pot_equity < 2:
@@ -188,7 +188,7 @@ class Player(Bot):
                 return CallAction, None
 
     def decide_action_auction(self, hand_strength, active, my_stack):
-        return BidAction(1)
+        return BidAction(random.randint(1,2))
 
     def hand_strength(self, round_state, street, active):
         board = [eval7.Card(x) for x in round_state.deck[:street]]
@@ -216,10 +216,10 @@ class Player(Bot):
             board_rest = cards[opp_num:]
             my_val = eval7.evaluate(my_hole+board+board_rest)
             opp_value = eval7.evaluate(opp_hole+board+board_rest)
-            if opp_value > my_val:
+            if my_val >= opp_value:
                 num_better += 1
 
-        percent_better_than = 1 - (num_better/250)
+        percent_better_than = num_better/250
         return percent_better_than
 
 

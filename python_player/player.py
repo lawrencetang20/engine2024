@@ -116,11 +116,11 @@ class Player(Bot):
         new_cards = self.categorize_cards(cards)
         #3BET
         if big_blind == False and self.times_bet_preflop == 0:
-            if self.preflop_dict[new_cards] in [x for x in range(1,20)]:
+            if self.preflop_dict[new_cards] in range(1,20):
                 self.times_bet_preflop +=1
                 my_bet = 3*pot
                 return RaiseAction(self.no_illegal_raises(my_bet,round_state))
-            elif self.preflop_dict[new_cards] in [x for x in range(20,144)]:
+            elif self.preflop_dict[new_cards] in range(20,144):
                 self.times_bet_preflop +=1
                 my_bet = 2*pot
                 return RaiseAction(self.no_illegal_raises(my_bet,round_state))
@@ -129,11 +129,11 @@ class Player(Bot):
                 return FoldAction()
         #4BET 
         if big_blind == True and self.times_bet_preflop ==0:
-            if self.preflop_dict[new_cards] in [x for x in range(1,20)]and RaiseAction in legal_actions:
+            if self.preflop_dict[new_cards] in range(1,20) and RaiseAction in legal_actions:
                 self.times_bet_preflop +=1
                 my_bet = 2*pot
                 return RaiseAction(self.no_illegal_raises(my_bet,round_state))
-            elif self.preflop_dict[new_cards] in [x for x in range(20,144)]:
+            elif self.preflop_dict[new_cards] in range(20,144):
                 if CallAction in legal_actions:
                     return CallAction()
                 else:
@@ -143,33 +143,33 @@ class Player(Bot):
             
         #5BET
         if big_blind == False and self.times_bet_preflop == 1:
-            if self.preflop_dict[new_cards] in [x for x in range(1,5)]and RaiseAction in legal_actions:
+            if self.preflop_dict[new_cards] in range(1,5) and RaiseAction in legal_actions:
                 self.times_bet_preflop +=1
                 my_bet = 2*pot
                 return RaiseAction(self.no_illegal_raises(my_bet,round_state))
-            elif self.preflop_dict[new_cards] in [x for x in range(5,71)]:
+            elif self.preflop_dict[new_cards] in range(5,71):
                 return CallAction()
             else:
                 return FoldAction()
         #6BET
         if big_blind == True and self.times_bet_preflop == 1:
-            if self.preflop_dict[new_cards] in [x for x in range(1,3)] and RaiseAction in legal_actions:
+            if self.preflop_dict[new_cards] in range(1,3) and RaiseAction in legal_actions:
                 self.times_bet_preflop +=1
                 my_bet = 2*pot
                 return RaiseAction(self.no_illegal_raises(my_bet,round_state))
-            elif self.preflop_dict[new_cards] in [x for x in range(3,11)]:
+            elif self.preflop_dict[new_cards] in range(3,11):
                 return CallAction()
             else:
                 return FoldAction()
         #7BET
         if big_blind == False and self.times_bet_preflop == 2:
-            if self.preflop_dict[new_cards] in [x for x in range(1,3)]:
+            if self.preflop_dict[new_cards] in range(1,3):
                 return CallAction()
             else:
                 return FoldAction()
         #8BET
         if big_blind == True and self.times_bet_preflop == 2:
-            if self.preflop_dict[new_cards] in [x for x in range(1,3)]:
+            if self.preflop_dict[new_cards] in range(1,3):
                 return CallAction()
             else:
                 return FoldAction()

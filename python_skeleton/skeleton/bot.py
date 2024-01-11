@@ -1,5 +1,5 @@
 '''
-This file contains the base class that you should implement for your pokerbot.
+This file contains the base class that you should implement for your pokerbot. 
 '''
 
 

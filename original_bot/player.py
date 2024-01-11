@@ -187,87 +187,87 @@ class Player(Bot):
 
         strength_diff = self.strength_w_auction - self.strength_wo_auction
 
-        # Lecture 1 Bot
-        if RaiseAction in legal_actions:
-           min_raise, max_raise = round_state.raise_bounds()  # the smallest and largest numbers of chips for a legal bet/raise
-           min_cost = min_raise - my_pip  # the cost of a minimum bet/raise
-           max_cost = max_raise - my_pip  # the cost of a maximum bet/raise
+        # # Lecture 1 Bot
+        # if RaiseAction in legal_actions:
+        #    min_raise, max_raise = round_state.raise_bounds()  # the smallest and largest numbers of chips for a legal bet/raise
+        #    min_cost = min_raise - my_pip  # the cost of a minimum bet/raise
+        #    max_cost = max_raise - my_pip  # the cost of a maximum bet/raise
         
-        if RaiseAction in legal_actions and random.random() < 0.3:
-            return RaiseAction(random.randint(min_raise, max_raise))
-        if CheckAction in legal_actions:
-            return CheckAction()
-        elif BidAction in legal_actions:
-            return BidAction(my_stack) # random bid between 0 and our stack
-        return CallAction()
+        # if RaiseAction in legal_actions and random.random() < 0.3:
+        #     return RaiseAction(random.randint(min_raise, max_raise))
+        # if CheckAction in legal_actions:
+        #     return CheckAction()
+        # elif BidAction in legal_actions:
+        #     return BidAction(my_stack) # random bid between 0 and our stack
+        # return CallAction()
 
         # Lecture 2 Bot
-        # if BidAction in legal_actions:
-        #     max_bid_percentage = 0.40
-        #     min_bid_percentage = 0.15
+        if BidAction in legal_actions:
+            max_bid_percentage = 0.40
+            min_bid_percentage = 0.15
             
-        #     bid_percentage = 0.75*strength_diff + 1/100*random.randint(-500,500)
-        #     bid = int(pot*bid_percentage)
-        #     bid_percentage = max(min_bid_percentage,bid)
-        #     bid_percentage = min(max_bid_percentage, bid)
+            bid_percentage = 0.75*strength_diff + 1/100*random.randint(-500,500)
+            bid = int(pot*bid_percentage)
+            bid_percentage = max(min_bid_percentage,bid)
+            bid_percentage = min(max_bid_percentage, bid)
             
-        #     return BidAction(bid)
+            return BidAction(bid)
         
-        # if RaiseAction in legal_actions:
-        #     min_raise, max_raise = round_state.raise_bounds()
+        if RaiseAction in legal_actions:
+            min_raise, max_raise = round_state.raise_bounds()
 
-        # if not self.strong_hole:
-        #     return FoldAction()
+        if not self.strong_hole:
+            return FoldAction()
         
-        # if street < 3:
-        #     strength = (self.strength_w_auction + self.strength_wo_auction)/2
-        #     raise_ammt = int(my_pip + continue_cost + 0.3*pot)
-        #     raise_cost = int(continue_cost + 0.3*pot)
-        # else:
-        #     if len(my_cards) == 3:
-        #         strength = self.strength_w_auction
-        #     else:
-        #         strength = self.strength_wo_auction
-        #     raise_ammt = int(my_pip + continue_cost + 0.5*pot)
-        #     raise_cost = int(continue_cost + 0.5*pot)
+        if street < 3:
+            strength = (self.strength_w_auction + self.strength_wo_auction)/2
+            raise_ammt = int(my_pip + continue_cost + 0.3*pot)
+            raise_cost = int(continue_cost + 0.3*pot)
+        else:
+            if len(my_cards) == 3:
+                strength = self.strength_w_auction
+            else:
+                strength = self.strength_wo_auction
+            raise_ammt = int(my_pip + continue_cost + 0.5*pot)
+            raise_cost = int(continue_cost + 0.5*pot)
 
-        # if RaiseAction in legal_actions and raise_cost <= my_stack:
-        #     raise_ammt = max(min_raise,raise_ammt)
-        #     raise_ammt = min(max_raise, raise_ammt)
-        #     commit_action = RaiseAction(raise_ammt)
-        # elif CallAction in legal_actions and continue_cost <= my_stack:
-        #     commit_action = CallAction()
-        # else:
-        #     print("second fold")
-        #     commit_action = FoldAction()
+        if RaiseAction in legal_actions and raise_cost <= my_stack:
+            raise_ammt = max(min_raise,raise_ammt)
+            raise_ammt = min(max_raise, raise_ammt)
+            commit_action = RaiseAction(raise_ammt)
+        elif CallAction in legal_actions and continue_cost <= my_stack:
+            commit_action = CallAction()
+        else:
+            print("second fold")
+            commit_action = FoldAction()
 
-        # if continue_cost > 0:
-        #     pot_odds = continue_cost/(continue_cost + pot)
-        #     intimidation = 0
+        if continue_cost > 0:
+            pot_odds = continue_cost/(continue_cost + pot)
+            intimidation = 0
 
-        #     if continue_cost/pot > 0.33:
-        #         intimidation = -0.3
-        #     strength += intimidation
+            if continue_cost/pot > 0.33:
+                intimidation = -0.3
+            strength += intimidation
 
-        #     if strength >= pot_odds:
-        #         if random.random() < strength and strength > 0.7:
-        #             my_action = commit_action
-        #         else:
-        #             my_action = CallAction()
-        #     if strength < pot_odds:
-        #         if strength < 0.10 and random.random() < 0.05:
-        #             if RaiseAction in legal_actions:
-        #                 my_action = commit_action
-        #         else:
-        #             my_action = FoldAction()
+            if strength >= pot_odds:
+                if random.random() < strength and strength > 0.7:
+                    my_action = commit_action
+                else:
+                    my_action = CallAction()
+            if strength < pot_odds:
+                if strength < 0.10 and random.random() < 0.05:
+                    if RaiseAction in legal_actions:
+                        my_action = commit_action
+                else:
+                    my_action = FoldAction()
 
-        # else:
-        #     if strength > 0.6 and random.random() < strength:
-        #         my_action = commit_action
-        #     else:
-        #         my_action = CheckAction()
+        else:
+            if strength > 0.6 and random.random() < strength:
+                my_action = commit_action
+            else:
+                my_action = CheckAction()
         
-        # return my_action
+        return my_action
 
 if __name__ == '__main__':
     run_bot(Player(), parse_args())

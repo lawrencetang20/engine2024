@@ -4,7 +4,7 @@ PLAYER_1_NAME = 'mybot'
 PLAYER_1_PATH = './python_skeleton'
 # NO TRAILING SLASHES ARE ALLOWED IN PATHS
 PLAYER_2_NAME = 'originalbot'
-PLAYER_2_PATH = './python_skeleton'
+PLAYER_2_PATH = './original_bot'
 # GAME PROGRESS IS RECORDED HERE
 GAME_LOG_FILENAME = 'gamelog'
 # PLAYER_LOG_SIZE_LIMIT IS IN BYTES

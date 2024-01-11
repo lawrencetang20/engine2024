@@ -1,5 +1,5 @@
 '''
-The actions that the player is allowed to take.
+The actions that the player is allowed to take. 
 '''
 from collections import namedtuple
 

@@ -14,3 +14,6 @@ The command to run the engine is `python3 engine.py`. The engine is configured v
 
 ## Linting
 Use pylint.
+
+## Logic
+Added preflop, auction, postflop logic.

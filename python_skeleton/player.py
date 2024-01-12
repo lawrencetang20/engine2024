@@ -370,13 +370,13 @@ class Player(Bot):
         hand_strength = self.hand_strength(round_state, street, active)
         auction_strength = self.auction_strength(round_state, street, active)
 
-        if self.already_won:
-            if BidAction in legal_actions:
-                return BidAction(0)
-            elif CheckAction in legal_actions:
-                return CheckAction()
-            else:
-                return FoldAction()
+        # if self.already_won:
+        #     if BidAction in legal_actions:
+        #         return BidAction(0)
+        #     elif CheckAction in legal_actions:
+        #         return CheckAction()
+        #     else:
+        #         return FoldAction()
 
         if BidAction in legal_actions:
             return self.decide_action_auction(auction_strength, my_stack)

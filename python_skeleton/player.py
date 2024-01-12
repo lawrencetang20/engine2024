@@ -1,5 +1,13 @@
 '''
 Simple example pokerbot, written in Python.
+
+UP BY CLOSE TO 1.5* rounds left, play nittier?
+
+
+add fozz ranges
+
+board paired -- makes nit more
+
 '''
 from skeleton.actions import FoldAction, CallAction, CheckAction, RaiseAction, BidAction
 from skeleton.states import GameState, TerminalState, RoundState
@@ -39,7 +47,10 @@ class Player(Bot):
                              '83o':157,'42s':158,'82o':159,'73o':160,'53o':161,'63o':162,'32s':163,'43o':164,'72o':165,'52o':166,'62o':167,'42o':168,'32o':169,
                              }
         
-        self.trials = 200
+        self.trials = 125
+        self.rounds_won = 0
+        self.total_rounds = 0
+        self.already_won = False
 
 
     def handle_new_round(self, game_state, round_state, active):
@@ -63,6 +74,9 @@ class Player(Bot):
             print(game_clock)
         self.times_bet_preflop = 0
 
+        if my_bankroll > 1.5*(NUM_ROUNDS-self.total_rounds)+2:
+            self.already_won = True
+
     def handle_round_over(self, game_state, terminal_state, active):
         '''
         Called when a round ends. Called NUM_ROUNDS times.
@@ -81,10 +95,15 @@ class Player(Bot):
         my_cards = previous_state.hands[active]  # your cards
         opp_cards = previous_state.hands[1-active]  # opponent's cards or [] if not revealed
 
+        self.total_rounds += 1
+
         if game_state.round_num == NUM_ROUNDS:
             print(game_state.game_clock)
 
-        pass
+        if my_delta > 0:
+            self.rounds_won += 1
+        
+
 
     def categorize_cards(self,cards):
         print(cards)
@@ -94,8 +113,9 @@ class Player(Bot):
         suit2 = cards[1][1]
         hpair = ''
         onsuit = ''
-        ranking = 'AKQJT98765432'
-        if ranking.index(rank1)<ranking.index(rank2):
+        ranking = {'A': 0, 'K': 1, 'Q': 2, 'J': 3, 'T': 4, '9': 5, '8': 6, '7': 7, '6': 8, '5': 9, '4': 10, '3': 11, '2': 12}
+
+        if ranking[rank1]<ranking[rank2]:
             hpair = rank1+rank2
         else:
             hpair = rank2+rank1
@@ -206,7 +226,11 @@ class Player(Bot):
             elif hand_strength < .25:
                 return FoldAction, None
             else: #good pot equity
+<<<<<<< HEAD
                 if hand_strength > .9 or (hand_strength - pot_equity > .25 and hand_strength > .85):
+=======
+                if hand_strength > .90 or (hand_strength - pot_equity > .25 and hand_strength > .85):
+>>>>>>> b08a0df1a5262691ebbd28aa5ac14ba572c01ea4
                     return RaiseAction, 1 #value raise
                 return CallAction, None
 
@@ -277,11 +301,11 @@ class Player(Bot):
         if win_without < 0.2:
             return BidAction(1)
         elif win_without > 0.5:
-            return BidAction(int(need_auction*my_stack))
+            return BidAction(int(need_auction*my_stack*2/3))
         elif win_without <= 0.5 and win_without >= 0.2:
-            return BidAction(int(need_auction*my_stack))
+            return BidAction(int(need_auction*my_stack*2/3))
         else:
-            return BidAction(int(need_auction*my_stack/2))
+            return BidAction(int(need_auction*my_stack/3))
         
     def hand_strength(self, round_state, street, active):
         board = [eval7.Card(x) for x in round_state.deck[:street]]
@@ -356,24 +380,32 @@ class Player(Bot):
         hand_strength = self.hand_strength(round_state, street, active)
         auction_strength = self.auction_strength(round_state, street, active)
 
+        if self.already_won:
+            if BidAction in legal_actions:
+                return BidAction(0)
+            elif CheckAction in legal_actions:
+                return CheckAction()
+            else:
+                return FoldAction()
+
         if BidAction in legal_actions:
             return self.decide_action_auction(auction_strength, my_stack)
         elif street == 0:       
             return self.get_preflop_action(my_cards,round_state,active)
         else:
             decision, conf = self.decide_action_postflop(opp_pip, my_pip, hand_strength, pot, legal_actions, street)
-
+        rand = random.random()
         if decision == RaiseAction and RaiseAction in legal_actions:
             minimum = max(min_raise, pot / 4)
             if conf != 0:
-                bet_max = int((1+(2*(hand_strength**2)*random.random())) * pot/2 )
+                bet_max = int((1+(2*(hand_strength**2)*rand)) * pot/2 )
                 maximum = min(max_raise, bet_max)
             else:
                 maximum = min(max_raise, pot)
             if maximum <= minimum:
                 amount = int(min_raise)
             else:
-                amount = int(random.random() * (maximum - minimum) + minimum)
+                amount = int(rand * (maximum - minimum) + minimum)
             return RaiseAction(amount)
         if decision == RaiseAction and RaiseAction not in legal_actions:
             if CallAction in legal_actions:

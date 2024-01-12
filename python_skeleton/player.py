@@ -120,6 +120,7 @@ class Player(Bot):
         opp_stack = round_state.stacks[1-active]  # the number of chips your opponent has remaining
         my_contribution = STARTING_STACK - my_stack  # the number of chips you have contributed to the pot
         opp_contribution = STARTING_STACK - opp_stack  # the number of chips your opponent has contributed to the pot
+        opp_pip = round_state.pips[1-active]
         pot = my_contribution+opp_contribution
         big_blind = bool(active)  # True if you are the big blind
         new_cards = self.categorize_cards(cards)
@@ -136,51 +137,48 @@ class Player(Bot):
             else:
                 print (self.preflop_dict[new_cards])
                 return FoldAction()
-        #4BET 
-        if big_blind == True and self.times_bet_preflop ==0:
-            if self.preflop_dict[new_cards] in range(1,20) and RaiseAction in legal_actions:
+        #4BET -- you are big blind, and small blind raises or calls
+        elif big_blind == True and self.times_bet_preflop ==0:
+            if self.preflop_dict[new_cards] in range(1,8):
                 self.times_bet_preflop +=1
                 my_bet = 2*pot
-                return RaiseAction(self.no_illegal_raises(my_bet,round_state))
-            elif self.preflop_dict[new_cards] in range(20,144):
+                if RaiseAction in legal_actions:
+                    return RaiseAction(self.no_illegal_raises(my_bet,round_state))
+                elif CallAction in legal_actions:
+                    return CallAction()
+                else:
+                    print("this shouldn't ever happen")
+                    # 144 is the worst hand we could call a limp with 
+                    # 8 we call 200, 144 we call 2
+                    # 144-8 = 136, 144 - sqrt((pip-2)/198) * 136
+            elif self.preflop_dict[new_cards] in range(8,int(144-((opp_pip-2)/198)**(1/3)*136)) and opp_pip <= 200:
                 if CallAction in legal_actions:
                     return CallAction()
                 else:
                     return CheckAction()
             else:
+                if CheckAction in legal_actions:
+                    return CheckAction()
                 return FoldAction()
-            
-        #5BET
-        if big_blind == False and self.times_bet_preflop == 1:
-            if self.preflop_dict[new_cards] in range(1,5) and RaiseAction in legal_actions:
+        # 100 is the end range
+        else:
+            if self.preflop_dict[new_cards] in range(1,6):
                 self.times_bet_preflop +=1
                 my_bet = 2*pot
-                return RaiseAction(self.no_illegal_raises(my_bet,round_state))
-            elif self.preflop_dict[new_cards] in range(5,71):
-                return CallAction()
+                if RaiseAction in legal_actions:
+                    return RaiseAction(self.no_illegal_raises(my_bet,round_state))
+                elif CallAction in legal_actions:
+                    return CallAction()
+                else:
+                    print("this shouldn't ever happen")
+            elif self.preflop_dict[new_cards] in range(6, int(101-((opp_pip-2)/398)**(1/3)*95)):
+                if CallAction in legal_actions:
+                    return CallAction()
+                else:
+                    return CheckAction()
             else:
-                return FoldAction()
-        #6BET
-        if big_blind == True and self.times_bet_preflop == 1:
-            if self.preflop_dict[new_cards] in range(1,3) and RaiseAction in legal_actions:
-                self.times_bet_preflop +=1
-                my_bet = 2*pot
-                return RaiseAction(self.no_illegal_raises(my_bet,round_state))
-            elif self.preflop_dict[new_cards] in range(3,11):
-                return CallAction()
-            else:
-                return FoldAction()
-        #7BET
-        if big_blind == False and self.times_bet_preflop == 2:
-            if self.preflop_dict[new_cards] in range(1,3):
-                return CallAction()
-            else:
-                return FoldAction()
-        #8BET
-        if big_blind == True and self.times_bet_preflop == 2:
-            if self.preflop_dict[new_cards] in range(1,3):
-                return CallAction()
-            else:
+                if CheckAction in legal_actions:
+                    return CheckAction()
                 return FoldAction()
 
     def decide_action_postflop(self, opp_pip, my_pip, hand_strength, pot, legal_actions, street):

@@ -8,6 +8,8 @@ add fozz ranges
 
 board paired -- makes nit more
 
+if time gets close, then we start to narrow down trials?
+
 '''
 from skeleton.actions import FoldAction, CallAction, CheckAction, RaiseAction, BidAction
 from skeleton.states import GameState, TerminalState, RoundState

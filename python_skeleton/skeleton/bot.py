@@ -50,7 +50,7 @@ class Bot():
         Your action.
         '''
         # raise NotImplementedError('get_action')
-        print(round_state)
+        # print(round_state)
         if round_state.auction:
             return BidAction(2)
         elif CallAction in round_state.legal_actions():

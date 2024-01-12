@@ -36,7 +36,6 @@ if statement reached
 if statement reached
 if statement reached
 if statement reached
-[0, 0]
 if statement reached
 if statement reached
 if statement reached
@@ -57,12 +56,10 @@ if statement reached
 if statement reached
 if statement reached
 if statement reached
-[0, 0]
 if statement reached
 if statement reached
 if statement reached
 if statement reached
-[0, 0]
 if statement reached
 if statement reached
 if statement reached
@@ -141,21 +138,17 @@ if statement reached
 if statement reached
 if statement reached
 if statement reached
-[0, 0]
 if statement reached
 if statement reached
 if statement reached
 if statement reached
 if statement reached
-[0, 0]
 if statement reached
 if statement reached
 if statement reached
-[0, 0]
 if statement reached
 if statement reached
 if statement reached
-[0, 0]
 if statement reached
 if statement reached
 if statement reached
@@ -174,9 +167,7 @@ if statement reached
 if statement reached
 if statement reached
 if statement reached
-[0, 0]
 if statement reached
-[0, 0]
 if statement reached
 if statement reached
 if statement reached
@@ -193,7 +184,6 @@ if statement reached
 if statement reached
 if statement reached
 if statement reached
-[0, 0]
 if statement reached
 if statement reached
 if statement reached
@@ -211,7 +201,6 @@ if statement reached
 if statement reached
 if statement reached
 if statement reached
-[0, 0]
 if statement reached
 if statement reached
 if statement reached
@@ -247,7 +236,6 @@ if statement reached
 if statement reached
 if statement reached
 if statement reached
-[0, 0]
 if statement reached
 if statement reached
 if statement reached
@@ -265,7 +253,6 @@ if statement reached
 if statement reached
 if statement reached
 if statement reached
-[0, 0]
 if statement reached
 if statement reached
 if statement reached
@@ -299,7 +286,6 @@ if statement reached
 if statement reached
 if statement reached
 if statement reached
-[0, 0]
 if statement reached
 if statement reached
 if statement reached
@@ -318,7 +304,6 @@ if statement reached
 if statement reached
 if statement reached
 if statement reached
-[0, 0]
 if statement reached
 if statement reached
 if statement reached
@@ -328,7 +313,6 @@ if statement reached
 if statement reached
 if statement reached
 if statement reached
-[0, 0]
 if statement reached
 if statement reached
 if statement reached
@@ -353,7 +337,6 @@ if statement reached
 if statement reached
 if statement reached
 if statement reached
-[0, 0]
 if statement reached
 if statement reached
 if statement reached
@@ -413,7 +396,6 @@ if statement reached
 if statement reached
 if statement reached
 if statement reached
-[0, 0]
 if statement reached
 if statement reached
 if statement reached
@@ -445,24 +427,20 @@ if statement reached
 if statement reached
 if statement reached
 if statement reached
-[0, 0]
 if statement reached
 if statement reached
 if statement reached
 if statement reached
 if statement reached
 if statement reached
-[0, 0]
 if statement reached
 if statement reached
 if statement reached
 if statement reached
-[0, 0]
 if statement reached
 if statement reached
 if statement reached
 if statement reached
-[0, 0]
 if statement reached
 if statement reached
 if statement reached
@@ -487,7 +465,6 @@ if statement reached
 if statement reached
 if statement reached
 if statement reached
-[0, 0]
 if statement reached
 if statement reached
 if statement reached
@@ -524,4 +501,17 @@ if statement reached
 if statement reached
 if statement reached
 if statement reached
-26.62
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+26.533

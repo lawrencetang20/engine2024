@@ -1,5 +1,10 @@
 '''
 Simple example pokerbot, written in Python.
+
+UP BY CLOSE TO 1.5* rounds left, play nittier?
+
+add FOLD IF WIN
+
 '''
 from skeleton.actions import FoldAction, CallAction, CheckAction, RaiseAction, BidAction
 from skeleton.states import GameState, TerminalState, RoundState
@@ -40,6 +45,9 @@ class Player(Bot):
                              }
         
         self.trials = 200
+        self.rounds_won = 0
+        self.total_rounds = 0
+        self.already_won = False
 
 
     def handle_new_round(self, game_state, round_state, active):
@@ -63,6 +71,9 @@ class Player(Bot):
             print(game_clock)
         self.times_bet_preflop = 0
 
+        if my_bankroll > 1.5*(NUM_ROUNDS-self.total_rounds)+2:
+            self.already_won = True
+
     def handle_round_over(self, game_state, terminal_state, active):
         '''
         Called when a round ends. Called NUM_ROUNDS times.
@@ -81,10 +92,15 @@ class Player(Bot):
         my_cards = previous_state.hands[active]  # your cards
         opp_cards = previous_state.hands[1-active]  # opponent's cards or [] if not revealed
 
+        self.total_rounds += 1
+
         if game_state.round_num == NUM_ROUNDS:
             print(game_state.game_clock)
 
-        pass
+        if my_delta > 0:
+            self.rounds_won += 1
+        
+
 
     def categorize_cards(self,cards):
         print(cards)
@@ -353,6 +369,14 @@ class Player(Bot):
         min_raise, max_raise = round_state.raise_bounds()
         hand_strength = self.hand_strength(round_state, street, active)
         auction_strength = self.auction_strength(round_state, street, active)
+
+        if self.already_won:
+            if BidAction in legal_actions:
+                return BidAction(0)
+            elif CheckAction in legal_actions:
+                return CheckAction()
+            else:
+                return FoldAction()
 
         if BidAction in legal_actions:
             return self.decide_action_auction(auction_strength, my_stack)

@@ -47,7 +47,7 @@ class Player(Bot):
                              '83o':157,'42s':158,'82o':159,'73o':160,'53o':161,'63o':162,'32s':163,'43o':164,'72o':165,'52o':166,'62o':167,'42o':168,'32o':169,
                              }
         
-        self.trials = 200
+        self.trials = 125
         self.rounds_won = 0
         self.total_rounds = 0
         self.already_won = False
@@ -113,8 +113,9 @@ class Player(Bot):
         suit2 = cards[1][1]
         hpair = ''
         onsuit = ''
-        ranking = 'AKQJT98765432'
-        if ranking.index(rank1)<ranking.index(rank2):
+        ranking = {'A': 0, 'K': 1, 'Q': 2, 'J': 3, 'T': 4, '9': 5, '8': 6, '7': 7, '6': 8, '5': 9, '4': 10, '3': 11, '2': 12}
+
+        if ranking[rank1]<ranking[rank2]:
             hpair = rank1+rank2
         else:
             hpair = rank2+rank1
@@ -389,18 +390,18 @@ class Player(Bot):
             return self.get_preflop_action(my_cards,round_state,active)
         else:
             decision, conf = self.decide_action_postflop(opp_pip, my_pip, hand_strength, pot, legal_actions, street)
-
+        rand = random.random()
         if decision == RaiseAction and RaiseAction in legal_actions:
             minimum = max(min_raise, pot / 4)
             if conf != 0:
-                bet_max = int((1+(2*(hand_strength**2)*random.random())) * pot/2 )
+                bet_max = int((1+(2*(hand_strength**2)*rand)) * pot/2 )
                 maximum = min(max_raise, bet_max)
             else:
                 maximum = min(max_raise, pot)
             if maximum <= minimum:
                 amount = int(min_raise)
             else:
-                amount = int(random.random() * (maximum - minimum) + minimum)
+                amount = int(rand * (maximum - minimum) + minimum)
             return RaiseAction(amount)
         if decision == RaiseAction and RaiseAction not in legal_actions:
             if CallAction in legal_actions:

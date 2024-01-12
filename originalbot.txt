@@ -1,507 +1,3556 @@
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-if statement reached
-26.886
+30.0
+10 400 398 394 2 6
+['Kh', '8h']
+2 298 298 394 0 0
+2 270 270 366 0 0
+2 270 270 366 0 0
+4 400 399 398 1 2
+['5c', '9s']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+10 400 398 394 2 6
+['2s', 'Js']
+2 393 394 393 0 0
+14 393 394 386 0 7
+4 400 399 398 1 2
+['3s', '9d']
+144
+10 400 398 394 2 6
+['3d', '2h']
+4 400 399 398 1 2
+['2h', 'Jh']
+26 400 394 384 6 16
+['2h', 'Jh']
+16 400 398 391 2 9
+['4h', '7d']
+4 400 399 398 1 2
+['Ks', 'Jc']
+10 400 398 394 2 6
+['2s', 'Tc']
+4 400 399 398 1 2
+['Td', '6d']
+2 302 302 394 0 0
+2 245 245 337 0 0
+10 400 398 394 2 6
+['4s', 'Td']
+2 393 394 393 0 0
+10 393 394 388 0 5
+4 400 399 398 1 2
+['6d', '2h']
+167
+10 400 398 394 2 6
+['Qc', '3s']
+2 300 394 300 0 0
+102 300 394 249 0 51
+2 249 343 249 0 0
+210 249 343 144 0 105
+2 144 238 144 0 0
+144 144 238 16 0 128
+4 400 399 398 1 2
+['3d', '7h']
+160
+10 400 398 394 2 6
+['7h', '7c']
+2 273 384 273 0 0
+2 273 384 273 0 0
+166 273 384 190 0 83
+4 400 399 398 1 2
+['5s', 'As']
+2 296 394 296 0 0
+2 296 394 296 0 0
+2 296 394 296 0 0
+4 400 399 398 1 2
+['As', 'Qh']
+2 296 296 391 0 0
+2 296 296 391 0 0
+2 296 296 391 0 0
+4 400 399 398 1 2
+['Js', '3c']
+2 393 394 393 0 0
+6 393 394 390 0 3
+10 400 398 394 2 6
+['Ts', '2d']
+4 400 399 398 1 2
+['6h', '7d']
+8 393 394 389 0 4
+16 400 398 391 2 9
+['9d', 'Th']
+2 274 274 391 0 0
+4 400 399 398 1 2
+['4d', '3c']
+164
+10 400 398 394 2 6
+['Kh', '6s']
+2 274 274 394 0 0
+2 274 274 394 0 0
+2 274 274 394 0 0
+4 400 399 398 1 2
+['6h', '3c']
+162
+16 400 398 391 2 9
+['2d', '4c']
+4 400 399 398 1 2
+['2d', '5d']
+155
+10 400 398 394 2 6
+['2c', 'Tc']
+2 304 394 304 0 0
+2 304 394 304 0 0
+4 400 399 398 1 2
+['6d', '9s']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['Kh', 'Qc']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['Ad', '7h']
+2 322 394 322 0 0
+2 272 344 272 0 0
+2 215 287 215 0 0
+4 400 399 398 1 2
+['9c', '5c']
+2 296 296 394 0 0
+10 400 398 394 2 6
+['Jd', 'Kc']
+2 393 394 393 0 0
+28 393 394 379 0 14
+4 400 399 398 1 2
+['Qh', 'Qc']
+35 400 391 378 9 22
+['Qh', 'Qc']
+2 268 268 338 0 0
+2 204 204 274 0 0
+4 400 399 398 1 2
+['8h', '7h']
+6 393 394 390 0 3
+2 390 391 390 0 0
+18 390 391 381 0 9
+10 400 398 394 2 6
+['3s', 'Kh']
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['6h', 'Qd']
+26 400 394 384 6 16
+['6h', 'Qd']
+4 400 399 398 1 2
+['8s', 'Ad']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+16 400 398 391 2 9
+['2h', '6c']
+4 400 399 398 1 2
+['Td', 'Qs']
+2 343 343 394 0 0
+54 343 343 367 0 27
+78 316 316 328 0 39
+10 400 398 394 2 6
+['4h', 'Kh']
+2 302 302 394 0 0
+2 257 257 349 0 0
+4 400 399 398 1 2
+['4d', '6h']
+154
+4 400 399 398 1 2
+['7s', '7c']
+84 311 391 269 0 42
+2 269 349 269 0 0
+2 269 349 269 0 0
+10 400 398 394 2 6
+['4h', '5h']
+2 393 394 393 0 0
+10 393 394 388 0 5
+4 400 399 398 1 2
+['Qd', 'Ah']
+35 400 391 378 9 22
+['Qd', 'Ah']
+80 284 284 338 0 40
+2 244 244 338 0 0
+152 244 244 262 0 76
+10 400 398 394 2 6
+['5c', '9c']
+2 284 394 284 0 0
+88 284 394 240 0 44
+2 240 350 240 0 0
+240 240 271 61 79 179
+4 400 399 398 1 2
+['Ad', '6s']
+2 280 394 280 0 0
+2 219 333 219 0 0
+2 219 333 219 0 0
+10 400 398 394 2 6
+['Ks', 'Tc']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['Jh', '5s']
+192 282 394 186 0 96
+16 400 398 391 2 9
+['3c', 'Qc']
+2 282 282 391 0 0
+2 282 282 391 0 0
+2 282 282 391 0 0
+4 400 399 398 1 2
+['6d', '5h']
+10 400 398 394 2 6
+['6s', '3h']
+4 400 399 398 1 2
+['7h', '9s']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['7c', 'Ks']
+2 264 264 394 0 0
+2 264 264 394 0 0
+2 264 264 394 0 0
+4 400 399 398 1 2
+['Tc', '2c']
+2 393 393 394 0 0
+16 400 398 391 2 9
+['As', 'Kd']
+2 314 378 314 0 0
+206 314 378 211 0 103
+4 400 399 398 1 2
+['5s', '2s']
+155
+10 400 398 394 2 6
+['2s', '2d']
+2 286 286 394 0 0
+2 286 286 394 0 0
+2 286 286 394 0 0
+4 400 399 398 1 2
+['8h', '5s']
+2 264 394 264 0 0
+98 264 394 215 0 49
+140 215 345 145 0 70
+10 400 398 394 2 6
+['Qd', 'Kd']
+2 254 384 254 0 0
+232 254 384 138 0 116
+4 400 399 398 1 2
+['Qd', 'Kc']
+2 266 266 394 0 0
+2 266 266 394 0 0
+2 227 227 355 0 0
+10 400 398 394 2 6
+['9d', 'Jc']
+2 393 393 394 0 0
+6 393 393 391 0 3
+2 390 390 391 0 0
+2 390 390 391 0 0
+4 400 399 398 1 2
+['9h', '8c']
+62 294 394 263 0 31
+90 263 363 218 0 45
+198 218 318 119 0 99
+10 400 398 394 2 6
+['Jc', '5s']
+2 393 394 393 0 0
+2 388 389 388 0 0
+2 388 389 388 0 0
+26 388 389 375 0 13
+4 400 399 398 1 2
+['9s', '9h']
+2 390 390 391 0 0
+10 400 398 394 2 6
+['4c', '2h']
+4 400 399 398 1 2
+['Jh', 'Js']
+10 400 398 394 2 6
+['Qh', '3s']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+4 400 399 398 1 2
+['9c', '7h']
+4 400 399 398 1 2
+['6c', 'Jc']
+4 400 399 398 1 2
+['3h', '3d']
+10 400 398 394 2 6
+['Ah', 'Jd']
+4 400 399 398 1 2
+['Td', '8d']
+2 278 394 278 0 0
+2 278 394 278 0 0
+2 278 394 278 0 0
+4 400 399 398 1 2
+['Th', '2h']
+2 272 272 394 0 0
+2 239 239 361 0 0
+10 400 398 394 2 6
+['9h', '3d']
+4 400 399 398 1 2
+['6c', '7d']
+8 393 394 389 0 4
+16 400 398 391 2 9
+['3c', 'Kh']
+2 390 391 390 0 0
+2 390 391 390 0 0
+20 390 391 380 0 10
+4 400 399 398 1 2
+['4d', 'Ad']
+10 400 398 394 2 6
+['5s', '3s']
+2 393 394 393 0 0
+2 393 394 393 0 0
+8 393 394 389 0 4
+2 389 390 389 0 0
+34 389 390 372 0 17
+4 400 399 398 1 2
+['4s', 'Kc']
+2 393 393 394 0 0
+16 400 398 391 2 9
+['5c', '9s']
+2 390 391 390 0 0
+14 390 391 383 0 7
+4 400 399 398 1 2
+['9d', 'Kh']
+10 400 398 394 2 6
+['Tc', 'Kc']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['2c', '2d']
+184 249 394 157 0 92
+4 400 399 398 1 2
+['2s', '6s']
+156
+4 400 399 398 1 2
+['9d', '6s']
+2 286 286 394 0 0
+2 286 286 394 0 0
+2 286 286 394 0 0
+10 400 398 394 2 6
+['Kd', '5h']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['Kh', 'Jc']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['6c', '8h']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['3s', '2h']
+169
+10 400 398 394 2 6
+['Js', 'Jc']
+2 310 384 310 0 0
+156 310 384 232 0 78
+4 400 399 398 1 2
+['8s', 'Th']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['9h', 'Qs']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+4 400 399 398 1 2
+['6s', '5d']
+26 400 394 384 6 16
+['6s', '5d']
+10 400 398 394 2 6
+['5d', '6c']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['Ts', '9c']
+4 400 399 398 1 2
+['6h', '9c']
+10 400 398 394 2 6
+['9c', 'Tc']
+2 288 288 394 0 0
+2 288 288 394 0 0
+2 288 288 394 0 0
+4 400 399 398 1 2
+['2s', 'Kd']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+10 400 398 394 2 6
+['9h', '6d']
+2 276 394 276 0 0
+2 276 394 276 0 0
+2 276 394 276 0 0
+192 276 394 180 0 96
+4 400 399 398 1 2
+['2d', '4d']
+158
+4 400 399 398 1 2
+['7d', 'Ts']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['6c', 'Kd']
+2 278 394 278 0 0
+2 278 394 278 0 0
+2 278 394 278 0 0
+10 400 398 394 2 6
+['Td', '4s']
+2 393 394 393 0 0
+8 393 394 389 0 4
+4 400 399 398 1 2
+['Jc', '3h']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['Ac', '3s']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['Ah', '2h']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+10 400 398 394 2 6
+['2h', '5c']
+4 400 399 398 1 2
+['Ac', '4d']
+18 393 394 384 0 9
+10 400 398 394 2 6
+['3c', 'Js']
+2 272 272 394 0 0
+4 400 399 398 1 2
+['7d', 'Jc']
+2 393 394 393 0 0
+20 393 394 383 0 10
+10 400 398 394 2 6
+['6c', 'Td']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+4 400 399 398 1 2
+['Qd', '9d']
+50 339 339 369 0 25
+96 314 314 321 0 48
+156 266 266 243 0 78
+10 400 398 394 2 6
+['3d', 'Js']
+2 259 259 394 0 0
+2 259 259 394 0 0
+2 259 259 394 0 0
+4 400 399 398 1 2
+['7s', '2s']
+152
+10 400 398 394 2 6
+['Qc', 'Qd']
+4 400 399 398 1 2
+['5c', '4h']
+153
+10 400 398 394 2 6
+['Jd', '8h']
+2 393 394 393 0 0
+22 393 394 382 0 11
+4 400 399 398 1 2
+['4h', '6c']
+154
+10 400 398 394 2 6
+['Kc', 'Qs']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+25 393 386 378 7 16
+66 393 367 348 26 46
+176 393 327 273 66 121
+312 393 217 150 176 244
+4 400 399 398 1 2
+['Js', '5c']
+26 400 394 384 6 16
+['Js', '5c']
+10 400 398 394 2 6
+['As', '6s']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['6h', 'Th']
+2 282 394 282 0 0
+2 282 394 282 0 0
+220 282 394 172 0 110
+10 400 398 394 2 6
+['Qc', '9c']
+2 282 394 282 0 0
+2 282 394 282 0 0
+2 282 394 282 0 0
+4 400 399 398 1 2
+['Js', '2d']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+10 400 398 394 2 6
+['Ac', '6c']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['9h', 'Qd']
+26 400 394 384 6 16
+['9h', 'Qd']
+2 302 302 384 0 0
+2 302 302 384 0 0
+2 302 302 384 0 0
+10 400 398 394 2 6
+['9d', '3c']
+4 400 399 398 1 2
+['6h', 'Td']
+26 400 394 384 6 16
+['6h', 'Td']
+10 400 398 394 2 6
+['Js', '3d']
+2 393 394 393 0 0
+16 393 394 385 0 8
+4 400 399 398 1 2
+['4c', 'Ah']
+2 268 394 268 0 0
+82 268 394 227 0 41
+142 227 353 156 0 71
+10 400 398 394 2 6
+['Ad', '3s']
+2 361 394 361 0 0
+4 400 399 398 1 2
+['Ks', 'Ac']
+10 400 398 394 2 6
+['Ad', '7h']
+2 314 314 394 0 0
+2 314 314 394 0 0
+2 274 274 354 0 0
+4 400 399 398 1 2
+['Js', 'Td']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['8d', '9c']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['6h', 'Jd']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+4 400 399 398 1 2
+['6d', '4c']
+154
+10 400 398 394 2 6
+['3c', '7h']
+4 400 399 398 1 2
+['Kd', 'Qd']
+2 261 261 391 0 0
+2 216 216 346 0 0
+10 400 398 394 2 6
+['5h', 'Th']
+2 369 369 394 0 0
+30 369 369 379 0 15
+2 354 354 379 0 0
+70 354 354 344 0 35
+4 400 399 398 1 2
+['7d', '3d']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 386 386 386 0 0
+10 400 398 394 2 6
+['Ts', '8d']
+2 290 290 394 0 0
+2 290 290 394 0 0
+2 290 290 394 0 0
+82 290 290 353 0 41
+4 400 399 398 1 2
+['3d', '9d']
+18 393 394 384 0 9
+10 400 398 394 2 6
+['Ac', '5d']
+2 308 308 394 0 0
+2 308 308 394 0 0
+2 269 269 355 0 0
+4 400 399 398 1 2
+['Qh', 'Qs']
+35 400 391 378 9 22
+['Qh', 'Qs']
+16 400 398 391 2 9
+['Qs', '7s']
+2 272 272 391 0 0
+2 272 272 391 0 0
+2 272 272 391 0 0
+4 400 399 398 1 2
+['5d', 'Qs']
+10 400 398 394 2 6
+['Tc', '4h']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['6h', 'Ks']
+2 268 268 394 0 0
+2 198 198 324 0 0
+198 198 198 169 0 155
+16 400 398 391 2 9
+['4s', '4h']
+2 327 327 391 0 0
+2 327 327 391 0 0
+2 327 327 391 0 0
+4 400 399 398 1 2
+['2d', '6h']
+167
+4 400 399 398 1 2
+['Kd', 'As']
+2 270 270 270 0 0
+2 270 270 270 0 0
+190 270 270 175 0 95
+10 400 398 394 2 6
+['Ac', 'Kc']
+2 267 267 384 0 0
+2 267 267 384 0 0
+2 267 267 384 0 0
+4 400 399 398 1 2
+['9s', 'Qh']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['Ac', '6c']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['9h', '4d']
+150
+10 400 398 394 2 6
+['8s', '9c']
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['Ah', 'Ac']
+2 382 391 382 0 0
+64 369 378 337 0 32
+236 369 278 201 100 168
+10 400 398 394 2 6
+['Ad', '5c']
+2 272 272 394 0 0
+2 272 272 394 0 0
+2 272 272 394 0 0
+4 400 399 398 1 2
+['6s', '7h']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+10 400 398 394 2 6
+['8h', '7h']
+2 393 394 393 0 0
+2 393 394 393 0 0
+14 393 394 386 0 7
+4 400 399 398 1 2
+['Jc', '7h']
+26 400 394 384 6 16
+['Jc', '7h']
+10 400 398 394 2 6
+['6d', 'Jd']
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['Jc', '8c']
+2 264 264 394 0 0
+2 264 264 394 0 0
+2 264 264 394 0 0
+4 400 399 398 1 2
+['7h', 'Qh']
+2 286 286 394 0 0
+2 241 241 349 0 0
+2 166 166 274 0 0
+10 400 398 394 2 6
+['3c', 'Ac']
+2 288 288 394 0 0
+2 248 248 354 0 0
+2 248 248 354 0 0
+4 400 399 398 1 2
+['9h', 'Qd']
+2 326 326 394 0 0
+2 326 326 394 0 0
+10 400 398 394 2 6
+['6s', '9c']
+2 263 263 263 0 0
+2 263 263 263 0 0
+2 263 263 263 0 0
+4 400 399 398 1 2
+['Qd', 'Jh']
+2 292 292 394 0 0
+10 400 398 394 2 6
+['9s', '8s']
+2 393 394 393 0 0
+2 393 394 393 0 0
+16 393 394 385 0 8
+4 400 399 398 1 2
+['4s', '2s']
+158
+10 400 398 394 2 6
+['Qs', 'Ad']
+2 300 384 300 0 0
+82 300 384 259 0 41
+199 300 297 157 87 143
+2 157 241 157 0 0
+2 51 135 51 0 0
+4 400 399 398 1 2
+['4s', 'Ts']
+18 393 394 384 0 9
+10 400 398 394 2 6
+['2h', 'Qc']
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['9c', '6s']
+2 393 393 394 0 0
+2 393 393 394 0 0
+10 400 398 394 2 6
+['6c', '5d']
+2 393 394 393 0 0
+16 393 394 385 0 8
+4 400 399 398 1 2
+['6d', 'Qd']
+2 292 292 394 0 0
+2 292 292 394 0 0
+10 400 398 394 2 6
+['Qc', 'Jd']
+2 310 394 310 0 0
+76 310 394 272 0 38
+2 272 356 272 0 0
+272 272 356 86 0 186
+4 400 399 398 1 2
+['8d', 'Qc']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['8d', '8h']
+4 400 399 398 1 2
+['4s', '3h']
+164
+10 400 398 394 2 6
+['8c', 'Qs']
+2 393 394 393 0 0
+18 393 394 384 0 9
+4 400 399 398 1 2
+['5h', 'Th']
+2 255 255 394 0 0
+2 255 255 394 0 0
+4 400 399 398 1 2
+['2c', '2s']
+2 296 296 394 0 0
+2 296 296 394 0 0
+2 296 296 394 0 0
+10 400 398 394 2 6
+['5s', 'Ad']
+2 276 394 276 0 0
+2 276 394 276 0 0
+2 276 394 276 0 0
+4 400 399 398 1 2
+['As', 'Js']
+198 264 391 165 0 99
+4 400 399 398 1 2
+['9d', '5d']
+26 400 394 384 6 16
+['9d', '5d']
+10 400 398 394 2 6
+['Ah', '2s']
+2 393 394 393 0 0
+18 393 394 384 0 9
+4 400 399 398 1 2
+['6h', 'Ts']
+2 393 393 393 0 0
+2 393 393 393 0 0
+18 393 393 384 0 9
+4 400 399 398 1 2
+['Th', '3c']
+146
+10 400 398 394 2 6
+['8h', '6s']
+2 292 292 394 0 0
+2 240 240 342 0 0
+2 240 240 342 0 0
+4 400 399 398 1 2
+['Ts', '8s']
+222 302 394 191 0 111
+10 400 398 394 2 6
+['7s', '5s']
+2 255 394 255 0 0
+2 255 394 255 0 0
+2 255 394 255 0 0
+134 255 394 188 0 67
+4 400 399 398 1 2
+['7h', '2d']
+165
+10 400 398 394 2 6
+['Qs', '5s']
+2 393 393 393 0 0
+2 393 393 393 0 0
+12 393 393 387 0 6
+4 400 399 398 1 2
+['Qh', 'Td']
+10 400 398 394 2 6
+['Qc', 'Qd']
+2 383 383 384 0 0
+2 383 383 384 0 0
+2 383 383 384 0 0
+4 400 399 398 1 2
+['7d', '2c']
+165
+4 400 399 398 1 2
+['9d', 'Ts']
+10 400 398 394 2 6
+['5d', '7d']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['Kc', '6h']
+2 278 278 394 0 0
+2 278 278 394 0 0
+2 278 278 394 0 0
+10 400 398 394 2 6
+['2c', '4c']
+4 400 399 398 1 2
+['3s', 'Kd']
+10 400 398 394 2 6
+['4d', 'Ac']
+2 322 394 322 0 0
+2 274 346 274 0 0
+2 114 186 114 0 0
+4 114 186 112 0 2
+4 400 399 398 1 2
+['Ac', '6c']
+2 270 270 394 0 0
+2 270 270 394 0 0
+2 270 270 394 0 0
+10 400 398 394 2 6
+['Tc', 'Td']
+2 275 384 275 0 0
+84 275 384 233 0 42
+2 233 342 233 0 0
+218 233 342 124 0 109
+4 400 399 398 1 2
+['5d', '8c']
+10 400 398 394 2 6
+['7s', '7c']
+2 383 383 384 0 0
+2 383 383 384 0 0
+2 383 383 384 0 0
+4 400 399 398 1 2
+['Ad', '2d']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['Qd', '7h']
+2 294 294 394 0 0
+2 294 294 394 0 0
+2 294 294 394 0 0
+4 400 399 398 1 2
+['7h', '7c']
+90 262 391 217 0 45
+164 217 346 135 0 82
+135 135 264 30 0 105
+16 400 398 391 2 9
+['Jh', '6h']
+2 360 391 360 0 0
+40 360 391 340 0 20
+156 360 327 250 64 110
+289 360 222 131 169 229
+4 400 399 398 1 2
+['Th', 'Kh']
+2 270 270 394 0 0
+2 270 270 394 0 0
+242 270 270 273 0 121
+10 400 398 394 2 6
+['2h', '8d']
+4 400 399 398 1 2
+['2h', '6s']
+167
+16 400 398 391 2 9
+['4h', '2h']
+4 400 399 398 1 2
+['3s', '8h']
+157
+10 400 398 394 2 6
+['Ts', '5h']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['7s', 'Ah']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+10 400 398 394 2 6
+['9s', 'Ad']
+2 251 394 251 0 0
+2 251 394 251 0 0
+2 251 394 251 0 0
+251 251 394 68 0 183
+4 400 399 398 1 2
+['6s', 'Tc']
+10 400 398 394 2 6
+['Qc', '2d']
+2 298 298 394 0 0
+2 298 298 394 0 0
+4 400 399 398 1 2
+['Th', '2h']
+2 393 394 393 0 0
+20 393 394 383 0 10
+10 400 398 394 2 6
+['Th', '2d']
+4 400 399 398 1 2
+['4c', '5c']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+10 400 398 394 2 6
+['2d', '3d']
+4 400 399 398 1 2
+['5d', '2s']
+166
+10 400 398 394 2 6
+['Th', '5h']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['Jh', '5c']
+2 312 394 312 0 0
+2 312 394 312 0 0
+2 312 394 312 0 0
+16 400 398 391 2 9
+['8c', '4d']
+4 400 399 398 1 2
+['Tc', '7h']
+2 251 394 251 0 0
+251 251 394 110 0 141
+10 400 398 394 2 6
+['2c', 'Kc']
+2 274 274 394 0 0
+4 400 399 398 1 2
+['2c', 'Qd']
+10 400 398 394 2 6
+['4h', '3d']
+4 400 399 398 1 2
+['3d', '4h']
+164
+4 400 399 398 1 2
+['6h', '2s']
+167
+10 400 398 394 2 6
+['9s', '5h']
+2 393 394 393 0 0
+6 393 394 390 0 3
+4 400 399 398 1 2
+['8c', 'Qc']
+2 393 393 393 0 0
+2 393 393 393 0 0
+16 393 393 385 0 8
+10 400 398 394 2 6
+['Js', '4s']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['2d', '8d']
+54 341 341 367 0 27
+156 341 271 281 70 113
+341 341 185 131 156 263
+4 400 399 398 1 2
+['Jc', '9h']
+16 400 398 391 2 9
+['5h', '9d']
+2 390 391 390 0 0
+22 390 391 379 0 11
+4 400 399 398 1 2
+['8c', '5s']
+16 400 398 391 2 9
+['6c', '5h']
+2 390 391 390 0 0
+28 390 391 376 0 14
+4 400 399 398 1 2
+['2d', '7d']
+152
+10 400 398 394 2 6
+['6s', '3s']
+4 400 399 398 1 2
+['9d', '8h']
+10 400 398 394 2 6
+['6h', '8c']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['4s', '9c']
+150
+10 400 398 394 2 6
+['9s', '8d']
+2 276 394 276 0 0
+228 276 394 162 0 114
+4 400 399 398 1 2
+['Ks', 'Js']
+2 390 390 391 0 0
+4 400 399 398 1 2
+['6s', '6c']
+26 400 394 384 6 16
+['6s', '6c']
+2 275 275 384 0 0
+2 275 275 384 0 0
+2 238 238 347 0 0
+10 400 398 394 2 6
+['2h', '9c']
+4 400 399 398 1 2
+['3c', 'Jd']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+4 400 399 398 1 2
+['8s', 'Kh']
+10 400 398 394 2 6
+['7s', 'As']
+2 282 282 394 0 0
+4 400 399 398 1 2
+['Jd', '5s']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+10 400 398 394 2 6
+['7s', 'Ah']
+2 296 394 296 0 0
+86 296 394 253 0 43
+2 253 351 253 0 0
+253 253 351 61 0 192
+4 400 399 398 1 2
+['Kc', '2d']
+10 400 398 394 2 6
+['8s', '2c']
+4 400 399 398 1 2
+['Qd', '9h']
+8 393 394 389 0 4
+10 400 398 394 2 6
+['3d', 'Th']
+4 400 399 398 1 2
+['5c', '5d']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+10 400 398 394 2 6
+['4s', '7c']
+4 400 399 398 1 2
+['7c', '7s']
+35 400 391 378 9 22
+['7c', '7s']
+2 254 378 254 0 0
+10 400 398 394 2 6
+['5s', '6h']
+2 393 394 393 0 0
+22 393 394 382 0 11
+4 400 399 398 1 2
+['Jd', 'Jh']
+2 390 390 391 0 0
+10 400 398 394 2 6
+['3s', '3c']
+2 268 268 394 0 0
+2 268 268 394 0 0
+2 268 268 394 0 0
+4 400 399 398 1 2
+['8d', '6s']
+26 400 394 384 6 16
+['8d', '6s']
+10 400 398 394 2 6
+['Js', '3h']
+2 288 394 288 0 0
+116 288 394 230 0 58
+4 400 399 398 1 2
+['Qh', 'Ad']
+10 400 398 394 2 6
+['2c', 'Ac']
+2 263 263 394 0 0
+4 400 399 398 1 2
+['Jc', '5d']
+2 284 284 394 0 0
+10 400 398 394 2 6
+['Ts', 'Ac']
+4 400 399 398 1 2
+['Qc', '6c']
+2 290 290 394 0 0
+2 290 290 394 0 0
+2 290 290 394 0 0
+10 400 398 394 2 6
+['7d', 'Ad']
+2 284 284 394 0 0
+2 284 284 394 0 0
+2 284 284 394 0 0
+4 400 399 398 1 2
+['2h', '5s']
+166
+4 400 399 398 1 2
+['8c', 'Qc']
+2 257 257 394 0 0
+2 257 257 394 0 0
+76 257 257 356 0 38
+4 400 399 398 1 2
+['6h', '3c']
+162
+4 400 399 398 1 2
+['2s', '3c']
+169
+10 400 398 394 2 6
+['As', '7c']
+2 290 290 394 0 0
+2 290 290 394 0 0
+2 290 290 394 0 0
+4 400 399 398 1 2
+['3h', '3d']
+48 355 394 331 0 24
+102 355 344 279 50 76
+355 355 291 115 103 240
+10 400 398 394 2 6
+['3h', 'Qh']
+2 393 394 393 0 0
+6 393 394 390 0 3
+4 400 399 398 1 2
+['3s', '5c']
+161
+16 400 398 391 2 9
+['Th', '9s']
+2 286 286 391 0 0
+2 286 286 391 0 0
+2 204 204 309 0 0
+4 400 399 398 1 2
+['Jd', '2s']
+2 316 316 394 0 0
+2 316 316 394 0 0
+2 281 281 359 0 0
+4 400 399 398 1 2
+['Kh', 'Jc']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+10 400 398 394 2 6
+['As', '6c']
+2 393 393 394 0 0
+2 390 390 391 0 0
+4 400 399 398 1 2
+['7h', '3s']
+160
+4 400 399 398 1 2
+['As', 'Kc']
+2 390 390 391 0 0
+2 390 390 391 0 0
+2 390 390 391 0 0
+10 400 398 394 2 6
+['Jh', '2h']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+8 393 394 389 0 4
+4 400 399 398 1 2
+['3h', '5c']
+161
+10 400 398 394 2 6
+['3d', 'Th']
+4 400 399 398 1 2
+['7s', 'Kc']
+10 400 398 394 2 6
+['6h', 'Qd']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+4 400 399 398 1 2
+['8s', 'Ah']
+2 314 394 314 0 0
+2 314 394 314 0 0
+2 276 356 276 0 0
+10 400 398 394 2 6
+['Ah', 'Td']
+2 383 383 384 0 0
+4 400 399 398 1 2
+['3s', 'Ac']
+116 259 394 201 0 58
+4 400 399 398 1 2
+['Jh', '7h']
+98 302 394 253 0 49
+180 253 345 163 0 90
+2 163 255 163 0 0
+4 400 399 398 1 2
+['Qc', 'Ah']
+2 390 390 391 0 0
+4 400 399 398 1 2
+['Jc', '4h']
+132 251 394 185 0 66
+10 400 398 394 2 6
+['2d', '5s']
+4 400 399 398 1 2
+['3s', '9h']
+144
+4 400 399 398 1 2
+['Tc', '2s']
+145
+16 400 398 391 2 9
+['7d', '2s']
+4 400 399 398 1 2
+['As', 'Qd']
+150 296 296 221 0 75
+2 221 221 221 0 0
+221 221 116 10 105 211
+4 10 10 8 0 2
+8 10 6 4 4 6
+10 400 398 394 2 6
+['5d', '5s']
+2 300 394 300 0 0
+2 300 394 300 0 0
+2 300 394 300 0 0
+82 300 394 259 0 41
+4 400 399 398 1 2
+['3d', '3s']
+2 294 294 394 0 0
+2 294 294 394 0 0
+2 294 294 394 0 0
+10 400 398 394 2 6
+['2d', '3h']
+4 400 399 398 1 2
+['Kh', 'Jc']
+60 296 394 266 0 30
+266 266 364 105 0 161
+4 400 399 398 1 2
+['6c', '4d']
+154
+10 400 398 394 2 6
+['8c', 'Kc']
+2 290 394 290 0 0
+2 290 394 290 0 0
+2 290 394 290 0 0
+4 400 399 398 1 2
+['5h', '4d']
+153
+10 400 398 394 2 6
+['Ts', '9c']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['5s', '7c']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+4 400 399 398 1 2
+['5s', 'Jh']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+10 400 398 394 2 6
+['6c', '8s']
+2 363 394 363 0 0
+4 400 399 398 1 2
+['2h', '3s']
+169
+10 400 398 394 2 6
+['Th', 'Kh']
+2 290 394 290 0 0
+2 290 394 290 0 0
+2 290 394 290 0 0
+250 290 362 149 32 141
+4 400 399 398 1 2
+['Qd', '6h']
+4 400 399 398 1 2
+['9s', '3c']
+144
+10 400 398 394 2 6
+['Ac', 'Ts']
+2 244 244 384 0 0
+2 244 244 384 0 0
+4 400 399 398 1 2
+['Jh', 'Qs']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+10 400 398 394 2 6
+['4c', 'Jd']
+2 263 394 263 0 0
+2 263 394 263 0 0
+2 263 394 263 0 0
+4 400 399 398 1 2
+['9d', '3d']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['7c', 'Td']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['2d', '2s']
+2 286 286 394 0 0
+2 286 286 394 0 0
+2 286 286 394 0 0
+4 400 399 398 1 2
+['2s', 'Td']
+145
+4 400 399 398 1 2
+['Th', '4s']
+2 322 394 322 0 0
+2 322 394 322 0 0
+168 280 352 196 0 84
+10 400 398 394 2 6
+['8c', 'Ah']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['7c', '4s']
+151
+10 400 398 394 2 6
+['7h', 'As']
+2 245 245 394 0 0
+2 245 245 394 0 0
+2 245 245 394 0 0
+4 400 399 398 1 2
+['4h', '5h']
+2 393 394 393 0 0
+14 393 394 386 0 7
+4 400 399 398 1 2
+['7d', '4s']
+151
+16 400 398 391 2 9
+['4d', 'Jc']
+2 309 309 391 0 0
+2 256 256 338 0 0
+2 189 189 271 0 0
+4 400 399 398 1 2
+['6s', '9h']
+2 341 394 341 0 0
+152 322 375 246 0 76
+322 322 190 25 185 297
+10 400 398 394 2 6
+['2h', 'Ac']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['9c', 'Td']
+10 400 398 394 2 6
+['Jh', '2c']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['Kh', '9h']
+2 276 276 276 0 0
+2 276 276 276 0 0
+2 276 276 276 0 0
+4 400 399 398 1 2
+['4s', 'Jh']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['5h', 'Ad']
+2 292 292 394 0 0
+4 400 399 398 1 2
+['Qs', 'Td']
+2 255 255 394 0 0
+2 255 255 394 0 0
+2 255 255 394 0 0
+10 400 398 394 2 6
+['4c', '8d']
+4 400 399 398 1 2
+['6h', 'Ks']
+26 400 394 384 6 16
+['6h', 'Ks']
+2 269 269 269 0 0
+2 269 269 269 0 0
+10 400 398 394 2 6
+['Jd', '3h']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['6h', '4s']
+154
+4 400 399 398 1 2
+['8d', '4s']
+148
+10 400 398 394 2 6
+['3d', '5s']
+4 400 399 398 1 2
+['Ad', '9h']
+26 400 394 384 6 16
+['Ad', '9h']
+2 275 275 384 0 0
+16 400 398 391 2 9
+['2d', '3h']
+4 400 399 398 1 2
+['Td', '6c']
+26 400 394 384 6 16
+['Td', '6c']
+10 400 398 394 2 6
+['Qh', 'Qd']
+4 400 399 398 1 2
+['Ah', '9d']
+10 400 398 394 2 6
+['Ac', '6h']
+2 272 394 272 0 0
+2 272 394 272 0 0
+2 272 394 272 0 0
+4 400 399 398 1 2
+['Jh', 'Js']
+2 327 391 327 0 0
+2 327 391 327 0 0
+2 327 391 327 0 0
+4 400 399 398 1 2
+['Ad', '9d']
+35 400 391 378 9 22
+['Ad', '9d']
+2 276 276 378 0 0
+2 238 238 340 0 0
+4 400 399 398 1 2
+['3h', 'Th']
+10 400 398 394 2 6
+['6d', 'Js']
+2 274 394 274 0 0
+100 274 394 224 0 50
+2 224 344 224 0 0
+2 224 344 224 0 0
+4 400 399 398 1 2
+['7s', '8h']
+2 393 394 393 0 0
+2 393 394 393 0 0
+8 393 394 389 0 4
+10 400 398 394 2 6
+['5s', 'Qs']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['Ks', 'Jh']
+2 393 393 394 0 0
+2 393 393 394 0 0
+10 400 398 394 2 6
+['2d', '5c']
+4 400 399 398 1 2
+['Jc', '3s']
+164 337 337 312 0 82
+255 255 255 184 0 128
+16 400 398 391 2 9
+['4d', 'Qh']
+2 390 390 391 0 0
+4 400 399 398 1 2
+['Ad', 'Kd']
+14 390 390 384 0 7
+10 400 398 394 2 6
+['Qh', '2d']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['7s', '8s']
+2 294 394 294 0 0
+142 294 394 223 0 71
+10 400 398 394 2 6
+['7c', '3c']
+2 393 394 393 0 0
+22 393 394 382 0 11
+4 400 399 398 1 2
+['4d', 'Tc']
+2 393 393 393 0 0
+2 393 393 393 0 0
+10 400 398 394 2 6
+['4c', '2s']
+4 400 399 398 1 2
+['Ac', '2h']
+26 400 394 384 6 16
+['Ac', '2h']
+2 262 384 262 0 0
+252 262 384 136 0 126
+4 400 399 398 1 2
+['Kd', '7d']
+10 393 394 388 0 5
+16 400 398 391 2 9
+['Qd', '6s']
+2 390 391 390 0 0
+2 390 391 390 0 0
+34 390 391 373 0 17
+4 400 399 398 1 2
+['6h', '6d']
+2 393 393 394 0 0
+2 393 393 394 0 0
+16 393 393 386 0 8
+10 400 398 394 2 6
+['Ah', '5h']
+2 284 394 284 0 0
+194 284 394 187 0 97
+4 400 399 398 1 2
+['2h', '5s']
+166
+10 400 398 394 2 6
+['Jc', 'Ks']
+2 339 394 339 0 0
+2 339 394 339 0 0
+2 339 394 339 0 0
+4 400 399 398 1 2
+['7d', '4c']
+151
+10 400 398 394 2 6
+['2c', '8c']
+2 270 394 270 0 0
+2 270 394 270 0 0
+2 270 394 270 0 0
+86 270 394 227 0 43
+4 400 399 398 1 2
+['Qc', '2h']
+10 393 394 388 0 5
+10 400 398 394 2 6
+['2s', '5c']
+4 400 399 398 1 2
+['7d', '3c']
+160
+10 400 398 394 2 6
+['Qd', '5s']
+2 296 394 296 0 0
+2 296 394 296 0 0
+2 296 394 296 0 0
+4 400 399 398 1 2
+['3c', 'Ad']
+2 296 296 394 0 0
+2 296 296 394 0 0
+2 296 296 394 0 0
+10 400 398 394 2 6
+['Kh', '7s']
+2 280 280 394 0 0
+2 280 280 394 0 0
+2 280 280 394 0 0
+4 400 399 398 1 2
+['9s', '8c']
+2 276 276 394 0 0
+10 400 398 394 2 6
+['Ah', '9c']
+2 263 263 394 0 0
+2 263 263 394 0 0
+2 263 263 394 0 0
+4 400 399 398 1 2
+['Qh', 'Ac']
+2 390 390 391 0 0
+2 390 390 391 0 0
+2 390 390 391 0 0
+10 400 398 394 2 6
+['3s', '6c']
+4 400 399 398 1 2
+['9s', '5c']
+26 400 394 384 6 16
+['9s', '5c']
+10 400 398 394 2 6
+['Ks', '4h']
+2 351 351 394 0 0
+42 351 351 373 0 21
+2 330 330 373 0 0
+2 330 330 373 0 0
+4 400 399 398 1 2
+['2h', '6s']
+167
+10 400 398 394 2 6
+['8s', 'Qc']
+2 257 394 257 0 0
+2 257 394 257 0 0
+136 257 394 189 0 68
+4 400 399 398 1 2
+['Td', 'Jh']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['4h', '7s']
+4 400 399 398 1 2
+['Ts', '2d']
+145
+10 400 398 394 2 6
+['7c', '8c']
+2 393 393 394 0 0
+2 389 389 390 0 0
+4 400 399 398 1 2
+['8d', '8h']
+2 255 255 391 0 0
+10 400 398 394 2 6
+['Th', 'Jc']
+2 318 394 318 0 0
+104 318 394 266 0 52
+2 266 342 266 0 0
+2 266 342 266 0 0
+266 266 342 121 0 145
+4 400 399 398 1 2
+['2h', '5c']
+166
+10 400 398 394 2 6
+['Ts', '6d']
+2 308 308 394 0 0
+2 267 267 353 0 0
+2 209 209 295 0 0
+4 400 399 398 1 2
+['9h', '7d']
+10 400 398 394 2 6
+['6d', 'Js']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+10 393 393 388 0 5
+4 400 399 398 1 2
+['9c', 'Ts']
+10 400 398 394 2 6
+['Qh', '8d']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['7h', '6c']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+10 400 398 394 2 6
+['Qs', 'Jh']
+2 343 394 343 0 0
+2 325 376 325 0 0
+2 325 376 325 0 0
+4 400 399 398 1 2
+['Qc', '3s']
+26 400 394 384 6 16
+['Qc', '3s']
+10 400 398 394 2 6
+['Qd', 'Ts']
+2 280 280 394 0 0
+2 234 234 348 0 0
+4 400 399 398 1 2
+['Ad', '9h']
+16 400 398 391 2 9
+['5h', 'Ah']
+2 390 391 390 0 0
+12 390 391 384 0 6
+4 400 399 398 1 2
+['Kc', '3c']
+4 400 399 398 1 2
+['3d', 'Ah']
+26 400 394 384 6 16
+['3d', 'Ah']
+2 260 384 260 0 0
+2 260 384 260 0 0
+2 260 384 260 0 0
+10 400 398 394 2 6
+['9d', 'Jc']
+2 280 280 394 0 0
+4 400 399 398 1 2
+['9h', 'Jd']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+10 400 398 394 2 6
+['Kd', '4d']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+22 393 394 382 0 11
+4 400 399 398 1 2
+['As', '4s']
+10 400 398 394 2 6
+['3c', 'Qs']
+2 264 264 394 0 0
+4 400 399 398 1 2
+['9d', '9h']
+2 290 290 391 0 0
+10 400 398 394 2 6
+['Ad', '6h']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['Th', '8h']
+88 292 394 248 0 44
+140 248 350 178 0 70
+178 178 280 29 0 149
+16 400 398 391 2 9
+['Ac', '7s']
+2 268 268 391 0 0
+2 232 232 355 0 0
+2 232 232 355 0 0
+4 400 399 398 1 2
+['Qd', '7c']
+130 263 263 329 0 65
+2 118 118 249 0 0
+2 8 8 139 0 0
+10 400 398 394 2 6
+['Ad', '7c']
+2 286 394 286 0 0
+2 286 394 286 0 0
+2 286 394 286 0 0
+200 286 394 186 0 100
+4 400 399 398 1 2
+['5s', '6c']
+2 272 272 394 0 0
+2 272 272 394 0 0
+2 272 272 394 0 0
+10 400 398 394 2 6
+['4c', '9c']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['Th', '8h']
+2 288 288 394 0 0
+2 288 288 394 0 0
+2 288 288 394 0 0
+10 400 398 394 2 6
+['4h', 'Kh']
+2 296 296 394 0 0
+2 296 296 394 0 0
+2 296 296 394 0 0
+80 296 296 354 0 40
+4 400 399 398 1 2
+['5c', 'Kc']
+26 400 394 384 6 16
+['5c', 'Kc']
+120 279 279 324 0 60
+2 219 219 324 0 0
+2 219 219 324 0 0
+10 400 398 394 2 6
+['7c', 'Tc']
+2 290 394 290 0 0
+2 290 394 290 0 0
+2 290 394 290 0 0
+4 400 399 398 1 2
+['9c', '9h']
+10 400 398 394 2 6
+['9c', '4d']
+4 400 399 398 1 2
+['Kh', 'As']
+10 400 398 394 2 6
+['9c', '7h']
+2 270 394 270 0 0
+2 270 394 270 0 0
+2 270 394 270 0 0
+4 400 399 398 1 2
+['7s', 'Kd']
+2 274 394 274 0 0
+2 274 394 274 0 0
+2 274 394 274 0 0
+186 274 356 162 38 112
+274 274 203 2 191 272
+10 400 398 394 2 6
+['6h', '2h']
+4 400 399 398 1 2
+['Jc', '9h']
+2 249 249 394 0 0
+10 400 398 394 2 6
+['Ah', '9s']
+2 270 270 394 0 0
+2 210 210 334 0 0
+2 123 123 247 0 0
+4 400 399 398 1 2
+['3c', 'Kc']
+10 393 394 388 0 5
+4 400 399 398 1 2
+['3d', 'Kh']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+10 400 398 394 2 6
+['Qs', '3c']
+2 393 394 393 0 0
+14 393 394 386 0 7
+4 400 399 398 1 2
+['2c', 'Th']
+145
+10 400 398 394 2 6
+['Td', 'Th']
+2 383 383 384 0 0
+4 400 399 398 1 2
+['Kh', '6c']
+2 257 257 394 0 0
+2 257 257 394 0 0
+2 257 257 394 0 0
+10 400 398 394 2 6
+['7c', '7d']
+2 271 384 271 0 0
+2 271 384 271 0 0
+2 271 384 271 0 0
+4 400 399 398 1 2
+['2d', 'Td']
+10 400 398 394 2 6
+['2c', '5s']
+4 400 399 398 1 2
+['3d', '2d']
+163
+10 400 398 394 2 6
+['Ad', '4h']
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['2d', '3h']
+169
+10 400 398 394 2 6
+['5s', '4d']
+4 400 399 398 1 2
+['5h', '2d']
+166
+16 400 398 391 2 9
+['4h', '5s']
+4 400 399 398 1 2
+['2s', '7h']
+165
+10 400 398 394 2 6
+['Jh', 'Ts']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['7h', 'Qh']
+2 288 394 288 0 0
+98 288 394 239 0 49
+108 239 345 185 0 54
+4 400 399 398 1 2
+['2d', 'As']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['4h', '9c']
+4 400 399 398 1 2
+['3h', 'Qd']
+2 286 286 394 0 0
+2 286 286 394 0 0
+2 286 286 394 0 0
+10 400 398 394 2 6
+['6c', '3d']
+4 400 399 398 1 2
+['6d', '9h']
+2 393 393 394 0 0
+16 400 398 391 2 9
+['Jh', '4s']
+2 257 391 257 0 0
+2 257 391 257 0 0
+250 257 391 132 0 125
+4 400 399 398 1 2
+['Qs', 'Qh']
+2 390 390 391 0 0
+10 400 398 394 2 6
+['7c', '6c']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['Qs', '6c']
+2 272 272 394 0 0
+2 272 272 394 0 0
+2 272 272 394 0 0
+10 400 398 394 2 6
+['4s', '8h']
+4 400 399 398 1 2
+['Qh', '6s']
+4 400 399 398 1 2
+['Js', '6h']
+16 393 394 385 0 8
+4 400 399 398 1 2
+['Ah', 'Qs']
+10 400 398 394 2 6
+['Ts', '2s']
+2 393 394 393 0 0
+2 393 394 393 0 0
+18 393 394 384 0 9
+4 400 399 398 1 2
+['7s', '3s']
+2 264 264 264 0 0
+2 264 264 264 0 0
+264 264 264 1 0 263
+10 400 398 394 2 6
+['6h', 'Qd']
+2 324 324 394 0 0
+2 324 324 394 0 0
+2 324 324 394 0 0
+223 324 277 259 47 135
+4 400 399 398 1 2
+['Ac', '8h']
+26 400 394 384 6 16
+['Ac', '8h']
+2 256 256 384 0 0
+10 400 398 394 2 6
+['8c', '5h']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['Qh', '4d']
+247 247 394 121 0 126
+10 400 398 394 2 6
+['Qc', '6h']
+2 253 253 394 0 0
+2 253 253 394 0 0
+2 253 253 394 0 0
+253 253 253 257 0 137
+4 400 399 398 1 2
+['Jd', '3d']
+16 400 398 391 2 9
+['Jd', 'Jh']
+2 290 290 378 0 0
+2 217 217 305 0 0
+2 145 145 233 0 0
+4 400 399 398 1 2
+['8s', '3d']
+157
+10 400 398 394 2 6
+['3s', 'Ah']
+2 270 394 270 0 0
+2 270 394 270 0 0
+2 270 394 270 0 0
+4 400 399 398 1 2
+['Qs', '3h']
+10 400 398 394 2 6
+['3d', '4h']
+4 400 399 398 1 2
+['Kc', 'Td']
+2 253 253 394 0 0
+2 253 253 394 0 0
+2 253 253 394 0 0
+4 400 399 398 1 2
+['Qc', 'Td']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['As', '2s']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['3c', 'Ad']
+2 337 337 394 0 0
+2 337 337 394 0 0
+2 297 297 354 0 0
+4 400 399 398 1 2
+['8c', '3h']
+157
+10 400 398 394 2 6
+['8h', '6h']
+2 393 393 393 0 0
+2 393 393 393 0 0
+18 393 393 384 0 9
+4 400 399 398 1 2
+['5s', '9s']
+2 393 394 393 0 0
+2 393 394 393 0 0
+26 393 394 380 0 13
+10 400 398 394 2 6
+['Ac', 'Js']
+2 383 383 384 0 0
+4 400 399 398 1 2
+['9c', '5h']
+26 400 394 384 6 16
+['9c', '5h']
+16 400 398 391 2 9
+['Ad', 'Jc']
+2 310 378 310 0 0
+86 310 378 267 0 43
+2 267 335 267 0 0
+267 267 335 97 0 170
+4 400 399 398 1 2
+['As', '7s']
+2 306 394 306 0 0
+2 306 394 306 0 0
+94 306 394 259 0 47
+10 400 398 394 2 6
+['6s', '4s']
+2 393 394 393 0 0
+2 393 394 393 0 0
+12 393 394 387 0 6
+4 400 399 398 1 2
+['8s', '5h']
+2 278 394 278 0 0
+2 278 394 278 0 0
+2 278 394 278 0 0
+10 400 398 394 2 6
+['Qc', '3h']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['Th', '2d']
+145
+4 400 399 398 1 2
+['7c', '7d']
+2 390 390 391 0 0
+2 390 390 391 0 0
+2 390 390 391 0 0
+10 400 398 394 2 6
+['Kh', 'Jc']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+4 400 399 398 1 2
+['Jd', '7h']
+6 393 394 390 0 3
+16 400 398 391 2 9
+['8h', '5h']
+2 300 300 391 0 0
+2 300 300 391 0 0
+2 267 267 358 0 0
+138 267 267 289 0 69
+4 400 399 398 1 2
+['As', 'Jh']
+94 304 391 257 0 47
+108 257 344 203 0 54
+203 203 290 84 0 119
+10 400 398 394 2 6
+['3s', 'Ks']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['8d', 'Kd']
+2 318 394 318 0 0
+174 318 394 231 0 87
+10 400 398 394 2 6
+['Th', 'Td']
+2 285 384 285 0 0
+2 285 384 285 0 0
+2 285 384 285 0 0
+4 400 399 398 1 2
+['5d', '4c']
+153
+4 400 399 398 1 2
+['Ks', '7c']
+2 355 394 355 0 0
+10 400 398 394 2 6
+['Qs', '4d']
+2 286 286 286 0 0
+2 286 286 286 0 0
+2 286 286 286 0 0
+4 400 399 398 1 2
+['Th', '3h']
+10 400 398 394 2 6
+['Ts', '6h']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['2s', '2h']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['9d', '7d']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['5c', '8c']
+26 400 394 384 6 16
+['5c', '8c']
+4 400 399 398 1 2
+['9h', 'Ac']
+146 314 394 241 0 73
+10 400 398 394 2 6
+['2h', 'Qc']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['Qs', 'Jh']
+26 400 394 384 6 16
+['Qs', 'Jh']
+2 300 384 300 0 0
+2 300 384 300 0 0
+2 300 384 300 0 0
+10 400 398 394 2 6
+['9h', '4h']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['Kh', '2h']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['9d', 'Th']
+2 276 394 276 0 0
+2 276 394 276 0 0
+2 276 394 276 0 0
+10 400 398 394 2 6
+['5s', 'Tc']
+2 284 394 284 0 0
+2 284 394 284 0 0
+2 284 394 284 0 0
+4 400 399 398 1 2
+['Ac', '7h']
+72 361 361 358 0 36
+108 325 325 304 0 54
+231 325 212 186 113 172
+325 325 94 67 231 291
+10 400 398 394 2 6
+['Qc', 'Kc']
+4 400 399 398 1 2
+['6s', '3c']
+162
+10 400 398 394 2 6
+['7c', 'Qd']
+2 282 394 282 0 0
+112 282 394 226 0 56
+2 226 338 226 0 0
+2 226 338 226 0 0
+4 400 399 398 1 2
+['Qd', '5c']
+10 400 398 394 2 6
+['3s', '4d']
+4 400 399 398 1 2
+['Ts', '2s']
+10 393 394 388 0 5
+10 400 398 394 2 6
+['Qd', 'Jh']
+2 268 268 394 0 0
+4 400 399 398 1 2
+['Kc', 'Tc']
+26 400 394 384 6 16
+['Kc', 'Tc']
+2 310 310 384 0 0
+2 310 310 384 0 0
+2 310 310 384 0 0
+10 400 398 394 2 6
+['5s', 'Ad']
+2 280 394 280 0 0
+84 280 394 238 0 42
+2 238 352 238 0 0
+2 183 297 183 0 0
+183 183 297 9 0 174
+4 400 399 398 1 2
+['Qd', 'Jc']
+182 284 394 193 0 91
+10 400 398 394 2 6
+['Ad', 'Kh']
+4 400 399 398 1 2
+['9d', '8d']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+10 400 398 394 2 6
+['6s', 'Kd']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['8h', 'Qh']
+2 322 394 322 0 0
+2 322 394 322 0 0
+2 322 394 322 0 0
+10 400 398 394 2 6
+['6d', '9h']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['4s', 'Th']
+12 393 394 387 0 6
+10 400 398 394 2 6
+['7s', '4s']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['9d', '2d']
+2 278 278 394 0 0
+10 400 398 394 2 6
+['Kh', '6h']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['Td', 'Kc']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['7d', '4c']
+4 400 399 398 1 2
+['Js', '5h']
+10 400 398 394 2 6
+['Ah', 'Qd']
+2 298 298 384 0 0
+2 259 259 345 0 0
+2 174 174 260 0 0
+4 400 399 398 1 2
+['4c', '4h']
+4 400 399 398 1 2
+['Qc', 'Js']
+2 316 394 316 0 0
+2 316 394 316 0 0
+2 316 394 316 0 0
+10 400 398 394 2 6
+['Jh', '7s']
+2 316 316 394 0 0
+2 316 316 394 0 0
+2 263 263 341 0 0
+4 400 399 398 1 2
+['Jd', 'Kh']
+64 288 394 256 0 32
+256 256 362 68 0 188
+10 400 398 394 2 6
+['4c', 'Js']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+4 400 399 398 1 2
+['9s', '7s']
+2 261 394 261 0 0
+124 261 394 199 0 62
+10 400 398 394 2 6
+['Jd', '6s']
+2 264 394 264 0 0
+2 264 394 264 0 0
+2 264 394 264 0 0
+4 400 399 398 1 2
+['Kh', '3s']
+16 400 398 391 2 9
+['Jd', 'Td']
+2 345 345 391 0 0
+2 308 308 354 0 0
+120 308 268 274 40 80
+308 308 159 54 149 300
+4 400 399 398 1 2
+['4c', '8s']
+148
+10 400 398 394 2 6
+['8c', 'Kd']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['Td', '7c']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+16 400 398 391 2 9
+['6d', 'Jc']
+2 284 284 391 0 0
+2 226 226 333 0 0
+4 400 399 398 1 2
+['5h', '4c']
+153
+10 400 398 394 2 6
+['5h', '8d']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['2d', '8c']
+159
+10 400 398 394 2 6
+['5h', 'Jc']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+16 393 394 385 0 8
+4 400 399 398 1 2
+['4s', '6d']
+154
+10 400 398 394 2 6
+['Kd', '5d']
+2 383 394 383 0 0
+2 376 387 376 0 0
+4 400 399 398 1 2
+['Ah', '5c']
+2 306 306 394 0 0
+2 306 306 394 0 0
+86 306 306 351 0 43
+16 400 398 391 2 9
+['4s', '2d']
+4 400 399 398 1 2
+['5h', 'Qs']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+10 400 398 394 2 6
+['Ad', 'Qd']
+4 400 399 398 1 2
+['4h', 'Jd']
+10 400 398 394 2 6
+['4c', '9s']
+4 400 399 398 1 2
+['2s', 'Tc']
+145
+10 400 398 394 2 6
+['6d', '2c']
+4 400 399 398 1 2
+['Ah', 'Jd']
+2 390 390 391 0 0
+2 390 390 391 0 0
+10 400 398 394 2 6
+['8h', '6c']
+2 393 394 393 0 0
+2 393 394 393 0 0
+8 393 394 389 0 4
+4 400 399 398 1 2
+['9d', '6h']
+26 400 394 384 6 16
+['9d', '6h']
+10 400 398 394 2 6
+['Tc', '6h']
+2 280 280 394 0 0
+2 280 280 394 0 0
+2 203 203 317 0 0
+203 203 203 184 0 133
+4 400 399 398 1 2
+['9s', '9c']
+182 280 391 189 0 91
+10 400 398 394 2 6
+['7c', '6c']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['9d', 'Jd']
+26 400 394 384 6 16
+['9d', 'Jd']
+2 383 384 383 0 0
+2 383 384 383 0 0
+22 383 384 372 0 11
+10 400 398 394 2 6
+['Qh', 'Jh']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['Js', '9h']
+2 393 393 394 0 0
+16 400 398 391 2 9
+['5c', 'Ac']
+2 257 257 391 0 0
+2 257 257 391 0 0
+2 257 257 391 0 0
+4 400 399 398 1 2
+['Qs', '7d']
+10 400 398 394 2 6
+['Kh', 'Kd']
+2 298 298 298 0 0
+4 400 399 398 1 2
+['Kc', 'Qc']
+2 298 298 391 0 0
+2 298 298 391 0 0
+2 244 244 337 0 0
+10 400 398 394 2 6
+['3c', 'Qd']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+4 400 399 398 1 2
+['8c', '3c']
+4 400 399 398 1 2
+['Qd', 'Tc']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+10 400 398 394 2 6
+['8d', '3c']
+4 400 399 398 1 2
+['4c', 'Js']
+10 400 398 394 2 6
+['As', 'Qs']
+4 400 399 398 1 2
+['Kc', 'Ks']
+35 400 391 378 9 22
+['Kc', 'Ks']
+274 400 338 232 62 168
+['Kc', 'Ks']
+183 183 232 84 0 99
+4 84 133 82 0 2
+8 84 129 78 4 6
+12 84 125 74 8 10
+16 84 121 70 12 14
+20 84 117 66 16 18
+24 84 113 62 20 22
+28 84 109 58 24 26
+32 84 105 54 28 30
+36 84 101 50 32 34
+40 84 97 46 36 38
+44 84 93 42 40 42
+48 84 89 38 44 46
+52 84 85 34 48 50
+56 84 81 30 52 54
+60 84 77 26 56 58
+64 84 73 22 60 62
+68 84 69 18 64 66
+72 84 65 14 68 70
+76 84 61 10 72 74
+80 84 57 6 76 78
+84 84 53 2 80 82
+10 400 398 394 2 6
+['8h', 'Jh']
+2 290 394 290 0 0
+2 290 394 290 0 0
+2 290 394 290 0 0
+124 290 394 228 0 62
+4 400 399 398 1 2
+['As', 'Th']
+2 249 391 249 0 0
+2 249 391 249 0 0
+130 249 391 184 0 65
+10 400 398 394 2 6
+['Ts', '7h']
+2 393 394 393 0 0
+18 393 394 384 0 9
+4 400 399 398 1 2
+['2c', '5c']
+155
+10 400 398 394 2 6
+['Tc', '3c']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['Qd', '6c']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+10 400 398 394 2 6
+['5h', 'Qd']
+2 253 394 253 0 0
+2 253 394 253 0 0
+2 253 394 253 0 0
+4 400 399 398 1 2
+['2c', 'Qh']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+10 400 398 394 2 6
+['Td', 'Ks']
+2 290 394 290 0 0
+2 290 394 290 0 0
+2 290 394 290 0 0
+4 400 399 398 1 2
+['9c', 'Jh']
+8 393 394 389 0 4
+10 400 398 394 2 6
+['Kh', '9h']
+2 259 259 394 0 0
+2 259 259 394 0 0
+2 259 259 394 0 0
+4 400 399 398 1 2
+['6d', 'Qd']
+2 296 394 296 0 0
+2 296 394 296 0 0
+2 296 394 296 0 0
+16 400 398 391 2 9
+['Ts', '4d']
+2 390 391 390 0 0
+18 390 391 381 0 9
+4 400 399 398 1 2
+['Tc', '4d']
+2 393 393 393 0 0
+10 393 393 388 0 5
+10 400 398 394 2 6
+['2s', 'Qd']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['6d', '2h']
+167
+10 400 398 394 2 6
+['7h', 'Td']
+2 393 394 393 0 0
+10 393 394 388 0 5
+4 400 399 398 1 2
+['8d', '7s']
+10 400 398 394 2 6
+['6c', '8d']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+4 400 399 398 1 2
+['8h', 'Tc']
+2 264 394 264 0 0
+2 264 394 264 0 0
+2 264 394 264 0 0
+10 400 398 394 2 6
+['4s', '7c']
+4 400 399 398 1 2
+['4s', '6c']
+154
+10 400 398 394 2 6
+['Kc', '5s']
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['Th', 'Ad']
+4 400 399 398 1 2
+['Ad', '3c']
+4 400 399 398 1 2
+['Jh', 'Kh']
+10 400 398 394 2 6
+['3c', '5d']
+4 400 399 398 1 2
+['Ac', '9d']
+10 400 398 394 2 6
+['6h', '9h']
+2 393 394 393 0 0
+8 393 394 389 0 4
+4 400 399 398 1 2
+['4s', 'Ac']
+2 286 286 394 0 0
+2 286 286 394 0 0
+10 400 398 394 2 6
+['5d', '4d']
+2 393 394 393 0 0
+14 393 394 386 0 7
+4 400 399 398 1 2
+['9c', '6d']
+26 400 394 384 6 16
+['9c', '6d']
+10 400 398 394 2 6
+['9h', 'Qs']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['6d', '8c']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['Js', '5h']
+2 393 393 393 0 0
+24 393 393 381 0 12
+4 400 399 398 1 2
+['7s', 'Qh']
+4 400 399 398 1 2
+['Jc', '8s']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+10 400 398 394 2 6
+['Ah', '7h']
+2 270 270 394 0 0
+2 270 270 394 0 0
+2 270 270 394 0 0
+4 400 399 398 1 2
+['7h', '9s']
+2 274 274 394 0 0
+2 274 274 394 0 0
+2 201 201 321 0 0
+201 201 105 124 96 197
+4 400 399 398 1 2
+['3c', '9h']
+144
+10 400 398 394 2 6
+['9c', 'Td']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['As', 'Ad']
+164 296 391 214 0 82
+10 400 398 394 2 6
+['Js', '3h']
+2 292 292 394 0 0
+2 292 292 394 0 0
+2 292 292 394 0 0
+86 292 292 351 0 43
+4 400 399 398 1 2
+['7d', '6c']
+2 274 274 274 0 0
+2 274 274 274 0 0
+274 274 274 89 0 185
+10 400 398 394 2 6
+['4c', '9h']
+4 400 399 398 1 2
+['2c', '4s']
+168
+10 400 398 394 2 6
+['Ks', '8h']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['3c', '4d']
+164
+10 400 398 394 2 6
+['5h', '9s']
+2 393 394 393 0 0
+20 393 394 383 0 10
+4 400 399 398 1 2
+['3h', '8c']
+157
+10 400 398 394 2 6
+['4s', '8h']
+4 400 399 398 1 2
+['2d', '3c']
+169
+10 400 398 394 2 6
+['9d', 'Td']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['Js', '7h']
+2 393 393 394 0 0
+2 393 393 394 0 0
+10 400 398 394 2 6
+['7d', '8c']
+2 393 394 393 0 0
+2 393 394 393 0 0
+14 393 394 386 0 7
+4 400 399 398 1 2
+['2c', '2d']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['3h', '7c']
+160
+4 400 399 398 1 2
+['9h', '3d']
+144
+10 400 398 394 2 6
+['5d', '6h']
+2 393 394 393 0 0
+12 393 394 387 0 6
+4 400 399 398 1 2
+['Ts', '7h']
+12 393 394 387 0 6
+10 400 398 394 2 6
+['6h', '8h']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+14 393 389 385 4 9
+57 393 368 353 25 41
+153 393 336 289 57 105
+349 393 240 143 153 251
+4 400 399 398 1 2
+['5s', '3h']
+161
+10 400 398 394 2 6
+['Ac', '4d']
+2 343 394 343 0 0
+2 319 370 319 0 0
+2 319 370 319 0 0
+4 400 399 398 1 2
+['9d', 'Ks']
+2 393 394 393 0 0
+14 393 394 386 0 7
+16 400 398 391 2 9
+['Jc', '6d']
+2 335 391 335 0 0
+92 335 367 277 24 58
+172 335 299 203 92 132
+335 335 173 23 218 312
+4 400 399 398 1 2
+['3s', 'Ad']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+10 400 398 394 2 6
+['3c', '8h']
+4 400 399 398 1 2
+['2s', '2d']
+2 259 259 394 0 0
+2 259 259 394 0 0
+2 259 259 394 0 0
+10 400 398 394 2 6
+['Qc', '9d']
+2 282 282 394 0 0
+2 282 282 394 0 0
+2 282 282 394 0 0
+4 400 399 398 1 2
+['3s', '5d']
+161
+10 400 398 394 2 6
+['Tc', '4c']
+2 393 394 393 0 0
+8 393 394 389 0 4
+4 400 399 398 1 2
+['3s', '8d']
+157
+10 400 398 394 2 6
+['Qc', 'Tc']
+2 261 261 394 0 0
+2 261 261 394 0 0
+2 261 261 394 0 0
+4 400 399 398 1 2
+['3s', '7d']
+160
+10 400 398 394 2 6
+['Ad', '9d']
+2 287 384 287 0 0
+2 287 384 287 0 0
+2 287 384 287 0 0
+4 400 399 398 1 2
+['Js', '8c']
+4 400 399 398 1 2
+['Tc', 'Qd']
+26 400 394 384 6 16
+['Tc', 'Qd']
+38 383 384 364 0 19
+10 400 398 394 2 6
+['5s', '3h']
+4 400 399 398 1 2
+['Ah', '3s']
+26 400 394 384 6 16
+['Ah', '3s']
+2 271 384 271 0 0
+2 271 384 271 0 0
+2 271 384 271 0 0
+10 400 398 394 2 6
+['Qh', 'Qc']
+2 279 384 279 0 0
+186 279 384 186 0 93
+4 400 399 398 1 2
+['Jc', 'Ks']
+10 400 398 394 2 6
+['9s', 'Js']
+2 304 304 394 0 0
+2 304 304 394 0 0
+2 271 271 361 0 0
+4 400 399 398 1 2
+['7s', 'Kd']
+2 393 394 393 0 0
+16 393 394 385 0 8
+2 385 386 385 0 0
+4 400 399 398 1 2
+['Jd', 'Kc']
+2 255 394 255 0 0
+2 255 394 255 0 0
+2 255 394 255 0 0
+16 400 398 391 2 9
+['5d', '6h']
+2 253 253 391 0 0
+4 400 399 398 1 2
+['9d', '5c']
+10 393 393 389 0 5
+2 388 388 389 0 0
+2 388 388 389 0 0
+10 400 398 394 2 6
+['8s', '5s']
+2 393 394 393 0 0
+2 393 394 393 0 0
+10 393 394 388 0 5
+4 400 399 398 1 2
+['Th', 'Qd']
+2 282 282 394 0 0
+2 282 282 394 0 0
+2 282 282 394 0 0
+4 400 399 398 1 2
+['8h', '5d']
+26 400 394 384 6 16
+['8h', '5d']
+4 400 399 398 1 2
+['7c', '8c']
+10 400 398 394 2 6
+['6c', '2d']
+4 400 399 398 1 2
+['Kh', '7s']
+2 245 394 245 0 0
+2 245 394 245 0 0
+2 245 394 245 0 0
+10 400 398 394 2 6
+['4h', 'Jc']
+2 292 292 394 0 0
+2 292 292 394 0 0
+2 292 292 394 0 0
+4 400 399 398 1 2
+['2d', '8d']
+18 393 394 384 0 9
+10 400 398 394 2 6
+['4c', '6h']
+4 400 399 398 1 2
+['6c', '7d']
+14 393 394 386 0 7
+10 400 398 394 2 6
+['As', '8c']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['4d', '3d']
+84 263 394 221 0 42
+2 221 352 221 0 0
+128 221 352 157 0 64
+10 400 398 394 2 6
+['Qd', '4h']
+2 302 302 394 0 0
+2 274 274 366 0 0
+4 400 399 398 1 2
+['8h', 'Kc']
+10 400 398 394 2 6
+['As', 'Ad']
+4 400 399 398 1 2
+['Qh', 'Jh']
+2 304 304 394 0 0
+2 304 304 394 0 0
+2 304 304 394 0 0
+10 400 398 394 2 6
+['Kc', 'Ts']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['Js', '8d']
+26 400 394 384 6 16
+['Js', '8d']
+10 400 398 394 2 6
+['7s', '9h']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['5d', '3d']
+2 300 300 394 0 0
+2 300 300 394 0 0
+2 300 300 394 0 0
+10 400 398 394 2 6
+['3d', 'Ah']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['Qd', '2s']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+10 400 398 394 2 6
+['Ac', 'Jh']
+4 400 399 398 1 2
+['7s', 'Jh']
+88 276 394 232 0 44
+202 232 350 131 0 101
+10 400 398 394 2 6
+['3s', '7c']
+4 400 399 398 1 2
+['9c', 'Ts']
+2 393 394 393 0 0
+2 393 394 393 0 0
+14 393 394 386 0 7
+10 400 398 394 2 6
+['6d', '8h']
+2 253 253 394 0 0
+4 400 399 398 1 2
+['Ah', '3c']
+2 245 245 394 0 0
+2 204 204 353 0 0
+2 134 134 283 0 0
+4 400 399 398 1 2
+['Ah', '9h']
+2 390 390 391 0 0
+10 400 398 394 2 6
+['8d', '5h']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['4s', '8h']
+148
+4 400 399 398 1 2
+['Ts', 'Ah']
+10 400 398 394 2 6
+['2s', '4s']
+4 400 399 398 1 2
+['Kd', 'Jc']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['3s', '9h']
+4 400 399 398 1 2
+['Qd', 'Ts']
+2 251 394 251 0 0
+2 251 394 251 0 0
+118 251 394 192 0 59
+4 400 399 398 1 2
+['Qs', '3c']
+2 393 394 393 0 0
+10 393 394 388 0 5
+4 400 399 398 1 2
+['Js', '9c']
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['9h', '5c']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+16 400 398 391 2 9
+['2h', '9s']
+4 400 399 398 1 2
+['Qc', '6d']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['Jc', 'Td']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 389 389 390 0 0
+4 400 399 398 1 2
+['Js', 'Kd']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['8c', 'Qc']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['3c', '9h']
+144
+10 400 398 394 2 6
+['4d', '9d']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['Jd', 'Jc']
+2 282 282 391 0 0
+10 400 398 394 2 6
+['8d', 'Jh']
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['9s', '7d']
+10 400 398 394 2 6
+['6h', '2c']
+4 400 399 398 1 2
+['Ah', '5c']
+8 393 393 390 0 4
+10 400 398 394 2 6
+['3s', '2d']
+4 400 399 398 1 2
+['Qc', '7d']
+2 393 393 394 0 0
+2 393 393 394 0 0
+22 390 390 380 0 11
+10 400 398 394 2 6
+['7d', '9d']
+2 306 306 394 0 0
+2 306 306 394 0 0
+2 306 306 394 0 0
+4 400 399 398 1 2
+['Jd', 'Js']
+35 400 391 378 9 22
+['Jd', 'Js']
+4 400 399 398 1 2
+['Js', 'Td']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['Td', 'Qc']
+16 400 398 391 2 9
+['5s', '5d']
+2 302 302 391 0 0
+2 302 302 391 0 0
+224 302 302 279 0 112
+4 400 399 398 1 2
+['9c', '2s']
+149
+10 400 398 394 2 6
+['6c', '7c']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['9s', '2d']
+149
+10 400 398 394 2 6
+['9d', '4s']
+4 400 399 398 1 2
+['Qs', '9d']
+2 294 294 394 0 0
+2 294 294 394 0 0
+2 294 294 394 0 0
+10 400 398 394 2 6
+['5s', '8s']
+2 282 282 394 0 0
+2 282 282 394 0 0
+2 234 234 346 0 0
+4 400 399 398 1 2
+['Qh', 'Jc']
+2 294 294 394 0 0
+10 400 398 394 2 6
+['2s', 'Ah']
+2 296 394 296 0 0
+2 296 394 296 0 0
+206 296 394 193 0 103
+4 400 399 398 1 2
+['3d', 'Jh']
+2 266 394 266 0 0
+2 266 394 266 0 0
+2 226 354 226 0 0
+10 400 398 394 2 6
+['5h', '6c']
+2 282 282 394 0 0
+4 400 399 398 1 2
+['3h', '6c']
+162
+10 400 398 394 2 6
+['2h', '7s']
+4 400 399 398 1 2
+['3h', '5c']
+161
+16 400 398 391 2 9
+['7d', 'Jd']
+2 309 309 391 0 0
+170 309 309 306 0 85
+4 400 399 398 1 2
+['Th', '9s']
+2 393 393 394 0 0
+2 393 393 394 0 0
+10 400 398 394 2 6
+['3s', '6s']
+4 400 399 398 1 2
+['6h', '7s']
+8 393 394 389 0 4
+16 400 398 391 2 9
+['Qh', '7s']
+2 296 296 391 0 0
+2 296 296 391 0 0
+2 296 296 391 0 0
+4 400 399 398 1 2
+['5c', 'Jc']
+2 264 264 394 0 0
+10 400 398 394 2 6
+['Jd', 'Kd']
+2 250 250 384 0 0
+2 250 250 384 0 0
+2 250 250 384 0 0
+4 400 399 398 1 2
+['8c', '6d']
+2 393 394 393 0 0
+2 393 394 393 0 0
+24 393 394 381 0 12
+10 400 398 394 2 6
+['Kd', '8c']
+2 292 292 394 0 0
+2 292 292 394 0 0
+2 292 292 394 0 0
+4 400 399 398 1 2
+['Qh', '5d']
+26 400 394 384 6 16
+['Qh', '5d']
+10 400 398 394 2 6
+['Js', 'Kd']
+2 314 314 394 0 0
+2 314 314 394 0 0
+98 314 314 345 0 49
+4 400 399 398 1 2
+['4h', '6h']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+10 400 398 394 2 6
+['3h', 'Tc']
+4 400 399 398 1 2
+['3d', 'Tc']
+146
+10 400 398 394 2 6
+['2h', '8s']
+4 400 399 398 1 2
+['9c', '6c']
+76 270 394 232 0 38
+154 232 356 155 0 77
+155 155 279 1 0 154
+4 400 399 398 1 2
+['Td', '3s']
+146
+10 400 398 394 2 6
+['7d', '7h']
+4 400 399 398 1 2
+['Qd', 'Th']
+26 400 394 384 6 16
+['Qd', 'Th']
+2 285 285 384 0 0
+10 400 398 394 2 6
+['3s', 'Kc']
+2 393 394 393 0 0
+8 393 394 389 0 4
+4 400 399 398 1 2
+['Ks', 'Ah']
+35 400 391 378 9 22
+['Ks', 'Ah']
+2 278 278 378 0 0
+2 278 278 378 0 0
+2 239 239 339 0 0
+10 400 398 394 2 6
+['Tc', '6c']
+2 268 268 394 0 0
+4 400 399 398 1 2
+['6h', '7s']
+2 298 394 298 0 0
+168 298 394 214 0 84
+10 400 398 394 2 6
+['2s', '9c']
+4 400 399 398 1 2
+['6d', 'As']
+6 393 394 390 0 3
+2 390 391 390 0 0
+2 390 391 390 0 0
+10 400 398 394 2 6
+['Jc', '6d']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+18 393 394 384 0 9
+4 400 399 398 1 2
+['8h', 'Ad']
+10 400 398 394 2 6
+['Ah', 'Jd']
+4 400 399 398 1 2
+['8h', 'Td']
+26 400 394 384 6 16
+['8h', 'Td']
+10 400 398 394 2 6
+['7h', 'Qc']
+2 393 394 393 0 0
+2 393 394 393 0 0
+12 393 394 387 0 6
+4 400 399 398 1 2
+['5h', 'Qh']
+6 393 393 391 0 3
+10 400 398 394 2 6
+['3d', '9h']
+4 400 399 398 1 2
+['7c', '8s']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['9c', '6s']
+2 261 261 261 0 0
+261 261 261 24 0 237
+4 400 399 398 1 2
+['9s', 'Ah']
+4 400 399 398 1 2
+['9s', 'Td']
+2 270 270 394 0 0
+2 270 270 394 0 0
+2 270 270 394 0 0
+10 400 398 394 2 6
+['Th', 'Qh']
+2 278 394 278 0 0
+124 278 394 216 0 62
+4 400 399 398 1 2
+['3d', '7d']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+10 400 398 394 2 6
+['Jd', '8d']
+2 284 394 284 0 0
+2 284 394 284 0 0
+2 284 394 284 0 0
+148 284 394 210 0 74
+4 400 399 398 1 2
+['Td', '9h']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+10 400 398 394 2 6
+['Kh', '7d']
+2 263 263 394 0 0
+156 263 263 316 0 78
+2 185 185 316 0 0
+2 185 185 316 0 0
+4 400 399 398 1 2
+['8h', '5s']
+10 400 398 394 2 6
+['8d', 'Ah']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['4d', 'Qs']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+10 400 398 394 2 6
+['Jh', '9s']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+12 393 394 387 0 6
+4 400 399 398 1 2
+['Kd', '9s']
+20 393 394 383 0 10
+10 400 398 394 2 6
+['4c', '5c']
+2 243 243 394 0 0
+2 243 243 394 0 0
+4 400 399 398 1 2
+['Ks', '9d']
+2 282 394 282 0 0
+2 282 394 282 0 0
+2 282 394 282 0 0
+10 400 398 394 2 6
+['Ac', 'Ks']
+4 400 399 398 1 2
+['7d', '2h']
+165
+4 400 399 398 1 2
+['Ac', '9c']
+2 390 390 391 0 0
+2 390 390 391 0 0
+10 400 398 394 2 6
+['Qs', 'As']
+4 400 399 398 1 2
+['3c', 'Kh']
+8 393 394 389 0 4
+10 400 398 394 2 6
+['8d', '3d']
+2 393 393 393 0 0
+2 393 393 393 0 0
+24 393 393 381 0 12
+4 400 399 398 1 2
+['Qs', '9s']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['Qc', '4d']
+16 400 398 391 2 9
+['4c', '6d']
+4 400 399 398 1 2
+['8d', '4s']
+148
+10 400 398 394 2 6
+['Ts', 'Th']
+4 400 399 398 1 2
+['Js', '9h']
+4 400 399 398 1 2
+['5h', 'Jh']
+2 304 304 394 0 0
+2 304 304 394 0 0
+2 304 304 394 0 0
+10 400 398 394 2 6
+['Jc', '2h']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+4 400 399 398 1 2
+['2s', 'Ac']
+2 339 339 394 0 0
+2 339 339 394 0 0
+2 339 339 394 0 0
+10 400 398 394 2 6
+['7d', '6c']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['Kd', 'Ks']
+10 400 398 394 2 6
+['4d', 'Tc']
+2 393 393 393 0 0
+24 393 393 381 0 12
+4 400 399 398 1 2
+['5c', '9s']
+4 400 399 398 1 2
+['2d', '4d']
+158
+16 400 398 391 2 9
+['3h', 'Th']
+2 278 278 391 0 0
+2 278 278 391 0 0
+2 278 278 391 0 0
+4 400 399 398 1 2
+['8d', '5d']
+26 400 394 384 6 16
+['8d', '5d']
+10 400 398 394 2 6
+['Qc', '7d']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['6c', '5s']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['9s', '4s']
+2 393 394 393 0 0
+2 393 394 393 0 0
+18 393 394 384 0 9
+10 400 398 394 2 6
+['7h', '9c']
+2 294 294 394 0 0
+4 400 399 398 1 2
+['Kd', 'Js']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['As', '3d']
+2 367 367 394 0 0
+30 367 367 379 0 15
+2 352 352 379 0 0
+64 352 352 347 0 32
+2 320 320 347 0 0
+184 320 320 255 0 92
+4 400 399 398 1 2
+['Qh', '2h']
+26 400 394 384 6 16
+['Qh', '2h']
+10 400 398 394 2 6
+['4c', '7s']
+4 400 399 398 1 2
+['Jc', '9h']
+12 393 394 387 0 6
+10 400 398 394 2 6
+['7s', '8h']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['6c', '7c']
+2 288 288 394 0 0
+2 288 288 394 0 0
+2 288 288 394 0 0
+10 400 398 394 2 6
+['Kh', '4d']
+2 300 300 394 0 0
+2 300 300 394 0 0
+2 300 300 394 0 0
+4 400 399 398 1 2
+['Kd', '7c']
+2 272 272 394 0 0
+10 400 398 394 2 6
+['8c', '9c']
+2 268 394 268 0 0
+100 268 394 218 0 50
+2 218 344 218 0 0
+188 218 344 124 0 94
+2 124 250 124 0 0
+124 124 250 11 0 113
+4 400 399 398 1 2
+['Qd', '5c']
+26 400 394 384 6 16
+['Qd', '5c']
+10 400 398 394 2 6
+['Th', '2c']
+4 400 399 398 1 2
+['Kc', '2h']
+90 249 249 349 0 45
+2 204 204 349 0 0
+2 204 204 349 0 0
+10 400 398 394 2 6
+['6s', '9c']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+4 400 399 398 1 2
+['Qc', '2c']
+2 355 394 355 0 0
+2 325 364 325 0 0
+2 285 324 285 0 0
+10 400 398 394 2 6
+['6h', 'Jd']
+2 341 394 341 0 0
+2 341 394 341 0 0
+2 341 394 341 0 0
+4 400 399 398 1 2
+['Jc', 'Ad']
+2 298 391 298 0 0
+2 298 391 298 0 0
+106 298 391 245 0 53
+10 400 398 394 2 6
+['2h', 'Jc']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+4 400 399 398 1 2
+['Kd', 'Ad']
+2 390 390 391 0 0
+10 400 398 394 2 6
+['9d', '4h']
+4 400 399 398 1 2
+['8c', '2d']
+159
+4 400 399 398 1 2
+['9s', 'Th']
+14 393 394 386 0 7
+10 400 398 394 2 6
+['Jd', 'Kc']
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['8d', 'Qd']
+26 400 394 384 6 16
+['8d', 'Qd']
+2 294 384 294 0 0
+2 249 339 249 0 0
+2 249 339 249 0 0
+10 400 398 394 2 6
+['2d', 'Ad']
+2 261 261 261 0 0
+2 146 146 146 0 0
+2 146 146 146 0 0
+4 400 399 398 1 2
+['Kd', 'Tc']
+2 302 302 394 0 0
+2 302 302 394 0 0
+2 302 302 394 0 0
+10 400 398 394 2 6
+['5h', '6s']
+2 393 394 393 0 0
+2 393 394 393 0 0
+14 393 394 386 0 7
+4 400 399 398 1 2
+['2s', '3c']
+169
+4 400 399 398 1 2
+['6h', '9d']
+2 393 394 393 0 0
+2 393 394 393 0 0
+2 393 394 393 0 0
+4 400 399 398 1 2
+['Jh', 'Ad']
+2 296 296 391 0 0
+2 296 296 391 0 0
+2 296 296 391 0 0
+10 400 398 394 2 6
+['5d', '3c']
+4 400 399 398 1 2
+['Js', '8d']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['4c', '5d']
+4 400 399 398 1 2
+['5c', '4h']
+153
+10 400 398 394 2 6
+['3c', 'Ad']
+2 272 272 394 0 0
+2 272 272 394 0 0
+4 400 399 398 1 2
+['7c', 'Ah']
+112 284 394 228 0 56
+228 228 338 104 0 124
+2 104 214 104 0 0
+16 400 398 391 2 9
+['Td', 'Tc']
+2 284 378 284 0 0
+96 284 378 236 0 48
+2 236 330 236 0 0
+236 236 330 16 0 220
+4 400 399 398 1 2
+['5h', '5s']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+10 400 398 394 2 6
+['6h', 'Ts']
+2 393 394 393 0 0
+14 393 394 386 0 7
+4 400 399 398 1 2
+['8c', '2d']
+159
+10 400 398 394 2 6
+['5c', 'As']
+2 278 278 394 0 0
+2 278 278 394 0 0
+4 400 399 398 1 2
+['4s', '6s']
+2 393 394 393 0 0
+2 393 394 393 0 0
+6 393 394 390 0 3
+10 400 398 394 2 6
+['2h', 'Jh']
+2 393 394 393 0 0
+12 393 394 387 0 6
+4 400 399 398 1 2
+['Td', 'Js']
+2 274 274 394 0 0
+2 274 274 394 0 0
+2 274 274 394 0 0
+10 400 398 394 2 6
+['Kh', '8d']
+2 292 292 394 0 0
+2 292 292 394 0 0
+2 292 292 394 0 0
+4 400 399 398 1 2
+['3h', 'Jd']
+2 292 292 394 0 0
+2 292 292 394 0 0
+2 292 292 394 0 0
+4 400 399 398 1 2
+['5d', 'Td']
+2 393 393 393 0 0
+2 393 393 393 0 0
+28 393 393 379 0 14
+70 393 365 344 28 49
+174 393 323 271 70 122
+393 393 201 42 192 351
+10 400 398 394 2 6
+['As', 'Ks']
+2 275 384 275 0 0
+2 275 384 275 0 0
+2 275 384 275 0 0
+4 400 399 398 1 2
+['Kc', '9s']
+26 400 394 384 6 16
+['Kc', '9s']
+2 323 323 384 0 0
+2 270 270 331 0 0
+270 270 182 74 88 257
+10 400 398 394 2 6
+['Ac', 'Qh']
+4 400 399 398 1 2
+['Jh', 'As']
+2 390 390 391 0 0
+2 390 390 391 0 0
+2 390 390 391 0 0
+4 400 399 398 1 2
+['As', '6d']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+10 400 398 394 2 6
+['3d', 'Jh']
+2 268 394 268 0 0
+2 268 394 268 0 0
+2 268 394 268 0 0
+4 400 399 398 1 2
+['7d', '4d']
+156 276 394 198 0 78
+10 400 398 394 2 6
+['8c', 'Qd']
+2 276 394 276 0 0
+2 276 394 276 0 0
+2 276 394 276 0 0
+4 400 399 398 1 2
+['3h', 'Ts']
+146
+10 400 398 394 2 6
+['Kd', 'Jh']
+2 347 347 394 0 0
+108 347 315 324 32 70
+2 162 162 209 0 0
+4 400 399 398 1 2
+['4h', '5s']
+153
+10 400 398 394 2 6
+['3d', 'Ad']
+2 320 394 320 0 0
+90 320 394 275 0 45
+2 275 349 275 0 0
+104 275 349 223 0 52
+2 223 297 223 0 0
+4 400 399 398 1 2
+['4h', '9s']
+150
+4 400 399 398 1 2
+['2h', '9h']
+2 393 393 393 0 0
+2 393 393 393 0 0
+2 393 393 393 0 0
+10 400 398 394 2 6
+['Ad', 'Qc']
+4 400 399 398 1 2
+['Ts', '8c']
+2 282 394 282 0 0
+2 282 394 282 0 0
+2 282 394 282 0 0
+4 400 399 398 1 2
+['3h', 'Jc']
+2 393 394 393 0 0
+2 393 394 393 0 0
+12 393 394 387 0 6
+10 400 398 394 2 6
+['7h', 'Td']
+2 328 394 328 0 0
+116 328 394 270 0 58
+4 400 399 398 1 2
+['4h', '9c']
+150
+4 400 399 398 1 2
+['Ks', '5h']
+10 393 394 388 0 5
+4 400 399 398 1 2
+['5s', 'Td']
+26 400 394 384 6 16
+['5s', 'Td']
+10 400 398 394 2 6
+['9h', 'Ac']
+2 266 266 394 0 0
+4 400 399 398 1 2
+['2c', 'Ks']
+2 286 286 394 0 0
+10 400 398 394 2 6
+['7c', 'Kc']
+2 393 393 394 0 0
+2 393 393 394 0 0
+2 393 393 394 0 0
+4 400 399 398 1 2
+['8s', '4c']
+148
+10 400 398 394 2 6
+['6s', '9c']
+2 266 394 266 0 0
+150 266 394 191 0 75
+2 191 319 191 0 0
+191 191 319 32 0 159
+4 400 399 398 1 2
+['Ad', '8d']
+26 400 394 384 6 16
+['Ad', '8d']
+2 281 281 384 0 0
+2 281 281 384 0 0
+2 281 281 384 0 0
+4 400 399 398 1 2
+['2s', '6c']
+167
+10 400 398 394 2 6
+['8s', '4d']
+4 400 399 398 1 2
+['9c', '6s']
+2 393 393 394 0 0
+10 400 398 394 2 6
+['7s', 'Ad']
+2 253 394 253 0 0
+2 253 394 253 0 0
+2 253 394 253 0 0
+4 400 399 398 1 2
+['3d', 'Qc']
+2 393 394 393 0 0
+6 393 394 390 0 3
+10 400 398 394 2 6
+['8s', 'Ac']
+2 393 393 394 0 0
+4 400 399 398 1 2
+['2s', '7d']
+165
+4 400 399 398 1 2
+['5h', 'Ah']
+26 400 394 384 6 16
+['5h', 'Ah']
+2 288 288 384 0 0
+2 288 288 384 0 0
+124 288 288 322 0 62
+10.748

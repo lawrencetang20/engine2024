@@ -226,11 +226,7 @@ class Player(Bot):
             elif hand_strength < .25:
                 return FoldAction, None
             else: #good pot equity
-<<<<<<< HEAD
-                if hand_strength > .9 or (hand_strength - pot_equity > .25 and hand_strength > .85):
-=======
                 if hand_strength > .90 or (hand_strength - pot_equity > .25 and hand_strength > .85):
->>>>>>> b08a0df1a5262691ebbd28aa5ac14ba572c01ea4
                     return RaiseAction, 1 #value raise
                 return CallAction, None
 
@@ -312,6 +308,8 @@ class Player(Bot):
         my_hole = [eval7.Card(a) for a in round_state.hands[active]]
         comb = board + my_hole
         num_more_board = 5 - len(board)
+
+
 
         if len(my_hole) == 2 and street > 0 and BidAction not in round_state.legal_actions():
             opp_num = 3
@@ -398,14 +396,14 @@ class Player(Bot):
         if decision == RaiseAction and RaiseAction in legal_actions:
             minimum = max(min_raise, pot / 4)
             if conf != 0:
-                bet_max = int((1+(2*(hand_strength**2)*rand)) * pot/2 )
+                bet_max = int((1+(2*(hand_strength**2)*random.random())) * pot/2 )
                 maximum = min(max_raise, bet_max)
             else:
                 maximum = min(max_raise, pot)
             if maximum <= minimum:
                 amount = int(min_raise)
             else:
-                amount = int(rand * (maximum - minimum) + minimum)
+                amount = int(random.random() * (maximum - minimum) + minimum)
             return RaiseAction(amount)
         if decision == RaiseAction and RaiseAction not in legal_actions:
             if CallAction in legal_actions:

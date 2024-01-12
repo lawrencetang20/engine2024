@@ -6,9 +6,7 @@ UP BY CLOSE TO 1.5* rounds left, play nittier?
 
 add fozz ranges
 
-board paired -- makes nit more
-
-if time gets close, then we start to narrow down trials?
+board paired -- makes nit more 
 
 '''
 from skeleton.actions import FoldAction, CallAction, CheckAction, RaiseAction, BidAction

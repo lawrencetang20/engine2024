@@ -19,8 +19,8 @@ hr = eval7.HandRange("89+")
 
 # print(np.random.normal(1,.5))
 
-board = [eval7.Card(x) for x in ['Jd', '4d', '7h', '3s']]
-my_hole = [eval7.Card(a) for a in ['7c', '2s', '4h']]
+board = [eval7.Card(x) for x in ['Jd', '3d', '7h', '3s']]
+my_hole = [eval7.Card(a) for a in ['Jc', '2s', 'Ah']]
 comb = board + my_hole
 num_more_board = 5 - len(board)
 
@@ -47,9 +47,11 @@ while trials < 250:
     print(opp_hole, board_rest)
     my_val = eval7.evaluate(my_hole+board+board_rest)
     opp_value = eval7.evaluate(opp_hole+board+board_rest)
-    if my_val >= opp_value:
+    if my_val > opp_value:
+        num_better += 2
+    elif my_val == opp_value:
         num_better += 1
     trials += 1
 
-percent_better_than = num_better/trials
+percent_better_than = num_better/(2*trials)
 print(percent_better_than)

@@ -153,7 +153,6 @@ if statement reached
 if statement reached
 if statement reached
 if statement reached
-second fold
 if statement reached
 if statement reached
 if statement reached
@@ -168,7 +167,6 @@ if statement reached
 if statement reached
 if statement reached
 if statement reached
-second fold
 if statement reached
 if statement reached
 if statement reached
@@ -303,7 +301,6 @@ if statement reached
 if statement reached
 if statement reached
 if statement reached
-[397, 397]
 if statement reached
 if statement reached
 if statement reached
@@ -499,7 +496,6 @@ if statement reached
 if statement reached
 if statement reached
 if statement reached
-[397, 397]
 if statement reached
 if statement reached
 if statement reached
@@ -519,4 +515,17 @@ if statement reached
 if statement reached
 if statement reached
 if statement reached
-25.92
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+if statement reached
+26.75

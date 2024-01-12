@@ -206,7 +206,7 @@ class Player(Bot):
             elif hand_strength < .25:
                 return FoldAction, None
             else: #good pot equity
-                if hand_strength > .85 or (hand_strength - pot_equity > .25 and hand_strength > .75):
+                if hand_strength > .9 or (hand_strength - pot_equity > .25 and hand_strength > .85):
                     return RaiseAction, 1 #value raise
                 return CallAction, None
 

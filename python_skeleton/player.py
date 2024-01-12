@@ -293,11 +293,11 @@ class Player(Bot):
         if win_without < 0.2:
             return BidAction(1)
         elif win_without > 0.5:
-            return BidAction(int(need_auction*my_stack))
+            return BidAction(int(need_auction*my_stack*2/3))
         elif win_without <= 0.5 and win_without >= 0.2:
-            return BidAction(int(need_auction*my_stack))
+            return BidAction(int(need_auction*my_stack*2/3))
         else:
-            return BidAction(int(need_auction*my_stack/2))
+            return BidAction(int(need_auction*my_stack/3))
         
     def hand_strength(self, round_state, street, active):
         board = [eval7.Card(x) for x in round_state.deck[:street]]

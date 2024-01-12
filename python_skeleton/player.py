@@ -83,14 +83,14 @@ class Player(Bot):
         if game_clock < 20 and round_num <= 333 and not switched_to_100:
             self.trials = 100
             switched_to_100 = True
-            self.nit = .05
+            self.nit = .03
             print('switch to 100')
 
         
         elif game_clock < 10 and round_num <= 666 and not switched_to_50:
             self.trials = 50
             switched_to_50 = True
-            self.nit = .1
+            self.nit = .06
             print('switch to 50')
 
     def handle_round_over(self, game_state, terminal_state, active):
@@ -227,17 +227,17 @@ class Player(Bot):
             return CheckAction, None
         else: #Fold, Call, Raise
             pot_equity = (opp_pip-my_pip) / (pot - (opp_pip - my_pip))
-            if pot_equity > .8 and pot_equity < .9:
-                pot_equity = .8
-            elif pot_equity >= .9 and pot_equity < 1.5:
+            if pot_equity > .725 and pot_equity < .875:
+                pot_equity = .725
+            elif pot_equity >= .875 and pot_equity < 1.1:
+                pot_equity = .875
+            elif pot_equity >= 1.1:
                 pot_equity = .9
-            elif pot_equity >= 1.5:
-                pot_equity = .925
-            elif pot_equity <= .6:
-                pot_equity += .075
+            elif pot_equity <= .75:
+                pot_equity = min(pot_equity+0.0725,0.725)
             if hand_strength < pot_equity: #bad pot equity
                 return FoldAction, None
-            elif hand_strength < .25:
+            elif hand_strength < .35:
                 return FoldAction, None
             else: #good pot equity
                 if hand_strength > .925 or (hand_strength - pot_equity > .25 and hand_strength > .85):
@@ -397,6 +397,9 @@ class Player(Bot):
         min_raise, max_raise = round_state.raise_bounds()
         hand_strength = self.hand_strength(round_state, street, active) - self.nit
         auction_strength = self.auction_strength(round_state, street, active)
+
+        if my_contribution > 100 and hand_strength < 0.85:
+            hand_strength -= 0.03
 
         if BidAction in legal_actions:
             return self.decide_action_auction(auction_strength, my_stack)

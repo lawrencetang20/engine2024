@@ -3,7 +3,10 @@ Simple example pokerbot, written in Python.
 
 UP BY CLOSE TO 1.5* rounds left, play nittier?
 
-add FOLD IF WIN
+
+add fozz ranges
+
+board paired -- makes nit more
 
 '''
 from skeleton.actions import FoldAction, CallAction, CheckAction, RaiseAction, BidAction

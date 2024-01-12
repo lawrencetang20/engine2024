@@ -19,13 +19,13 @@ hr = eval7.HandRange("89+")
 
 # print(np.random.normal(1,.5))
 
-board = [eval7.Card(x) for x in ['Js', 'Jc', '2s', '8d']]
-my_hole = [eval7.Card(a) for a in ['As', '6s']]
+board = [eval7.Card(x) for x in ['Qc', '7s', 'Kc', '8h']]
+my_hole = [eval7.Card(a) for a in ['Qs', '2c']]
 comb = board + my_hole
 num_more_board = 5 - len(board)
 
 
-ya = False
+ya = True
 
 if len(my_hole) == 2 and ya:
     opp_num = 3
@@ -39,7 +39,7 @@ for card in comb:
 num_better = 0
 trials = 0
 
-while trials < 500:
+while trials < 150:
     deck.shuffle()
     cards = deck.peek(opp_num + num_more_board)
     opp_hole = cards[:opp_num]

@@ -200,7 +200,7 @@ class Player(Bot):
     def decide_action_postflop(self, opp_pip, my_pip, hand_strength, pot, legal_actions, street):
         rand = random.random()
         if CheckAction in legal_actions: #Check, raise
-            if rand < hand_strength and hand_strength > .7:
+            if rand < hand_strength and hand_strength > .75:
                 return RaiseAction, 1 #value bet
             elif street == 5 and hand_strength > .85:
                 return RaiseAction, 1  #no checks on river with super strong hands
@@ -209,18 +209,20 @@ class Player(Bot):
             return CheckAction, None
         else: #Fold, Call, Raise
             pot_equity = (opp_pip-my_pip) / (pot - (opp_pip - my_pip))
-            if pot_equity > .70 and pot_equity < 1:
-                pot_equity = .7
-            elif pot_equity >= 1 and pot_equity < 2:
-                pot_equity = .8
-            elif pot_equity >= 2:
-                pot_equity = .875
+            if pot_equity > .775 and pot_equity < 1:
+                pot_equity = .775
+            elif pot_equity >= 1 and pot_equity < 1.5:
+                pot_equity = .85
+            elif pot_equity >= 1.5:
+                pot_equity = .9
+            if pot_equity <= .55:
+                pot_equity += .075
             if hand_strength < pot_equity: #bad pot equity
                 return FoldAction, None
             elif hand_strength < .25:
                 return FoldAction, None
             else: #good pot equity
-                if hand_strength > .85 or (hand_strength - pot_equity > .25 and hand_strength > .7):
+                if hand_strength > .85 or (hand_strength - pot_equity > .25 and hand_strength > .75):
                     return RaiseAction, 1 #value raise
                 return CallAction, None
 

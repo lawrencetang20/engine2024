@@ -47,7 +47,7 @@ class Player(Bot):
                              '83o':157,'42s':158,'82o':159,'73o':160,'53o':161,'63o':162,'32s':163,'43o':164,'72o':165,'52o':166,'62o':167,'42o':168,'32o':169,
                              }
         
-        self.trials = 150
+        self.trials = 125
         self.rounds_won = 0
         self.total_rounds = 0
         self.already_won = False

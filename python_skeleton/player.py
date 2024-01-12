@@ -1,5 +1,10 @@
 '''
 Simple example pokerbot, written in Python.
+
+UP BY CLOSE TO 1.5* rounds left, play nittier?
+
+add FOLD IF WIN
+
 '''
 from skeleton.actions import FoldAction, CallAction, CheckAction, RaiseAction, BidAction
 from skeleton.states import GameState, TerminalState, RoundState
@@ -40,6 +45,9 @@ class Player(Bot):
                              }
         
         self.trials = 200
+        self.rounds_won = 0
+        self.total_rounds = 0
+        self.already_won = False
 
 
     def handle_new_round(self, game_state, round_state, active):
@@ -63,6 +71,9 @@ class Player(Bot):
             print(game_clock)
         self.times_bet_preflop = 0
 
+        if my_bankroll > 1.5*(NUM_ROUNDS-self.total_rounds)+2:
+            self.already_won = True
+
     def handle_round_over(self, game_state, terminal_state, active):
         '''
         Called when a round ends. Called NUM_ROUNDS times.
@@ -81,10 +92,15 @@ class Player(Bot):
         my_cards = previous_state.hands[active]  # your cards
         opp_cards = previous_state.hands[1-active]  # opponent's cards or [] if not revealed
 
+        self.total_rounds += 1
+
         if game_state.round_num == NUM_ROUNDS:
             print(game_state.game_clock)
 
-        pass
+        if my_delta > 0:
+            self.rounds_won += 1
+        
+
 
     def categorize_cards(self,cards):
         print(cards)
@@ -184,7 +200,7 @@ class Player(Bot):
     def decide_action_postflop(self, opp_pip, my_pip, hand_strength, pot, legal_actions, street):
         rand = random.random()
         if CheckAction in legal_actions: #Check, raise
-            if rand < hand_strength and hand_strength > .7:
+            if rand < hand_strength and hand_strength > .75:
                 return RaiseAction, 1 #value bet
             elif street == 5 and hand_strength > .85:
                 return RaiseAction, 1  #no checks on river with super strong hands
@@ -193,18 +209,20 @@ class Player(Bot):
             return CheckAction, None
         else: #Fold, Call, Raise
             pot_equity = (opp_pip-my_pip) / (pot - (opp_pip - my_pip))
-            if pot_equity > .70 and pot_equity < 1:
-                pot_equity = .7
-            elif pot_equity >= 1 and pot_equity < 2:
-                pot_equity = .8
-            elif pot_equity >= 2:
-                pot_equity = .875
+            if pot_equity > .775 and pot_equity < 1:
+                pot_equity = .775
+            elif pot_equity >= 1 and pot_equity < 1.5:
+                pot_equity = .85
+            elif pot_equity >= 1.5:
+                pot_equity = .9
+            if pot_equity <= .55:
+                pot_equity += .075
             if hand_strength < pot_equity: #bad pot equity
                 return FoldAction, None
             elif hand_strength < .25:
                 return FoldAction, None
             else: #good pot equity
-                if hand_strength > .85 or (hand_strength - pot_equity > .25 and hand_strength > .7):
+                if hand_strength > .85 or (hand_strength - pot_equity > .25 and hand_strength > .75):
                     return RaiseAction, 1 #value raise
                 return CallAction, None
 
@@ -353,6 +371,14 @@ class Player(Bot):
         min_raise, max_raise = round_state.raise_bounds()
         hand_strength = self.hand_strength(round_state, street, active)
         auction_strength = self.auction_strength(round_state, street, active)
+
+        if self.already_won:
+            if BidAction in legal_actions:
+                return BidAction(0)
+            elif CheckAction in legal_actions:
+                return CheckAction()
+            else:
+                return FoldAction()
 
         if BidAction in legal_actions:
             return self.decide_action_auction(auction_strength, my_stack)

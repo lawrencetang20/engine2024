@@ -315,7 +315,7 @@ class Player(Bot):
 
         return need_auction, win_without, win_with
 
-    def decide_action_auction(self, auction_strength, my_stack):
+    def decide_action_auction(self, auction_strength, my_stack, pot):
 
         # figure our auction size based on auction_strength
         # if win without auc < 0.2 --> then Bid 1 (dont need auction, going to fold)
@@ -328,11 +328,11 @@ class Player(Bot):
         if win_without < 0.2 or win_with < .6:
             return BidAction(min(my_stack, int(self.opp_total_bid/self.num_auctions_seen * 1/2)))
         elif win_without > 0.5:
-            return BidAction(int(self.auction_factor*need_auction*my_stack*1/3))
+            return BidAction(min(my_stack, (self.auction_factor*need_auction*pot*1/3)))
         elif win_without <= 0.5 and win_without >= 0.2:
-            return BidAction(int(self.auction_factor*need_auction*my_stack*1/4))
+            return BidAction(min(my_stack, int(self.auction_factor*need_auction*pot*1/4)))
         else:
-            return BidAction(int(self.auction_factor*need_auction*my_stack/3))
+            return BidAction(min(my_stack, int(self.auction_factor*need_auction*pot/3)))
         
     def hand_strength(self, round_state, street, active):
         board = [eval7.Card(x) for x in round_state.deck[:street]]
@@ -419,7 +419,7 @@ class Player(Bot):
             hand_strength -= 0.03
 
         if BidAction in legal_actions:
-            return self.decide_action_auction(auction_strength, my_stack)
+            return self.decide_action_auction(auction_strength, my_stack, pot)
         elif street == 0:       
             return self.get_preflop_action(my_cards,round_state,active)
         else:

@@ -325,14 +325,15 @@ class Player(Bot):
         
         need_auction, win_without, win_with = auction_strength
 
-        if win_without < 0.2 or win_with < .6:
+        if win_without < 0.2 or win_with < 0.6:
             return BidAction(min(my_stack, int(self.opp_total_bid/(self.num_auctions_seen+1) * 1/2)))
         elif win_without > 0.5:
-            return BidAction(min(my_stack, int(self.auction_factor*need_auction*pot*1/3)))
+            return BidAction(min(my_stack, int(self.auction_factor*need_auction*pot)))
         elif win_without <= 0.5 and win_without >= 0.2:
-            return BidAction(min(my_stack, int(self.auction_factor*need_auction*pot*1/4)))
+            return BidAction(min(my_stack, int(self.auction_factor*need_auction*pot*3/2)))
         else:
-            return BidAction(min(my_stack, int(self.auction_factor*need_auction*pot/3)))
+            print("SHOULD NOT BE HERE")
+            return BidAction(0)
         
     def hand_strength(self, round_state, street, active):
         board = [eval7.Card(x) for x in round_state.deck[:street]]

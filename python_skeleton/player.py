@@ -328,7 +328,7 @@ class Player(Bot):
         if win_without < 0.2 or win_with < .6:
             return BidAction(min(my_stack, int(self.opp_total_bid/(self.num_auctions_seen+1) * 1/2)))
         elif win_without > 0.5:
-            return BidAction(min(my_stack, (self.auction_factor*need_auction*pot*1/3)))
+            return BidAction(min(my_stack, int(self.auction_factor*need_auction*pot*1/3)))
         elif win_without <= 0.5 and win_without >= 0.2:
             return BidAction(min(my_stack, int(self.auction_factor*need_auction*pot*1/4)))
         else:

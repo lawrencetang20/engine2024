@@ -53,6 +53,9 @@ class Player(Bot):
         self.already_won = False
         self.nit = 0
 
+        self.switched_to_100 = False
+        self.switched_to_50 = False
+
 
     def handle_new_round(self, game_state, round_state, active):
         '''
@@ -77,19 +80,16 @@ class Player(Bot):
         if my_bankroll > 1.5*(NUM_ROUNDS-self.total_rounds)+2:
             self.already_won = True
 
-        switched_to_100 = False
-        switched_to_50 = False
-
-        if game_clock < 20 and round_num <= 333 and not switched_to_100:
+        if game_clock < 20 and round_num <= 333 and not self.switched_to_100:
             self.trials = 100
-            switched_to_100 = True
+            self.switched_to_100 = True
             self.nit = .03
             print('switch to 100')
 
         
-        elif game_clock < 10 and round_num <= 666 and not switched_to_50:
+        elif game_clock < 10 and round_num <= 666 and not self.switched_to_50:
             self.trials = 50
-            switched_to_50 = True
+            self.switched_to_50 = True
             self.nit = .06
             print('switch to 50')
 
@@ -106,7 +106,7 @@ class Player(Bot):
         Nothing.
         '''
         my_delta = terminal_state.deltas[active]  # your bankroll change from this round
-        previous_state = terminal_state.previous_state  # RoundState before payoffs
+        # previous_state = terminal_state.previous_state  # RoundState before payoffs
         #street = previous_state.street  # 0, 3, 4, or 5 representing when this round ended
         #my_cards = previous_state.hands[active]  # your cards
         #opp_cards = previous_state.hands[1-active]  # opponent's cards or [] if not revealed

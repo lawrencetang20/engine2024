@@ -97,6 +97,8 @@ class Player(Bot):
             self.switched_to_50 = True
             self.nit = .06
             print('switch to 50')
+        
+        print(self.auction_factor)
 
     def handle_round_over(self, game_state, terminal_state, active):
         '''
@@ -111,7 +113,7 @@ class Player(Bot):
         Nothing.
         '''
         my_delta = terminal_state.deltas[active]  # your bankroll change from this round
-        # previous_state = terminal_state.previous_state  # RoundState before payoffs
+        previous_state = terminal_state.previous_state  # RoundState before payoffs
         street = previous_state.street  # 0, 3, 4, or 5 representing when this round ended
         #my_cards = previous_state.hands[active]  # your cards
         #opp_cards = previous_state.hands[1-active]  # opponent's cards or [] if not revealed
@@ -132,7 +134,7 @@ class Player(Bot):
             self.opp_total_bid+=opp_bid
             if self.num_auctions_seen==50 and self.opp_total_bid>self.my_total_bid: #they're bidding more than us on avg
                 self.auction_factor=.8*self.opp_total_bid/self.my_total_bid #bid just under what they would be bidding so they pay more
-            if self.num_auctions_seen==50 and self.opp_total_bid<=self.my_total_bid: #we are bidding more than them on avg
+            elif self.num_auctions_seen==50 and self.opp_total_bid<=self.my_total_bid: #we are bidding more than them on avg
                 self.auction_factor=1.2*self.opp_total_bid/self.my_total_bid #bid just over what they would be bidding to win cheaper auction
 
 

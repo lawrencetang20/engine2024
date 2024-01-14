@@ -133,9 +133,9 @@ class Player(Bot):
             self.my_total_bid+=my_bid
             self.opp_total_bid+=opp_bid
             if self.num_auctions_seen>=50 and self.opp_total_bid>self.my_total_bid: #they're bidding more than us on avg
-                self.auction_factor=.8*self.opp_total_bid/self.my_total_bid #bid just under what they would be bidding so they pay more
+                self.auction_factor*=0.105 #bid just under what they would be bidding so they pay more
             elif self.num_auctions_seen>=50 and self.opp_total_bid<=self.my_total_bid: #we are bidding more than them on avg
-                self.auction_factor=1.2*self.opp_total_bid/self.my_total_bid #bid just over what they would be bidding to win cheaper auction
+                self.auction_factor*=0.995 #bid just over what they would be bidding to win cheaper auction
 
 
     def categorize_cards(self,cards):

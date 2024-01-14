@@ -56,6 +56,11 @@ class Player(Bot):
         self.switched_to_100 = False
         self.switched_to_50 = False
 
+        self.num_auctions_seen=0
+        self.my_total_bid=0
+        self.opp_total_bid=0
+        self.auction_factor=1
+
 
     def handle_new_round(self, game_state, round_state, active):
         '''
@@ -107,7 +112,7 @@ class Player(Bot):
         '''
         my_delta = terminal_state.deltas[active]  # your bankroll change from this round
         # previous_state = terminal_state.previous_state  # RoundState before payoffs
-        #street = previous_state.street  # 0, 3, 4, or 5 representing when this round ended
+        street = previous_state.street  # 0, 3, 4, or 5 representing when this round ended
         #my_cards = previous_state.hands[active]  # your cards
         #opp_cards = previous_state.hands[1-active]  # opponent's cards or [] if not revealed
 
@@ -119,6 +124,16 @@ class Player(Bot):
         if my_delta > 0:
             self.rounds_won += 1
         
+        if street>=3:
+            self.num_auctions_seen+=1
+            my_bid=terminal_state.bids[active]
+            opp_bid=terminal_state.bids[1-active]
+            self.my_total_bid+=my_bid
+            self.opp_total_bid+=opp_bid
+            if self.num_auctions_seen==50 and self.opp_total_bid>self.my_total_bid: #they're bidding more than us on avg
+                self.auction_factor=.8*self.opp_total_bid/self.my_total_bid #bid just under what they would be bidding so they pay more
+            if self.num_auctions_seen==50 and self.opp_total_bid<=self.my_total_bid: #we are bidding more than them on avg
+                self.auction_factor=1.2*self.opp_total_bid/self.my_total_bid #bid just over what they would be bidding to win cheaper auction
 
 
     def categorize_cards(self,cards):
@@ -311,11 +326,11 @@ class Player(Bot):
         if win_without < 0.2 or win_with < .6:
             return BidAction(1)
         elif win_without > 0.5:
-            return BidAction(int(need_auction*my_stack*2/3))
+            return BidAction(int(self.auction_factor*need_auction*my_stack*2/3))
         elif win_without <= 0.5 and win_without >= 0.2:
-            return BidAction(int(need_auction*my_stack*1/4))
+            return BidAction(int(self.auction_factor*need_auction*my_stack*1/4))
         else:
-            return BidAction(int(need_auction*my_stack/3))
+            return BidAction(int(self.auction_factor*need_auction*my_stack/3))
         
     def hand_strength(self, round_state, street, active):
         board = [eval7.Card(x) for x in round_state.deck[:street]]

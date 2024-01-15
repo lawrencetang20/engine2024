@@ -59,7 +59,7 @@ class Player(Bot):
         self.num_auctions_seen=0
         self.my_total_bid=0
         self.opp_total_bid=0
-        self.auction_factor=2
+        self.auction_factor=1.5
 
 
     def handle_new_round(self, game_state, round_state, active):
@@ -134,9 +134,9 @@ class Player(Bot):
             self.my_total_bid+=my_bid
             self.opp_total_bid+=opp_bid
             if self.num_auctions_seen>=50 and self.opp_total_bid>self.my_total_bid: #they're bidding more than us on avg
-                self.auction_factor=2.3*self.opp_total_bid/self.my_total_bid #bid just under what they would be bidding so they pay more
+                self.auction_factor=1.7*self.opp_total_bid/self.my_total_bid #bid just under what they would be bidding so they pay more
             elif self.num_auctions_seen>=50 and self.opp_total_bid<=self.my_total_bid: #we are bidding more than them on avg
-                self.auction_factor=1.7*self.opp_total_bid/self.my_total_bid #bid just over what they would be bidding to win cheaper auction
+                self.auction_factor=1.3*self.opp_total_bid/self.my_total_bid #bid just over what they would be bidding to win cheaper auction
 
 
     def categorize_cards(self,cards):
@@ -183,7 +183,7 @@ class Player(Bot):
                 self.times_bet_preflop +=1
                 my_bet = 3*pot
                 return RaiseAction(self.no_illegal_raises(my_bet,round_state))
-            elif self.preflop_dict[new_cards] in range(20,144):
+            elif self.preflop_dict[new_cards] in range(20,87):
                 self.times_bet_preflop +=1
                 my_bet = 2*pot
                 return RaiseAction(self.no_illegal_raises(my_bet,round_state))
@@ -203,7 +203,7 @@ class Player(Bot):
                     # 144 is the worst hand we could call a limp with 
                     # 8 we call 200, 144 we call 2
                     # 144-8 = 136, 144 - sqrt((pip-2)/198) * 136
-            elif self.preflop_dict[new_cards] in range(8,int(144-((opp_pip-2)/198)**(1/3)*136)) and opp_pip <= 200:
+            elif self.preflop_dict[new_cards] in range(8,int(87-((opp_pip-2)/198)**(1/3)*79)) and opp_pip <= 200:
                 if CallAction in legal_actions:
                     return CallAction()
                 else:

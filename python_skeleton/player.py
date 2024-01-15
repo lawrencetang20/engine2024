@@ -59,7 +59,7 @@ class Player(Bot):
         self.num_auctions_seen=0
         self.my_total_bid=0
         self.opp_total_bid=0
-        self.auction_factor=1
+        self.auction_factor=2
 
 
     def handle_new_round(self, game_state, round_state, active):
@@ -133,9 +133,9 @@ class Player(Bot):
             self.my_total_bid+=my_bid
             self.opp_total_bid+=opp_bid
             if self.num_auctions_seen>=50 and self.opp_total_bid>self.my_total_bid: #they're bidding more than us on avg
-                self.auction_factor*=1.02 #bid just under what they would be bidding so they pay more
+                self.auction_factor=1.3*self.opp_total_bid/self.my_total_bid #bid just under what they would be bidding so they pay more
             elif self.num_auctions_seen>=50 and self.opp_total_bid<=self.my_total_bid: #we are bidding more than them on avg
-                self.auction_factor*=0.98 #bid just over what they would be bidding to win cheaper auction
+                self.auction_factor=0.7*self.opp_total_bid/self.my_total_bid #bid just over what they would be bidding to win cheaper auction
 
 
     def categorize_cards(self,cards):
@@ -326,7 +326,7 @@ class Player(Bot):
         need_auction, win_without, win_with = auction_strength
 
         if win_without < 0.2 or win_with < 0.6:
-            return BidAction(min(my_stack, int(self.opp_total_bid/(self.num_auctions_seen+1) * 1/2)))
+            return BidAction(min(my_stack, int(self.auction_factor*need_auction*pot)))
         elif win_without > 0.5:
             return BidAction(min(my_stack, int(self.auction_factor*need_auction*pot)))
         elif win_without <= 0.5 and win_without >= 0.2:

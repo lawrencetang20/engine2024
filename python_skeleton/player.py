@@ -98,7 +98,7 @@ class Player(Bot):
             self.nit = .06
             print('switch to 50')
         
-        print(self.auction_factor)
+        print('auc factor',self.auction_factor, 'opp bid total',self.opp_total_bid, 'my bid total', self.my_total_bid, '\nauc seen', self.num_auctions_seen, 'rounds', self.total_rounds)
 
     def handle_round_over(self, game_state, terminal_state, active):
         '''
@@ -133,9 +133,9 @@ class Player(Bot):
             self.my_total_bid+=my_bid
             self.opp_total_bid+=opp_bid
             if self.num_auctions_seen>=50 and self.opp_total_bid>self.my_total_bid: #they're bidding more than us on avg
-                self.auction_factor=1.3*self.opp_total_bid/self.my_total_bid #bid just under what they would be bidding so they pay more
+                self.auction_factor=2.3*self.opp_total_bid/self.my_total_bid #bid just under what they would be bidding so they pay more
             elif self.num_auctions_seen>=50 and self.opp_total_bid<=self.my_total_bid: #we are bidding more than them on avg
-                self.auction_factor=0.7*self.opp_total_bid/self.my_total_bid #bid just over what they would be bidding to win cheaper auction
+                self.auction_factor=1.7*self.opp_total_bid/self.my_total_bid #bid just over what they would be bidding to win cheaper auction
 
 
     def categorize_cards(self,cards):

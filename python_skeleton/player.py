@@ -1,12 +1,6 @@
 '''
-Simple example pokerbot, written in Python.
-
-UP BY CLOSE TO 1.5* rounds left, play nittier?
-
-
-add fozz ranges
-
-board paired -- makes nit more 
+raising out of big blind more
+try out %50
 
 '''
 from skeleton.actions import FoldAction, CallAction, CheckAction, RaiseAction, BidAction
@@ -327,7 +321,7 @@ class Player(Bot):
         need_auction, win_without, win_with = auction_strength
 
         if win_without < 0.2 or win_with < 0.6:
-            return BidAction(min(my_stack, int(self.auction_factor*need_auction*pot)))
+            return BidAction(min(my_stack, int(self.auction_factor*need_auction*pot))) #maybe a little high????? !!!!!!!
         elif win_without > 0.5:
             return BidAction(min(my_stack, int(self.auction_factor*need_auction*pot)))
         elif win_without <= 0.5 and win_without >= 0.2:

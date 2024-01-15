@@ -98,7 +98,7 @@ class Player(Bot):
             self.nit = .06
             print('switch to 50')
         
-        print('auc factor',self.auction_factor, 'opp bid total',self.opp_total_bid, 'my bid total', self.my_total_bid, '\nauc seen', self.num_auctions_seen, 'rounds', self.total_rounds)
+        # print('auc factor',self.auction_factor, 'opp bid total',self.opp_total_bid, 'my bid total', self.my_total_bid, '\nauc seen', self.num_auctions_seen, 'rounds', self.total_rounds)
 
     def handle_round_over(self, game_state, terminal_state, active):
         '''
@@ -113,6 +113,7 @@ class Player(Bot):
         Nothing.
         '''
         my_delta = terminal_state.deltas[active]  # your bankroll change from this round
+        print(my_delta)
         previous_state = terminal_state.previous_state  # RoundState before payoffs
         street = previous_state.street  # 0, 3, 4, or 5 representing when this round ended
         #my_cards = previous_state.hands[active]  # your cards

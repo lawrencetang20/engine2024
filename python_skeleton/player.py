@@ -203,7 +203,7 @@ class Player(Bot):
                     # 144 is the worst hand we could call a limp with 
                     # 8 we call 200, 144 we call 2
                     # 144-8 = 136, 144 - sqrt((pip-2)/198) * 136
-            elif self.preflop_dict[new_cards] in range(8,int(87-((opp_pip-2)/198)**(1/3)*79)) and opp_pip <= 200:
+            elif self.preflop_dict[new_cards] in range(8,int(88-((opp_pip-2)/198)**(1/3)*80)) and opp_pip <= 200:
                 if CallAction in legal_actions:
                     return CallAction()
                 else:
@@ -223,7 +223,7 @@ class Player(Bot):
                     return CallAction()
                 else:
                     print("this shouldn't ever happen")
-            elif self.preflop_dict[new_cards] in range(6, int(101-((opp_pip-2)/398)**(1/3)*95)):
+            elif self.preflop_dict[new_cards] in range(6, int(67-((opp_pip-2)/398)**(1/3)*61)):
                 if CallAction in legal_actions:
                     return CallAction()
                 else:

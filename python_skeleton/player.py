@@ -73,6 +73,10 @@ class Player(Bot):
 
         self.bluffed_this_round = False
         self.num_opp_potbets = 0
+        self.num_opp_bets = 0
+
+        self.raise_fact = .15
+        self.reraise_fact = .025
 
     def handle_new_round(self, game_state, round_state, active):
         '''
@@ -138,6 +142,8 @@ class Player(Bot):
 
         if game_state.round_num == NUM_ROUNDS:
             print(game_state.game_clock)
+            print(self.num_opp_bets)
+            print(self.num_opp_potbets)
 
         if my_delta > 0:
             self.rounds_won += 1
@@ -330,6 +336,7 @@ class Player(Bot):
         big_blind = bool(active)
 
         if opp_pip > 0:
+            self.num_opp_bets += 1
             self.opp_checks = 0
             self.last_cont = opp_contribution
         elif big_blind and street == 3:
@@ -340,19 +347,21 @@ class Player(Bot):
         elif not big_blind and opp_pip == 0:
             self.opp_checks += 1
 
-        if opp_pip > .8*(pot - opp_pip + my_pip):
+        if opp_pip > (pot - opp_pip + my_pip):
             self.num_opp_potbets += 1
 
         rand = random.random()
         if CheckAction in legal_actions: #Check, raise
-            if rand < hand_strength and hand_strength > .8:
+            if rand < hand_strength and hand_strength >= (.6 + ((street % 3) * self.raise_fact)):
                 return RaiseAction, 1 #value bet
             elif street == 5 and hand_strength > .875:
                 return RaiseAction, 1  #no checks on river with super strong hands
             elif self.opp_checks == 2:
+                self.bluffed_this_round = True
                 print('2 check bluff')
                 return RaiseAction, 0
             elif self.opp_checks == 1 and rand < .3:
+                self.bluffed_this_round = True
                 print('1 check bluff')
                 return RaiseAction, 0
             elif not self.bluffed_this_round and (my_bid > opp_bid) and rand < (1-hand_strength)/2 and hand_strength<0.65:
@@ -375,7 +384,8 @@ class Player(Bot):
             elif hand_strength < .35:
                 return FoldAction, None
             else: #good pot equity
-                if hand_strength > .925 or (hand_strength - pot_equity > .25 and hand_strength > .85):
+                reraise_strength = (.9 + ((street % 3) * self.reraise_fact)) 
+                if hand_strength > reraise_strength or (hand_strength - pot_equity > .25 and hand_strength > (reraise_strength - .05)):
                     return RaiseAction, 1 #value raise
                 return CallAction, None
 

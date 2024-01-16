@@ -339,8 +339,6 @@ class Player(Bot):
             self.num_opp_bets += 1
             self.opp_checks = 0
             self.last_cont = opp_contribution
-        elif big_blind and street == 3:
-            self.last_cont == opp_contribution
         elif big_blind and street > 3:
             if opp_contribution == self.last_cont:
                 self.opp_checks += 1
@@ -353,18 +351,23 @@ class Player(Bot):
         rand = random.random()
         if CheckAction in legal_actions: #Check, raise
             if rand < hand_strength and hand_strength >= (.6 + ((street % 3) * self.raise_fact)):
+                self.opp_checks = 0
                 return RaiseAction, 1 #value bet
             elif street == 5 and hand_strength > .875:
+                self.opp_checks = 0
                 return RaiseAction, 1  #no checks on river with super strong hands
             elif self.opp_checks == 2:
+                self.opp_checks = 0
                 self.bluffed_this_round = True
                 print('2 check bluff')
                 return RaiseAction, 0
-            elif self.opp_checks == 1 and rand < .3:
+            elif self.opp_checks == 1 and rand < .25:
+                self.opp_checks = 0
                 self.bluffed_this_round = True
                 print('1 check bluff')
                 return RaiseAction, 0
-            elif not self.bluffed_this_round and (my_bid > opp_bid) and rand < (1-hand_strength)/2 and hand_strength<0.65:
+            elif not self.bluffed_this_round and (my_bid > opp_bid) and rand < (1-hand_strength)/2 and hand_strength < 0.65:
+                self.opp_checks = 0
                 self.bluffed_this_round = True
                 print('bluffed')
                 return RaiseAction, 0 #bluff
@@ -474,6 +477,8 @@ class Player(Bot):
         elif street == 0:       
             return self.get_preflop_action(my_cards,round_state,active)
         else:
+            if street == 3:
+                self.last_cont = opp_contribution
             decision, conf = self.decide_action_postflop(round_state, hand_strength, active)
 
         rand = random.random()

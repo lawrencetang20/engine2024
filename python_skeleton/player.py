@@ -94,16 +94,16 @@ class Player(Bot):
         self.times_bet_preflop = 0
         self.bluffed_this_round = False
 
+        # if we are gauranteed a win
         if my_bankroll > 1.5*(NUM_ROUNDS-self.total_rounds)+2:
             self.already_won = True
 
+        # if we are running out of time
         if game_clock < 20 and round_num <= 333 and not self.switched_to_100:
             self.trials = 100
             self.switched_to_100 = True
             self.nit = .03
             print('switch to 100')
-
-        
         elif game_clock < 10 and round_num <= 666 and not self.switched_to_50:
             self.trials = 50
             self.switched_to_50 = True
@@ -139,6 +139,7 @@ class Player(Bot):
         if my_delta > 0:
             self.rounds_won += 1
         
+        # updating auction_factor strength
         if street>=3:
             self.num_auctions_seen+=1
             my_bid=terminal_state.bids[active]
@@ -189,6 +190,8 @@ class Player(Bot):
         pot = my_contribution+opp_contribution
         big_blind = bool(active)
         new_cards = self.categorize_cards(cards)
+
+        # small blind, first action
         if big_blind == False and self.times_bet_preflop == 0:
             if self.preflop_dict[new_cards] in range(1,20):
                 self.times_bet_preflop +=1
@@ -200,6 +203,7 @@ class Player(Bot):
                 return RaiseAction(self.no_illegal_raises(my_bet,round_state))
             else:
                 return FoldAction()
+        # big blind, first action
         elif big_blind == True and self.times_bet_preflop ==0:
             if self.preflop_dict[new_cards] in range(1,8) or (self.preflop_dict[new_cards] in range(8,self.big_blind_raise+1) and pot <= 20):
                 self.times_bet_preflop +=1
@@ -219,6 +223,7 @@ class Player(Bot):
                 if CheckAction in legal_actions:
                     return CheckAction()
                 return FoldAction()
+        # 3 bet or further
         else:
             if self.preflop_dict[new_cards] in range(1,6):
                 self.times_bet_preflop +=1
@@ -239,6 +244,7 @@ class Player(Bot):
                     return CheckAction()
                 return FoldAction()
 
+    
     def decide_action_postflop(self, opp_pip, my_pip, hand_strength, pot, legal_actions, street, my_bid, opp_bid):
         rand = random.random()
         if CheckAction in legal_actions: #Check, raise
@@ -270,6 +276,7 @@ class Player(Bot):
                     return RaiseAction, 1 #value raise
                 return CallAction, None
 
+    # monte carlo to obtain auction_strength vars
     def auction_strength(self, round_state, street, active):
         board = [eval7.Card(board_card) for board_card in round_state.deck[:street]]
         my_hole = [eval7.Card(my_card) for my_card in round_state.hands[active]]
@@ -292,26 +299,21 @@ class Player(Bot):
         while trials < self.trials:
             deck.shuffle()
             # either you get the auction card, or the opponent gets the auction card
-
             cards = deck.peek(num_more_board+opp_num+auction_num)
             opp_hole = cards[:opp_num]
             board_rest = cards[opp_num:len(cards)-1]
             auction_card = [cards[-1]]
-
             # me with auction
             my_auc_val = eval7.evaluate(my_hole+board+board_rest+auction_card)
             opp_no_auc_val = eval7.evaluate(opp_hole+board+board_rest)
-
             # oppo with auction
             my_no_auc_val = eval7.evaluate(my_hole+board+board_rest)
             opp_auc_val = eval7.evaluate(opp_hole+board+board_rest+auction_card)
 
             if my_auc_val > opp_no_auc_val and my_no_auc_val < opp_auc_val:
                 num_need_auction += 1
-            
             if my_no_auc_val > opp_auc_val:
                 num_win_without_auction += 1
-            
             if my_auc_val > opp_no_auc_val:
                 num_win_with_auction += 1
 
@@ -323,6 +325,7 @@ class Player(Bot):
 
         return need_auction, win_without, win_with
 
+    # decide how much to auction
     def decide_action_auction(self, auction_strength, my_stack, pot):
 
         # figure our auction size based on auction_strength
@@ -436,7 +439,7 @@ class Player(Bot):
             if conf != 0:
                 bet_max = int((1+(2*(hand_strength**2)*rand)) * pot/2 )
                 maximum = min(max_raise, bet_max)
-            else:
+            else: # raising a bluff
                 maximum = min(max_raise, 5/4*pot)
                 minimum = max(min_raise, 3/4*pot)
             if maximum <= minimum:

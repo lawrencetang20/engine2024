@@ -73,6 +73,10 @@ class Player(Bot):
 
         self.bluffed_this_round = False
         self.num_opp_potbets = 0
+        self.num_opp_bets = 0
+
+        self.raise_fact = .15
+        self.reraise_fact = .025
 
     def handle_new_round(self, game_state, round_state, active):
         '''
@@ -138,6 +142,8 @@ class Player(Bot):
 
         if game_state.round_num == NUM_ROUNDS:
             print(game_state.game_clock)
+            print(self.num_opp_bets)
+            print(self.num_opp_potbets)
 
         if my_delta > 0:
             self.rounds_won += 1
@@ -330,32 +336,38 @@ class Player(Bot):
         big_blind = bool(active)
 
         if opp_pip > 0:
+            self.num_opp_bets += 1
             self.opp_checks = 0
             self.last_cont = opp_contribution
-        elif big_blind and street == 3:
-            self.last_cont == opp_contribution
         elif big_blind and street > 3:
             if opp_contribution == self.last_cont:
                 self.opp_checks += 1
         elif not big_blind and opp_pip == 0:
             self.opp_checks += 1
 
-        if opp_pip > .8*(pot - opp_pip + my_pip):
+        if opp_pip > .75*(pot - opp_pip + my_pip):
             self.num_opp_potbets += 1
 
         rand = random.random()
         if CheckAction in legal_actions: #Check, raise
-            if rand < hand_strength and hand_strength > .8:
+            if rand < hand_strength and hand_strength >= (.6 + ((street % 3) * self.raise_fact)):
+                self.opp_checks = 0
                 return RaiseAction, 1 #value bet
-            elif street == 5 and hand_strength > .875:
+            elif street == 5 and hand_strength > .9:
+                self.opp_checks = 0
                 return RaiseAction, 1  #no checks on river with super strong hands
-            elif self.opp_checks == 2:
+            elif not self.bluffed_this_round and self.opp_checks == 2:
+                self.opp_checks = 0
+                self.bluffed_this_round = True
                 print('2 check bluff')
                 return RaiseAction, 0
-            elif self.opp_checks == 1 and rand < .3:
+            elif not self.bluffed_this_round and self.opp_checks == 1 and rand < .25:
+                self.opp_checks = 0
+                self.bluffed_this_round = True
                 print('1 check bluff')
                 return RaiseAction, 0
-            elif not self.bluffed_this_round and (my_bid > opp_bid) and rand < (1-hand_strength)/2 and hand_strength<0.65:
+            elif not self.bluffed_this_round and (my_bid > opp_bid) and rand < (1-hand_strength)/2 and hand_strength < 0.65:
+                self.opp_checks = 0
                 self.bluffed_this_round = True
                 print('bluffed')
                 return RaiseAction, 0 #bluff
@@ -375,7 +387,8 @@ class Player(Bot):
             elif hand_strength < .35:
                 return FoldAction, None
             else: #good pot equity
-                if hand_strength > .925 or (hand_strength - pot_equity > .25 and hand_strength > .85):
+                reraise_strength = (.9 + ((street % 3) * self.reraise_fact)) 
+                if hand_strength > reraise_strength or (hand_strength - pot_equity > .25 and hand_strength > (reraise_strength - .05)):
                     return RaiseAction, 1 #value raise
                 return CallAction, None
 
@@ -456,7 +469,7 @@ class Player(Bot):
         hand_strength = self.hand_strength(round_state, street, active) - self.nit
         auction_strength = self.auction_strength(round_state, street, active)
 
-        if my_contribution > 100 and hand_strength < 0.85:
+        if my_contribution > 100:
             hand_strength -= 0.03
 
         if BidAction in legal_actions:
@@ -464,13 +477,15 @@ class Player(Bot):
         elif street == 0:       
             return self.get_preflop_action(my_cards,round_state,active)
         else:
+            if street == 3:
+                self.last_cont = opp_contribution
             decision, conf = self.decide_action_postflop(round_state, hand_strength, active)
 
         rand = random.random()
         if decision == RaiseAction and RaiseAction in legal_actions:
             minimum = max(min_raise, pot / 4)
             if conf != 0:
-                bet_max = int((1+(2*(hand_strength**2)*rand)) * pot/2 )
+                bet_max = int((1+(2*(hand_strength**2)*rand)) * pot/2)
                 maximum = min(max_raise, bet_max)
             else:
                 maximum = min(max_raise, 5/4*pot)

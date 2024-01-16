@@ -4,6 +4,8 @@ keep track of hands we lose -- if under <20, increase/decrease calling range
 
 game theory wise -- pot sized bet with 2 cards means strong
 
+bluff on turn more rather than river?
+
 '''
 from skeleton.actions import FoldAction, CallAction, CheckAction, RaiseAction, BidAction
 from skeleton.states import GameState, TerminalState, RoundState

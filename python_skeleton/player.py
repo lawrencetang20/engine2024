@@ -345,7 +345,7 @@ class Player(Bot):
         elif not big_blind and opp_pip == 0:
             self.opp_checks += 1
 
-        if opp_pip > (pot - opp_pip + my_pip):
+        if opp_pip > .75*(pot - opp_pip + my_pip):
             self.num_opp_potbets += 1
 
         rand = random.random()
@@ -353,15 +353,15 @@ class Player(Bot):
             if rand < hand_strength and hand_strength >= (.6 + ((street % 3) * self.raise_fact)):
                 self.opp_checks = 0
                 return RaiseAction, 1 #value bet
-            elif street == 5 and hand_strength > .875:
+            elif street == 5 and hand_strength > .9:
                 self.opp_checks = 0
                 return RaiseAction, 1  #no checks on river with super strong hands
-            elif self.opp_checks == 2:
+            elif not self.bluffed_this_round and self.opp_checks == 2:
                 self.opp_checks = 0
                 self.bluffed_this_round = True
                 print('2 check bluff')
                 return RaiseAction, 0
-            elif self.opp_checks == 1 and rand < .25:
+            elif not self.bluffed_this_round and self.opp_checks == 1 and rand < .25:
                 self.opp_checks = 0
                 self.bluffed_this_round = True
                 print('1 check bluff')
@@ -469,7 +469,7 @@ class Player(Bot):
         hand_strength = self.hand_strength(round_state, street, active) - self.nit
         auction_strength = self.auction_strength(round_state, street, active)
 
-        if my_contribution > 100 and hand_strength < 0.85:
+        if my_contribution > 100:
             hand_strength -= 0.03
 
         if BidAction in legal_actions:
@@ -485,7 +485,7 @@ class Player(Bot):
         if decision == RaiseAction and RaiseAction in legal_actions:
             minimum = max(min_raise, pot / 4)
             if conf != 0:
-                bet_max = int((1+(2*(hand_strength**2)*rand)) * pot/2 )
+                bet_max = int((1+(2*(hand_strength**2)*rand)) * pot/2)
                 maximum = min(max_raise, bet_max)
             else:
                 maximum = min(max_raise, 5/4*pot)

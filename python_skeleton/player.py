@@ -141,18 +141,18 @@ class Player(Bot):
         
         # updating auction_factor strength
         if street>=3:
-            self.num_auctions_seen+=1
-            my_bid=terminal_state.bids[active]
-            opp_bid=terminal_state.bids[1-active]
-            self.my_total_bid+=my_bid
-            self.opp_total_bid+=opp_bid
+            self.num_auctions_seen += 1
+            my_bid = terminal_state.bids[active]
+            opp_bid = terminal_state.bids[1-active]
+            self.my_total_bid += my_bid
+            self.opp_total_bid += opp_bid
             if self.num_auctions_seen >= 50:
-                if self.num_auctions_seen % 25 == 0 and self.opp_total_bid>self.my_total_bid: #they're bidding more than us on avg
-                    self.auction_factor=(self.auction_factor+0.2)*self.opp_total_bid/self.my_total_bid #bid just under what they would be bidding so they pay more
-                elif self.num_auctions_seen % 25 == 0 and self.opp_total_bid<=self.my_total_bid: #we are bidding more than them on avg
-                    self.auction_factor=(self.auction_factor-0.2)*self.opp_total_bid/self.my_total_bid #bid just over what they would be bidding to win cheaper auction
+                if self.num_auctions_seen % 25 == 0 and self.opp_total_bid > self.my_total_bid: #they're bidding more than us on avg
+                    self.auction_factor = (self.auction_factor+0.2)*self.opp_total_bid/self.my_total_bid #bid just under what they would be bidding so they pay more
+                elif self.num_auctions_seen % 25 == 0 and self.opp_total_bid <= self.my_total_bid: #we are bidding more than them on avg
+                    self.auction_factor = (self.auction_factor-0.2)*self.opp_total_bid/self.my_total_bid #bid just over what they would be bidding to win cheaper auction
 
-    def categorize_cards(self,cards):
+    def categorize_cards(self, cards):
         rank1 = cards[0][0]
         rank2 = cards[1][0]
         suit1 = cards[0][1]
@@ -173,14 +173,14 @@ class Player(Bot):
         
         return (hpair+onsuit)
     
-    def no_illegal_raises(self,bet,round_state):
+    def no_illegal_raises(self, bet, round_state):
         min_raise, max_raise = round_state.raise_bounds()  # the smallest and largest numbers of chips for a legal bet/raise        
         if bet >= max_raise:
             return max_raise
         else:
             return bet
 
-    def get_preflop_action(self,cards,round_state,active):
+    def get_preflop_action(self, cards, round_state, active):
         legal_actions = round_state.legal_actions()  # the actions you are allowed to take
         my_stack = round_state.stacks[active]  # the number of chips you have remaining
         opp_stack = round_state.stacks[1-active]  # the number of chips your opponent has remaining
@@ -204,7 +204,7 @@ class Player(Bot):
             else:
                 return FoldAction()
         # big blind, first action
-        elif big_blind == True and self.times_bet_preflop ==0:
+        elif big_blind == True and self.times_bet_preflop == 0:
             if self.preflop_dict[new_cards] in range(1,8) or (self.preflop_dict[new_cards] in range(8,self.big_blind_raise+1) and pot <= 20):
                 self.times_bet_preflop +=1
                 my_bet = 2*pot

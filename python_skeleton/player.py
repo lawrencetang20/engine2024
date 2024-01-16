@@ -6,6 +6,14 @@ game theory wise -- pot sized bet with 2 cards means strong
 
 bluff on turn more rather than river?
 
+if they show very weak -- then bluff no matter what
+
+maybe check sometimes through good hands
+
+increase our check ratio before river
+
+track bet sizing
+
 '''
 from skeleton.actions import FoldAction, CallAction, CheckAction, RaiseAction, BidAction
 from skeleton.states import GameState, TerminalState, RoundState

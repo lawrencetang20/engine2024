@@ -240,6 +240,7 @@ class Player(Bot):
                 return RaiseAction, 1  #no checks on river with super strong hands
             elif not self.bluffed_this_round and (my_bid > opp_bid) and rand < (1-hand_strength)/4:
                 self.bluffed_this_round = True
+                print('bluffed')
                 return RaiseAction, 0 #bluff
             return CheckAction, None
         else: #Fold, Call, Raise
@@ -433,7 +434,8 @@ class Player(Bot):
                 bet_max = int((1+(2*(hand_strength**2)*rand)) * pot/2 )
                 maximum = min(max_raise, bet_max)
             else:
-                maximum = min(max_raise, pot)
+                maximum = min(max_raise, 5/4*pot)
+                minimum = max(min_raise, 3/4*pot)
             if maximum <= minimum:
                 amount = int(min_raise)
             else:

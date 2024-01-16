@@ -1,6 +1,12 @@
 '''
+Simple example pokerbot, written in Python.
 
-keep track of hands we lose -- if under <20, increase/decrease calling range
+UP BY CLOSE TO 1.5* rounds left, play nittier?
+
+
+add fozz ranges
+
+board paired -- makes nit more 
 
 '''
 from skeleton.actions import FoldAction, CallAction, CheckAction, RaiseAction, BidAction
@@ -47,19 +53,6 @@ class Player(Bot):
         self.already_won = False
         self.nit = 0
 
-        self.switched_to_100 = False
-        self.switched_to_50 = False
-
-        self.num_auctions_seen=0
-        self.my_total_bid=0
-        self.opp_total_bid=0
-        self.auction_factor=1
-
-        self.small_blind_raise = 87
-        self.big_blind_raise = 31
-        self.big_blind_call = 87
-
-        self.bluffed_this_round = False
 
     def handle_new_round(self, game_state, round_state, active):
         '''
@@ -80,25 +73,25 @@ class Player(Bot):
         #big_blind = bool(active)  # True if you are the big blind
 
         self.times_bet_preflop = 0
-        self.bluffed_this_round = False
 
         if my_bankroll > 1.5*(NUM_ROUNDS-self.total_rounds)+2:
             self.already_won = True
 
-        if game_clock < 20 and round_num <= 333 and not self.switched_to_100:
+        switched_to_100 = False
+        switched_to_50 = False
+
+        if game_clock < 20 and round_num <= 333 and not switched_to_100:
             self.trials = 100
-            self.switched_to_100 = True
+            switched_to_100 = True
             self.nit = .03
             print('switch to 100')
 
         
-        elif game_clock < 10 and round_num <= 666 and not self.switched_to_50:
+        elif game_clock < 10 and round_num <= 666 and not switched_to_50:
             self.trials = 50
-            self.switched_to_50 = True
+            switched_to_50 = True
             self.nit = .06
             print('switch to 50')
-        
-        # print('auc factor',self.auction_factor, 'opp bid total',self.opp_total_bid, 'my bid total', self.my_total_bid, '\nauc seen', self.num_auctions_seen, 'rounds', self.total_rounds)
 
     def handle_round_over(self, game_state, terminal_state, active):
         '''
@@ -113,9 +106,8 @@ class Player(Bot):
         Nothing.
         '''
         my_delta = terminal_state.deltas[active]  # your bankroll change from this round
-        print(my_delta)
         previous_state = terminal_state.previous_state  # RoundState before payoffs
-        street = previous_state.street  # 0, 3, 4, or 5 representing when this round ended
+        #street = previous_state.street  # 0, 3, 4, or 5 representing when this round ended
         #my_cards = previous_state.hands[active]  # your cards
         #opp_cards = previous_state.hands[1-active]  # opponent's cards or [] if not revealed
 
@@ -127,17 +119,7 @@ class Player(Bot):
         if my_delta > 0:
             self.rounds_won += 1
         
-        if street>=3:
-            self.num_auctions_seen+=1
-            my_bid=terminal_state.bids[active]
-            opp_bid=terminal_state.bids[1-active]
-            self.my_total_bid+=my_bid
-            self.opp_total_bid+=opp_bid
-            if self.num_auctions_seen >= 50:
-                if self.num_auctions_seen % 25 == 0 and self.opp_total_bid>self.my_total_bid: #they're bidding more than us on avg
-                    self.auction_factor=(self.auction_factor+0.2)*self.opp_total_bid/self.my_total_bid #bid just under what they would be bidding so they pay more
-                elif self.num_auctions_seen % 25 == 0 and self.opp_total_bid<=self.my_total_bid: #we are bidding more than them on avg
-                    self.auction_factor=(self.auction_factor-0.2)*self.opp_total_bid/self.my_total_bid #bid just over what they would be bidding to win cheaper auction
+
 
     def categorize_cards(self,cards):
         rank1 = cards[0][0]
@@ -175,21 +157,23 @@ class Player(Bot):
         opp_contribution = STARTING_STACK - opp_stack  # the number of chips your opponent has contributed to the pot
         opp_pip = round_state.pips[1-active]
         pot = my_contribution+opp_contribution
-        big_blind = bool(active)
+        big_blind = bool(active)  # True if you are the big blind
         new_cards = self.categorize_cards(cards)
+        #3BET
         if big_blind == False and self.times_bet_preflop == 0:
             if self.preflop_dict[new_cards] in range(1,20):
                 self.times_bet_preflop +=1
                 my_bet = 3*pot
                 return RaiseAction(self.no_illegal_raises(my_bet,round_state))
-            elif self.preflop_dict[new_cards] in range(20,self.small_blind_raise):
+            elif self.preflop_dict[new_cards] in range(20,144):
                 self.times_bet_preflop +=1
                 my_bet = 2*pot
                 return RaiseAction(self.no_illegal_raises(my_bet,round_state))
             else:
                 return FoldAction()
+        #4BET -- you are big blind, and small blind raises or calls
         elif big_blind == True and self.times_bet_preflop ==0:
-            if self.preflop_dict[new_cards] in range(1,8) or (self.preflop_dict[new_cards] in range(8,self.big_blind_raise+1) and pot <= 20):
+            if self.preflop_dict[new_cards] in range(1,8):
                 self.times_bet_preflop +=1
                 my_bet = 2*pot
                 if RaiseAction in legal_actions:
@@ -198,7 +182,10 @@ class Player(Bot):
                     return CallAction()
                 else:
                     print("this shouldn't ever happen")
-            elif self.preflop_dict[new_cards] in range(8,int(self.big_blind_call+1-((opp_pip-2)/198)**(1/3)*(self.big_blind_call+1-8))) and opp_pip <= 200:
+                    # 144 is the worst hand we could call a limp with 
+                    # 8 we call 200, 144 we call 2
+                    # 144-8 = 136, 144 - sqrt((pip-2)/198) * 136
+            elif self.preflop_dict[new_cards] in range(8,int(144-((opp_pip-2)/198)**(1/3)*136)) and opp_pip <= 200:
                 if CallAction in legal_actions:
                     return CallAction()
                 else:
@@ -207,6 +194,7 @@ class Player(Bot):
                 if CheckAction in legal_actions:
                     return CheckAction()
                 return FoldAction()
+        # 100 is the end range
         else:
             if self.preflop_dict[new_cards] in range(1,6):
                 self.times_bet_preflop +=1
@@ -217,7 +205,7 @@ class Player(Bot):
                     return CallAction()
                 else:
                     print("this shouldn't ever happen")
-            elif self.preflop_dict[new_cards] in range(6, int(67-((opp_pip-2)/398)**(1/3)*61)):
+            elif self.preflop_dict[new_cards] in range(6, int(101-((opp_pip-2)/398)**(1/3)*95)):
                 if CallAction in legal_actions:
                     return CallAction()
                 else:
@@ -227,16 +215,14 @@ class Player(Bot):
                     return CheckAction()
                 return FoldAction()
 
-    def decide_action_postflop(self, opp_pip, my_pip, hand_strength, pot, legal_actions, street, my_bid, opp_bid):
+    def decide_action_postflop(self, opp_pip, my_pip, hand_strength, pot, legal_actions, street):
         rand = random.random()
         if CheckAction in legal_actions: #Check, raise
             if rand < hand_strength and hand_strength > .8:
                 return RaiseAction, 1 #value bet
             elif street == 5 and hand_strength > .875:
                 return RaiseAction, 1  #no checks on river with super strong hands
-            elif not self.bluffed_this_round and (my_bid > opp_bid) and rand < (1-hand_strength)/2 and hand_strength<0.65:
-                self.bluffed_this_round = True
-                print('bluffed')
+            elif rand < hand_strength / 7 and hand_strength <= .4:
                 return RaiseAction, 0 #bluff
             return CheckAction, None
         else: #Fold, Call, Raise
@@ -303,6 +289,7 @@ class Player(Bot):
             if my_auc_val > opp_no_auc_val:
                 num_win_with_auction += 1
 
+
             trials += 1
 
         need_auction = num_need_auction/trials
@@ -311,7 +298,7 @@ class Player(Bot):
 
         return need_auction, win_without, win_with
 
-    def decide_action_auction(self, auction_strength, my_stack, pot):
+    def decide_action_auction(self, auction_strength, my_stack):
 
         # figure our auction size based on auction_strength
         # if win without auc < 0.2 --> then Bid 1 (dont need auction, going to fold)
@@ -321,21 +308,22 @@ class Player(Bot):
         
         need_auction, win_without, win_with = auction_strength
 
-        if win_without < 0.2 or win_with < 0.6:
-            return BidAction(min(my_stack, int(self.auction_factor*need_auction*my_stack/6)))
+        if win_without < 0.2 or win_with < .6:
+            return BidAction(1)
         elif win_without > 0.5:
-            return BidAction(min(my_stack, int(self.auction_factor*need_auction*my_stack/4)))
+            return BidAction(int(need_auction*my_stack*2/3))
         elif win_without <= 0.5 and win_without >= 0.2:
-            return BidAction(min(my_stack, int(self.auction_factor*need_auction*my_stack/3)))
+            return BidAction(int(need_auction*my_stack*1/4))
         else:
-            print("SHOULD NOT BE HERE")
-            return BidAction(0)
+            return BidAction(int(need_auction*my_stack/3))
         
     def hand_strength(self, round_state, street, active):
         board = [eval7.Card(x) for x in round_state.deck[:street]]
         my_hole = [eval7.Card(a) for a in round_state.hands[active]]
         comb = board + my_hole
         num_more_board = 5 - len(board)
+
+
 
         if len(my_hole) == 2 and street > 0 and BidAction not in round_state.legal_actions():
             opp_num = 3
@@ -367,6 +355,7 @@ class Player(Bot):
         percent_better_than = num_better/(2*trials)
         return percent_better_than
 
+
     def get_action(self, game_state, round_state, active):
         '''
         Where the magic happens - your code should implement this function.
@@ -389,11 +378,12 @@ class Player(Bot):
         opp_pip = round_state.pips[1-active]  # the number of chips your opponent has contributed to the pot this round of betting
         my_stack = round_state.stacks[active]  # the number of chips you have remaining
         opp_stack = round_state.stacks[1-active]  # the number of chips your opponent has remaining
-        my_bid = round_state.bids[active]  # How much you bid previously (available only after auction)
-        opp_bid = round_state.bids[1-active]  # How much opponent bid previously (available only after auction)
+        #my_bid = round_state.bids[active]  # How much you bid previously (available only after auction)
+        #opp_bid = round_state.bids[1-active]  # How much opponent bid previously (available only after auction)
         #continue_cost = opp_pip - my_pip  # the number of chips needed to stay in the pot
         my_contribution = STARTING_STACK - my_stack  # the number of chips you have contributed to the pot
         opp_contribution = STARTING_STACK - opp_stack  # the number of chips your opponent has contributed to the pot
+
 
         if self.already_won:
             if BidAction in legal_actions:
@@ -412,11 +402,11 @@ class Player(Bot):
             hand_strength -= 0.03
 
         if BidAction in legal_actions:
-            return self.decide_action_auction(auction_strength, my_stack, pot)
+            return self.decide_action_auction(auction_strength, my_stack)
         elif street == 0:       
             return self.get_preflop_action(my_cards,round_state,active)
         else:
-            decision, conf = self.decide_action_postflop(opp_pip, my_pip, hand_strength, pot, legal_actions, street, my_bid, opp_bid)
+            decision, conf = self.decide_action_postflop(opp_pip, my_pip, hand_strength, pot, legal_actions, street)
 
         rand = random.random()
         if decision == RaiseAction and RaiseAction in legal_actions:
@@ -425,8 +415,7 @@ class Player(Bot):
                 bet_max = int((1+(2*(hand_strength**2)*rand)) * pot/2 )
                 maximum = min(max_raise, bet_max)
             else:
-                maximum = min(max_raise, 5/4*pot)
-                minimum = max(min_raise, 3/4*pot)
+                maximum = min(max_raise, pot)
             if maximum <= minimum:
                 amount = int(min_raise)
             else:
@@ -437,6 +426,7 @@ class Player(Bot):
                 return CallAction()
             return CheckAction()
         return decision()
+
 
 if __name__ == '__main__':
     run_bot(Player(), parse_args())

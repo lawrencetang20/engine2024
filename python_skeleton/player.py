@@ -4,9 +4,9 @@ keep track of hands we lose -- if under <20, increase/decrease calling range
 
 game theory wise -- pot sized bet with 2 cards means strong
 
-bluff on turn more rather than river?
+bluff on turn more rather than river? // dont changed
 
-if they show very weak -- then bluff no matter what
+if they show very weak -- then bluff no matter what DONE
 
 maybe check sometimes through good hands
 

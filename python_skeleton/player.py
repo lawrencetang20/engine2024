@@ -78,6 +78,20 @@ class Player(Bot):
         self.raise_fact = .15
         self.reraise_fact = .025
 
+        self.bluff_pm = 0
+
+        self.bluffed_pm = 0
+        self.bluff_numwins = 0
+        self.bluff_numlosses = 0
+
+        self.twobluff_pm = 0
+        self.twonumwins = 0
+        self.twonumlosses = 0
+
+        self.onebluff_pm = 0
+        self.onenumwins = 0
+        self.onenumlosses = 0
+
     def handle_new_round(self, game_state, round_state, active):
         '''
         Called when a new round starts. Called NUM_ROUNDS times.
@@ -101,6 +115,10 @@ class Player(Bot):
 
         self.times_bet_preflop = 0
         self.bluffed_this_round = False
+        self.twocheck = False
+        self.onecheck = False
+        self.bluff = False
+
 
         if my_bankroll > 1.5*(NUM_ROUNDS-self.total_rounds)+2:
             self.already_won = True
@@ -144,10 +162,49 @@ class Player(Bot):
             print(game_state.game_clock)
             print(self.num_opp_bets)
             print(self.num_opp_potbets)
+            print(f'bluff pm: {self.bluff_pm}')
+            print(f'normal bluff pm: {self.bluffed_pm}')
+            print(f'normal bluff wins: {self.bluff_numwins}')
+            print(f'normal bluff losses: {self.bluff_numlosses}')
+            print(f'two check bluff pm: {self.twobluff_pm}')
+            print(f'two check wins: {self.twonumwins}')
+            print(f'two check losses: {self.twonumlosses}')
+            print(f'one check bluff pm: {self.onebluff_pm}')
+            print(f'one check wins: {self.onenumwins}')
+            print(f'one check losses: {self.onenumlosses}')
+
+
 
         if my_delta > 0:
             self.rounds_won += 1
         
+        if self.bluffed_this_round:
+            if abs(my_delta) != 400:
+                self.bluff_pm += my_delta
+
+        if self.bluff:
+            self.bluffed_pm += my_delta
+            if my_delta > 0:
+                self.bluff_numwins += 1
+            else:
+                self.bluff_numlosses += 1
+
+        if self.twocheck:
+            if abs(my_delta) != 400:
+                self.twobluff_pm += my_delta
+                if my_delta > 0:
+                    self.twonumwins += 1
+                else:
+                    self.twonumlosses += 1
+        if self.onecheck:
+            if abs(my_delta) != 400:
+                self.onebluff_pm += my_delta
+                if my_delta > 0:
+                    self.onenumwins += 1
+                else:
+                    self.onenumlosses += 1
+
+
         if street>=3:
             self.num_auctions_seen+=1
             my_bid=terminal_state.bids[active]
@@ -359,16 +416,19 @@ class Player(Bot):
             elif not self.bluffed_this_round and self.opp_checks == 2:
                 self.opp_checks = 0
                 self.bluffed_this_round = True
+                self.twocheck = True
                 print('2 check bluff')
                 return RaiseAction, 0
             elif not self.bluffed_this_round and self.opp_checks == 1 and rand < .25:
                 self.opp_checks = 0
                 self.bluffed_this_round = True
+                self.onecheck = True
                 print('1 check bluff')
                 return RaiseAction, 0
             elif not self.bluffed_this_round and (my_bid > opp_bid) and rand < (1-hand_strength)/2 and hand_strength < 0.65:
                 self.opp_checks = 0
                 self.bluffed_this_round = True
+                self.bluff = True
                 print('bluffed')
                 return RaiseAction, 0 #bluff
             return CheckAction, None

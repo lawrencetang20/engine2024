@@ -92,6 +92,8 @@ class Player(Bot):
         self.onenumwins = 0
         self.onenumlosses = 0
 
+        self.try_bluff = 1
+
     def handle_new_round(self, game_state, round_state, active):
         '''
         Called when a new round starts. Called NUM_ROUNDS times.
@@ -122,6 +124,11 @@ class Player(Bot):
 
         if my_bankroll > 1.5*(NUM_ROUNDS-self.total_rounds)+2:
             self.already_won = True
+
+        if my_bankroll > 400:
+            self.try_bluff = 1/3
+        else:
+            self.try_bluff = 1
 
         if game_clock < 20 and round_num <= 333 and not self.switched_to_100:
             self.trials = 100
@@ -172,8 +179,6 @@ class Player(Bot):
             print(f'one check bluff pm: {self.onebluff_pm}')
             print(f'one check wins: {self.onenumwins}')
             print(f'one check losses: {self.onenumlosses}')
-
-
 
         if my_delta > 0:
             self.rounds_won += 1
@@ -413,19 +418,19 @@ class Player(Bot):
             elif street == 5 and hand_strength > .9:
                 self.opp_checks = 0
                 return RaiseAction, 1  #no checks on river with super strong hands
-            elif not self.bluffed_this_round and self.opp_checks == 2:
+            elif not self.bluffed_this_round and (self.opp_checks == 2) and (rand < self.try_bluff*(2/3)):
                 self.opp_checks = 0
                 self.bluffed_this_round = True
                 self.twocheck = True
                 print('2 check bluff')
                 return RaiseAction, 0
-            elif not self.bluffed_this_round and self.opp_checks == 1 and rand < .25:
+            elif not self.bluffed_this_round and (self.opp_checks == 1) and (rand < self.try_bluff*(1/6)):
                 self.opp_checks = 0
                 self.bluffed_this_round = True
                 self.onecheck = True
                 print('1 check bluff')
                 return RaiseAction, 0
-            elif not self.bluffed_this_round and (my_bid > opp_bid) and rand < (1-hand_strength)/2 and hand_strength < 0.65:
+            elif not self.bluffed_this_round and (my_bid > opp_bid) and (rand < self.try_bluff*(1-hand_strength)/3) and (hand_strength < 0.65):
                 self.opp_checks = 0
                 self.bluffed_this_round = True
                 self.bluff = True

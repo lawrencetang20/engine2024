@@ -123,9 +123,11 @@ class Player(Bot):
 
 
         if my_bankroll > 1.5*(NUM_ROUNDS-self.total_rounds)+2:
+            print(f'already won at round {self.total_rounds}')
             self.already_won = True
 
         if my_bankroll > 400:
+            print('switched to 1/3 bluff, greater than 400 bankroll')
             self.try_bluff = 1/3
         else:
             self.try_bluff = 1

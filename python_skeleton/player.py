@@ -209,7 +209,7 @@ class Player(Bot):
                 self.bluff_numwins += 1
             else:
                 self.bluff_numlosses += 1
-            if not self.bluff_not_working and (self.bluff_numwins + self.bluff_numlosses >= 5) and (self.bluff_numlosses / (self.bluff_numwins + self.bluff_numlosses) >= .2) and self.bluff_pm < 0:
+            if (not self.bluff_not_working and (self.bluff_numwins + self.bluff_numlosses >= 5) and (self.bluff_numlosses / (self.bluff_numwins + self.bluff_numlosses) >= .2) and self.bluff_pm < 0):
                 print('bluff not working!!!!!!!!')
                 self.bluff_not_working = True
 
@@ -431,7 +431,7 @@ class Player(Bot):
         elif not big_blind and opp_pip == 0:
             self.opp_checks += 1
 
-        if opp_pip > .75*(pot - opp_pip + my_pip):
+        if opp_pip > .8*(pot - opp_pip + my_pip):
             self.num_opp_potbets += 1
 
         rand = random.random()
@@ -454,13 +454,7 @@ class Player(Bot):
                 self.twocheck = True
                 print('2 check bluff')
                 return RaiseAction, 0
-            elif not self.bluffed_this_round and not big_blind and (self.opp_checks == 1) and (rand < self.try_bluff*.35*self.onebluff_fact):
-                self.opp_checks = 0
-                self.bluffed_this_round = True
-                self.onecheck = True
-                print('1 check bluff')
-                return RaiseAction, 0
-            elif not self.bluffed_this_round and big_blind and (self.opp_checks == 1) and (rand < self.try_bluff*.2*self.onebluff_fact):
+            elif not self.bluffed_this_round and not big_blind and (self.opp_checks == 1) and (rand < self.try_bluff*.20*self.onebluff_fact):
                 self.opp_checks = 0
                 self.bluffed_this_round = True
                 self.onecheck = True
@@ -475,21 +469,24 @@ class Player(Bot):
             return CheckAction, None
         else: #Fold, Call, Raise
             pot_equity = (opp_pip-my_pip) / (pot - (opp_pip - my_pip))
-            if pot_equity > .725 and pot_equity < .875:
+            if pot_equity > .725 and pot_equity < .85:
                 pot_equity = .725
-            elif pot_equity >= .875 and pot_equity < 1.1:
-                pot_equity = .875
+            elif pot_equity >= .85 and pot_equity < 1.1:
+                pot_equity = .85
             elif pot_equity >= 1.1:
                 pot_equity = .9
             elif pot_equity <= .75:
                 pot_equity = min(pot_equity+0.0725,0.725)
+            if self.num_opp_bets >= 25 and (self.num_opp_potbets / self.num_opp_bets > .4) and pot_equity >= .8:
+                print('less NITTTTTT')
+                pot_equity -= .1
             if hand_strength < pot_equity: #bad pot equity
                 return FoldAction, None
             elif hand_strength < .35:
                 return FoldAction, None
             else: #good pot equity
                 reraise_strength = (.9 + ((street % 3) * self.reraise_fact)) 
-                if hand_strength > reraise_strength or (hand_strength - pot_equity > .25 and hand_strength > (reraise_strength - .05)):
+                if hand_strength > reraise_strength or (hand_strength - pot_equity > .3 and hand_strength > (reraise_strength - .05)):
                     return RaiseAction, 1 #value raise
                 return CallAction, None
 

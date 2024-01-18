@@ -54,7 +54,6 @@ class Player(Bot):
                              }
         
         self.trials = 125
-        self.rounds_won = 0
         self.total_rounds = 0
         self.already_won = False
         self.nit = 0
@@ -92,10 +91,15 @@ class Player(Bot):
         self.onenumwins = 0
         self.onenumlosses = 0
 
-        self.try_bluff = 1
-        self.bluff_attempt = 0
-        self.bluff_loss = 0
+        self.twobluff_fact = 1
+        self.twobluff_not_working = False
+        self.onebluff_fact = 1
+        self.onebluff_not_working = False
+        self.bluff_fact = 1
         self.bluff_not_working = False
+        
+
+        self.try_bluff = 1
 
     def handle_new_round(self, game_state, round_state, active):
         '''
@@ -124,17 +128,26 @@ class Player(Bot):
         self.onecheck = False
         self.bluff = False
 
-        if my_bankroll > 1.5*(NUM_ROUNDS-self.total_rounds)+2:
-            self.already_won = True
-
-        if my_bankroll > 400 and self.bluff_not_working:
-            self.try_bluff = 1/20
-        elif my_bankroll > 400 and not self.bluff_not_working:
+        if my_bankroll > 400:
             self.try_bluff = 1/4
-        elif my_bankroll <= 400 and self.bluff_not_working:
-            self.try_bluff = 1/5
         else:
             self.try_bluff = 1
+
+        if not self.bluff_not_working:
+            self.bluff_fact = 1
+        else:
+            self.bluff_fact = 1/6
+        if not self.twobluff_not_working:
+            self.twobluff_fact = 1
+        else:
+            self.twobluff_fact = 1/6
+        if not self.onebluff_not_working:
+            self.onebluff_fact = 1
+        else:
+            self.onebluff_fact = 1/6
+
+        if my_bankroll > 1.5*(NUM_ROUNDS-self.total_rounds)+2:
+            self.already_won = True
 
         if game_clock < 20 and round_num <= 333 and not self.switched_to_100:
             self.trials = 100
@@ -185,16 +198,10 @@ class Player(Bot):
             print(f'one check bluff pm: {self.onebluff_pm}')
             print(f'one check wins: {self.onenumwins}')
             print(f'one check losses: {self.onenumlosses}')
-
-        if my_delta > 0:
-            self.rounds_won += 1
         
         if self.bluffed_this_round:
             if abs(my_delta) != 400:
                 self.bluff_pm += my_delta
-            if my_delta < 0:
-                self.bluff_loss += 1
-            self.bluff_attempt += 1
 
         if self.bluff:
             self.bluffed_pm += my_delta
@@ -202,21 +209,31 @@ class Player(Bot):
                 self.bluff_numwins += 1
             else:
                 self.bluff_numlosses += 1
+            if not self.bluff_not_working and (self.bluff_numwins + self.bluff_numlosses >= 5) and (self.bluff_numlosses / (self.bluff_numwins + self.bluff_numlosses) >= .2) and self.bluff_pm < 0:
+                print('bluff not working!!!!!!!!')
+                self.bluff_not_working = True
 
-        if self.twocheck:
+        elif self.twocheck:
             if abs(my_delta) != 400:
                 self.twobluff_pm += my_delta
                 if my_delta > 0:
                     self.twonumwins += 1
                 else:
                     self.twonumlosses += 1
-        if self.onecheck:
+            if not self.twobluff_not_working and (self.twonumwins + self.twonumlosses >= 8) and (self.twonumlosses / (self.twonumwins + self.twonumlosses) >= .3) and self.twobluff_pm < 0:
+                print('two bluff not working!!!!!!!!')
+                self.twobluff_not_working = True
+
+        elif self.onecheck:
             if abs(my_delta) != 400:
                 self.onebluff_pm += my_delta
                 if my_delta > 0:
                     self.onenumwins += 1
                 else:
                     self.onenumlosses += 1
+            if not self.onebluff_not_working and (self.onenumwins + self.onenumlosses >= 8) and (self.onenumlosses / (self.onenumwins + self.onenumlosses) >= .3) and self.onebluff_pm < 0:
+                print('one bluff not working!!!!!!!!')
+                self.onebluff_not_working = True
 
         if street>=3:
             self.num_auctions_seen+=1
@@ -417,11 +434,6 @@ class Player(Bot):
         if opp_pip > .75*(pot - opp_pip + my_pip):
             self.num_opp_potbets += 1
 
-
-        if not self.bluff_not_working and (self.bluff_attempt > 20) and (self.bluff_loss / self.bluff_attempt > .3):
-            print('bluffs not working!!!')
-            self.bluff_not_working = True
-
         rand = random.random()
         if CheckAction in legal_actions: #Check, raise
             if rand < hand_strength and hand_strength >= (.6 + ((street % 3) * self.raise_fact)):
@@ -430,31 +442,31 @@ class Player(Bot):
             elif street == 5 and hand_strength > .9:
                 self.opp_checks = 0
                 return RaiseAction, 1  #no checks on river with super strong hands
-            elif not self.bluffed_this_round and not big_blind and (self.opp_checks == 2) and (rand < self.try_bluff):
+            elif not self.bluffed_this_round and not big_blind and (self.opp_checks == 2) and (rand < self.try_bluff*self.twobluff_fact):
                 self.opp_checks = 0
                 self.bluffed_this_round = True
                 self.twocheck = True
                 print('2 check bluff')
                 return RaiseAction, 0
-            elif not self.bluffed_this_round and big_blind and (self.opp_checks == 2) and (rand < self.try_bluff * 3/4):
+            elif not self.bluffed_this_round and big_blind and (self.opp_checks == 2) and (rand < self.try_bluff * 3/4*self.twobluff_fact):
                 self.opp_checks = 0
                 self.bluffed_this_round = True
                 self.twocheck = True
                 print('2 check bluff')
                 return RaiseAction, 0
-            elif not self.bluffed_this_round and not big_blind and (self.opp_checks == 1) and (rand < self.try_bluff*.35):
+            elif not self.bluffed_this_round and not big_blind and (self.opp_checks == 1) and (rand < self.try_bluff*.35*self.onebluff_fact):
                 self.opp_checks = 0
                 self.bluffed_this_round = True
                 self.onecheck = True
                 print('1 check bluff')
                 return RaiseAction, 0
-            elif not self.bluffed_this_round and big_blind and (self.opp_checks == 1) and (rand < self.try_bluff*.2):
+            elif not self.bluffed_this_round and big_blind and (self.opp_checks == 1) and (rand < self.try_bluff*.2*self.onebluff_fact):
                 self.opp_checks = 0
                 self.bluffed_this_round = True
                 self.onecheck = True
                 print('1 check bluff')
                 return RaiseAction, 0
-            elif not self.bluffed_this_round and (my_bid > opp_bid) and (rand < self.try_bluff*(1-hand_strength)/2) and (hand_strength < 0.65):
+            elif not self.bluffed_this_round and (my_bid > opp_bid) and (rand < self.try_bluff*self.bluff_fact*(1-hand_strength)/1.5) and (hand_strength < 0.65):
                 self.opp_checks = 0
                 self.bluffed_this_round = True
                 self.bluff = True

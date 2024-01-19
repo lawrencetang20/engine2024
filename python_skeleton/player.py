@@ -101,6 +101,11 @@ class Player(Bot):
         
         self.try_bluff = 1
 
+        self.auction_wins_7=0
+        self.need_auction_win=False
+        self.seven_auction_factor=1
+        self.win_auction=False
+        self.auction_total_7=0
 
     def handle_new_round(self, game_state, round_state, active):
         '''
@@ -166,6 +171,10 @@ class Player(Bot):
             self.nit = .06
             print('switch to 50')
         
+        if self.auction_total_7%10==0 and self.auction_wins_7>0 and self.auction_wins_7/self.auction_total_7<.5 and self.need_auction_win:
+            self.seven_auction_factor=max(.5, self.seven_auction_factor*.8)
+            print(f' {round_num} {self.seven_auction_factor} CHANGED SEVEN AUCTION FACTOR')
+        self.need_auction_win=False
         # print('auc factor',self.auction_factor, 'opp bid total',self.opp_total_bid, 'my bid total', self.my_total_bid, '\nauc seen', self.num_auctions_seen, 'rounds', self.total_rounds)
 
     def handle_round_over(self, game_state, terminal_state, active):
@@ -186,8 +195,18 @@ class Player(Bot):
         street = previous_state.street  # 0, 3, 4, or 5 representing when this round ended
         #my_cards = previous_state.hands[active]  # your cards
         #opp_cards = previous_state.hands[1-active]  # opponent's cards or [] if not revealed
+        my_bid = previous_state.bids[active]  # How much you bid previously (available only after auction)
+        opp_bid = previous_state.bids[1-active]  # How much opponent bid previously (available only after auction)
+        if street>=3 and my_bid>opp_bid:
+            self.win_auction=True
+
+
 
         self.total_rounds += 1
+
+        if self.need_auction_win and my_delta>0 and self.win_auction:
+            self.auction_wins_7+=1
+            
 
         if game_state.round_num == NUM_ROUNDS:
             print(game_state.game_clock)
@@ -420,7 +439,10 @@ class Player(Bot):
         elif win_without <= 0.8 and win_without > 0.6:
             return BidAction(min(my_stack - 1, max(int(self.auction_factor*need_auction*pot*2 + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
         elif win_without <= 0.6 and win_without > 0.2:
-            return BidAction(min(my_stack - 1, max(int(self.auction_factor*need_auction*pot*7 + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
+            self.need_auction_win=True
+            print('INSIDE SEVEN AUCTION')
+            self.auction_total_7+=1
+            return BidAction(min(my_stack - 1, max(int(self.auction_factor*need_auction*pot*5*self.seven_auction_factor + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
         else:
             print("SHOULD NOT BE HERE")
             return BidAction(0)
@@ -574,7 +596,6 @@ class Player(Bot):
         #continue_cost = opp_pip - my_pip  # the number of chips needed to stay in the pot
         my_contribution = STARTING_STACK - my_stack  # the number of chips you have contributed to the pot
         opp_contribution = STARTING_STACK - opp_stack  # the number of chips your opponent has contributed to the pot
-
         if self.already_won:
             if BidAction in legal_actions:
                 return BidAction(0)

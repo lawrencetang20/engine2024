@@ -54,7 +54,6 @@ class Player(Bot):
                              }
         
         self.trials = 125
-        self.rounds_won = 0
         self.total_rounds = 0
         self.already_won = False
         self.nit = 0
@@ -66,12 +65,42 @@ class Player(Bot):
         self.my_total_bid=0
         self.opp_total_bid=0
         self.auction_factor=1
+        self.add_auction = 0
 
         self.small_blind_raise = 87
         self.big_blind_raise = 31
         self.big_blind_call = 87
 
         self.bluffed_this_round = False
+        self.num_opp_potbets = 0
+        self.num_opp_bets = 0
+
+        self.raise_fact = .2
+        self.reraise_fact = .025
+
+        self.bluff_pm = 0
+
+        self.bluffed_pm = 0
+        self.bluff_numwins = 0
+        self.bluff_numlosses = 0
+
+        self.twobluff_pm = 0
+        self.twonumwins = 0
+        self.twonumlosses = 0
+
+        self.onebluff_pm = 0
+        self.onenumwins = 0
+        self.onenumlosses = 0
+
+        self.twobluff_fact = 1
+        self.twobluff_not_working = False
+        self.onebluff_fact = 1
+        self.onebluff_not_working = False
+        self.bluff_fact = 1
+        self.bluff_not_working = 1
+        
+        self.try_bluff = 1
+
 
     def handle_new_round(self, game_state, round_state, active):
         '''
@@ -91,19 +120,46 @@ class Player(Bot):
         #my_cards = round_state.hands[active]  # your cards
         #big_blind = bool(active)  # True if you are the big blind
 
+        self.opp_checks = 0
+        self.last_cont = 0
+
         self.times_bet_preflop = 0
         self.bluffed_this_round = False
+        self.twocheck = False
+        self.onecheck = False
+        self.bluff = False
 
-        # if we are gauranteed a win
+        if my_bankroll > 400:
+            self.try_bluff = 1/4
+        else:
+            self.try_bluff = 1
+
+        if self.bluff_not_working == 1:
+            self.bluff_fact = 1
+        elif self.bluff_not_working == 2:
+            self.bluff_fact = 2
+        else:
+            self.bluff_fact = 1/6
+
+        if not self.twobluff_not_working:
+            self.twobluff_fact = 1
+        else:
+            self.twobluff_fact = 1/6
+
+        if not self.onebluff_not_working:
+            self.onebluff_fact = 1
+        else:
+            self.onebluff_fact = 1/6
+
         if my_bankroll > 1.5*(NUM_ROUNDS-self.total_rounds)+2:
             self.already_won = True
 
-        # if we are running out of time
         if game_clock < 20 and round_num <= 333 and not self.switched_to_100:
             self.trials = 100
             self.switched_to_100 = True
             self.nit = .03
             print('switch to 100')
+
         elif game_clock < 10 and round_num <= 666 and not self.switched_to_50:
             self.trials = 50
             self.switched_to_50 = True
@@ -135,22 +191,76 @@ class Player(Bot):
 
         if game_state.round_num == NUM_ROUNDS:
             print(game_state.game_clock)
-
-        if my_delta > 0:
-            self.rounds_won += 1
+            print(self.num_opp_bets)
+            print(self.num_opp_potbets)
+            print(f'bluff pm: {self.bluff_pm}')
+            print(f'normal bluff pm: {self.bluffed_pm}')
+            print(f'normal bluff wins: {self.bluff_numwins}')
+            print(f'normal bluff losses: {self.bluff_numlosses}')
+            print(f'two check bluff pm: {self.twobluff_pm}')
+            print(f'two check wins: {self.twonumwins}')
+            print(f'two check losses: {self.twonumlosses}')
+            print(f'one check bluff pm: {self.onebluff_pm}')
+            print(f'one check wins: {self.onenumwins}')
+            print(f'one check losses: {self.onenumlosses}')
         
-        # updating auction_factor strength
+        if self.bluffed_this_round:
+            if abs(my_delta) != 400:
+                self.bluff_pm += my_delta
+
+        if self.bluff:
+            self.bluffed_pm += my_delta
+            if my_delta > 0:
+                self.bluff_numwins += 1
+            else:
+                self.bluff_numlosses += 1
+            if ((self.bluff_numwins + self.bluff_numlosses >= 5) and (self.bluff_numlosses / (self.bluff_numwins + self.bluff_numlosses) >= .2) and self.bluffed_pm < 0) or (self.bluffed_pm < -250):
+                print('bluff not working!!!!!!!!')
+                self.bluff_not_working = 0
+            elif (self.bluff_numwins + self.bluff_numlosses >= 5) and (self.bluff_numlosses / (self.bluff_numwins + self.bluff_numlosses) <= .15) and self.bluffed_pm > 0:
+                print('bluff is working!!!!')
+                self.bluff_not_working = 2
+            else:
+                self.bluff_not_working = 1
+
+        elif self.twocheck:
+            if abs(my_delta) != 400:
+                self.twobluff_pm += my_delta
+                if my_delta > 0:
+                    self.twonumwins += 1
+                else:
+                    self.twonumlosses += 1
+            if (not self.twobluff_not_working and (self.twonumwins + self.twonumlosses >= 8) and (self.twonumlosses / (self.twonumwins + self.twonumlosses) >= .3) and self.twobluff_pm < 0) or self.twobluff_pm < -250:
+                print('two bluff not working!!!!!!!!')
+                self.twobluff_not_working = True
+
+        elif self.onecheck:
+            if abs(my_delta) != 400:
+                self.onebluff_pm += my_delta
+                if my_delta > 0:
+                    self.onenumwins += 1
+                else:
+                    self.onenumlosses += 1
+            if not self.onebluff_not_working and (self.onenumwins + self.onenumlosses >= 8) and (self.onenumlosses / (self.onenumwins + self.onenumlosses) >= .3) and self.onebluff_pm < 0:
+                print('one bluff not working!!!!!!!!')
+                self.onebluff_not_working = True
+
         if street>=3:
             self.num_auctions_seen+=1
             my_bid=terminal_state.bids[active]
             opp_bid=terminal_state.bids[1-active]
             self.my_total_bid+=my_bid
             self.opp_total_bid+=opp_bid
-            if self.num_auctions_seen >= 50:
-                if self.num_auctions_seen % 25 == 0 and self.opp_total_bid>self.my_total_bid: #they're bidding more than us on avg
-                    self.auction_factor=(self.auction_factor+0.2)*self.opp_total_bid/self.my_total_bid #bid just under what they would be bidding so they pay more
-                elif self.num_auctions_seen % 25 == 0 and self.opp_total_bid<=self.my_total_bid: #we are bidding more than them on avg
-                    self.auction_factor=(self.auction_factor-0.2)*self.opp_total_bid/self.my_total_bid #bid just over what they would be bidding to win cheaper auction
+            self.opp_total_bid = max(self.opp_total_bid, 1)
+            if self.opp_total_bid/self.num_auctions_seen > 100 and self.num_auctions_seen % 20 == 0:
+                self.add_auction = 2/5*self.opp_total_bid/self.num_auctions_seen
+                print("changed add auction", self.add_auction, "round", self.total_rounds)
+
+            # if self.num_auctions_seen >= 20 and not self.already_won:
+            #     if self.num_auctions_seen % 10 == 0 and self.opp_total_bid>self.my_total_bid: #they're bidding more than us on avg
+            #         self.auction_factor=(self.auction_factor+0.2)*self.opp_total_bid/self.my_total_bid #bid just under what they would be bidding so they pay more
+            #     elif self.num_auctions_seen % 10 == 0 and self.opp_total_bid<=self.my_total_bid: #we are bidding more than them on avg
+            #         self.auction_factor=(self.auction_factor-0.2)*self.opp_total_bid/self.my_total_bid #bid just over what they would be bidding to win cheaper auction
 
     def categorize_cards(self,cards):
         rank1 = cards[0][0]
@@ -190,8 +300,6 @@ class Player(Bot):
         pot = my_contribution+opp_contribution
         big_blind = bool(active)
         new_cards = self.categorize_cards(cards)
-
-        # small blind, first action
         if big_blind == False and self.times_bet_preflop == 0:
             if self.preflop_dict[new_cards] in range(1,20):
                 self.times_bet_preflop +=1
@@ -203,9 +311,8 @@ class Player(Bot):
                 return RaiseAction(self.no_illegal_raises(my_bet,round_state))
             else:
                 return FoldAction()
-        # big blind, first action
         elif big_blind == True and self.times_bet_preflop ==0:
-            if self.preflop_dict[new_cards] in range(1,8) or (self.preflop_dict[new_cards] in range(8,self.big_blind_raise+1) and pot <= 20):
+            if self.preflop_dict[new_cards] in range(1,5) or (self.preflop_dict[new_cards] in range(5,self.big_blind_raise+1) and pot <= 20):
                 self.times_bet_preflop +=1
                 my_bet = 2*pot
                 if RaiseAction in legal_actions:
@@ -214,7 +321,7 @@ class Player(Bot):
                     return CallAction()
                 else:
                     print("this shouldn't ever happen")
-            elif self.preflop_dict[new_cards] in range(8,int(self.big_blind_call+1-((opp_pip-2)/198)**(1/3)*(self.big_blind_call+1-8))) and opp_pip <= 200:
+            elif self.preflop_dict[new_cards] in range(5,int(self.big_blind_call+1-((opp_pip-2)/198)**(1/3)*(self.big_blind_call+1-5))) and opp_pip <= 200:
                 if CallAction in legal_actions:
                     return CallAction()
                 else:
@@ -223,9 +330,8 @@ class Player(Bot):
                 if CheckAction in legal_actions:
                     return CheckAction()
                 return FoldAction()
-        # 3 bet or further
         else:
-            if self.preflop_dict[new_cards] in range(1,6):
+            if self.preflop_dict[new_cards] in range(1,5):
                 self.times_bet_preflop +=1
                 my_bet = 2*pot
                 if RaiseAction in legal_actions:
@@ -234,7 +340,7 @@ class Player(Bot):
                     return CallAction()
                 else:
                     print("this shouldn't ever happen")
-            elif self.preflop_dict[new_cards] in range(6, int(67-((opp_pip-2)/398)**(1/3)*61)):
+            elif self.preflop_dict[new_cards] in range(5, int(67-((opp_pip-2)/398)**(1/3)*61)):
                 if CallAction in legal_actions:
                     return CallAction()
                 else:
@@ -244,39 +350,6 @@ class Player(Bot):
                     return CheckAction()
                 return FoldAction()
 
-    
-    def decide_action_postflop(self, opp_pip, my_pip, hand_strength, pot, legal_actions, street, my_bid, opp_bid):
-        rand = random.random()
-        if CheckAction in legal_actions: #Check, raise
-            if rand < hand_strength and hand_strength > .8:
-                return RaiseAction, 1 #value bet
-            elif street == 5 and hand_strength > .875:
-                return RaiseAction, 1  #no checks on river with super strong hands
-            elif not self.bluffed_this_round and (my_bid > opp_bid) and rand < (1-hand_strength)/2 and hand_strength<0.65:
-                self.bluffed_this_round = True
-                print('bluffed')
-                return RaiseAction, 0 #bluff
-            return CheckAction, None
-        else: #Fold, Call, Raise
-            pot_equity = (opp_pip-my_pip) / (pot - (opp_pip - my_pip))
-            if pot_equity > .725 and pot_equity < .875:
-                pot_equity = .725
-            elif pot_equity >= .875 and pot_equity < 1.1:
-                pot_equity = .875
-            elif pot_equity >= 1.1:
-                pot_equity = .9
-            elif pot_equity <= .75:
-                pot_equity = min(pot_equity+0.0725,0.725)
-            if hand_strength < pot_equity: #bad pot equity
-                return FoldAction, None
-            elif hand_strength < .35:
-                return FoldAction, None
-            else: #good pot equity
-                if hand_strength > .925 or (hand_strength - pot_equity > .25 and hand_strength > .85):
-                    return RaiseAction, 1 #value raise
-                return CallAction, None
-
-    # monte carlo to obtain auction_strength vars
     def auction_strength(self, round_state, street, active):
         board = [eval7.Card(board_card) for board_card in round_state.deck[:street]]
         my_hole = [eval7.Card(my_card) for my_card in round_state.hands[active]]
@@ -299,21 +372,26 @@ class Player(Bot):
         while trials < self.trials:
             deck.shuffle()
             # either you get the auction card, or the opponent gets the auction card
+
             cards = deck.peek(num_more_board+opp_num+auction_num)
             opp_hole = cards[:opp_num]
             board_rest = cards[opp_num:len(cards)-1]
             auction_card = [cards[-1]]
+
             # me with auction
             my_auc_val = eval7.evaluate(my_hole+board+board_rest+auction_card)
             opp_no_auc_val = eval7.evaluate(opp_hole+board+board_rest)
+
             # oppo with auction
             my_no_auc_val = eval7.evaluate(my_hole+board+board_rest)
             opp_auc_val = eval7.evaluate(opp_hole+board+board_rest+auction_card)
 
             if my_auc_val > opp_no_auc_val and my_no_auc_val < opp_auc_val:
                 num_need_auction += 1
+            
             if my_no_auc_val > opp_auc_val:
                 num_win_without_auction += 1
+            
             if my_auc_val > opp_no_auc_val:
                 num_win_with_auction += 1
 
@@ -325,7 +403,6 @@ class Player(Bot):
 
         return need_auction, win_without, win_with
 
-    # decide how much to auction
     def decide_action_auction(self, auction_strength, my_stack, pot):
 
         # figure our auction size based on auction_strength
@@ -335,17 +412,105 @@ class Player(Bot):
         # else Bid need_auction * stack/2
         
         need_auction, win_without, win_with = auction_strength
-
-        if win_without < 0.2 or win_with < 0.6:
-            return BidAction(min(my_stack, int(self.auction_factor*need_auction*my_stack/6)))
-        elif win_without > 0.5:
-            return BidAction(min(my_stack, int(self.auction_factor*need_auction*my_stack/4)))
-        elif win_without <= 0.5 and win_without >= 0.2:
-            return BidAction(min(my_stack, int(self.auction_factor*need_auction*my_stack/3)))
+        if win_without <= 0.2 or win_with < 0.6:
+            return BidAction(min(my_stack - 1, max(int(self.auction_factor*need_auction*pot*3 + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
+        elif win_without > 0.8:
+            rand = 4*random.random() + 1
+            return BidAction(min(my_stack - 1, max(int(pot*.5+rand + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
+        elif win_without <= 0.8 and win_without > 0.6:
+            return BidAction(min(my_stack - 1, max(int(self.auction_factor*need_auction*pot*2 + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
+        elif win_without <= 0.6 and win_without > 0.2:
+            return BidAction(min(my_stack - 1, max(int(self.auction_factor*need_auction*pot*7 + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
         else:
             print("SHOULD NOT BE HERE")
             return BidAction(0)
-        
+
+    def decide_action_postflop(self, round_state, hand_strength, active):
+        legal_actions = round_state.legal_actions()
+        street = round_state.street
+        my_pip = round_state.pips[active]  
+        opp_pip = round_state.pips[1-active]  
+        my_stack = round_state.stacks[active] 
+        opp_stack = round_state.stacks[1-active]  
+        my_bid = round_state.bids[active] 
+        opp_bid = round_state.bids[1-active] 
+        my_contribution = STARTING_STACK - my_stack
+        opp_contribution = STARTING_STACK - opp_stack
+        pot = my_contribution + opp_contribution
+        big_blind = bool(active)
+
+        if opp_pip > 0:
+            self.num_opp_bets += 1
+            self.opp_checks = 0
+            self.last_cont = opp_contribution
+        elif big_blind and street > 3:
+            if opp_contribution == self.last_cont:
+                self.opp_checks += 1
+        elif not big_blind and opp_pip == 0:
+            self.opp_checks += 1
+
+        if opp_pip > .8*(pot - opp_pip + my_pip):
+            self.num_opp_potbets += 1
+
+        rand = random.random()
+        if CheckAction in legal_actions: #Check, raise
+            if rand < hand_strength + 0.15 and hand_strength >= (.5 + ((street % 3) * self.raise_fact)):
+                self.opp_checks = 0
+                return RaiseAction, 1 #value bet
+            elif street == 5 and hand_strength > .9:
+                self.opp_checks = 0
+                return RaiseAction, 1  #no checks on river with super strong hands
+            elif not self.bluffed_this_round and not big_blind and (self.opp_checks == 2) and (rand < self.try_bluff*self.twobluff_fact):
+                self.opp_checks = 0
+                self.bluffed_this_round = True
+                self.twocheck = True
+                print('2 check bluff')
+                return RaiseAction, 0
+            elif not self.bluffed_this_round and big_blind and (self.opp_checks == 2) and (rand < self.try_bluff * 3/4*self.twobluff_fact):
+                self.opp_checks = 0
+                self.bluffed_this_round = True
+                self.twocheck = True
+                print('2 check bluff')
+                return RaiseAction, 0
+            elif not self.bluffed_this_round and not big_blind and (self.opp_checks == 1) and (rand < self.try_bluff*.25*self.onebluff_fact):
+                self.opp_checks = 0
+                self.bluffed_this_round = True
+                self.onecheck = True
+                print('1 check bluff')
+                return RaiseAction, 0
+            elif not self.bluffed_this_round and (my_bid > opp_bid) and (rand < self.try_bluff*self.bluff_fact*(1-hand_strength)/1.5) and (hand_strength < 0.65):
+                self.opp_checks = 0
+                self.bluffed_this_round = True
+                self.bluff = True
+                print('bluffed')
+                return RaiseAction, 0 #bluff
+            return CheckAction, None
+        else: #Fold, Call, Raise
+            pot_equity = (opp_pip-my_pip) / (pot - (opp_pip - my_pip))
+            if pot_equity > .7 and pot_equity < .8:
+                pot_equity = .7
+            elif pot_equity >= .8 and pot_equity < 1.1:
+                pot_equity = .8
+            elif pot_equity >= 1.1:
+                pot_equity = .85
+            elif pot_equity <= .75:
+                pot_equity = min(pot_equity + 0.0725,0.725)
+            if pot_equity <= .5:
+                pot_equity = min(pot_equity + 0.0725, .5)
+            if self.num_opp_bets >= 25 and (self.num_opp_potbets / self.num_opp_bets > .4) and pot_equity >= .8 and my_pip == 0:
+                pot_equity -= .15
+                if hand_strength < pot_equity + .15 and hand_strength > pot_equity:
+                    print('less NIT!!!!!!!!!!!!')
+            if hand_strength < pot_equity: #bad pot equity
+                return FoldAction, None
+            elif hand_strength < .35:
+                return FoldAction, None
+            else: #good pot equity
+                reraise_strength = (.9 + ((street % 3) * self.reraise_fact)) 
+                if hand_strength > reraise_strength or (hand_strength - pot_equity > .3 and hand_strength > (reraise_strength - .05)):
+                    return RaiseAction, 1 #value raise
+                return CallAction, None
+
     def hand_strength(self, round_state, street, active):
         board = [eval7.Card(x) for x in round_state.deck[:street]]
         my_hole = [eval7.Card(a) for a in round_state.hands[active]]
@@ -417,13 +582,13 @@ class Player(Bot):
                 return CheckAction()
             else:
                 return FoldAction()
-            
+
         pot = my_contribution + opp_contribution
         min_raise, max_raise = round_state.raise_bounds()
         hand_strength = self.hand_strength(round_state, street, active) - self.nit
         auction_strength = self.auction_strength(round_state, street, active)
 
-        if my_contribution > 100 and hand_strength < 0.85:
+        if my_contribution > 100:
             hand_strength -= 0.03
 
         if BidAction in legal_actions:
@@ -431,17 +596,19 @@ class Player(Bot):
         elif street == 0:       
             return self.get_preflop_action(my_cards,round_state,active)
         else:
-            decision, conf = self.decide_action_postflop(opp_pip, my_pip, hand_strength, pot, legal_actions, street, my_bid, opp_bid)
+            if street == 3:
+                self.last_cont = opp_contribution
+            decision, conf = self.decide_action_postflop(round_state, hand_strength, active)
 
         rand = random.random()
         if decision == RaiseAction and RaiseAction in legal_actions:
-            minimum = max(min_raise, pot / 4)
-            if conf != 0:
-                bet_max = int((1+(2*(hand_strength**2)*rand)) * pot/2 )
+            if conf != 0 and hand_strength < .86:
+                bet_max = int((1+(2*(hand_strength**2)*rand)) * 3 * pot / 8)
                 maximum = min(max_raise, bet_max)
-            else: # raising a bluff
-                maximum = min(max_raise, 5/4*pot)
-                minimum = max(min_raise, 3/4*pot)
+                minimum = max(min_raise, pot / 4)
+            else:
+                maximum = min(max_raise, 7*pot/4)
+                minimum = max(min_raise, 1.10*pot)
             if maximum <= minimum:
                 amount = int(min_raise)
             else:

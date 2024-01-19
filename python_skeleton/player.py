@@ -254,7 +254,7 @@ class Player(Bot):
             self.opp_total_bid = max(self.opp_total_bid, 1)
             if self.opp_total_bid/self.num_auctions_seen > 100 and self.num_auctions_seen % 20 == 0:
                 self.add_auction = 2/5*self.opp_total_bid/self.num_auctions_seen
-                print("changed add auction", self.add_auction)
+                print("changed add auction", self.add_auction, "round", self.total_rounds)
 
             # if self.num_auctions_seen >= 20 and not self.already_won:
             #     if self.num_auctions_seen % 10 == 0 and self.opp_total_bid>self.my_total_bid: #they're bidding more than us on avg

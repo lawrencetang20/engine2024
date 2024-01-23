@@ -33,26 +33,79 @@ num_more_board = 5 - len(board)
 # else:
 #     opp_num = 2
 
+board = [eval7.Card(board_card) for board_card in ['Ac', '7c']]
+my_hole = [eval7.Card(my_card) for my_card in ['Jd', '5d', '6s']]
+comb = board + my_hole
+num_more_board = 5 - len(board)
+opp_num = 2
+auction_num = 1
+
 deck = eval7.Deck()
 for card in comb:
     deck.cards.remove(card)
 
-num_better = 0
+        # see amount of hands that you are better than opponent with auction vs. without auction; determine what type of bet you should make then
+
+num_need_auction = 0
+num_win_without_auction = 0
+num_win_with_auction = 0
 trials = 0
 
-while trials < 10000:
+while trials < 500:
     deck.shuffle()
-    cards = deck.peek(7)
-    opp_hole = opp_hole + [cards[0]]
-    my_hole = my_hole + [cards[1]]
-    board_rest = cards[2:]
-    my_val = eval7.evaluate(my_hole+board+board_rest)
-    opp_value = eval7.evaluate(opp_hole+board+board_rest)
-    if my_val > opp_value:
-        num_better += 2
-    elif my_val == opp_value:
-        num_better += 1
+    # either you get the auction card, or the opponent gets the auction card
+
+    cards = deck.peek(num_more_board+opp_num+auction_num)
+    opp_hole = cards[:opp_num]
+    board_rest = cards[opp_num:len(cards)-1]
+    auction_card = [cards[-1]]
+
+    # me with auction
+    my_auc_val = eval7.evaluate(my_hole+board+board_rest+auction_card)
+    opp_no_auc_val = eval7.evaluate(opp_hole+board+board_rest)
+
+    # oppo with auction
+    my_no_auc_val = eval7.evaluate(my_hole+board+board_rest)
+    opp_auc_val = eval7.evaluate(opp_hole+board+board_rest+auction_card)
+
+    if my_auc_val > opp_no_auc_val and my_no_auc_val < opp_auc_val:
+        num_need_auction += 1
+    
+    if my_no_auc_val > opp_auc_val:
+        num_win_without_auction += 1
+    
+    if my_auc_val > opp_no_auc_val:
+        num_win_with_auction += 1
+
     trials += 1
 
-percent_better_than = num_better/(2*trials)
-print(percent_better_than)
+need_auction = num_need_auction/trials
+win_without = num_win_without_auction/trials
+win_with = num_win_with_auction/trials
+
+print(need_auction, win_without, win_with)
+
+
+# deck = eval7.Deck()
+# for card in comb:
+#     deck.cards.remove(card)
+
+# num_better = 0
+# trials = 0
+
+# while trials < 10000:
+#     deck.shuffle()
+#     cards = deck.peek(7)
+#     opp_hole = opp_hole + [cards[0]]
+#     my_hole = my_hole + [cards[1]]
+#     board_rest = cards[2:]
+#     my_val = eval7.evaluate(my_hole+board+board_rest)
+#     opp_value = eval7.evaluate(opp_hole+board+board_rest)
+#     if my_val > opp_value:
+#         num_better += 2
+#     elif my_val == opp_value:
+#         num_better += 1
+#     trials += 1
+
+# percent_better_than = num_better/(2*trials)
+# print(percent_better_than)

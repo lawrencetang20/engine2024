@@ -119,7 +119,7 @@ class Player(Bot):
         round_num = game_state.round_num  # the round number from 1 to NUM_ROUNDS
         #my_cards = round_state.hands[active]  # your cards
         #big_blind = bool(active)  # True if you are the big blind
-
+        print(f'round_num: {round_num}')
         self.opp_checks = 0
         self.last_cont = 0
 
@@ -412,15 +412,20 @@ class Player(Bot):
         # else Bid need_auction * stack/2
         
         need_auction, win_without, win_with = auction_strength
+        hand_strength = (win_with + win_without) / 2
         if win_without <= 0.2 or win_with < 0.6:
+            print("3x BAD")
             return BidAction(min(my_stack - 1, max(int(self.auction_factor*need_auction*pot*3 + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
         elif win_without > 0.8:
             rand = 4*random.random() + 1
+            print(".5x NUTTTTT")
             return BidAction(min(my_stack - 1, max(int(pot*.5+rand + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
         elif win_without <= 0.8 and win_without > 0.6:
-            return BidAction(min(my_stack - 1, max(int(self.auction_factor*need_auction*pot*2 + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
+            print("3x SEMI NUTTTT")
+            return BidAction(min(my_stack - 1, max(int(self.auction_factor*need_auction*pot*3 + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
         elif win_without <= 0.6 and win_without > 0.2:
-            return BidAction(min(my_stack - 1, max(int(self.auction_factor*need_auction*pot*7 + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
+            print("5x")
+            return BidAction(min(my_stack - 1, max(int(self.auction_factor*(hand_strength**2)*need_auction*pot*11 + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
         else:
             print("SHOULD NOT BE HERE")
             return BidAction(0)

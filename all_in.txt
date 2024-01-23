@@ -1,1013 +1,2113 @@
+round_num: 1
 1
--28
+round_num: 2
+-1
+round_num: 3
 1
+round_num: 4
+2
+round_num: 5
+5x
+29
+round_num: 6
+-1
+round_num: 7
+5x
+16
+round_num: 8
+-1
+round_num: 9
+-2
+round_num: 10
+2
+round_num: 11
+-2
+round_num: 12
+-1
+round_num: 13
+5x
+16
+round_num: 14
+-1
+round_num: 15
+1
+round_num: 16
+-1
+round_num: 17
+1
+round_num: 18
+-1
+round_num: 19
+-2
+round_num: 20
+-1
+round_num: 21
+1
+round_num: 22
+2
+round_num: 23
+1
+round_num: 24
+-1
+round_num: 25
+1
+round_num: 26
+-1
+round_num: 27
+5x
+-6
+round_num: 28
+-1
+round_num: 29
+-2
+round_num: 30
+-6
+round_num: 31
+1
+round_num: 32
+2
+round_num: 33
+1
+round_num: 34
+5x
+-16
+round_num: 35
+1
+round_num: 36
+2
+round_num: 37
+-2
+round_num: 38
+2
+round_num: 39
+1
+round_num: 40
+-1
+round_num: 41
+1
+round_num: 42
+2
+round_num: 43
+-2
+round_num: 44
+-1
+round_num: 45
+1
+round_num: 46
+-1
+round_num: 47
+1
+round_num: 48
+-1
+round_num: 49
+1
+round_num: 50
+2
+round_num: 51
+1
+round_num: 52
+-1
+round_num: 53
+-2
+round_num: 54
+-1
+round_num: 55
+1
+round_num: 56
+5x
+1 check bluff
+43
+round_num: 57
+1
+round_num: 58
+-1
+round_num: 59
+1
+round_num: 60
+-6
+round_num: 61
+-2
+round_num: 62
+5x
+1 check bluff
+14
+round_num: 63
+-2
+round_num: 64
+-1
+round_num: 65
+-2
+round_num: 66
+-1
+round_num: 67
+1
+round_num: 68
+2
+round_num: 69
+-2
+round_num: 70
+2
+round_num: 71
+-2
+round_num: 72
+2
+round_num: 73
+1
+round_num: 74
+-1
+round_num: 75
+-2
+round_num: 76
+2
+round_num: 77
+1
+round_num: 78
+2
+round_num: 79
+1
+round_num: 80
+-1
+round_num: 81
+5x
+6
+round_num: 82
+2
+round_num: 83
+-2
+round_num: 84
+2
+round_num: 85
+-2
+round_num: 86
+2
+round_num: 87
+1
+round_num: 88
+-1
+round_num: 89
+1
+round_num: 90
+-1
+round_num: 91
+1
+round_num: 92
+-1
+round_num: 93
+-2
+round_num: 94
+2
+round_num: 95
+1
+round_num: 96
+-1
+round_num: 97
+1
+round_num: 98
+2
+round_num: 99
+1
+round_num: 100
+-1
+round_num: 101
+-2
+round_num: 102
+2
+round_num: 103
+3x BAD
+6
+round_num: 104
+3x SEMI NUTTTT
+-9
+round_num: 105
+-2
+round_num: 106
+5x
+-6
+round_num: 107
+3x BAD
+-22
+round_num: 108
+-1
+round_num: 109
+1
+round_num: 110
+2
+round_num: 111
+1
+round_num: 112
+-6
+round_num: 113
+1
+round_num: 114
+-1
+round_num: 115
+1
+round_num: 116
+5x
+-33
+round_num: 117
+1
+round_num: 118
+-1
+round_num: 119
+1
+round_num: 120
+-1
+round_num: 121
+3x BAD
+9
+round_num: 122
+2
+round_num: 123
+-2
+round_num: 124
+-1
+round_num: 125
+1
+round_num: 126
+-1
+round_num: 127
+1
+round_num: 128
+-1
+round_num: 129
+1
+round_num: 130
+2
+round_num: 131
+-2
+round_num: 132
+-1
+round_num: 133
+1
+round_num: 134
+-1
+round_num: 135
+-2
+round_num: 136
+-1
+round_num: 137
+1
+round_num: 138
+-1
+round_num: 139
+-2
+round_num: 140
+5x
+34
+round_num: 141
+1
+round_num: 142
+-1
+round_num: 143
+5x
+179
+round_num: 144
+5x
+1 check bluff
 11
-60
-2
+round_num: 145
 1
--5
--106
--30
--49
+round_num: 146
 2
-73
+round_num: 147
+-2
+round_num: 148
+-1
+round_num: 149
+1
+round_num: 150
+-1
+round_num: 151
+5x
+-6
+round_num: 152
 2
--146
+round_num: 153
+1
+round_num: 154
+-1
+round_num: 155
+1
+round_num: 156
+-1
+round_num: 157
+5x
 9
-1
--4
--48
-103
-1
--29
-1
-2
-1
--103
-1
-19
-1
-2
-1
-150
-1
-2
-6
-2
-1
-2
-6
-2
--244
--90
+round_num: 158
+-1
+round_num: 159
+-2
+round_num: 160
+5x
 9
+round_num: 161
+-2
+round_num: 162
+-1
+round_num: 163
+1
+round_num: 164
+-1
+round_num: 165
+3x BAD
+-9
+round_num: 166
+-1
+round_num: 167
+3x SEMI NUTTTT
+-50
+round_num: 168
 2
+round_num: 169
+3x SEMI NUTTTT
+-10
+round_num: 170
+-1
+round_num: 171
+-2
+round_num: 172
+5x
+-16
+round_num: 173
+-2
+round_num: 174
+-1
+round_num: 175
+-2
+round_num: 176
+-1
+round_num: 177
+1
+round_num: 178
+2
+round_num: 179
+1
+round_num: 180
+-1
+round_num: 181
+1
+round_num: 182
+-1
+round_num: 183
+-2
+round_num: 184
+-1
+round_num: 185
+1
+round_num: 186
+-1
+round_num: 187
+1
+round_num: 188
+-1
+round_num: 189
+-2
+round_num: 190
+-1
+round_num: 191
+1
+round_num: 192
+2
+round_num: 193
+1
+round_num: 194
+2
+round_num: 195
+5x
+-6
+round_num: 196
+-1
+round_num: 197
+5x
+-16
+round_num: 198
+-1
+round_num: 199
+-2
+round_num: 200
+2
+round_num: 201
+-2
+round_num: 202
+5x
+2 check bluff
+16
+round_num: 203
+1
+round_num: 204
+-1
+round_num: 205
+-2
+round_num: 206
+2
+round_num: 207
+1
+round_num: 208
+-1
+round_num: 209
+-2
+round_num: 210
+2
+round_num: 211
+1
+round_num: 212
+2
+round_num: 213
+1
+round_num: 214
+-1
+round_num: 215
+-2
+round_num: 216
+-1
+round_num: 217
+1
+round_num: 218
+-1
+round_num: 219
+-2
+round_num: 220
+-1
+round_num: 221
 6
+round_num: 222
+3x BAD
+16
+round_num: 223
+1
+round_num: 224
+-1
+round_num: 225
+1
+round_num: 226
+-1
+round_num: 227
+-2
+round_num: 228
 2
+round_num: 229
+1
+round_num: 230
+5x
+-6
+round_num: 231
+1
+round_num: 232
+-6
+round_num: 233
+1
+round_num: 234
+-6
+round_num: 235
+1
+round_num: 236
+-6
+round_num: 237
+5x
+-6
+round_num: 238
+2
+round_num: 239
+-2
+round_num: 240
+2
+round_num: 241
+5x
+16
+round_num: 242
+3x BAD
+-6
+round_num: 243
+1
+round_num: 244
+-1
+round_num: 245
+-2
+round_num: 246
+-1
+round_num: 247
+-2
+round_num: 248
+2
+round_num: 249
+6
+round_num: 250
+2
+round_num: 251
+-2
+round_num: 252
+-1
+round_num: 253
+-2
+round_num: 254
+-1
+round_num: 255
+-2
+round_num: 256
+-1
+round_num: 257
+1
+round_num: 258
+-1
+round_num: 259
+-2
+round_num: 260
+-6
+round_num: 261
+1
+round_num: 262
+-1
+round_num: 263
+-2
+round_num: 264
+-1
+round_num: 265
+-2
+round_num: 266
+-1
+round_num: 267
+1
+round_num: 268
+2
+round_num: 269
+-2
+round_num: 270
+2
+round_num: 271
+1
+round_num: 272
+-1
+round_num: 273
+-2
+round_num: 274
+-1
+round_num: 275
+-2
+round_num: 276
+-1
+round_num: 277
+5x
+22
+round_num: 278
+-1
+round_num: 279
+1
+round_num: 280
+-1
+round_num: 281
+1
+round_num: 282
+3x BAD
+-39
+round_num: 283
+1
+round_num: 284
+-1
+round_num: 285
+-2
+round_num: 286
+2
+round_num: 287
+-2
+round_num: 288
+-1
+round_num: 289
+-2
+round_num: 290
+2
+round_num: 291
+1
+round_num: 292
+5x
+62
+round_num: 293
+1
+round_num: 294
+-1
+round_num: 295
+1
+round_num: 296
+-1
+round_num: 297
+1
+round_num: 298
+5x
+-16
+round_num: 299
+1
+round_num: 300
+5x
+6
+round_num: 301
+5x
+-6
+round_num: 302
+3x SEMI NUTTTT
+1 check bluff
+-191
+round_num: 303
+1
+round_num: 304
+2
+round_num: 305
+-2
+round_num: 306
+-1
+round_num: 307
+-2
+round_num: 308
+-1
+round_num: 309
+1
+round_num: 310
+-1
+round_num: 311
+1
+round_num: 312
+2
+round_num: 313
+-2
+round_num: 314
+-1
+round_num: 315
+-2
+round_num: 316
+-1
+round_num: 317
+1
+round_num: 318
+2
+round_num: 319
+1
+round_num: 320
+2
+round_num: 321
+1
+round_num: 322
+-1
+round_num: 323
+1
+round_num: 324
+3x SEMI NUTTTT
+14
+round_num: 325
+1
+round_num: 326
+-1
+round_num: 327
+1
+round_num: 328
+-1
+round_num: 329
+-2
+round_num: 330
+-1
+round_num: 331
+-2
+round_num: 332
+-1
+round_num: 333
+1
+round_num: 334
+2
+round_num: 335
+3x SEMI NUTTTT
+-28
+round_num: 336
+2
+round_num: 337
+1
+round_num: 338
+-1
+round_num: 339
+1
+round_num: 340
+2
+round_num: 341
+1
+round_num: 342
+-1
+round_num: 343
+1
+round_num: 344
+-1
+round_num: 345
+-2
+round_num: 346
+-1
+round_num: 347
+1
+round_num: 348
+2
+round_num: 349
+-2
+round_num: 350
+2
+round_num: 351
+1
+round_num: 352
+5x
+-6
+round_num: 353
+5x
+-51
+round_num: 354
+-1
+round_num: 355
+1
+round_num: 356
+2
+round_num: 357
+1
+round_num: 358
+-1
+round_num: 359
+3x SEMI NUTTTT
+-54
+round_num: 360
+-1
+round_num: 361
+.5x NUTTTTT
+15
+round_num: 362
+-1
+round_num: 363
+1
+round_num: 364
+2
+round_num: 365
+1
+round_num: 366
+2
+round_num: 367
+5x
+-6
+round_num: 368
+-1
+round_num: 369
+1
+round_num: 370
+2
+round_num: 371
+1
+round_num: 372
+-1
+round_num: 373
+1
+round_num: 374
+-1
+round_num: 375
+1
+round_num: 376
+-1
+round_num: 377
+1
+round_num: 378
+2
+round_num: 379
+1
+round_num: 380
+-1
+round_num: 381
+6
+round_num: 382
+2
+round_num: 383
+1
+round_num: 384
+2
+round_num: 385
+3x BAD
+-6
+round_num: 386
+2
+round_num: 387
+1
+round_num: 388
+-1
+round_num: 389
+-2
+round_num: 390
+-1
+round_num: 391
+1
+round_num: 392
+2
+round_num: 393
+1
+round_num: 394
+2
+round_num: 395
+1
+round_num: 396
+-1
+round_num: 397
+1
+round_num: 398
+2
+round_num: 399
+-2
+round_num: 400
+-1
+round_num: 401
+-2
+round_num: 402
+.5x NUTTTTT
+142
+round_num: 403
+3x SEMI NUTTTT
+-11
+round_num: 404
+-1
+round_num: 405
+1
+round_num: 406
+2
+round_num: 407
+1
+round_num: 408
+2
+round_num: 409
+1
+round_num: 410
+2
+round_num: 411
+1
+round_num: 412
+5x
+-81
+round_num: 413
+1
+round_num: 414
+2
+round_num: 415
+5x
+-6
+round_num: 416
+2
+round_num: 417
+1
+round_num: 418
+2
+round_num: 419
+1
+round_num: 420
+-1
+round_num: 421
+1
+round_num: 422
+-1
+round_num: 423
+3x BAD
+6
+round_num: 424
+-1
+round_num: 425
+1
+round_num: 426
+-1
+round_num: 427
+3x SEMI NUTTTT
+39
+round_num: 428
+-6
+round_num: 429
+-2
+round_num: 430
+-6
+round_num: 431
+5x
+6
+round_num: 432
+2
+round_num: 433
+1
+round_num: 434
+-1
+round_num: 435
+1
+round_num: 436
+-1
+round_num: 437
+5x
+16
+round_num: 438
+2
+round_num: 439
+1
+round_num: 440
+5x
+-22
+round_num: 441
+1
+round_num: 442
+-1
+round_num: 443
+-2
+round_num: 444
+-1
+round_num: 445
+1
+round_num: 446
+-1
+round_num: 447
+-2
+round_num: 448
+-1
+round_num: 449
+-2
+round_num: 450
+2
+round_num: 451
+1
+round_num: 452
+5x
+16
+round_num: 453
+1
+round_num: 454
+2
+round_num: 455
+1
+round_num: 456
+-1
+round_num: 457
+-2
+round_num: 458
+3x SEMI NUTTTT
+34
+round_num: 459
+1
+round_num: 460
+2
+round_num: 461
+1
+round_num: 462
+-1
+round_num: 463
+1
+round_num: 464
+-1
+round_num: 465
+1
+round_num: 466
+-1
+round_num: 467
+1
+round_num: 468
+-1
+round_num: 469
+1
+round_num: 470
+-1
+round_num: 471
+1
+round_num: 472
+-1
+round_num: 473
+-2
+round_num: 474
+2
+round_num: 475
+3x BAD
+6
+round_num: 476
+2
+round_num: 477
+-2
+round_num: 478
+-1
+round_num: 479
+3x SEMI NUTTTT
+-28
+round_num: 480
+-1
+round_num: 481
+-2
+round_num: 482
+5x
+-34
+round_num: 483
+1
+round_num: 484
+-1
+round_num: 485
+5x
+-6
+round_num: 486
+-6
+round_num: 487
+-2
+round_num: 488
+2
+round_num: 489
+1
+round_num: 490
+-1
+round_num: 491
+1
+round_num: 492
+2
+round_num: 493
+1
+round_num: 494
+5x
+2 check bluff
+6
+round_num: 495
+1
+round_num: 496
+-1
+round_num: 497
+5x
+-25
+round_num: 498
+-1
+round_num: 499
+1
+round_num: 500
+2
+round_num: 501
+1
+round_num: 502
+-1
+round_num: 503
+1
+round_num: 504
+-1
+round_num: 505
+-2
+round_num: 506
+-1
+round_num: 507
+5x
+-15
+round_num: 508
+-1
+round_num: 509
+1
+round_num: 510
+2
+round_num: 511
+1
+round_num: 512
+-1
+round_num: 513
+1
+round_num: 514
+2
+round_num: 515
+1
+round_num: 516
+-1
+round_num: 517
+-2
+round_num: 518
+2
+round_num: 519
+-2
+round_num: 520
+-1
+round_num: 521
+-2
+round_num: 522
+-1
+round_num: 523
+-2
+round_num: 524
+2
+round_num: 525
+1
+round_num: 526
+2
+round_num: 527
+-2
+round_num: 528
+-1
+round_num: 529
+-2
+round_num: 530
+-1
+round_num: 531
+5x
+24
+round_num: 532
+2
+round_num: 533
+5x
+-6
+round_num: 534
+-1
+round_num: 535
+-2
+round_num: 536
+-1
+round_num: 537
+-2
+round_num: 538
+-1
+round_num: 539
+1
+round_num: 540
+2
+round_num: 541
+1
+round_num: 542
+-1
+round_num: 543
+6
+round_num: 544
+-1
+round_num: 545
+-2
+round_num: 546
+5x
+-6
+round_num: 547
+-2
+round_num: 548
+2
+round_num: 549
+-2
+round_num: 550
+-6
+round_num: 551
+3x BAD
+-16
+round_num: 552
+3x SEMI NUTTTT
+less NIT!!!!!!!!!!!!
+less NIT!!!!!!!!!!!!
+381
+round_num: 553
+-2
+round_num: 554
+-1
+round_num: 555
+1
+round_num: 556
+-1
+round_num: 557
+1
+round_num: 558
+-1
+round_num: 559
+1
+round_num: 560
+-1
+round_num: 561
+1
+round_num: 562
+-1
+round_num: 563
+1
+round_num: 564
+3x BAD
+12
+round_num: 565
+-2
+round_num: 566
+2
+round_num: 567
+1
+round_num: 568
+2
+round_num: 569
+6
+round_num: 570
+2
+round_num: 571
+-2
+round_num: 572
+-1
+round_num: 573
+6
+round_num: 574
+2
+round_num: 575
+1
+round_num: 576
+-1
+round_num: 577
+1
+round_num: 578
+3x BAD
+1 check bluff
+18
+round_num: 579
+6
+round_num: 580
+-6
+round_num: 581
+-2
+round_num: 582
+-1
+round_num: 583
+1
+round_num: 584
+-1
+round_num: 585
+5x
+-6
+round_num: 586
+-1
+round_num: 587
+1
+round_num: 588
+2
+round_num: 589
+5x
 9
-2
-1
--92
-1
-2
-1
-2
--49
-2
-1
--46
-1
-2
-1
-2
-1
--93
-45
--91
-1
-2
-1
-2
-1
-2
-1
-2
-1
--126
-1
-2
-1
-2
-1
-2
--120
--263
--126
-2
-1
--116
-1
-2
-1
--2
-1
--2
-1
-2
-1
-2
-1
--2
-1
-2
-1
-2
-1
-2
-1
--2
-1
-2
-1
-2
-1
--2
-1
-2
-1
-2
-1
-2
-1
-0
-1
--2
-1
-2
-1
-2
-1
-2
-1
--2
-1
-2
-1
--2
-1
-2
-1
--2
-1
-2
-1
--2
-1
--2
-1
--2
-1
--2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
--2
-1
--2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
--2
-1
-0
-1
-2
-1
-2
-1
-2
-1
--2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-0
-1
-2
-1
--2
-1
-0
-1
-2
-1
-2
-1
--2
-1
--2
-1
-2
-1
--2
-1
--2
-1
-2
-1
--2
-1
-2
-1
--2
-1
--2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
--2
-1
-2
-1
-2
-1
-2
-1
-0
-1
--2
-1
-2
-1
--2
-1
-2
-1
--2
-1
-2
-1
-2
-1
--2
-1
--2
-1
-2
-1
-2
-1
--2
-1
-2
-1
-2
-1
-2
-1
-2
-1
--2
-1
-2
-1
-2
-1
-2
-1
--2
-1
--2
-1
-2
-1
-2
-1
-2
-1
--2
-1
-2
-1
--2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-0
-1
-2
-1
--2
-1
-2
-1
-2
-1
-2
-1
--2
-1
--2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
--2
-1
-2
-1
-2
-1
--2
-1
-2
-1
-2
-1
--2
-1
-2
-1
--2
-1
--2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
--2
-1
-2
-1
--2
-1
--2
-1
-2
-1
-2
-1
-2
-1
--2
-1
--2
-1
--2
-1
-2
-1
--2
-1
-2
-1
--2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-0
-1
-2
-1
-2
-1
--2
-1
-0
-1
--2
-1
--2
-1
--2
-1
--2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
--2
-1
-2
-1
-2
-1
-2
-1
-2
-1
--2
-1
--2
-1
--2
-1
--2
-1
-0
-1
-2
-1
--2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
--2
-1
-2
-1
-2
-1
--2
-1
-2
-1
-2
-1
-2
-1
-2
-1
--2
-1
-2
-1
-2
-1
-2
-1
--2
-1
-2
-1
--2
-1
-2
-1
--2
-1
--2
-1
--2
-1
-2
-1
-2
-1
-2
-1
--2
-1
-2
-1
-2
-1
-2
-1
-2
-1
--2
-1
-2
-1
-2
-1
--2
-1
--2
-1
--2
+round_num: 590
+3x BAD
+-6
+round_num: 591
+5x
+-26
+round_num: 592
+-1
+round_num: 593
 1
+round_num: 594
+2
+round_num: 595
 -2
-1
+round_num: 596
 2
+round_num: 597
 1
--2
+round_num: 598
+-1
+round_num: 599
 1
+round_num: 600
+5x
+12
+round_num: 601
+5x
+52
+round_num: 602
 2
+round_num: 603
 1
+round_num: 604
+-1
+round_num: 605
+6
+round_num: 606
+-1
+round_num: 607
+5x
+26
+round_num: 608
 2
+round_num: 609
 1
--2
-1
--2
+round_num: 610
+3x BAD
+6
+round_num: 611
 1
-2
+round_num: 612
+-1
+round_num: 613
 1
+round_num: 614
+-1
+round_num: 615
+3x BAD
+-9
+round_num: 616
 2
-1
+round_num: 617
+-2
+round_num: 618
 2
-1
+round_num: 619
+-2
+round_num: 620
+-6
+round_num: 621
+3x SEMI NUTTTT
+29
+round_num: 622
+-1
+round_num: 623
 -2
+round_num: 624
+-1
+round_num: 625
+-2
+round_num: 626
+5x
+-13
+round_num: 627
 1
+round_num: 628
 2
+round_num: 629
 1
+round_num: 630
 2
-1
--2
+round_num: 631
 1
+round_num: 632
 2
+round_num: 633
 1
+round_num: 634
+-1
+round_num: 635
 -2
+round_num: 636
+-1
+round_num: 637
 1
-2
+round_num: 638
+-1
+round_num: 639
 1
+round_num: 640
 2
+round_num: 641
 1
+round_num: 642
+-1
+round_num: 643
 -2
-1
+round_num: 644
 2
+round_num: 645
+-2
+round_num: 646
+-1
+round_num: 647
 1
-0
+round_num: 648
+-1
+round_num: 649
 1
+round_num: 650
+3x BAD
+6
+round_num: 651
+-2
+round_num: 652
+-1
+round_num: 653
+-2
+round_num: 654
 2
-1
+round_num: 655
 -2
+round_num: 656
+-1
+round_num: 657
 1
-0
+round_num: 658
+-6
+round_num: 659
 1
-2
+round_num: 660
+-1
+round_num: 661
 1
+round_num: 662
 2
+round_num: 663
 1
-2
+round_num: 664
+-1
+round_num: 665
+5x
+-16
+round_num: 666
+-1
+round_num: 667
+1
+round_num: 668
+-1
+round_num: 669
 1
+round_num: 670
+-1
+round_num: 671
+5x
+44
+round_num: 672
+-1
+round_num: 673
 -2
+round_num: 674
+5x
+-13
+round_num: 675
+5x
+-6
+round_num: 676
+-1
+round_num: 677
+-2
+round_num: 678
+-1
+round_num: 679
 1
+round_num: 680
 2
+round_num: 681
+5x
+6
+round_num: 682
+5x
+6
+round_num: 683
 1
--2
+round_num: 684
+-1
+round_num: 685
 1
+round_num: 686
 2
+round_num: 687
 1
-2
+round_num: 688
+5x
+62
+round_num: 689
 1
+round_num: 690
+-1
+round_num: 691
 -2
+round_num: 692
+-1
+round_num: 693
 1
-2
+round_num: 694
+-1
+round_num: 695
 1
+round_num: 696
+-1
+round_num: 697
 -2
+round_num: 698
+-1
+round_num: 699
 1
+round_num: 700
+-1
+round_num: 701
 -2
+round_num: 702
+-1
+round_num: 703
 1
+round_num: 704
+-1
+round_num: 705
+1
+round_num: 706
+-1
+round_num: 707
 -2
+round_num: 708
+-1
+round_num: 709
 1
-2
+round_num: 710
+-1
+round_num: 711
 1
-2
+round_num: 712
+-1
+round_num: 713
 1
+round_num: 714
+-1
+round_num: 715
 -2
-1
+round_num: 716
+-1
+round_num: 717
 -2
-1
-2
-1
-2
+round_num: 718
+-1
+round_num: 719
 1
+round_num: 720
+-1
+round_num: 721
 -2
+round_num: 722
+-1
+round_num: 723
 1
-2
-1
--2
+round_num: 724
+-1
+round_num: 725
 1
+round_num: 726
+-1
+round_num: 727
 -2
+round_num: 728
+-1
+round_num: 729
 1
+round_num: 730
+-1
+round_num: 731
 -2
+round_num: 732
+-1
+round_num: 733
 1
-2
+round_num: 734
+-1
+round_num: 735
 1
-2
+round_num: 736
+-1
+round_num: 737
 1
+round_num: 738
+-1
+round_num: 739
 -2
-1
-2
-1
-2
-1
-2
+round_num: 740
+-1
+round_num: 741
 1
-2
+round_num: 742
+-1
+round_num: 743
 1
+round_num: 744
+-1
+round_num: 745
 -2
+round_num: 746
+-1
+round_num: 747
 1
-2
-1
-2
+round_num: 748
+-1
+round_num: 749
 1
+round_num: 750
+-1
+round_num: 751
 -2
-1
-2
-1
+round_num: 752
+-1
+round_num: 753
 -2
-1
+round_num: 754
+-1
+round_num: 755
 -2
-1
+round_num: 756
+-1
+round_num: 757
 -2
+round_num: 758
+-1
+round_num: 759
 1
+round_num: 760
+-1
+round_num: 761
 -2
+round_num: 762
+-1
+round_num: 763
 1
-2
-1
-2
+round_num: 764
+-1
+round_num: 765
 1
+round_num: 766
+-1
+round_num: 767
 -2
-1
-2
-1
-2
-1
-2
+round_num: 768
+-1
+round_num: 769
 1
+round_num: 770
+-1
+round_num: 771
 -2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
+round_num: 772
+-1
+round_num: 773
 1
-2
+round_num: 774
+-1
+round_num: 775
 1
-2
+round_num: 776
+-1
+round_num: 777
 1
-2
+round_num: 778
+-1
+round_num: 779
 1
+round_num: 780
+-1
+round_num: 781
 -2
-1
-2
-1
+round_num: 782
+-1
+round_num: 783
 -2
-1
-2
-1
-2
-1
+round_num: 784
+-1
+round_num: 785
 -2
+round_num: 786
+-1
+round_num: 787
 1
--2
+round_num: 788
+-1
+round_num: 789
 1
-2
+round_num: 790
+-1
+round_num: 791
 1
+round_num: 792
+-1
+round_num: 793
 -2
-1
+round_num: 794
+-1
+round_num: 795
 -2
-1
-2
-1
-2
+round_num: 796
+-1
+round_num: 797
 1
-2
+round_num: 798
+-1
+round_num: 799
 1
-2
+round_num: 800
+-1
+round_num: 801
 1
-2
+round_num: 802
+-1
+round_num: 803
 1
+round_num: 804
+-1
+round_num: 805
 -2
+round_num: 806
+-1
+round_num: 807
 1
-2
+round_num: 808
+-1
+round_num: 809
 1
+round_num: 810
+-1
+round_num: 811
 -2
+round_num: 812
+-1
+round_num: 813
 1
-2
+round_num: 814
+-1
+round_num: 815
 1
-2
+round_num: 816
+-1
+round_num: 817
 1
+round_num: 818
+-1
+round_num: 819
 -2
-1
-2
-1
-2
-1
-2
-1
-0
+round_num: 820
+-1
+round_num: 821
 1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
+round_num: 822
+-1
+round_num: 823
 -2
-1
+round_num: 824
+-1
+round_num: 825
 -2
+round_num: 826
+-1
+round_num: 827
 1
+round_num: 828
+-1
+round_num: 829
 -2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
+round_num: 830
+-1
+round_num: 831
 1
+round_num: 832
+-1
+round_num: 833
 -2
-1
-2
-1
-2
-1
-0
-1
-2
-1
-0
-1
-2
-1
-2
-1
-2
-1
-2
-1
-2
-1
+round_num: 834
+-1
+round_num: 835
 -2
-1
-2
-1
-2
-1
-2
-1
-2
-1
+round_num: 836
+-1
+round_num: 837
 -2
-1
-2
+round_num: 838
+-1
+round_num: 839
 1
-2
+round_num: 840
+-1
+round_num: 841
 1
+round_num: 842
+-1
+round_num: 843
 -2
-1
-2
-1
-2
+round_num: 844
+-1
+round_num: 845
 1
+round_num: 846
+-1
+round_num: 847
 -2
-1
-2
-1
+round_num: 848
+-1
+round_num: 849
 -2
-1
-2
-1
-2
-1
-2
+round_num: 850
+-1
+round_num: 851
 1
-2
+round_num: 852
+-1
+round_num: 853
 1
-2
+round_num: 854
+-1
+round_num: 855
 1
-2
+round_num: 856
+-1
+round_num: 857
 1
-2
+round_num: 858
+-1
+round_num: 859
 1
+round_num: 860
+-1
+round_num: 861
 -2
-1
-2
-1
+round_num: 862
+-1
+round_num: 863
 -2
+round_num: 864
+-1
+round_num: 865
 1
-2
-1
-2
-1
-2
-1
-2
-1
-2
+round_num: 866
+-1
+round_num: 867
 1
-2
+round_num: 868
+-1
+round_num: 869
+-2
+round_num: 870
+-1
+round_num: 871
 1
-2
+round_num: 872
+-1
+round_num: 873
 1
-2
+round_num: 874
+-1
+round_num: 875
 1
-2
+round_num: 876
+-1
+round_num: 877
 1
-2
+round_num: 878
+-1
+round_num: 879
 1
+round_num: 880
+-1
+round_num: 881
 -2
-1
+round_num: 882
+-1
+round_num: 883
 -2
-1
-2
-1
+round_num: 884
+-1
+round_num: 885
 -2
-1
-2
-1
-2
+round_num: 886
+-1
+round_num: 887
 1
+round_num: 888
+-1
+round_num: 889
 -2
-1
-2
-1
-2
+round_num: 890
+-1
+round_num: 891
 1
+round_num: 892
+-1
+round_num: 893
 -2
-1
-0
-1
-2
+round_num: 894
+-1
+round_num: 895
+-2
+round_num: 896
+-1
+round_num: 897
 1
-2
+round_num: 898
+-1
+round_num: 899
 1
-2
+round_num: 900
+-1
+round_num: 901
 1
-2
+round_num: 902
+-1
+round_num: 903
 1
+round_num: 904
+-1
+round_num: 905
 -2
-1
-2
-1
+round_num: 906
+-1
+round_num: 907
 -2
+round_num: 908
+-1
+round_num: 909
 1
-2
+round_num: 910
+-1
+round_num: 911
 1
+round_num: 912
+-1
+round_num: 913
 -2
-1
-2
-1
+round_num: 914
+-1
+round_num: 915
 -2
-1
+round_num: 916
+-1
+round_num: 917
 -2
-1
-0
-1
-0
+round_num: 918
+-1
+round_num: 919
 1
+round_num: 920
+-1
+round_num: 921
 -2
+round_num: 922
+-1
+round_num: 923
 1
+round_num: 924
+-1
+round_num: 925
 -2
+round_num: 926
+-1
+round_num: 927
 1
-2
-1
+round_num: 928
+-1
+round_num: 929
 -2
-1
-2
-1
-2
-1
-2
-1
-2
-1
+round_num: 930
+-1
+round_num: 931
 -2
-1
+round_num: 932
+-1
+round_num: 933
 -2
+round_num: 934
+-1
+round_num: 935
 1
-2
-1
-2
+round_num: 936
+-1
+round_num: 937
 1
-2
+round_num: 938
+-1
+round_num: 939
+-2
+round_num: 940
+-1
+round_num: 941
 1
-2
+round_num: 942
+-1
+round_num: 943
 1
-0
+round_num: 944
+-1
+round_num: 945
 1
+round_num: 946
+-1
+round_num: 947
 -2
-1
+round_num: 948
+-1
+round_num: 949
 -2
-1
-0
-20.811
-0
-0
-bluff pm: 0
+round_num: 950
+-1
+round_num: 951
+-2
+round_num: 952
+-1
+round_num: 953
+-2
+round_num: 954
+-1
+round_num: 955
+-2
+round_num: 956
+-1
+round_num: 957
+1
+round_num: 958
+-1
+round_num: 959
+1
+round_num: 960
+-1
+round_num: 961
+-2
+round_num: 962
+-1
+round_num: 963
+1
+round_num: 964
+-1
+round_num: 965
+1
+round_num: 966
+-1
+round_num: 967
+1
+round_num: 968
+-1
+round_num: 969
+-2
+round_num: 970
+-1
+round_num: 971
+-2
+round_num: 972
+-1
+round_num: 973
+1
+round_num: 974
+-1
+round_num: 975
+-2
+round_num: 976
+-1
+round_num: 977
+-2
+round_num: 978
+-1
+round_num: 979
+1
+round_num: 980
+-1
+round_num: 981
+1
+round_num: 982
+-1
+round_num: 983
+1
+round_num: 984
+-1
+round_num: 985
+-2
+round_num: 986
+-1
+round_num: 987
+1
+round_num: 988
+-1
+round_num: 989
+1
+round_num: 990
+-1
+round_num: 991
+1
+round_num: 992
+-1
+round_num: 993
+-2
+round_num: 994
+-1
+round_num: 995
+-2
+round_num: 996
+-1
+round_num: 997
+-2
+round_num: 998
+-1
+round_num: 999
+-2
+round_num: 1000
+-1
+25.948
+57
+25
+bluff pm: -83
 normal bluff pm: 0
 normal bluff wins: 0
 normal bluff losses: 0
-two check bluff pm: 0
-two check wins: 0
+two check bluff pm: 22
+two check wins: 2
 two check losses: 0
-one check bluff pm: 0
-one check wins: 0
-one check losses: 0
+one check bluff pm: -105
+one check wins: 4
+one check losses: 1

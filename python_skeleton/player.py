@@ -686,7 +686,7 @@ class Player(Bot):
             if CallAction in legal_actions:
                 return CallAction()
             self.check += 1
-            self.my_check += 1
+            self.my_checks += 1
             return CheckAction()
         return decision()
 

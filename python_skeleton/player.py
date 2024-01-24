@@ -112,6 +112,10 @@ class Player(Bot):
         self.last_cont = 0
         self.opp_check_bluff_this_round = False
 
+        self.opp_auction_wins = 0
+        self.opp_auction_bets = 0
+        self.opp_auction_bluffing = False
+
     def handle_new_round(self, game_state, round_state, active):
         '''
         Called when a new round starts. Called NUM_ROUNDS times.
@@ -134,6 +138,8 @@ class Player(Bot):
         self.my_checks = 0
         self.last_cont = 0
         self.opp_check_bluff_this_round = False
+
+        self.opp_auction_bet_this_round = False
 
         self.times_bet_preflop = 0
         self.bluffed_this_round = False
@@ -220,6 +226,13 @@ class Player(Bot):
 
         if (self.check >= 8) and (self.opp_check_bluffs / self.check >= .8):
             self.opp_check_bluffing = True
+        else:
+            self.opp_check_bluffing = False
+
+        if (self.opp_auction_wins >= 10) and (self.opp_auction_bets / self.opp_auction_wins >= .8):
+            self.opp_auction_bluffing = True
+        else:
+            self.opp_auction_bluffing = False
 
         if self.bluffed_this_round:
             if abs(my_delta) != 400:
@@ -461,10 +474,16 @@ class Player(Bot):
         pot = my_contribution + opp_contribution
         big_blind = bool(active)
 
+        if street == 3 and opp_bid > my_bid:
+            self.opp_auction_wins += 1
+
         if opp_pip > 0:
             if self.my_checks > 0:
                 self.opp_check_bluffs += 1
                 self.opp_check_bluff_this_round = True
+            if street == 3 and my_pip == 0 and opp_bid > my_bid:
+                self.opp_auction_bets += 1
+                self.opp_auction_bet_this_round = True
             self.num_opp_bets += 1
             self.opp_checks = 0
             self.last_cont = opp_contribution
@@ -540,7 +559,12 @@ class Player(Bot):
                     print('less NIT!!!!!!!!!!!!')
             if self.opp_check_bluffing and self.opp_check_bluff_this_round:
                 pot_equity -= .125
-                print('check bluff catcher')
+                if hand_strength < pot_equity + .15 and hand_strength > pot_equity:
+                    print('check bluff catcher')
+            elif street == 3 and self.opp_auction_bet_this_round and ((opp_pip-my_pip) / (pot - (opp_pip - my_pip)) > .8):
+                pot_equity -= .15
+                if hand_strength < pot_equity + .15 and hand_strength > pot_equity:
+                    print('auction bluff catcher')
             self.my_checks = 0
             self.opp_check_bluff_this_round = False
             if hand_strength < pot_equity: #bad pot equity
@@ -549,7 +573,7 @@ class Player(Bot):
                 return FoldAction, None
             else: #good pot equity
                 reraise_strength = (.9 + ((street % 3) * self.reraise_fact)) 
-                if hand_strength > reraise_strength or (hand_strength - pot_equity > .3 and hand_strength > (reraise_strength - .05)):
+                if not self.opp_check_bluff_this_round and (hand_strength > reraise_strength) or (hand_strength - pot_equity > .3 and hand_strength > (reraise_strength - .05)):
                     return RaiseAction, 1 #value raise
                 return CallAction, None
 

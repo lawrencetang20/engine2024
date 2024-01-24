@@ -442,6 +442,7 @@ class Player(Bot):
         # else Bid need_auction * stack/2
         
         need_auction, win_without, win_with = auction_strength
+        hand_strength = (win_without + win_with) / 2
         if win_without <= 0.2 or win_with < 0.6:
             return BidAction(min(my_stack - 1, max(int(self.auction_factor*need_auction*pot*3 + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
         elif win_without > 0.8:
@@ -450,7 +451,9 @@ class Player(Bot):
         elif win_without <= 0.8 and win_without > 0.6:
             return BidAction(min(my_stack - 1, max(int(self.auction_factor*need_auction*pot*2 + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
         elif win_without <= 0.6 and win_without > 0.2:
-            return BidAction(min(my_stack - 1, max(int(self.auction_factor*need_auction*pot*7 + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
+            if pot <= 40:
+                return BidAction(min(my_stack - 1, max(int(self.auction_factor*need_auction*pot*7 + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
+            return BidAction(min(my_stack - 1, max(int(self.auction_factor*(hand_strength**2)*need_auction*pot*10 + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
         else:
             print("SHOULD NOT BE HERE")
             return BidAction(0)
@@ -505,6 +508,9 @@ class Player(Bot):
                 self.my_checks = 0
                 self.opp_checks = 0
                 return RaiseAction, 1  #no checks on river with super strong hands
+            elif self.opp_checks == 3:
+                print('3 check bluff')
+                return RaiseAction, 0
             elif not self.bluffed_this_round and not big_blind and (self.opp_checks == 2) and (rand < self.try_bluff*self.twobluff_fact):
                 self.opp_checks = 0
                 self.bluffed_this_round = True
@@ -561,6 +567,7 @@ class Player(Bot):
                 if hand_strength < pot_equity + .15 and hand_strength > pot_equity:
                     print('auction bluff catcher')
             self.my_checks = 0
+            self.opp_check_bluff_this_round = False
             self.opp_check_bluff_this_round = False
             if hand_strength < pot_equity: #bad pot equity
                 return FoldAction, None
@@ -678,6 +685,8 @@ class Player(Bot):
         if decision == RaiseAction and RaiseAction not in legal_actions:
             if CallAction in legal_actions:
                 return CallAction()
+            self.check += 1
+            self.my_check += 1
             return CheckAction()
         return decision()
 

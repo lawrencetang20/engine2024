@@ -57,6 +57,7 @@ class Player(Bot):
         self.total_rounds = 0
         self.already_won = False
         self.nit = 0
+        self.opp_aggresive = False
 
         self.switched_to_100 = False
         self.switched_to_50 = False
@@ -115,6 +116,7 @@ class Player(Bot):
         self.opp_auction_wins = 0
         self.opp_auction_bets = 0
         self.opp_auction_bluffing = False
+        self.less_nit_call = False
 
     def handle_new_round(self, game_state, round_state, active):
         '''
@@ -141,6 +143,7 @@ class Player(Bot):
 
         self.opp_won_auction = False
         self.opp_auction_bet_this_round = False
+        self.less_nit_call = False
 
         self.times_bet_preflop = 0
         self.bluffed_this_round = False
@@ -148,7 +151,7 @@ class Player(Bot):
         self.onecheck = False
         self.bluff = False
 
-        if my_bankroll > 400:
+        if my_bankroll > 600:
             self.try_bluff = 1/4
         else:
             self.try_bluff = 1
@@ -227,6 +230,10 @@ class Player(Bot):
             print(f'opp auction wins {self.opp_auction_wins}')
             print(f'opp auction flop bets {self.opp_auction_bets}')
 
+        if self.num_opp_bets >= 25 and (self.num_opp_potbets / self.num_opp_bets > .4):
+            self.opp_aggresive = True
+        else:
+            self.opp_aggresive = False
 
         if self.opp_won_auction:
             self.opp_auction_wins += 1
@@ -503,11 +510,11 @@ class Player(Bot):
 
         rand = random.random()
         if CheckAction in legal_actions: #Check, raise
-            if self.opp_check_bluffing and hand_strength > .75 and street != 5:
+            if self.opp_check_bluffing and hand_strength > .75 and street != 5: #Let them bet into us, free dough
                 self.check += 1
                 self.my_checks += 1
                 return CheckAction, None
-            if rand < hand_strength + 0.15 and hand_strength >= (.5 + ((street % 3) * self.raise_fact)):
+            if rand < hand_strength + 0.15 and hand_strength >= (.5 + ((street % 3) * self.raise_fact)): # value raises, need stronger hands as street increases
                 self.my_checks = 0
                 self.opp_checks = 0
                 return RaiseAction, 1 #value bet
@@ -515,32 +522,32 @@ class Player(Bot):
                 self.my_checks = 0
                 self.opp_checks = 0
                 return RaiseAction, 1  #no checks on river with super strong hands
-            elif self.opp_checks == 3:
+            elif self.opp_checks == 3: #3 check bluff
                 print('3 check bluff')
                 return RaiseAction, 0
-            elif not self.bluffed_this_round and not big_blind and (self.opp_checks == 2) and (rand < self.try_bluff*self.twobluff_fact):
+            elif not self.bluffed_this_round and not big_blind and (self.opp_checks == 2) and (rand < self.try_bluff*self.twobluff_fact): #2 check bluff as dealer
                 self.opp_checks = 0
                 self.bluffed_this_round = True
                 self.twocheck = True
                 self.my_checks = 0
                 print('2 check bluff')
                 return RaiseAction, 0
-            elif not self.bluffed_this_round and big_blind and (self.opp_checks == 2) and (rand < self.try_bluff * 3/4*self.twobluff_fact):
+            elif not self.bluffed_this_round and big_blind and (self.opp_checks == 2) and (rand < self.try_bluff * 3/4*self.twobluff_fact): #2 check bluff as big blind
                 self.opp_checks = 0
                 self.bluffed_this_round = True
                 self.twocheck = True
                 self.my_checks = 0
                 print('2 check bluff')
                 return RaiseAction, 0
-            elif not self.bluffed_this_round and not big_blind and (self.opp_checks == 1) and (rand < self.try_bluff*.25*self.onebluff_fact):
+            elif not self.bluffed_this_round and not big_blind and (self.opp_checks == 1) and (rand < self.try_bluff*.25*self.onebluff_fact): #1 check bluff as dealer
                 self.opp_checks = 0
                 self.bluffed_this_round = True
                 self.onecheck = True
                 self.my_checks = 0
                 print('1 check bluff')
                 return RaiseAction, 0
-            elif not self.bluffed_this_round and (my_bid > opp_bid) and (rand < self.try_bluff*self.bluff_fact*(1-hand_strength)/1.5) and (hand_strength < 0.65):
-                self.opp_checks = 0
+            elif not self.less_nit_call and not self.bluffed_this_round and (my_bid > opp_bid) and (rand < self.try_bluff*self.bluff_fact*(1-hand_strength)/(1+(street%3))) and (hand_strength < 0.65):
+                self.opp_checks = 0  #3 card bluff after winning auction
                 self.bluffed_this_round = True
                 self.bluff = True
                 self.my_checks = 0
@@ -561,21 +568,38 @@ class Player(Bot):
                 pot_equity = min(pot_equity + 0.0725,0.725)
             if pot_equity <= .5:
                 pot_equity = min(pot_equity + 0.0725, .5)
-            if self.num_opp_bets >= 25 and (self.num_opp_potbets / self.num_opp_bets > .4) and pot_equity >= .8 and my_pip == 0:
+            if self.opp_aggresive and pot_equity >= .8 and my_pip == 0:
                 pot_equity -= .1
                 print('added less NIT')
                 if hand_strength < pot_equity + .1 and hand_strength > pot_equity:
+                    self.less_nit_call = True
                     print('less NIT call!!!!!!!!!!!!')
-            if self.opp_auction_bluffing and self.opp_auction_bet_this_round and ((opp_pip-my_pip) / (pot - (opp_pip - my_pip)) > .8):
-                pot_equity -= .15
-                print('auction less nit')
-                if hand_strength < pot_equity + .15 and hand_strength > pot_equity:
-                    print('auction bluff catcher call')
-            elif self.opp_check_bluffing and self.opp_check_bluff_this_round and ((opp_pip-my_pip) / (pot - (opp_pip - my_pip)) > 1):
-                pot_equity -= .1
-                print('check less nit')
-                if hand_strength < pot_equity + .125 and hand_strength > pot_equity:
-                    print('check bluff catcher call')
+            if self.opp_auction_bluffing and self.opp_auction_bet_this_round:
+                if self.opp_aggresive and ((opp_pip-my_pip) / (pot - (opp_pip - my_pip)) > .8):
+                    pot_equity -= .15
+                    print('auction less nit')
+                    if hand_strength < pot_equity + .15 and hand_strength > pot_equity:
+                        self.less_nit_call = True
+                        print('auction bluff catcher call')
+                elif not self.opp_aggresive:
+                    pot_equity -= .15
+                    print('auction less nit')
+                    if hand_strength < pot_equity + .15 and hand_strength > pot_equity:
+                        self.less_nit_call = True
+                        print('auction bluff catcher call')
+            elif self.opp_check_bluffing and self.opp_check_bluff_this_round:
+                if self.opp_aggresive and ((opp_pip-my_pip) / (pot - (opp_pip - my_pip)) > .8):
+                    pot_equity -= .1
+                    print('check less nit')
+                    if hand_strength < pot_equity + .1 and hand_strength > pot_equity:
+                        self.less_nit_call = True
+                        print('check bluff catcher call')
+                elif not self.opp_aggresive:
+                    pot_equity -= .1
+                    print('check less nit')
+                    if hand_strength < pot_equity + .1 and hand_strength > pot_equity:
+                        self.less_nit_call = True
+                        print('check bluff catcher call')
             self.my_checks = 0
             self.opp_check_bluff_this_round = False
             self.opp_auction_bet_this_round = False

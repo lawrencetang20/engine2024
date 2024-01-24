@@ -557,7 +557,7 @@ class Player(Bot):
                 pot_equity -= .1
                 if hand_strength < pot_equity + .1 and hand_strength > pot_equity:
                     print('less NIT!!!!!!!!!!!!')
-            if self.opp_check_bluffing and self.opp_check_bluff_this_round:
+            if self.opp_check_bluffing and self.opp_check_bluff_this_round and ((opp_pip-my_pip) / (pot - (opp_pip - my_pip)) > 1):
                 pot_equity -= .125
                 if hand_strength < pot_equity + .15 and hand_strength > pot_equity:
                     print('check bluff catcher')

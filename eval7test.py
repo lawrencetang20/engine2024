@@ -82,12 +82,12 @@ auction_num = 1
 
 # print(need_auction, win_without, win_with)
 
-board = [eval7.Card(board_card) for board_card in ['4c', '7s', 'Jh']]
-my_hole = [eval7.Card(my_card) for my_card in ['Jd', 'Ad']]
+board = [eval7.Card(board_card) for board_card in ['2s', '2d', '2h', '5s', '9c']]
+my_hole = [eval7.Card(my_card) for my_card in ['Ad', 'Qs', '8c']]
 comb = board + my_hole
 num_more_board = 5 - len(board)
 
-ya = True
+ya = False
 
 if len(my_hole) == 2 and ya:
     opp_num = 3

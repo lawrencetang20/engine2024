@@ -561,7 +561,7 @@ class Player(Bot):
                 pot_equity -= .125
                 if hand_strength < pot_equity + .15 and hand_strength > pot_equity:
                     print('check bluff catcher')
-            elif street == 3 and self.opp_auction_bet_this_round and ((opp_pip-my_pip) / (pot - (opp_pip - my_pip)) > .8):
+            elif street == 3 and self.opp_auction_bluffing and self.opp_auction_bet_this_round and ((opp_pip-my_pip) / (pot - (opp_pip - my_pip)) > .8):
                 pot_equity -= .15
                 if hand_strength < pot_equity + .15 and hand_strength > pot_equity:
                     print('auction bluff catcher')

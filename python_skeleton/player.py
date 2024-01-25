@@ -573,29 +573,26 @@ class Player(Bot):
                 pot_equity = min(pot_equity + 0.0725, .5)
             if self.opp_aggresive and pot_equity >= .8 and my_pip == 0:
                 if num_cards == 2:
-                    unnit += .125
+                    unnit += .1
                 else:
-                    unnit += .075
+                    unnit += .05
                 print('added less NIT')
             if self.opp_auction_bluffing and self.opp_auction_bet_this_round:
                 if self.opp_aggresive and ((opp_pip-my_pip) / (pot - (opp_pip - my_pip)) > .8):
-                    unnit += .165
+                    unnit += .15
                     print('auction less nit')
                 elif not self.opp_aggresive:
-                    unnit += .125
+                    unnit += .1
                     print('auction less nit')
             elif self.opp_check_bluffing and self.opp_check_bluff_this_round:
                 if self.opp_aggresive and ((opp_pip-my_pip) / (pot - (opp_pip - my_pip)) > .8):
                     if num_cards == 2:
-                        unnit += .135
-                    else:
                         unnit += .1
-                    print('check less nit')
-                elif not self.opp_aggresive:
-                    if num_cards == 2:
-                        unnit += .125
                     else:
-                        unnit += .09
+                        unnit += .05
+                    print('check less nit')
+                elif not self.opp_aggresive and num_cards == 2:
+                    unnit += .075
                     print('check less nit')
             print(f'unnit {unnit}')
             pot_equity -= unnit

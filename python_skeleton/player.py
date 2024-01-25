@@ -232,6 +232,7 @@ class Player(Bot):
 
         if self.num_opp_bets >= 25 and (self.num_opp_potbets / self.num_opp_bets > .4):
             self.opp_aggresive = True
+            print('aggresive')
         else:
             self.opp_aggresive = False
 
@@ -485,6 +486,8 @@ class Player(Bot):
         opp_contribution = STARTING_STACK - opp_stack
         pot = my_contribution + opp_contribution
         big_blind = bool(active)
+        num_cards = len(round_state.hands[active])
+        unnit = 0
 
         if street == 3 and opp_bid > my_bid:
             self.opp_won_auction = True
@@ -569,37 +572,36 @@ class Player(Bot):
             if pot_equity <= .5:
                 pot_equity = min(pot_equity + 0.0725, .5)
             if self.opp_aggresive and pot_equity >= .8 and my_pip == 0:
-                pot_equity -= .1
+                if num_cards == 2:
+                    unnit += .125
+                else:
+                    unnit += .075
                 print('added less NIT')
-                if hand_strength < pot_equity + .1 and hand_strength > pot_equity:
-                    self.less_nit_call = True
-                    print('less NIT call!!!!!!!!!!!!')
             if self.opp_auction_bluffing and self.opp_auction_bet_this_round:
                 if self.opp_aggresive and ((opp_pip-my_pip) / (pot - (opp_pip - my_pip)) > .8):
-                    pot_equity -= .15
+                    unnit += .165
                     print('auction less nit')
-                    if hand_strength < pot_equity + .15 and hand_strength > pot_equity:
-                        self.less_nit_call = True
-                        print('auction bluff catcher call')
                 elif not self.opp_aggresive:
-                    pot_equity -= .15
+                    unnit += .125
                     print('auction less nit')
-                    if hand_strength < pot_equity + .15 and hand_strength > pot_equity:
-                        self.less_nit_call = True
-                        print('auction bluff catcher call')
             elif self.opp_check_bluffing and self.opp_check_bluff_this_round:
                 if self.opp_aggresive and ((opp_pip-my_pip) / (pot - (opp_pip - my_pip)) > .8):
-                    pot_equity -= .1
+                    if num_cards == 2:
+                        unnit += .135
+                    else:
+                        unnit += .1
                     print('check less nit')
-                    if hand_strength < pot_equity + .1 and hand_strength > pot_equity:
-                        self.less_nit_call = True
-                        print('check bluff catcher call')
                 elif not self.opp_aggresive:
-                    pot_equity -= .1
+                    if num_cards == 2:
+                        unnit += .125
+                    else:
+                        unnit += .09
                     print('check less nit')
-                    if hand_strength < pot_equity + .1 and hand_strength > pot_equity:
-                        self.less_nit_call = True
-                        print('check bluff catcher call')
+            print(f'unnit {unnit}')
+            pot_equity -= unnit
+            if hand_strength > pot_equity and hand_strength < pot_equity + unnit and hand_strength > .35:
+                print('less nit call')
+                self.less_nit_call = True
             self.my_checks = 0
             self.opp_check_bluff_this_round = False
             self.opp_auction_bet_this_round = False

@@ -436,12 +436,6 @@ class Player(Bot):
         return need_auction, win_without, win_with
 
     def decide_action_auction(self, auction_strength, my_stack, pot):
-
-        # figure our auction size based on auction_strength
-        # if win without auc < 0.2 --> then Bid 1 (dont need auction, going to fold)
-        # if win without auc > 0.5 --> then Bid need_auction * stack (somewhat want auction, going to win anyways)
-        # if win without auc > 0.2 and < 0.5 AND need/win without > 0.5 --> Bid need_auction * stack (want auction card, increases win chance by a lot)
-        # else Bid need_auction * stack/2
         
         need_auction, win_without, win_with = auction_strength
         hand_strength = (win_without + win_with) / 2

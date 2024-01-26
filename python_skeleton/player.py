@@ -1,18 +1,5 @@
 '''
-
-keep track of hands we lose -- if under <20, increase/decrease calling range
-
-game theory wise -- pot sized bet with 2 cards means strong
-
-bluff on turn more rather than river?
-
-if they show very weak -- then bluff no matter what
-
-maybe check sometimes through good hands
-
-increase our check ratio before river
-
-track bet sizing
+WORK ON: stop less nit call if not working; look at fish gameplay
 
 '''
 from skeleton.actions import FoldAction, CallAction, CheckAction, RaiseAction, BidAction
@@ -57,7 +44,7 @@ class Player(Bot):
         self.total_rounds = 0
         self.already_won = False
         self.nit = 0
-        self.opp_aggresive = False
+        self.opp_aggressive = False
 
         self.switched_to_100 = False
         self.switched_to_50 = False
@@ -231,10 +218,10 @@ class Player(Bot):
             print(f'opp auction flop bets {self.opp_auction_bets}')
 
         if self.num_opp_bets >= 25 and (self.num_opp_potbets / self.num_opp_bets > .4):
-            self.opp_aggresive = True
-            print('aggresive')
+            self.opp_aggressive = True
+            print('aggressive')
         else:
-            self.opp_aggresive = False
+            self.opp_aggressive = False
 
         if self.opp_won_auction:
             self.opp_auction_wins += 1
@@ -260,10 +247,10 @@ class Player(Bot):
             else:
                 self.bluff_numlosses += 1
             if ((self.bluff_numwins + self.bluff_numlosses >= 5) and (self.bluff_numlosses / (self.bluff_numwins + self.bluff_numlosses) >= .2) and self.bluffed_pm < 0) or (self.bluffed_pm < -250):
-                print('bluff not working!!!!!!!!')
+                print('bluff not working!!')
                 self.bluff_not_working = 0
             elif (self.bluff_numwins + self.bluff_numlosses >= 5) and (self.bluff_numlosses / (self.bluff_numwins + self.bluff_numlosses) <= .15) and self.bluffed_pm > 0:
-                print('bluff is working!!!!')
+                print('bluff is working!!')
                 self.bluff_not_working = 2
             else:
                 self.bluff_not_working = 1
@@ -276,7 +263,7 @@ class Player(Bot):
                 else:
                     self.twonumlosses += 1
             if (not self.twobluff_not_working and (self.twonumwins + self.twonumlosses >= 8) and (self.twonumlosses / (self.twonumwins + self.twonumlosses) >= .3) and self.twobluff_pm < 0) or self.twobluff_pm < -250:
-                print('two bluff not working!!!!!!!!')
+                print('two bluff not working!!')
                 self.twobluff_not_working = True
 
         elif self.onecheck:
@@ -287,7 +274,7 @@ class Player(Bot):
                 else:
                     self.onenumlosses += 1
             if not self.onebluff_not_working and (self.onenumwins + self.onenumlosses >= 8) and (self.onenumlosses / (self.onenumwins + self.onenumlosses) >= .3) and self.onebluff_pm < 0:
-                print('one bluff not working!!!!!!!!')
+                print('one bluff not working!!')
                 self.onebluff_not_working = True
 
         if street>=3:
@@ -470,7 +457,7 @@ class Player(Bot):
                 return BidAction(min(my_stack - 1, max(int(self.auction_factor*need_auction*pot*7 + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
             return BidAction(min(my_stack - 1, max(int(self.auction_factor*(hand_strength**2)*need_auction*pot*10 + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
         else:
-            print("SHOULD NOT BE HERE")
+            print("this shouldn't ever happen")
             return BidAction(0)
 
     def decide_action_postflop(self, round_state, hand_strength, active):
@@ -513,7 +500,7 @@ class Player(Bot):
 
         rand = random.random()
         if CheckAction in legal_actions: #Check, raise
-            if self.opp_check_bluffing and hand_strength > .75 and street != 5: #Let them bet into us, free dough
+            if self.opp_check_bluffing and hand_strength > .75 and street != 5: #let them bet into us, free dough
                 self.check += 1
                 self.my_checks += 1
                 return CheckAction, None
@@ -525,7 +512,7 @@ class Player(Bot):
                 self.my_checks = 0
                 self.opp_checks = 0
                 return RaiseAction, 1  #no checks on river with super strong hands
-            elif self.opp_checks == 3: #3 check bluff
+            elif self.opp_checks == 3:
                 print('3 check bluff')
                 return RaiseAction, 0
             elif not self.bluffed_this_round and not big_blind and (self.opp_checks == 2) and (rand < self.try_bluff*self.twobluff_fact): #2 check bluff as dealer
@@ -571,27 +558,27 @@ class Player(Bot):
                 pot_equity = min(pot_equity + 0.0725,0.725)
             if pot_equity <= .5:
                 pot_equity = min(pot_equity + 0.0725, .5)
-            if self.opp_aggresive and pot_equity >= .8 and my_pip == 0:
+            if self.opp_aggressive and pot_equity >= .8 and my_pip == 0:
                 if num_cards == 2:
                     unnit += .1
                 else:
                     unnit += .05
-                print('added less NIT')
+                print('added less nit, bc aggressive')
             if self.opp_auction_bluffing and self.opp_auction_bet_this_round:
-                if self.opp_aggresive and ((opp_pip-my_pip) / (pot - (opp_pip - my_pip)) > .8):
+                if self.opp_aggressive and ((opp_pip-my_pip) / (pot - (opp_pip - my_pip)) > .8):
                     unnit += .15
                     print('auction less nit')
-                elif not self.opp_aggresive:
+                elif not self.opp_aggressive:
                     unnit += .1
                     print('auction less nit')
             elif self.opp_check_bluffing and self.opp_check_bluff_this_round:
-                if self.opp_aggresive and ((opp_pip-my_pip) / (pot - (opp_pip - my_pip)) > .8):
+                if self.opp_aggressive and ((opp_pip-my_pip) / (pot - (opp_pip - my_pip)) > .8):
                     if num_cards == 2:
                         unnit += .1
                     else:
                         unnit += .05
                     print('check less nit')
-                elif not self.opp_aggresive and num_cards == 2:
+                elif not self.opp_aggressive and num_cards == 2:
                     unnit += .075
                     print('check less nit')
             print(f'unnit {unnit}')

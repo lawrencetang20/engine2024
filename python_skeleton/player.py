@@ -460,6 +460,12 @@ class Player(Bot):
         
         need_auction, win_without, win_with = auction_strength
         hand_strength = (win_without + win_with) / 2
+
+        if my_stack == 0:
+            return BidAction(0)
+        elif my_stack == 1:
+            return BidAction(1)
+
         if win_without <= 0.2 or win_with < 0.6:
             return BidAction(min(my_stack - 1, max(int(self.auction_factor*need_auction*pot*3 + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
         elif win_without > 0.8:

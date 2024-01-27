@@ -103,7 +103,12 @@ class Player(Bot):
         self.opp_auction_wins = 0
         self.opp_auction_bets = 0
         self.opp_auction_bluffing = False
+
         self.less_nit_call = False
+        self.less_nit_call_pm = 0
+        self.less_nit_call_losses = 0
+
+        self.unnit_not_working = False
 
     def handle_new_round(self, game_state, round_state, active):
         '''
@@ -195,6 +200,18 @@ class Player(Bot):
         street = previous_state.street  # 0, 3, 4, or 5 representing when this round ended
         #my_cards = previous_state.hands[active]  # your cards
         #opp_cards = previous_state.hands[1-active]  # opponent's cards or [] if not revealed
+
+        if self.less_nit_call:
+            if my_delta < 0:
+                self.less_nit_call_losses += 1
+            self.less_nit_call_pm += my_delta
+
+        if self.less_nit_call >= 3 and self.less_nit_call_pm < -69:
+            self.unnit_not_working = True
+            print('unnit not working turned on True')
+        else:
+            self.unnit_not_working = False
+            print('unnit not working turned on False')
 
         self.total_rounds += 1
 
@@ -580,6 +597,12 @@ class Player(Bot):
                     unnit += .075
                     print('check less nit')
             print(f'unnit {unnit}')
+
+            # if unnit not working, divide by two
+            if self.unnit_not_working:
+                unnit /= 2
+                print('unnit not working, divided my two')
+
             pot_equity -= unnit
             if hand_strength > pot_equity and hand_strength < pot_equity + unnit and hand_strength > .35:
                 print('less nit call')

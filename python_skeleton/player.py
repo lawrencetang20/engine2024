@@ -109,6 +109,9 @@ class Player(Bot):
         self.less_nit_call_losses = 0
 
         self.unnit_not_working = False
+        self.tgod = True
+        self.tgod_this_round = False
+        self.tgod_pm = 0
 
     def handle_new_round(self, game_state, round_state, active):
         '''
@@ -133,6 +136,7 @@ class Player(Bot):
         self.last_cont = 0
         self.opp_check_bluff_this_round = False
 
+        self.tgod_this_round = False
         self.opp_won_auction = False
         self.opp_auction_bet_this_round = False
         self.less_nit_call = False
@@ -214,6 +218,11 @@ class Player(Bot):
             print('unnit not working turned on False')
 
         self.total_rounds += 1
+
+        if self.tgod_this_round:
+            self.tgod_pm += my_delta
+            if self.tgod_pm < 0:
+                self.tgod = False
 
         if game_state.round_num == NUM_ROUNDS:
             print(game_state.game_clock)
@@ -331,7 +340,7 @@ class Player(Bot):
             onsuit = 'o'
         
         return (hpair+onsuit)
-    
+
     def no_illegal_raises(self,bet,round_state):
         min_raise, max_raise = round_state.raise_bounds()  # the smallest and largest numbers of chips for a legal bet/raise        
         if bet >= max_raise:
@@ -563,6 +572,10 @@ class Player(Bot):
             return CheckAction, None
         else: #Fold, Call, Raise
             pot_equity = (opp_pip-my_pip) / (pot - (opp_pip - my_pip))
+            if pot_equity >= 1 and self.tgod:
+                print('TGOD')
+                self.tgod_this_round = True
+                return RaiseAction, 0
             if pot_equity > .7 and pot_equity < .8:
                 pot_equity = .7
             elif pot_equity >= .8 and pot_equity < 1.1:

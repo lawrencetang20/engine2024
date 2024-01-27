@@ -103,7 +103,12 @@ class Player(Bot):
         self.opp_auction_wins = 0
         self.opp_auction_bets = 0
         self.opp_auction_bluffing = False
+
         self.less_nit_call = False
+        self.less_nit_call_pm = 0
+        self.less_nit_call_losses = 0
+
+        self.unnit_not_working = False
 
     def handle_new_round(self, game_state, round_state, active):
         '''
@@ -121,13 +126,13 @@ class Player(Bot):
         game_clock = game_state.game_clock  # the total number of seconds your bot has left to play this game
         round_num = game_state.round_num  # the round number from 1 to NUM_ROUNDS
         #my_cards = round_state.hands[active]  # your cards
-        #big_blind = bool(active)  # True if you are the big blind
+        big_blind = bool(active)  # True if you are the big blind
         #print(f'round_num: {round_num}')
         self.opp_checks = 0
         self.my_checks = 0
         self.last_cont = 0
         self.opp_check_bluff_this_round = False
-
+        
         self.opp_won_auction = False
         self.opp_auction_bet_this_round = False
         self.less_nit_call = False
@@ -160,7 +165,11 @@ class Player(Bot):
         else:
             self.onebluff_fact = 1/6
 
-        if my_bankroll > 1.5*(NUM_ROUNDS-self.total_rounds)+2:
+        bankroll_threshold = int(1.5*(NUM_ROUNDS-round_num+1))
+        if big_blind and (NUM_ROUNDS-round_num+1) % 2 == 1:
+            bankroll_threshold += 1
+
+        if my_bankroll > bankroll_threshold:
             self.already_won = True
 
         if game_clock < 20 and round_num <= 333 and not self.switched_to_100:
@@ -195,6 +204,18 @@ class Player(Bot):
         street = previous_state.street  # 0, 3, 4, or 5 representing when this round ended
         #my_cards = previous_state.hands[active]  # your cards
         #opp_cards = previous_state.hands[1-active]  # opponent's cards or [] if not revealed
+
+        if self.less_nit_call:
+            if my_delta < 0:
+                self.less_nit_call_losses += 1
+            self.less_nit_call_pm += my_delta
+
+        if self.less_nit_call >= 3 and self.less_nit_call_pm < -69:
+            self.unnit_not_working = True
+            print('unnit not working turned on True')
+        else:
+            self.unnit_not_working = False
+            # print('unnit not working turned on False')
 
         self.total_rounds += 1
 
@@ -314,7 +335,7 @@ class Player(Bot):
             onsuit = 'o'
         
         return (hpair+onsuit)
-    
+
     def no_illegal_raises(self,bet,round_state):
         min_raise, max_raise = round_state.raise_bounds()  # the smallest and largest numbers of chips for a legal bet/raise        
         if bet >= max_raise:
@@ -443,7 +464,11 @@ class Player(Bot):
             return BidAction(min(my_stack - 1, max(int(self.auction_factor*need_auction*pot*3 + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
         elif win_without > 0.8:
             rand = 4*random.random() + 1
-            return BidAction(min(my_stack - 1, max(int(pot*.5+rand + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
+            if pot < 40:
+                factor = 0.7
+            else:
+                factor = 0.6
+            return BidAction(min(my_stack - 1, max(int(pot*factor+rand + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
         elif win_without <= 0.8 and win_without > 0.6:
             return BidAction(min(my_stack - 1, max(int(self.auction_factor*need_auction*pot*2 + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
         elif win_without <= 0.6 and win_without > 0.2:
@@ -576,6 +601,12 @@ class Player(Bot):
                     unnit += .075
                     print('check less nit')
             print(f'unnit {unnit}')
+
+            # if unnit not working, divide by two
+            if self.unnit_not_working:
+                unnit /= 2
+                print('unnit not working, divided my two')
+
             pot_equity -= unnit
             if hand_strength > pot_equity and hand_strength < pot_equity + unnit and hand_strength > .35:
                 print('less nit call')
@@ -684,7 +715,8 @@ class Player(Bot):
 
         rand = random.random()
         if decision == RaiseAction and RaiseAction in legal_actions:
-            if conf != 0 and hand_strength < .86:
+            hand_strength_threshold = 0.8+0.05*(street % 3)
+            if conf != 0 and hand_strength < hand_strength_threshold:
                 bet_max = int((1+(2*(hand_strength**2)*rand)) * 3 * pot / 8)
                 maximum = min(max_raise, bet_max)
                 minimum = max(min_raise, pot / 4)

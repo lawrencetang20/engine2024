@@ -126,7 +126,7 @@ class Player(Bot):
         game_clock = game_state.game_clock  # the total number of seconds your bot has left to play this game
         round_num = game_state.round_num  # the round number from 1 to NUM_ROUNDS
         #my_cards = round_state.hands[active]  # your cards
-        #big_blind = bool(active)  # True if you are the big blind
+        big_blind = bool(active)  # True if you are the big blind
         #print(f'round_num: {round_num}')
         self.opp_checks = 0
         self.my_checks = 0
@@ -165,7 +165,11 @@ class Player(Bot):
         else:
             self.onebluff_fact = 1/6
 
-        if my_bankroll > 1.5*(NUM_ROUNDS-self.total_rounds)+2:
+        bankroll_threshold = int(1.5*(NUM_ROUNDS-round_num+1))
+        if big_blind and (NUM_ROUNDS-round_num+1) % 2 == 1:
+            bankroll_threshold += 1
+
+        if my_bankroll > bankroll_threshold:
             self.already_won = True
 
         if game_clock < 20 and round_num <= 333 and not self.switched_to_100:
@@ -211,7 +215,7 @@ class Player(Bot):
             print('unnit not working turned on True')
         else:
             self.unnit_not_working = False
-            print('unnit not working turned on False')
+            # print('unnit not working turned on False')
 
         self.total_rounds += 1
 

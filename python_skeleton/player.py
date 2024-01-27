@@ -132,7 +132,7 @@ class Player(Bot):
         self.my_checks = 0
         self.last_cont = 0
         self.opp_check_bluff_this_round = False
-
+        
         self.opp_won_auction = False
         self.opp_auction_bet_this_round = False
         self.less_nit_call = False
@@ -335,7 +335,7 @@ class Player(Bot):
             onsuit = 'o'
         
         return (hpair+onsuit)
-    
+
     def no_illegal_raises(self,bet,round_state):
         min_raise, max_raise = round_state.raise_bounds()  # the smallest and largest numbers of chips for a legal bet/raise        
         if bet >= max_raise:

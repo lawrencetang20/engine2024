@@ -1,1708 +1,2131 @@
--2
--1
 1
+unnit not working turned on False
 -1
+unnit not working turned on False
 -2
--1
-1
+unnit not working turned on False
 2
+unnit not working turned on False
 -2
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
 -1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
 unnit 0
-66
+-16
+unnit not working turned on False
 -1
--2
-2
--2
--1
--2
--1
-bluffed
-6
-2
+unnit not working turned on False
 1
-2
-bluffed
-9
+unnit not working turned on False
 -1
+unnit not working turned on False
 1
--1
-1
--1
-1
--1
-1
--1
--2
--1
--2
-2
-unnit 0
--60
--1
-1
--1
-6
-2
-1
--1
-1
--1
-1
--1
--2
+unnit not working turned on False
 -6
+unnit not working turned on False
 1
-2
-1
+unnit not working turned on False
 -1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
 1
-2
+unnit not working turned on False
+-1
+unnit not working turned on False
 1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+TGOD
 unnit 0
-2 check bluff
-11
+-85
+unnit not working turned on False
 1
+unnit not working turned on False
 2
--2
--1
--2
--1
+unnit not working turned on False
 1
--1
-unnit 0
--87
--1
-6
--1
-1
+unnit not working turned on False
 2
-6
--1
-1
--1
+unnit not working turned on False
 -2
--1
--2
--1
-1
--1
-1
--1
+unnit not working turned on False
 unnit 0
 -9
-2
--2
--1
--2
--1
--2
--1
--2
--1
+unnit not working turned on False
 1
-2
+unnit not working turned on False
+unnit 0
+1 check bluff
+unnit 0
+-36
+unnit not working turned on False
 1
-2
-1
-2
-1
+unnit not working turned on False
 -1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+bluffed
+unnit 0
+-48
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
 unnit 0
 -6
-2
-1
-2
--2
--6
-unnit 0
--45
+unnit not working turned on False
 -1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+unnit 0
+-17
+unnit not working turned on False
 6
-2
+unnit not working turned on False
 -2
+unnit not working turned on False
 2
-1
--1
-1
--6
+unnit not working turned on False
 -2
+unnit not working turned on False
 -1
+unnit not working turned on False
 1
--1
-1
--1
--2
-2
+unnit not working turned on False
 unnit 0
--22
-2
+unnit 0
+-212
+unnit not working turned on False
 1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
 -1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
 -2
--1
-10
-2
-1
--1
-1
-2
-1
-2
-1
--1
-1
--1
-1
--1
+unnit not working turned on False
+unnit 0
+-79
+unnit not working turned on False
 -2
+unnit not working turned on False
 -1
+unnit not working turned on False
 1
+unnit not working turned on False
+unnit 0
+19
+unnit not working turned on False
+1
+unnit not working turned on False
+16
+unnit not working turned on False
+1
+unnit not working turned on False
 -1
--2
+unnit not working turned on False
+unnit 0
+400
+unnit not working turned on False
 2
+unnit not working turned on False
 1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+unnit 0
 -6
+unnit not working turned on False
+6
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
 1
+unnit not working turned on False
+1 check bluff
+6
+unnit not working turned on False
+bluffed
+-151
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+2 check bluff
+36
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
 2
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+unnit 0
+2 check bluff
+48
+unnit not working turned on False
+22
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+9
+unnit not working turned on False
+unnit 0
+1 check bluff
+27
+unnit not working turned on False
+1
+unnit not working turned on False
+unnit 0
+-6
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+-6
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+unnit 0
+-64
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-6
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+6
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-6
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+unnit 0
+-32
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+-6
+unnit not working turned on False
+unnit 0
+-6
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+6
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+6
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+unnit 0
+30
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+bluffed
+6
+unnit not working turned on False
+1
+unnit not working turned on False
+auction less nit
+unnit 0.1
+-6
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+unnit 0
+-176
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+unnit 0
+-12
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+9
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+6
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+6
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+auction less nit
+unnit 0.1
+-16
+unnit not working turned on False
+1
+unnit not working turned on False
 unnit 0
 -62
-2
-unnit 0
--11
+unnit not working turned on False
+1
+unnit not working turned on False
 -1
+unnit not working turned on False
 -2
+unnit not working turned on False
 -1
+unnit not working turned on False
 1
--6
-6
--1
-unnit 0
-14
--1
-1
-6
-1
--1
-1
-2
-unnit 0
--21
--1
-1
--1
-1
--1
-1
--1
-1
--1
-1
-2
-1
-16
-1
--1
-1
-2
-1
--1
--2
--1
-6
--1
--2
-2
--2
-unnit 0
--6
--2
--1
-1
-2
-1
-2
--2
--1
-1
-2
-1
--1
-1
--1
-1
-2
-1
-unnit 0
-unnit 0
-36
--2
--1
-1
-16
--2
--1
--2
-2
-6
--1
-1
-unnit 0
--6
-1
-2
--2
--1
--2
--1
--2
--1
-1
--1
-1
--1
-1
-2
--2
-2
-1
--1
-1
--1
-1
--1
--2
--1
-unnit 0
--9
--1
-1
-6
-1
--1
-unnit 0
--14
-2
-1
--1
-unnit 0
--9
--1
-1
--1
--2
--1
--2
-2
-1
--6
--2
--1
-1
-2
-1
--1
-unnit 0
--9
--1
-unnit 0
--9
-unnit 0
-1 check bluff
-17
-1
-2
--2
--1
-6
-2
-1
-2
--2
--1
-1
-1 check bluff
-35
-16
-2
-1
--1
-1
--6
+unnit not working turned on False
 22
-2
--2
--1
-1
--1
--2
-2
--2
-2
-1
-2
-unnit 0
--15
-2
--2
--1
-1
--1
--2
-2
--2
--1
--2
-2
-1
-2
--2
-2
--2
--1
-1
--1
--2
-16
-1
-2
--2
-2
-unnit 0
--16
-2
-1
--1
--2
--1
-1
--1
-6
--6
--2
-2
--2
-2
--2
-2
-1
--1
-1
-2
--2
-2
-1
-2
--2
--1
-1
-16
--2
--1
--2
--1
-1
-2
-1
--1
-1
--1
--2
-2
-1
--1
--2
--1
--2
-2
-1
-2
--2
-2
-1
-unnit 0
--22
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
-2
-aggressive
-1
-aggressive
-unnit 0
--16
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--6
-aggressive
-1
-aggressive
-2
-aggressive
-6
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
--2
-aggressive
--6
-aggressive
--2
-aggressive
-2
-aggressive
--2
-aggressive
--1
-aggressive
--2
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-16
-aggressive
--1
-aggressive
--2
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
--2
-aggressive
--6
-aggressive
-24
-aggressive
+unnit not working turned on False
+auction less nit
+unnit 0.1
 2 check bluff
-18
-aggressive
--2
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
+50
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
 6
-aggressive
+unnit not working turned on False
 -1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
+unnit not working turned on False
 -2
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
 1
-aggressive
--6
-aggressive
-1
-aggressive
-added less nit, bc aggressive
-unnit 0.1
--22
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-unnit 0
--9
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-26
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-added less nit, bc aggressive
-unnit 0.1
--12
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
-16
-aggressive
-unnit 0
--6
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
--2
-aggressive
-unnit 0
--12
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-unnit 0
-added less nit, bc aggressive
-unnit 0.1
--13
-aggressive
-9
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
-2
-aggressive
--2
-aggressive
-2
-aggressive
--2
-aggressive
--6
-aggressive
-6
-aggressive
-2
-aggressive
--2
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-unnit 0
-2 check bluff
-40
-aggressive
--1
-aggressive
-6
-aggressive
-2 check bluff
-9
-aggressive
-1
-aggressive
-added less nit, bc aggressive
-unnit 0.1
--6
-aggressive
-1
-aggressive
-2
-aggressive
-unnit 0
--6
-aggressive
-unnit 0
-43
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--6
-aggressive
--2
-aggressive
-added less nit, bc aggressive
-unnit 0.1
--16
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-42
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-6
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-unnit 0
--9
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-16
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2 check bluff
-30
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-15
-aggressive
-2
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-unnit 0
-added less nit, bc aggressive
-unnit 0.05
--49
-aggressive
-1
-aggressive
-unnit 0
--11
-aggressive
-1
-aggressive
-2
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-6
-aggressive
-2 check bluff
-6
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
--2
-aggressive
-2
-aggressive
-unnit 0
-72
-aggressive
-2
-aggressive
--2
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
-2
-aggressive
-22
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
--2
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
-unnit 0
--6
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
--2
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
-added less nit, bc aggressive
-unnit 0.1
--6
-aggressive
-added less nit, bc aggressive
-unnit 0.1
-less nit call
-2 check bluff
-51
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-added less nit, bc aggressive
-unnit 0.1
--6
-aggressive
-6
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
--2
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
--2
-aggressive
-2 check bluff
-17
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--6
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
--2
-aggressive
-unnit 0
--6
-aggressive
--2
-aggressive
+unnit not working turned on False
 -1
-aggressive
-1
-aggressive
--6
-aggressive
-1
-aggressive
-2
-aggressive
--2
-aggressive
--1
-aggressive
-45
-aggressive
--1
-aggressive
--2
-aggressive
-added less nit, bc aggressive
-unnit 0.1
--6
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-1 check bluff
-39
-aggressive
--2
-aggressive
--1
-aggressive
-16
-aggressive
-unnit 0
-34
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-unnit 0
-added less nit, bc aggressive
-unnit 0.1
--85
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
--2
-aggressive
-2
-aggressive
-6
-aggressive
-2
-aggressive
--2
-aggressive
+unnit not working turned on False
 bluffed
-6
-aggressive
-1
-aggressive
-2
-aggressive
+18
+unnit not working turned on False
+-1
+unnit not working turned on False
 -2
-aggressive
-2
-aggressive
-1
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
 -2
-aggressive
--1
-aggressive
-unnit 0
-added less nit, bc aggressive
-unnit 0.05
-less nit call
-96
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-16
-aggressive
--2
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--6
-aggressive
-1
-aggressive
-2
-aggressive
-added less nit, bc aggressive
+unnit not working turned on False
+auction less nit
 unnit 0.1
--18
-aggressive
-6
-aggressive
+-16
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
 1
-aggressive
+unnit not working turned on False
 2
-aggressive
-1
-aggressive
--1
-aggressive
+unnit not working turned on False
 6
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
 1
-aggressive
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-6
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+auction less nit
+unnit 0.1
+-22
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+6
+unnit not working turned on False
+-1
+unnit not working turned on False
 -2
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
+unnit 0
+-12
+unnit not working turned on False
+2
+unnit not working turned on False
 1
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
 1
-aggressive
+unnit not working turned on False
+2
+unnit not working turned on False
+6
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
 1
-aggressive
+unnit not working turned on False
 -1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
+unnit not working turned on False
 -2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
+unnit not working turned on False
+auction less nit
+unnit 0.1
+-22
+unnit not working turned on False
 -2
-aggressive
--1
-aggressive
+unnit not working turned on False
+2
+unnit not working turned on False
 -2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
+unnit not working turned on False
+9
+unnit not working turned on False
 -2
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
 1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
+unnit not working turned on False
+2
+unnit not working turned on False
 -2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
+unnit not working turned on False
+2 check bluff
+6
+unnit not working turned on False
 -2
-aggressive
+unnit not working turned on False
 -1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
+unnit not working turned on False
 -2
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
 1
-aggressive
+unnit not working turned on False
+unnit 0
+21
+unnit not working turned on False
+9
+unnit not working turned on False
+2
+unnit not working turned on False
+6
+unnit not working turned on False
 -1
-aggressive
-1
-aggressive
--1
-aggressive
+unnit not working turned on False
 -2
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+auction less nit
+unnit 0.1
+-6
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+auction less nit
+unnit 0.1
+-6
+unnit not working turned on False
 -2
-aggressive
--1
-aggressive
+unnit not working turned on False
+43
+unnit not working turned on False
 1
-aggressive
--1
-aggressive
+unnit not working turned on False
+2
+unnit not working turned on False
+auction less nit
+unnit 0.1
+-16
+unnit not working turned on False
+2
+unnit not working turned on False
 1
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
 1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
+unnit not working turned on False
+2
+unnit not working turned on False
 -2
-aggressive
--1
-aggressive
+unnit not working turned on False
+2
+unnit not working turned on False
 1
-aggressive
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+6
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
 -2
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
 -2
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
+6
+unnit not working turned on False
+unnit 0
+unnit 0
+140
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
 -2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
+unnit not working turned on False
+2
+unnit not working turned on False
 -2
-aggressive
+unnit not working turned on False
 -1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
+unnit not working turned on False
 -2
-aggressive
+unnit not working turned on False
+-6
+unnit not working turned on False
+1
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
 -2
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
+6
+unnit not working turned on False
+-1
+unnit not working turned on False
+auction less nit
+unnit 0.1
+-22
+unnit not working turned on False
+-1
+unnit not working turned on False
 1
-aggressive
--1
-aggressive
+unnit not working turned on False
+2
+unnit not working turned on False
 -2
-aggressive
--1
-aggressive
+unnit not working turned on False
+6
+unnit not working turned on False
 1
-aggressive
--1
-aggressive
+unnit not working turned on False
+2
+unnit not working turned on False
 -2
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
+auction less nit
+unnit 0.1
+-6
+unnit not working turned on False
+auction less nit
+unnit 0.1
+unnit 0
+-18
+unnit not working turned on False
 -2
-aggressive
--1
-aggressive
+unnit not working turned on False
+2
+unnit not working turned on False
 1
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
+6
+unnit not working turned on False
+2
+unnit not working turned on False
 1
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
 1
-aggressive
--1
-aggressive
+unnit not working turned on False
+2
+unnit not working turned on False
 1
-aggressive
--1
-aggressive
+unnit not working turned on False
+2
+unnit not working turned on False
 1
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
 1
-aggressive
--1
-aggressive
+unnit not working turned on False
+-6
+unnit not working turned on False
 1
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
+6
+unnit not working turned on False
+-1
+unnit not working turned on False
 1
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
 1
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
 -2
-aggressive
+unnit not working turned on False
+2
+unnit not working turned on False
+16
+unnit not working turned on False
+unnit 0
+-20
+unnit not working turned on False
+6
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
 -2
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
 1
-aggressive
+unnit not working turned on False
 -1
-aggressive
-1
-aggressive
--1
-aggressive
+unnit not working turned on False
 -2
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
 1
-aggressive
+unnit not working turned on False
 -1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
+unnit not working turned on False
+6
+unnit not working turned on False
+unnit 0
+13
+unnit not working turned on False
 -2
-aggressive
+unnit not working turned on False
 -1
-aggressive
-1
-aggressive
--1
-aggressive
+unnit not working turned on False
 -2
-aggressive
--1
-aggressive
+unnit not working turned on False
+2
+unnit not working turned on False
 1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
+unnit not working turned on False
+1 check bluff
+78
+unnit not working turned on False
 -2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
+unnit not working turned on False
+2
+unnit not working turned on False
 -2
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
 1
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
 -2
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
 1
-aggressive
--1
-aggressive
+unnit not working turned on False
+-6
+unnit not working turned on False
 1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
+unnit not working turned on False
+2
+unnit not working turned on False
 -2
-aggressive
+unnit not working turned on False
 -1
-aggressive
--2
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
+unnit not working turned on False
 1
-aggressive
--1
-aggressive
+unnit not working turned on False
+-6
+unnit not working turned on False
 -2
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
 -2
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
+unnit 0
+-6
+unnit not working turned on False
+2
+unnit not working turned on False
 1
-aggressive
+unnit not working turned on False
 -1
-aggressive
+unnit not working turned on False
+auction less nit
+unnit 0.1
+less nit call
+66
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
 1
-aggressive
+unnit not working turned on False
 -1
-26.646
-num opp bets 55
-num opp 80%: 31
-bluff pm: 294
-normal bluff pm: 21
-normal bluff wins: 3
-normal bluff losses: 0
-two check bluff pm: 182
-two check wins: 8
+unnit not working turned on False
+1
+unnit not working turned on False
+auction less nit
+unnit 0.1
+less nit call
+2 check bluff
+67
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+auction less nit
+unnit 0.1
+-6
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+22
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-6
+unnit not working turned on False
+-2
+unnit not working turned on False
+auction less nit
+unnit 0.1
+-22
+unnit not working turned on False
+-2
+unnit not working turned on False
+2 check bluff
+22
+unnit not working turned on False
+auction less nit
+unnit 0.1
+37
+unnit not working turned on False
+-1
+unnit not working turned on False
+6
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+unnit 0
+2 check bluff
+13
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+6
+unnit not working turned on False
+2
+unnit not working turned on False
+unnit 0
+-34
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+16
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-6
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+auction less nit
+unnit 0.1
+less nit call
+unnit 0
+-57
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+-6
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+auction less nit
+unnit 0.1
+-6
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+6
+unnit not working turned on False
+-1
+unnit not working turned on False
+auction less nit
+unnit 0.1
+-9
+unnit not working turned on False
+6
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+unnit 0
+-81
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+auction less nit
+unnit 0.1
+-6
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+9
+unnit not working turned on False
+auction less nit
+unnit 0.1
+-6
+unnit not working turned on False
+41
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+unnit 0
+-24
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+-6
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-6
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+22
+unnit not working turned on False
+auction less nit
+unnit 0.1
+-6
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+auction less nit
+unnit 0.1
+-6
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+6
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+31
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+6
+unnit not working turned on False
+9
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+6
+unnit not working turned on False
+-2
+unnit not working turned on False
+-6
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+6
+unnit not working turned on False
+unnit 0
+2 check bluff
+10
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+31
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+auction less nit
+unnit 0.1
+-22
+unnit not working turned on False
+1
+unnit not working turned on False
+-6
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+16
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+66
+unnit not working turned on False
+2 check bluff
+6
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+6
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-6
+unnit not working turned on False
+-2
+unnit not working turned on False
+2 check bluff
+6
+unnit not working turned on False
+6
+unnit not working turned on False
+2
+unnit not working turned on False
+6
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+unnit 0
+-6
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+unnit 0
+21
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+auction less nit
+unnit 0.1
+-6
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+6
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+9
+unnit not working turned on False
+1
+unnit not working turned on False
+2
+unnit not working turned on False
+-2
+unnit not working turned on False
+2
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+1
+unnit not working turned on False
+-1
+unnit not working turned on False
+-2
+unnit not working turned on False
+-1
+unnit not working turned on False
+26.02
+num opp bets 67
+num opp 80%: 23
+bluff pm: 164
+normal bluff pm: -175
+normal bluff wins: 2
+normal bluff losses: 2
+two check bluff pm: 264
+two check wins: 10
 two check losses: 0
-one check bluff pm: 91
+one check bluff pm: 75
 one check wins: 3
-one check losses: 0
-checks 56
-opp check bets 32
-opp auction wins 42
-opp auction flop bets 25
-aggressive
+one check losses: 1
+checks 51
+opp check bets 29
+opp auction wins 45
+opp auction flop bets 36

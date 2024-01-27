@@ -443,7 +443,11 @@ class Player(Bot):
             return BidAction(min(my_stack - 1, max(int(self.auction_factor*need_auction*pot*3 + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
         elif win_without > 0.8:
             rand = 4*random.random() + 1
-            return BidAction(min(my_stack - 1, max(int(pot*.5+rand + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
+            if pot < 40:
+                factor = 0.7
+            else:
+                factor = 0.6
+            return BidAction(min(my_stack - 1, max(int(pot*factor+rand + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
         elif win_without <= 0.8 and win_without > 0.6:
             return BidAction(min(my_stack - 1, max(int(self.auction_factor*need_auction*pot*2 + self.add_auction), int(self.add_auction*3/2*random.uniform(0.95, 1.05)))))
         elif win_without <= 0.6 and win_without > 0.2:
@@ -684,7 +688,8 @@ class Player(Bot):
 
         rand = random.random()
         if decision == RaiseAction and RaiseAction in legal_actions:
-            if conf != 0 and hand_strength < .86:
+            hand_strength_threshold = 0.8+0.05*(street % 3)
+            if conf != 0 and hand_strength < hand_strength_threshold:
                 bet_max = int((1+(2*(hand_strength**2)*rand)) * 3 * pot / 8)
                 maximum = min(max_raise, bet_max)
                 minimum = max(min_raise, pot / 4)

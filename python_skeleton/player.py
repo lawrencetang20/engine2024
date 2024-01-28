@@ -210,7 +210,7 @@ class Player(Bot):
                 self.less_nit_call_losses += 1
             self.less_nit_call_pm += my_delta
 
-        if self.less_nit_call >= 3 and self.less_nit_call_pm < -69:
+        if self.less_nit_call_losses >= 3 and self.less_nit_call_pm < -69:
             self.unnit_not_working = True
             print('unnit not working turned on True')
         else:

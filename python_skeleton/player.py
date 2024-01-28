@@ -611,7 +611,7 @@ class Player(Bot):
             # if unnit not working, divide by two
             if self.unnit_not_working:
                 unnit = unnit / 2
-                print('unnit not working, divided by two')
+                print('unnit not working, divided by two', f'unnit after divide {unnit}')
 
             pot_equity -= unnit
             if hand_strength > pot_equity and hand_strength < pot_equity + unnit and hand_strength > .35:

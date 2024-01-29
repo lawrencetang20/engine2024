@@ -142,6 +142,8 @@ class Player(Bot):
         self.twocheck = False
         self.onecheck = False
         self.bluff = False
+        self.draw_hit = 0
+        self.draw_hit_pct = 0
 
         if my_bankroll > 600:
             self.try_bluff = 1/4
@@ -554,6 +556,10 @@ class Player(Bot):
                 self.my_checks = 0
                 print('2 check bluff')
                 return RaiseAction, 0
+            elif self.draw_hit_pct > .2 and hand_strength >= .4 and street != 5 and not self.bluffed_this_round:
+                self.bluffed_this_round = True
+                print('semi bluff')
+                return RaiseAction, 0
             elif not self.bluffed_this_round and not big_blind and (self.opp_checks == 1) and (rand < self.try_bluff*.25*self.onebluff_fact): #1 check bluff as dealer
                 self.opp_checks = 0
                 self.bluffed_this_round = True
@@ -649,6 +655,7 @@ class Player(Bot):
 
         num_better = 0
         trials = 0
+        self.draw_hit = 0
 
         while trials < self.trials:
             deck.shuffle()
@@ -662,8 +669,11 @@ class Player(Bot):
             if my_val == opp_value:
                 num_better += 1
             trials += 1
+            if my_val >= 67305472 and my_val <= 84715911:
+                self.draw_hit += 1
 
         percent_better_than = num_better/(2*trials)
+        self.draw_hit_pct = self.draw_hit/trials
         return percent_better_than
 
     def get_action(self, game_state, round_state, active):
@@ -693,6 +703,8 @@ class Player(Bot):
         #continue_cost = opp_pip - my_pip  # the number of chips needed to stay in the pot
         my_contribution = STARTING_STACK - my_stack  # the number of chips you have contributed to the pot
         opp_contribution = STARTING_STACK - opp_stack  # the number of chips your opponent has contributed to the pot
+        self.draw_hit = 0
+        self.draw_hit_pct = 0
 
         if self.already_won:
             if BidAction in legal_actions:
@@ -705,6 +717,9 @@ class Player(Bot):
         pot = my_contribution + opp_contribution
         min_raise, max_raise = round_state.raise_bounds()
         hand_strength = self.hand_strength(round_state, street, active) - self.nit
+        # print(self.draw_hit_pct)
+        if self.draw_hit_pct > .2 and self.draw_hit_pct < 1:
+            print('DRAWWWWWWWWWW')
         auction_strength = self.auction_strength(round_state, street, active)
 
         if my_contribution > 100:

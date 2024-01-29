@@ -1,15 +1,16 @@
 import eval7, pprint
 from pprint import pprint
-import numpy as np
+# import numpy as np
 
 deck = eval7.Deck()
 deck.shuffle()
 hand = deck.deal(5)
 #pprint.pprint(hand)
   
-hand1 = [eval7.Card('2h'), eval7.Card('2h')]
+hand1 = [eval7.Card('9c'), eval7.Card('Tc'), eval7.Card('Jc'), eval7.Card('Qc'), eval7.Card('Ac')]
 x = eval7.evaluate(hand1)
-# print(x)
+print(x)
+
 # print(eval7.handtype(x))
 
 hr = eval7.HandRange("89+")

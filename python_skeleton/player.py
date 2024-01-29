@@ -31,11 +31,11 @@ class Player(Bot):
                              'K9o':40,'A5o':41,'A6o':42,'Q9s':43,'K7s':44,'JTs':45,'A2s':46,'QTo':47,'44o':48,'A4o':49,'K6s':50,'K8o':51,'Q8s':52,
                              'A3o':53,'K5s':54,'J9s':55,'Q9o':56,'JTo':57,'K7o':58,'A2o':59,'K4s':60,'Q7s':61,'K6o':62,'K3s':63,'T9s':64,'J8s':65,
                              '33o':66,'Q6s':67,'Q8o':68,'K5o':69,'J9o':70,'K2s':71,'Q5s':72,'T8s':73,'K4o':74,'J7s':75,'Q4s':76,'Q7o':77,'T9o':78,
-                             'J8o':79,'K3o':80,'Q6o':81,'Q3s':82,'98s':83,'T7s':84,'J6s':85,'K2o':86,'22o':87,'Q2s':88,'Q5o':89,'J5s':90,'T8o':91,
-                             'J7o':92,'Q4o':93,'97s':94,'J4s':95,'T6s':96,'J3s':97,'Q3o':98,'98o':99,'87s':100,'T7o':101,'J6o':102,'96s':103,'J2s':104,
-                             'Q2o':105,'T5s':106,'J5o':107,'T4s':108,'97o':109,'86s':110,'J4o':111,'T6o':112,'95s':113,'T3s':114,'76s':115,'J3o':116,'87o':117,
+                             'J8o':79,'K3o':80,'Q6o':81,'Q3s':82,'98s':83,'T7s':84,'J6s':85,'K2o':86,'22o':87,'Q2s':87,'Q5o':89,'J5s':90,'T8o':91,
+                             'J7o':92,'Q4o':93,'97s':80,'J4s':95,'T6s':96,'J3s':97,'Q3o':98,'98o':99,'87s':75,'T7o':101,'J6o':102,'96s':103,'J2s':104,
+                             'Q2o':105,'T5s':106,'J5o':107,'T4s':108,'97o':109,'86s':110,'J4o':111,'T6o':112,'95s':113,'T3s':114,'76s':80,'J3o':116,'87o':117,
                              'T2s':118,'85s':119,'96o':120,'J2o':121,'T5o':122,'94s':123,'75s':124,'T4o':125,'93s':126,'86o':127,'65s':128,'84s':129,'95o':130,
-                             '53s':131,'92s':132,'76o':133,'74s':134,'65o':135,'54s':136,'85o':137,'64s':138,'83s':139,'43s':140,'75o':141,'82s':142,'73s':143,
+                             '53s':131,'92s':132,'76o':133,'74s':134,'65o':135,'54s':87,'85o':137,'64s':138,'83s':139,'43s':140,'75o':141,'82s':142,'73s':143,
                              '93o':144,'T2o':145,'T3o':146,'63s':147,'84o':148,'92o':149,'94o':150,'74o':151,'72s':152,'54o':153,'64o':154,'52s':155,'62s':156,
                              '83o':157,'42s':158,'82o':159,'73o':160,'53o':161,'63o':162,'32s':163,'43o':164,'72o':165,'52o':166,'62o':167,'42o':168,'32o':169,
                              }
@@ -55,9 +55,9 @@ class Player(Bot):
         self.auction_factor=1
         self.add_auction = 0
 
-        self.small_blind_raise = 87
-        self.big_blind_raise = 31
-        self.big_blind_call = 87
+        self.small_blind_raise = 88
+        self.big_blind_raise = 32
+        self.big_blind_call = 88
 
         self.bluffed_this_round = False
         self.num_opp_potbets = 0
@@ -86,6 +86,11 @@ class Player(Bot):
         self.onebluff_not_working = False
         self.bluff_fact = 1
         self.bluff_not_working = 1
+        self.draw_bluff_fact = 1
+        self.draw_bluff_games = 0
+        self.draw_bluff_losses = 0
+        self.draw_bluff_pm = 0
+        self.draw_bluff_this_round = False
         
         self.try_bluff = 1
 
@@ -145,6 +150,8 @@ class Player(Bot):
         self.draw_hit = 0
         self.draw_hit_pct = 0
 
+        self.draw_bluff_this_round = False
+
         if my_bankroll > 600:
             self.try_bluff = 1/4
         else:
@@ -185,6 +192,11 @@ class Player(Bot):
             self.switched_to_50 = True
             self.nit = .06
             print('switch to 50')
+
+        if self.draw_bluff_losses >= 3 and self.draw_bluff_pm < -69:
+            self.draw_bluff_fact = 1/4
+        else:
+            self.draw_bluff_fact = 1
         
         # print('auc factor',self.auction_factor, 'opp bid total',self.opp_total_bid, 'my bid total', self.my_total_bid, '\nauc seen', self.num_auctions_seen, 'rounds', self.total_rounds)
 
@@ -239,6 +251,16 @@ class Player(Bot):
             print(f'opp check bets {self.opp_check_bluffs}')
             print(f'opp auction wins {self.opp_auction_wins}')
             print(f'opp auction flop bets {self.opp_auction_bets}')
+            print(f'draw bluffs {self.draw_bluff_games}')
+            print(f'draw losses {self.draw_bluff_losses}')
+            print(f'draw pm {self.draw_bluff_pm}')
+
+        if self.draw_bluff_this_round:
+            self.draw_bluff_pm += my_delta
+            self.draw_bluff_games += 1
+            if my_delta < 0:
+                self.draw_bluff_losses += 1
+            
 
         if self.num_opp_bets >= 25 and (self.num_opp_potbets / self.num_opp_bets > .4):
             self.opp_aggressive = True
@@ -356,7 +378,7 @@ class Player(Bot):
         big_blind = bool(active)
         new_cards = self.categorize_cards(cards)
         if big_blind == False and self.times_bet_preflop == 0:
-            if self.preflop_dict[new_cards] in range(1,20):
+            if self.preflop_dict[new_cards] in range(1,26):
                 self.times_bet_preflop +=1
                 my_bet = 3*pot
                 return RaiseAction(self.no_illegal_raises(my_bet,round_state))
@@ -367,7 +389,7 @@ class Player(Bot):
             else:
                 return FoldAction()
         elif big_blind == True and self.times_bet_preflop ==0:
-            if self.preflop_dict[new_cards] in range(1,5) or (self.preflop_dict[new_cards] in range(5,self.big_blind_raise+1) and pot <= 20):
+            if self.preflop_dict[new_cards] in range(1,5) or (self.preflop_dict[new_cards] in range(5,self.big_blind_raise) and pot <= 20):
                 self.times_bet_preflop +=1
                 my_bet = 2*pot
                 if RaiseAction in legal_actions:
@@ -376,6 +398,12 @@ class Player(Bot):
                     return CallAction()
                 else:
                     print("this shouldn't ever happen")
+            elif opp_pip == 2 and self.preflop_dict[new_cards] in range(1,60) and random.random() < .69:
+                self.times_bet_preflop +=1
+                my_bet = 2*pot
+                if RaiseAction in legal_actions:
+                    return RaiseAction(self.no_illegal_raises(my_bet,round_state))
+                return CheckAction()
             elif self.preflop_dict[new_cards] in range(5,int(self.big_blind_call+1-((opp_pip-2)/198)**(1/3)*(self.big_blind_call+1-5))) and opp_pip <= 200:
                 if CallAction in legal_actions:
                     return CallAction()
@@ -539,26 +567,29 @@ class Player(Bot):
                 self.my_checks = 0
                 self.opp_checks = 0
                 return RaiseAction, 1  #no checks on river with super strong hands
-            elif self.opp_checks == 3:
+            elif self.draw_hit_pct > .25 and hand_strength >= .4 and street != 5 and not self.bluffed_this_round and rand <= self.draw_bluff_fact:
+                self.my_checks = 0
+                self.opp_checks = 0
+                self.bluffed_this_round = True
+                self.draw_bluff_this_round = True
+                print('semi bluff')
+                return RaiseAction, 0
+            elif self.opp_checks == 3 and rand < .8:
                 print('3 check bluff')
                 return RaiseAction, 0
-            elif not self.bluffed_this_round and not big_blind and (self.opp_checks == 2) and (rand < self.try_bluff*self.twobluff_fact): #2 check bluff as dealer
+            elif not self.bluffed_this_round and not big_blind and (self.opp_checks == 2) and (rand < .869*self.try_bluff*self.twobluff_fact): #2 check bluff as dealer
                 self.opp_checks = 0
                 self.bluffed_this_round = True
                 self.twocheck = True
                 self.my_checks = 0
                 print('2 check bluff')
                 return RaiseAction, 0
-            elif not self.bluffed_this_round and big_blind and (self.opp_checks == 2) and (rand < self.try_bluff * 3/4*self.twobluff_fact): #2 check bluff as big blind
+            elif not self.bluffed_this_round and big_blind and (self.opp_checks == 2) and (rand < self.try_bluff*.69*self.twobluff_fact): #2 check bluff as big blind
                 self.opp_checks = 0
                 self.bluffed_this_round = True
                 self.twocheck = True
                 self.my_checks = 0
                 print('2 check bluff')
-                return RaiseAction, 0
-            elif self.draw_hit_pct > .2 and hand_strength >= .4 and street != 5 and not self.bluffed_this_round:
-                self.bluffed_this_round = True
-                print('semi bluff')
                 return RaiseAction, 0
             elif not self.bluffed_this_round and not big_blind and (self.opp_checks == 1) and (rand < self.try_bluff*.25*self.onebluff_fact): #1 check bluff as dealer
                 self.opp_checks = 0
@@ -567,7 +598,7 @@ class Player(Bot):
                 self.my_checks = 0
                 print('1 check bluff')
                 return RaiseAction, 0
-            elif not self.less_nit_call and not self.bluffed_this_round and (my_bid > opp_bid) and (rand < self.try_bluff*self.bluff_fact*(1-hand_strength)/(1+(street%3))) and (hand_strength < 0.65):
+            elif not self.less_nit_call and not self.bluffed_this_round and (my_bid > opp_bid) and (rand < (0.69*self.try_bluff*self.bluff_fact*(1-hand_strength)/(1+(street%3)))) and (hand_strength < 0.65):
                 self.opp_checks = 0  #3 card bluff after winning auction
                 self.bluffed_this_round = True
                 self.bluff = True
@@ -718,7 +749,7 @@ class Player(Bot):
         min_raise, max_raise = round_state.raise_bounds()
         hand_strength = self.hand_strength(round_state, street, active) - self.nit
         # print(self.draw_hit_pct)
-        if self.draw_hit_pct > .2 and self.draw_hit_pct < 1:
+        if self.draw_hit_pct > .25 and self.draw_hit_pct < 1:
             print('DRAWWWWWWWWWW')
         auction_strength = self.auction_strength(round_state, street, active)
 

@@ -1,1701 +1,2498 @@
--2
--1
-1
-2
-1
-2
 1
 -1
 DRAWWWWWWWWWW
+6
+-1
+6
+2
+-2
+2
+-2
+-1
+-2
+-1
+1
+-1
+1
+-1
+1
+-6
+1
+2
+-2
+-1
+1
+6
+163
+2
+1
+-1
+1
+-1
+-2
+2
+1
+2
+-2
+2
+1
+-1
+unnit 0
+-44
+-1
+1
+-1
+-2
+-1
+1
+-1
+1
+6
+-2
+-1
+1
+-1
+1
+-1
+-2
+-1
+-2
+-1
+1
+-1
+-2
 9
--1
-1
-2
--2
-2
-1
-2
-1
-2
--2
--1
--2
--1
-1
-2
-1
--6
-6
-2
-1
--1
-1
-2
--2
--1
-unnit 0
--39
--1
-1
--1
-1
--6
-1
--1
--2
--1
-6
--1
-1
-DRAWWWWWWWWWW
-unnit 0
-19
--2
-2
 -2
 unnit 0
-1 check bluff
-10
--2
--1
--2
-2
-1
-unnit 0
--16
-1
-6
-1
--1
-6
-2
--2
--1
-1
--1
--2
--1
--2
--1
--2
--1
-1
--1
--2
--1
-1
--1
--2
--1
-1
-2
+-22
 1
 2
 -2
-unnit 0
--16
-6
 -1
-1
--1
-1
--1
-1
+-2
 2
 6
 2
--2
-2
 1
--1
-1
-2
--2
--1
--2
--1
-6
-2
-6
--1
-1
--1
-1
-unnit 0
 2 check bluff
-30
+16
+-2
+2
+1
+-1
+1
+2
+-2
+2
+1
+2
+1
+6
+1
+unnit 0
+unnit 0
+66
 1
 2
 1
 2
+-2
+unnit 0
+-6
+-2
+2
+-2
+2
+1
+-1
+-2
+2
+1
+-1
+-2
+2
+1
+-1
+-2
+2
+6
+2
+1
+2
+-2
+-1
+1
+-1
+-2
+-1
+-2
+2
+-2
+2
+-2
+-1
+-2
+-1
+1
+2
+1
 9
+DRAWWWWWWWWWW
+DRAWWWWWWWWWW
+DRAWWWWWWWWWW
+unnit 0
+-14
 2
-1
--1
--2
--1
 -2
 2
 6
-2
-1
--1
-unnit 0
-99
--6
-1
--1
--2
-2
-1
--1
--2
--1
--2
-2
-1
 -1
 1
 -1
 unnit 0
--38
+-22
 -1
-1
--1
--2
+6
 -1
 -2
 -1
 1
--6
-16
--1
--2
-2
-1
-2
-unnit 0
--6
--1
-unnit 0
--10
--1
-1
--1
--2
 2
 6
+6
+-2
+-1
+1
+2
+-2
+-1
+1
+-1
+-2
+-1
+1
+-1
+-2
+2
+-2
+-1
+1
+-1
+-2
+-1
+1
+-1
+-2
+2
+-2
+2
+1
+-1
+1
+DRAWWWWWWWWWW
+semi bluff
+6
+-2
+2
+1
+2
+1
+-1
+-2
+-1
+-2
+unnit 0
+unnit 0
+-17
+1
+2
+1
 2
 DRAWWWWWWWWWW
 DRAWWWWWWWWWW
-16
--1
-1
-2
-1
--1
--2
--1
-unnit 0
--6
-unnit 0
--6
--2
--1
-1
-2
-1
-2
-unnit 0
--16
--1
-1
-2
--2
-9
--2
--1
--2
--1
-1
-unnit 0
--6
--2
--1
--2
-6
-1
--1
-unnit 0
--41
 DRAWWWWWWWWWW
-DRAWWWWWWWWWW
-2 check bluff
-9
-1
--1
--2
--1
-6
--1
--2
-DRAWWWWWWWWWW
-36
-1
-2
-1
--1
-6
--1
-DRAWWWWWWWWWW
-bluffed
-6
--1
-1
--1
-1
-2
--2
-2
--2
--1
--2
-2
--2
--1
-1
--1
-1
-2
+semi bluff
+25
 unnit 0
--9
-2
+42
 -2
-2
+-1
 1
 -1
 -2
 -1
--2
-unnit 0
-59
-1
-2
--2
+6
 2
 1
--1
--2
-2
-1
--1
-DRAWWWWWWWWWW
-16
 2
 6
 -1
+1
+2
+1
+2
 1
 unnit 0
--16
--2
-2
-1
-auction less nit
-unnit 0.1
--6
-1
-6
--2
-DRAWWWWWWWWWW
--1
-6
 -6
 1
 -1
 1
+2
+1
+2
+-2
+-1
+-2
+-6
+DRAWWWWWWWWWW
+unnit 0
+-6
+2
+-2
 -1
 1
 -1
+-2
+-1
+-2
+-1
+1
+-1
+1
+2
+-2
 DRAWWWWWWWWWW
-16
-unnit 0
--29
 22
--1
--2
-2 check bluff
-6
-1
-2
-6
--1
-1
--1
-1
-2
-1
--1
-1
--1
-1
-2
-1
-2
-1
--1
-DRAWWWWWWWWWW
-DRAWWWWWWWWWW
 unnit 0
-DRAWWWWWWWWWW
-140
--1
-1
--1
-1
-2
--2
--1
--2
-2
--2
--1
-DRAWWWWWWWWWW
-DRAWWWWWWWWWW
-6
-2
-6
--1
--2
-2
--2
+-16
 2
 -2
 2
 1
--1
-1
-2
-1
--1
-1
-2
-1
-2
-6
-2
-1
-2
-1
--1
--2
 2
 -2
--1
-1
-2
--2
-2
-auction less nit
-unnit 0.1
--9
-2
-1
--1
-1
--1
-1
--1
-6
-2
--2
-2
-1
--1
--2
--1
-1
-2
-1
-2
--2
+unnit 0
 -6
 1
 -1
--2
-2
--2
-2
-1
--1
-1
--1
--2
--1
-1
-6
-1
--1
--2
-2
-1
--1
-6
--1
--2
 auction less nit
 unnit 0.1
+-12
+-1
+1
+-1
+-2
 -6
 -2
 -1
+auction less nit
+unnit 0.1
+-6
+-1
+1
+-1
 1
 -1
 1
 2
-1
+22
+auction less nit
+unnit 0.1
+unnit 0
 1 check bluff
-32
-1
-2
-1
-2 check bluff
-6
--2
--1
--2
-2
--2
--1
--2
-2
-DRAWWWWWWWWWW
-16
-2
-1
--1
-1
--1
-1
--1
-1
--1
--2
--1
-DRAWWWWWWWWWW
-DRAWWWWWWWWWW
-17
--1
-1
--1
-1
+244
 auction less nit
 unnit 0.1
 less nit call
 unnit 0
-74
+-14
+-1
+1
+2
+1
+2
+1
+-1
+-2
+-1
+-2
+9
+1
+-1
+-2
+auction less nit
+unnit 0.1
+unnit 0
+-13
+-2
+2
+6
+-1
+auction less nit
+unnit 0.1
+-9
+2
+1
+-1
+-2
+2
+1
+-1
+-2
+-1
+auction less nit
+unnit 0.1
+-9
+2
+1
+2
+-2
+-1
+1
+2
+1
+-1
+1
+-1
+-2
+2
+1
+2 check bluff
+57
+130
+-1
+1
+2
+1
+-1
+-2
+-1
+6
+-1
+1
+-1
+-2
+2
+1
+-1
+1
+-1
+1
+DRAWWWWWWWWWW
+6
+unnit 0
+-15
+aggressive
+-1
+aggressive
+6
+aggressive
+added less nit, bc aggressive
+unnit 0.05
+-43
 aggressive
 1
 aggressive
-DRAWWWWWWWWWW
-DRAWWWWWWWWWW
+-1
+aggressive
+added less nit, bc aggressive
+auction less nit
+unnit 0.25
+less nit call
+34
+aggressive
 unnit 0
-64
+added less nit, bc aggressive
+unnit 0.05
+less nit call
+added less nit, bc aggressive
+unnit 0.05
+-107
+aggressive
+1
+aggressive
+2
 aggressive
 -2
 aggressive
 2
 aggressive
+-2
+aggressive
+unnit 0
+-6
+aggressive
+-2
+aggressive
+-1
+aggressive
 1
+aggressive
+-1
+aggressive
+-2
+aggressive
+-6
+aggressive
+-2
+aggressive
+-1
+aggressive
+1
+aggressive
+2
+aggressive
+1
+aggressive
+-1
+aggressive
+-2
+aggressive
+2
+aggressive
+6
+aggressive
+-1
+aggressive
+1
+aggressive
+-6
+aggressive
+1
+aggressive
+-1
+aggressive
+-2
+aggressive
+-1
+aggressive
+1
+aggressive
+-1
+aggressive
+-2
+aggressive
+-1
+aggressive
+-2
+aggressive
+-1
+aggressive
+-2
+aggressive
+-1
+aggressive
+1
+aggressive
+-6
+aggressive
+1
+aggressive
+-1
+aggressive
+1
+aggressive
+2
+aggressive
+-2
+aggressive
+-1
+aggressive
+1
+aggressive
+-1
+aggressive
+-2
 aggressive
 added less nit, bc aggressive
 auction less nit
 unnit 0.25
 -6
 aggressive
-1
-aggressive
-2
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
--2
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
-2
-aggressive
-1
-aggressive
-unnit 0
--6
-aggressive
-1
-aggressive
-2
-aggressive
--2
-aggressive
-2
-aggressive
-1
-aggressive
-2 check bluff
-6
-aggressive
--2
-aggressive
-2
-aggressive
-6
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
 DRAWWWWWWWWWW
-6
-aggressive
-6
-aggressive
--1
-aggressive
--2
-aggressive
 DRAWWWWWWWWWW
-unnit 0
-10
-aggressive
-1
-aggressive
--1
-aggressive
-6
-aggressive
-2
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-6
-aggressive
-1
-aggressive
-2 check bluff
 added less nit, bc aggressive
 unnit 0.1
--51
-aggressive
-1
-aggressive
-9
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-20
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--6
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
-2
-aggressive
--2
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
-bluffed
-9
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
--2
-aggressive
--1
-aggressive
-9
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-DRAWWWWWWWWWW
-6
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
--2
-aggressive
--6
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
--2
-aggressive
-unnit 0
 -22
 aggressive
--2
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
--2
-aggressive
--1
-aggressive
-DRAWWWWWWWWWW
-22
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-DRAWWWWWWWWWW
-16
-aggressive
-1
-aggressive
--6
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
--2
-aggressive
-unnit 0
--63
-aggressive
--397
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-unnit 0
--6
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-6
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-unnit 0
--6
-aggressive
-added less nit, bc aggressive
-unnit 0.05
--27
-aggressive
--2
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--6
-aggressive
-1
-aggressive
-2
-aggressive
-added less nit, bc aggressive
-unnit 0.1
--25
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
--2
-aggressive
-6
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
-16
-aggressive
-6
-aggressive
-2
-aggressive
--2
-aggressive
--1
-aggressive
--2
-aggressive
-2
-aggressive
-6
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
 2
 aggressive
 1
 aggressive
 unnit 0
--16
-aggressive
--2
-aggressive
-2
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
 2 check bluff
+24
+aggressive
+1
+aggressive
+unnit 0
+-9
+aggressive
+1
+aggressive
+-1
+aggressive
 6
 aggressive
--2
-aggressive
-added less nit, bc aggressive
-auction less nit
-unnit 0.25
--6
-aggressive
-1
-aggressive
-2
-aggressive
--2
-aggressive
-2
-aggressive
-added less nit, bc aggressive
-auction less nit
-unnit 0.25
--6
-aggressive
--1
-aggressive
-1
-aggressive
--6
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
 2
 aggressive
 1
 aggressive
 -1
 aggressive
--2
+unnit 0
+-6
 aggressive
--1
+2
 aggressive
 added less nit, bc aggressive
 unnit 0.1
--6
-aggressive
-2
-aggressive
--2
-aggressive
-added less nit, bc aggressive
-unnit 0.05
--85
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
--2
-aggressive
--1
-aggressive
--2
-aggressive
--6
-aggressive
--2
-aggressive
-2
-aggressive
-unnit 0
 -22
 aggressive
 -1
 aggressive
--2
-aggressive
-2
-aggressive
 1
 aggressive
 -1
 aggressive
+-2
+aggressive
+-1
+aggressive
 1
+aggressive
+2
 aggressive
 added less nit, bc aggressive
 auction less nit
 unnit 0.25
+less nit call
+2 check bluff
+unnit 0
+-226
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+added less nit, bc aggressive
+auction less nit
+unnit 0.25
+unnit not working, divided by two unnit after divide 0.125
 -6
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
 aggressive
 1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+DRAWWWWWWWWWW
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+2 check bluff
+25
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-6
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+-22
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+6
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+6
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+6
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+-22
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+DRAWWWWWWWWWW
+DRAWWWWWWWWWW
+added less nit, bc aggressive
+unnit 0.05
+unnit not working, divided by two unnit after divide 0.025
+174
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+6
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+9
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+DRAWWWWWWWWWW
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+-16
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-6
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+added less nit, bc aggressive
+unnit 0.05
+unnit not working, divided by two unnit after divide 0.025
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+-190
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+-15
+unnit not working turned on True
+aggressive
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+-68
+unnit not working turned on True
+aggressive
+added less nit, bc aggressive
+unnit 0.1
+unnit not working, divided by two unnit after divide 0.05
+-6
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+-6
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+DRAWWWWWWWWWW
+6
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+added less nit, bc aggressive
+unnit 0.1
+unnit not working, divided by two unnit after divide 0.05
+-38
+unnit not working turned on True
+aggressive
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+-29
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+15
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+9
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+DRAWWWWWWWWWW
+semi bluff
+DRAWWWWWWWWWW
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+-101
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+added less nit, bc aggressive
+unnit 0.05
+unnit not working, divided by two unnit after divide 0.025
+-46
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-6
+unnit not working turned on True
+aggressive
+added less nit, bc aggressive
+unnit 0.1
+unnit not working, divided by two unnit after divide 0.05
+-6
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+6
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+added less nit, bc aggressive
+auction less nit
+unnit 0.25
+unnit not working, divided by two unnit after divide 0.125
+-22
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-6
+unnit not working turned on True
+aggressive
+6
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+DRAWWWWWWWWWW
+semi bluff
+43
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+added less nit, bc aggressive
+unnit 0.05
+unnit not working, divided by two unnit after divide 0.025
+-16
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+6
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+6
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2 check bluff
+30
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+added less nit, bc aggressive
+unnit 0.1
+unnit not working, divided by two unnit after divide 0.05
+-9
+unnit not working turned on True
+aggressive
+added less nit, bc aggressive
+unnit 0.1
+unnit not working, divided by two unnit after divide 0.05
+-6
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+6
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+14
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-6
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+-221
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+12
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+added less nit, bc aggressive
+unnit 0.1
+unnit not working, divided by two unnit after divide 0.05
+-6
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+2 check bluff
+41
+unnit not working turned on True
+aggressive
+16
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+6
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+-6
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-6
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+6
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+9
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+added less nit, bc aggressive
+auction less nit
+unnit 0.25
+unnit not working, divided by two unnit after divide 0.125
+-16
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+14
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+-159
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+6
+unnit not working turned on True
+aggressive
+-6
+unnit not working turned on True
+aggressive
+104
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+16
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+62
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+6
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-6
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+44
+unnit not working turned on True
+aggressive
+6
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
 aggressive
 DRAWWWWWWWWWW
 DRAWWWWWWWWWW
 unnit 0
--16
+unnit not working, divided by two unnit after divide 0.0
+2 check bluff
+15
+unnit not working turned on True
 aggressive
 -2
-aggressive
--1
-aggressive
-1
+unnit not working turned on True
 aggressive
 2
+unnit not working turned on True
 aggressive
 -2
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
+unnit not working turned on True
 aggressive
 -1
+unnit not working turned on True
 aggressive
--2
-aggressive
--1
-aggressive
-1
+16
+unnit not working turned on True
 aggressive
 -1
+unnit not working turned on True
 aggressive
 DRAWWWWWWWWWW
+added less nit, bc aggressive
+unnit 0.05
+unnit not working, divided by two unnit after divide 0.025
+-29
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
 DRAWWWWWWWWWW
-semi bluff
-6
-aggressive
-2
-aggressive
-22
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
+9
+unnit not working turned on True
 aggressive
 -2
+unnit not working turned on True
 aggressive
 -1
-aggressive
-DRAWWWWWWWWWW
-semi bluff
-6
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
--2
-aggressive
-2
-aggressive
--2
-aggressive
--1
+unnit not working turned on True
 aggressive
 6
+unnit not working turned on True
 aggressive
--1
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+-6
+unnit not working turned on True
 aggressive
 1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+6
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+-6
+unnit not working turned on True
+aggressive
+added less nit, bc aggressive
+unnit 0.1
+unnit not working, divided by two unnit after divide 0.05
+-6
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+6
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+6
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+-9
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
 aggressive
 1 check bluff
-18
-aggressive
--2
-aggressive
--1
-aggressive
--2
-aggressive
--6
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
+16
+unnit not working turned on True
 aggressive
 DRAWWWWWWWWWW
-6
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
-2
-aggressive
--2
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
--2
-aggressive
--1
-aggressive
 DRAWWWWWWWWWW
 semi bluff
-unnit 0
--63
-aggressive
-unnit 0
--16
-aggressive
-1
+89
+unnit not working turned on True
 aggressive
 -1
+unnit not working turned on True
 aggressive
 -2
+unnit not working turned on True
 aggressive
--1
+-6
+unnit not working turned on True
 aggressive
 1
+unnit not working turned on True
 aggressive
-unnit 0
-unnit 0
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
 added less nit, bc aggressive
 unnit 0.1
--27
-aggressive
-1
+unnit not working, divided by two unnit after divide 0.05
+-22
+unnit not working turned on True
 aggressive
 2
-aggressive
-DRAWWWWWWWWWW
-6
-aggressive
--1
+unnit not working turned on True
 aggressive
 -2
+unnit not working turned on True
+aggressive
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+added less nit, bc aggressive
+unnit 0.1
+unnit not working, divided by two unnit after divide 0.05
+-15
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
 aggressive
 -1
+unnit not working turned on True
 aggressive
 1
-aggressive
-2
-aggressive
-1
+unnit not working turned on True
 aggressive
 -1
+unnit not working turned on True
 aggressive
-1
+6
+unnit not working turned on True
 aggressive
 2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-6
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-6
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-6
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+6
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+42
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-6
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2 check bluff
+6
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+64
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+16
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+-16
+unnit not working turned on True
 aggressive
 DRAWWWWWWWWWW
-DRAWWWWWWWWWW
-bluffed
--376
-aggressive
-bluff not working!!
-2
-aggressive
-1
-aggressive
-2
+added less nit, bc aggressive
+unnit 0.05
+unnit not working, divided by two unnit after divide 0.025
+-39
+unnit not working turned on True
 aggressive
 1
+unnit not working turned on True
 aggressive
 2
+unnit not working turned on True
+aggressive
+added less nit, bc aggressive
+unnit 0.05
+unnit not working, divided by two unnit after divide 0.025
+-18
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+-6
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
 aggressive
 1
+unnit not working turned on True
 aggressive
 2
+unnit not working turned on True
 aggressive
 1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+6
+unnit not working turned on True
+aggressive
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+-38
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
 aggressive
 2
+unnit not working turned on True
 aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
+-2
+unnit not working turned on True
 aggressive
 2
+unnit not working turned on True
 aggressive
 1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
+unnit not working turned on True
 aggressive
 2
+unnit not working turned on True
 aggressive
 1
+unnit not working turned on True
+aggressive
+unnit 0
+unnit not working, divided by two unnit after divide 0.0
+added less nit, bc aggressive
+unnit 0.1
+unnit not working, divided by two unnit after divide 0.05
+-11
+unnit not working turned on True
+aggressive
+-2
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
 aggressive
 2
+unnit not working turned on True
 aggressive
 1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
+unnit not working turned on True
 aggressive
 2
+unnit not working turned on True
 aggressive
 1
+unnit not working turned on True
 aggressive
 -1
+unnit not working turned on True
 aggressive
 1
-aggressive
--1
-aggressive
-1
+unnit not working turned on True
 aggressive
 2
+unnit not working turned on True
 aggressive
 1
-aggressive
--1
-aggressive
-1
+unnit not working turned on True
 aggressive
 2
+unnit not working turned on True
 aggressive
 1
-aggressive
--1
-aggressive
-1
+unnit not working turned on True
 aggressive
 2
+unnit not working turned on True
 aggressive
 1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
+unnit not working turned on True
 aggressive
 2
+unnit not working turned on True
 aggressive
 1
-aggressive
--1
-aggressive
-1
+unnit not working turned on True
 aggressive
 2
+unnit not working turned on True
 aggressive
 1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
+unnit not working turned on True
 aggressive
 2
+unnit not working turned on True
 aggressive
 1
-aggressive
--1
-aggressive
-1
+unnit not working turned on True
 aggressive
 2
+unnit not working turned on True
 aggressive
 1
+unnit not working turned on True
 aggressive
 -1
+unnit not working turned on True
 aggressive
 1
+unnit not working turned on True
 aggressive
 -1
+unnit not working turned on True
 aggressive
 1
+unnit not working turned on True
 aggressive
 -1
+unnit not working turned on True
 aggressive
 1
+unnit not working turned on True
+aggressive
+-1
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
 aggressive
 2
+unnit not working turned on True
 aggressive
 1
+unnit not working turned on True
+aggressive
+2
+unnit not working turned on True
+aggressive
+1
+unnit not working turned on True
 aggressive
 -1
+unnit not working turned on True
 aggressive
 1
+unnit not working turned on True
 aggressive
 2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
--1
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-aggressive
-1
-aggressive
-2
-26.561
-num opp bets 49
-num opp 80%: 23
-bluff pm: -340
-normal bluff pm: -361
-normal bluff wins: 2
-normal bluff losses: 1
-two check bluff pm: 12
-two check wins: 6
+unnit not working turned on True
+25.326
+num opp bets 87
+num opp 80%: 42
+bluff pm: 310
+normal bluff pm: 0
+normal bluff wins: 0
+normal bluff losses: 0
+two check bluff pm: -12
+two check wins: 8
 two check losses: 1
-one check bluff pm: 60
-one check wins: 3
+one check bluff pm: 260
+one check wins: 2
 one check losses: 0
-checks 31
-opp check bets 16
-opp auction wins 34
-opp auction flop bets 27
+checks 62
+opp check bets 31
+opp auction wins 62
+opp auction flop bets 43
+draw bluffs 5
+draw losses 1
+draw pm 62
 aggressive

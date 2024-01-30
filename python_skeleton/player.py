@@ -598,7 +598,7 @@ class Player(Bot):
                 self.my_checks = 0
                 print('1 check bluff')
                 return RaiseAction, 0
-            elif not self.less_nit_call and not self.bluffed_this_round and (my_bid > opp_bid) and (rand < (0.69*self.try_bluff*self.bluff_fact*(1-hand_strength)/(1+(street%3)))) and (hand_strength < 0.65):
+            elif not self.less_nit_call and not self.bluffed_this_round and (my_bid > opp_bid) and (rand < (self.try_bluff*self.bluff_fact*(1-hand_strength)/(1+(street%3)))) and (hand_strength < 0.65):
                 self.opp_checks = 0  #3 card bluff after winning auction
                 self.bluffed_this_round = True
                 self.bluff = True

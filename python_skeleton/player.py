@@ -1,5 +1,5 @@
 '''
-WORK ON: stop less nit call if not working; look at fish gameplay
+FINAL BOT
 
 '''
 from skeleton.actions import FoldAction, CallAction, CheckAction, RaiseAction, BidAction

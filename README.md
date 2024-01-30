@@ -3,7 +3,7 @@
 
 The command to run the engine is `python3 engine.py`. The engine is configured via `config.py`.
 
-Use chatbot branch to play yourself.
+Use chatbot branch to play yourself. Update your python_skeleton to your bot.
 
 ## Dependencies
  - python>=3.12

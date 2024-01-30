@@ -271,8 +271,6 @@ class Player(Bot):
 
         if self.opp_won_auction:
             self.opp_auction_wins += 1
-        else:
-            self.opp_auction_losses += 1
 
         if (self.check >= 8) and (self.opp_check_bluffs / self.check >= .7):
             self.opp_check_bluffing = True
@@ -335,8 +333,8 @@ class Player(Bot):
             if self.opp_total_bid/self.num_auctions_seen >= 70 and self.num_auctions_seen % 20 == 0:
                 self.add_auction = 2/5*self.opp_total_bid/self.num_auctions_seen
                 print("changed add auction", self.add_auction, "round", self.total_rounds)
-            if self.num_auctions_seen == 40:
-                if self.opp_auction_losses / self.num_auctions_seen >= .869:
+            if self.num_auctions_seen == 50:
+                if (self.opp_auction_wins/self.num_auctions_seen) >= .869:
                     print('UPPPPY')
                     self.auction_factor = 1.5
                 else:

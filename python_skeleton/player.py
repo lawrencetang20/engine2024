@@ -106,6 +106,7 @@ class Player(Bot):
         self.opp_check_bluff_this_round = False
 
         self.opp_auction_wins = 0
+        self.opp_auction_losses = 0
         self.opp_auction_bets = 0
         self.opp_auction_bluffing = False
 
@@ -270,6 +271,8 @@ class Player(Bot):
 
         if self.opp_won_auction:
             self.opp_auction_wins += 1
+        else:
+            self.opp_auction_losses += 1
 
         if (self.check >= 8) and (self.opp_check_bluffs / self.check >= .7):
             self.opp_check_bluffing = True
@@ -332,6 +335,13 @@ class Player(Bot):
             if self.opp_total_bid/self.num_auctions_seen >= 70 and self.num_auctions_seen % 20 == 0:
                 self.add_auction = 2/5*self.opp_total_bid/self.num_auctions_seen
                 print("changed add auction", self.add_auction, "round", self.total_rounds)
+            if self.num_auctions_seen == 40:
+                if self.opp_auction_losses / self.num_auctions_seen >= .869:
+                    print('UPPPPY')
+                    self.auction_factor = 1.5
+                else:
+                    print('NO UPPPPY')
+
 
             # if self.num_auctions_seen >= 20 and not self.already_won:
             #     if self.num_auctions_seen % 10 == 0 and self.opp_total_bid>self.my_total_bid: #they're bidding more than us on avg
@@ -541,6 +551,8 @@ class Player(Bot):
             if street == 3 and self.opp_won_auction:
                 self.opp_auction_bets += 1
                 self.opp_auction_bet_this_round = True
+            if my_pip > 0:
+                self.bluffed_this_round = True
             self.num_opp_bets += 1
             self.opp_checks = 0
             self.last_cont = opp_contribution
@@ -598,7 +610,7 @@ class Player(Bot):
                 self.my_checks = 0
                 print('1 check bluff')
                 return RaiseAction, 0
-            elif not self.less_nit_call and not self.bluffed_this_round and (my_bid > opp_bid) and (rand < (0.69*self.try_bluff*self.bluff_fact*(1-hand_strength)/(1+(street%3)))) and (hand_strength < 0.65):
+            elif not self.less_nit_call and not self.bluffed_this_round and (my_bid > opp_bid) and (rand < (self.try_bluff*self.bluff_fact*(1-hand_strength)/(1+(street%3)))) and (hand_strength < 0.65):
                 self.opp_checks = 0  #3 card bluff after winning auction
                 self.bluffed_this_round = True
                 self.bluff = True
